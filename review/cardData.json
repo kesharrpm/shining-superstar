@@ -1,0 +1,24 @@
+{
+  "IVE": {
+    "1001": {
+      "name": "ANYUJIN",
+      "cards": {
+        "R": "url_here",
+        "S": "url_here",
+        "A": "url_here",
+        "B": "url_here",
+        "C": "url_here"
+      }
+    },
+    "1002": {
+      "name": "GAEUL",
+      "cards": {
+        "R": "url_here",
+        "S": "url_here",
+        "A": "url_here",
+        "B": "url_here",
+        "C": "url_here"
+      }
+    }
+  }
+}
