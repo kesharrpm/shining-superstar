@@ -1,10 +1,57 @@
 {
-  "IVE": [
-    { "name": "ANYUJIN", "code": "1001" },
-    { "name": "GAEUL", "code": "1002" },
-    { "name": "REI", "code": "1003" },
-    { "name": "JANGWONYOUNG", "code": "1004" },
-    { "name": "LIZ", "code": "1005" },
-    { "name": "LEESEO", "code": "1006" }
-  ]
+   "AYIV_01XO_R":[
+      {
+         "name":"<:grade_R:1365330012240216217> **IVE : ANYUJIN** XOXZ",
+         "artist":"IVE",
+         "guess":1,
+         "guessname":"<:grade_R:1365330012240216217> **IVE : ANYUJIN**",
+         "min":2500,
+         "max":5000,
+         "card":1
+      }
+   ],
+   "AYIV_01XO_S":[
+      {
+         "name":"<:grade_S:1365330009333436477> **IVE : ANYUJIN** XOXZ",
+         "artist":"IVE",
+         "guess":1,
+         "guessname":"<:grade_S:1365330009333436477> **IVE : ANYUJIN**",
+         "min":2000,
+         "max":3000,
+         "card":2
+      }
+   ],
+   "AYIV_01XO_A":[
+      {
+         "name":"<:grade_A:1365330006640824421> **IVE : ANYUJIN** XOXZ",
+         "artist":"IVE",
+         "guess":1,
+         "guessname":"<:grade_A:1365330006640824421> **IVE : ANYUJIN**",
+         "min":2000,
+         "max":3000,
+         "card":3
+      }
+   ],
+   "AYIV_01XO_B":[
+      {
+         "name":"<:grade_B:1365330003994214480> **IVE : ANYUJIN** XOXZ",
+         "artist":"IVE",
+         "guess":1,
+         "guessname":" <:grade_B:1365330003994214480> **IVE : ANYUJIN**",
+         "min":1000,
+         "max":1500,
+         "card":4
+      }
+   ],
+   "AYIV_01XO_C":[
+      {
+         "name":"<:grade_C:1365330001045753886> **IVE : ANYUJIN** XOXZ",
+         "artist":"IVE",
+         "guess":1,
+         "guessname":"<:grade_C:1365330001045753886> **IVE : ANYUJIN**",
+         "min":0,
+         "max":500,
+         "card":5
+      }
+   ]
 }
