@@ -1,0 +1,12 @@
+{
+  "IVE": {
+    "1001": {
+      "name": "ANYUJIN",
+      "baseImage": "i-live@@resources@@live@@images@@card@@ive@@XOXZ@@c_l_xoxz_anyujin.png"
+    },
+    "1002": {
+      "name": "GAEUL",
+      "baseImage": "i-live@@resources@@live@@images@@card@@ive@@XOXZ@@c_l_xoxz_gaeul.png"
+    }
+  }
+}
