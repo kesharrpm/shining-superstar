@@ -440,7 +440,454 @@
          "max": 500,
          "card": 35
       }
+   ],
+
+   "JWHH_01RD_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : JIWOO** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : JIWOO**",
+         "min": 2500,
+         "max": 5000,
+         "card": 101
+      }
+   ],
+   "JWHH_01RD_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : JIWOO** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : JIWOO**",
+         "min": 2000,
+         "max": 3000,
+         "card": 102
+      }
+   ],
+   "JWHH_01RD_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : JIWOO** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : JIWOO**",
+         "min": 2000,
+         "max": 3000,
+         "card": 103
+      }
+   ],
+   "JWHH_01RD_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : JIWOO** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : JIWOO**",
+         "min": 1000,
+         "max": 1500,
+         "card": 104
+      }
+   ],
+   "JWHH_01RD_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : JIWOO** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : JIWOO**",
+         "min": 0,
+         "max": 500,
+         "card": 105
+      }
+   ],
+
+"CMHH_01RD_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : CARMEN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : CARMEN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 106
+      }
+   ],
+   "CMHH_01RD_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : CARMEN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : CARMEN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 107
+      }
+   ],
+   "CMHH_01RD_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : CARMEN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : CARMEN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 108
+      }
+   ],
+   "CMHH_01RD_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : CARMEN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : CARMEN**",
+         "min": 1000,
+         "max": 1500,
+         "card": 109
+      }
+   ],
+   "CMHH_01RD_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : CARMEN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : CARMEN**",
+         "min": 0,
+         "max": 500,
+         "card": 110
+      }
+   ],
+
+"YHHH_01RD_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : YUHA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : YUHA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 111
+      }
+   ],
+   "YHHH_01RD_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : YUHA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : YUHA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 112
+      }
+   ],
+   "YHHH_01RD_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : YUHA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : YUHA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 113
+      }
+   ],
+   "YHHH_01RD_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : YUHA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : YUHA**",
+         "min": 1000,
+         "max": 1500,
+         "card": 114
+      }
+   ],
+   "YHHH_01RD_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : YUHA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : YUHA**",
+         "min": 0,
+         "max": 500,
+         "card": 115
+      }
+   ],
+
+"SLHH_01RD_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : STELLA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : STELLA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 116
+      }
+   ],
+   "SLHH_01RD_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : STELLA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : STELLA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 117
+      }
+   ],
+   "SLHH_01RD_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : STELLA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : STELLA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 118
+      }
+   ],
+   "SLHH_01RD_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : STELLA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : STELLA**",
+         "min": 1000,
+         "max": 1500,
+         "card": 119
+      }
+   ],
+   "SLHH_01RD_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : STELLA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : STELLA**",
+         "min": 0,
+         "max": 500,
+         "card": 120
+      }
+   ],
+"JUHH_01RD_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : JUUN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : JUUN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 121
+      }
+   ],
+   "JUHH_01RD_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : JUUN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : JUUN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 122
+      }
+   ],
+   "JUHH_01RD_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : JUUN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : JUUN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 123
+      }
+   ],
+   "JUHH_01RD_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : JUUN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : JUUN**",
+         "min": 1000,
+         "max": 1500,
+         "card": 124
+      }
+   ],
+   "JUHH_01RD_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : JUUN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : JUUN**",
+         "min": 0,
+         "max": 500,
+         "card": 125
+      }
+   ],
+
+"ANHH_01RD_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : A-NA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : A-NA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 126
+      }
+   ],
+   "ANHH_01RD_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : A-NA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : A-NA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 127
+      }
+   ],
+   "ANHH_01RD_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : A-NA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : A-NA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 128
+      }
+   ],
+   "ANHH_01RD_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : A-NA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : A-NA**",
+         "min": 1000,
+         "max": 1500,
+         "card": 129
+      }
+   ],
+   "ANHH_01RD_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : A-NA** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : A-NA**",
+         "min": 0,
+         "max": 500,
+         "card": 130
+      }
+   ],
+"IAHH_01RD_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : IAN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : IAN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 131
+      }
+   ],
+   "IAHH_01RD_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : IAN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : IAN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 132
+      }
+   ],
+   "IAHH_01RD_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : IAN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : IAN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 133
+      }
+   ],
+   "IAHH_01RD_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : IAN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : IAN**",
+         "min": 1000,
+         "max": 1500,
+         "card": 134
+      }
+   ],
+   "IAHH_01RD_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : IAN** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : IAN**",
+         "min": 0,
+         "max": 500,
+         "card": 135
+      }
+   ],
+"YOHH_01RD_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : YE-ON** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : YE-ON**",
+         "min": 2500,
+         "max": 5000,
+         "card": 136
+      }
+   ],
+   "YOHH_01RD_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : YE-ON** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : YE-ON**",
+         "min": 2000,
+         "max": 3000,
+         "card": 137
+      }
+   ],
+   "YOHH_01RD_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : YE-ON** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : YE-ON**",
+         "min": 2000,
+         "max": 3000,
+         "card": 138
+      }
+   ],
+   "YOHH_01RD_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : YE-ON** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : YE-ON**",
+         "min": 1000,
+         "max": 1500,
+         "card": 139
+      }
+   ],
+   "YOHH_01RD_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : YE-ON** RUDE!",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : YE-ON**",
+         "min": 0,
+         "max": 500,
+         "card": 140
+      }
    ]
+
+
    
 
    
