@@ -1,13 +1,10 @@
 {
- "NAME": [
-  {
-    "IVE": "ANYUJIN;GAEUL;REI;JANGWONYOUNG;LIZ;LEESEO"
-  }
-  ],
-
-  "CODE": [
-  {
-    "xoxz_code": "1001;1002;1003;1004;1005;1006"
-  }
+  "IVE": [
+    { "name": "ANYUJIN", "code": "1001" },
+    { "name": "GAEUL", "code": "1002" },
+    { "name": "REI", "code": "1003" },
+    { "name": "JANGWONYOUNG", "code": "1004" },
+    { "name": "LIZ", "code": "1005" },
+    { "name": "LEESEO", "code": "1006" }
   ]
 }
