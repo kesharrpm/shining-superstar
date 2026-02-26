@@ -331,53 +331,53 @@
          "card": 30
       }
    ],
-   "LXGS_02ST_R": [
+   "KDGS_02ST_R": [
       {
-         "name": "<:grade_R:1365330012240216217> **GIRLSET : LEXI** SWEET",
+         "name": "<:grade_R:1365330012240216217> **GIRLSET : KENDALL** SWEET",
          "artist": "GIRLSET",
          "guess": 1,
-         "guessname": "<:grade_R:1365330012240216217> **GIRLSET : LEXI**",
+         "guessname": "<:grade_R:1365330012240216217> **GIRLSET : KENDALL**",
          "min": 2500,
          "max": 5000,
          "card": 31
       }
    ],
-   "LXGS_02ST_S": [
+   "KDGS_02ST_S": [
       {
-         "name": "<:grade_S:1365330009333436477> **GIRLSET : LEXI** SWEET",
+         "name": "<:grade_S:1365330009333436477> **GIRLSET : KENDALL** SWEET",
          "artist": "GIRLSET",
          "guess": 1,
-         "guessname": "<:grade_S:1365330009333436477> **GIRLSET : LEXI**",
+         "guessname": "<:grade_S:1365330009333436477> **GIRLSET : KENDALL**",
          "min": 2000,
          "max": 3000,
          "card": 32
       }
    ],
-   "LXGS_02ST_A": [
+   "KDGS_02ST_A": [
       {
-         "name": "<:grade_A:1365330006640824421> **GIRLSET : LEXI** SWEET",
+         "name": "<:grade_A:1365330006640824421> **GIRLSET : KENDALL** SWEET",
          "artist": "GIRLSET",
          "guess": 1,
-         "guessname": "<:grade_A:1365330006640824421> **GIRLSET : LEXI**",
+         "guessname": "<:grade_A:1365330006640824421> **GIRLSET : KENDALL**",
          "min": 2000,
          "max": 3000,
          "card": 33
       }
    ],
-   "LXGS_02ST_B": [
+   "KDGS_02ST_B": [
       {
-         "name": "<:grade_B:1365330003994214480> **GIRLSET : LEXI** SWEET",
+         "name": "<:grade_B:1365330003994214480> **GIRLSET : KENDALL** SWEET",
          "artist": "GIRLSET",
          "guess": 1,
-         "guessname": "<:grade_B:1365330003994214480> **GIRLSET : LEXI**",
+         "guessname": "<:grade_B:1365330003994214480> **GIRLSET : KENDALL**",
          "min": 1000,
          "max": 1500,
          "card": 34
       }
    ],
-   "LXGS_02ST_C": [
+   "KDGS_02ST_C": [
       {
-         "name": "<:grade_C:1365330001045753886> **GIRLSET : LEXI** SWEET",
+         "name": "<:grade_C:1365330001045753886> **GIRLSET : KENDALL** SWEET",
          "artist": "GIRLSET",
          "guess": 1,
          "guessname": "<:grade_C:1365330001045753886> **GIRLSET : LEXI**",
