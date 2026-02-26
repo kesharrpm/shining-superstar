@@ -885,6 +885,450 @@
          "max": 500,
          "card": 140
       }
+   ],
+   "JWHH_02TC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : JIWOO** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : JIWOO**",
+         "min": 2500,
+         "max": 5000,
+         "card": 141
+      }
+   ],
+   "JWHH_02TC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : JIWOO** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : JIWOO**",
+         "min": 2000,
+         "max": 3000,
+         "card": 142
+      }
+   ],
+   "JWHH_02TC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : JIWOO** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : JIWOO**",
+         "min": 2000,
+         "max": 3000,
+         "card": 143
+      }
+   ],
+   "JWHH_02TC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : JIWOO** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : JIWOO**",
+         "min": 1000,
+         "max": 1500,
+         "card": 144
+      }
+   ],
+   "JWHH_02TC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : JIWOO** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : JIWOO**",
+         "min": 0,
+         "max": 500,
+         "card": 145
+      }
+   ],
+
+"CMHH_02TC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : CARMEN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : CARMEN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 146
+      }
+   ],
+   "CMHH_02TC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : CARMEN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : CARMEN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 147
+      }
+   ],
+   "CMHH_02TC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : CARMEN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : CARMEN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 148
+      }
+   ],
+   "CMHH_02TC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : CARMEN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : CARMEN**",
+         "min": 1000,
+         "max": 1500,
+         "card": 149
+      }
+   ],
+   "CMHH_02TC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : CARMEN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : CARMEN**",
+         "min": 0,
+         "max": 500,
+         "card": 150
+      }
+   ],
+
+"YHHH_02TC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : YUHA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : YUHA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 151
+      }
+   ],
+   "YHHH_02TC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : YUHA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : YUHA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 152
+      }
+   ],
+   "YHHH_02TC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : YUHA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : YUHA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 153
+      }
+   ],
+   "YHHH_02TC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : YUHA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : YUHA**",
+         "min": 1000,
+         "max": 1500,
+         "card": 154
+      }
+   ],
+   "YHHH_02TC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : YUHA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : YUHA**",
+         "min": 0,
+         "max": 500,
+         "card": 155
+      }
+   ],
+
+"SLHH_02TC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : STELLA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : STELLA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 156
+      }
+   ],
+   "SLHH_02TC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : STELLA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : STELLA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 157
+      }
+   ],
+   "SLHH_02TC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : STELLA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : STELLA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 158
+      }
+   ],
+   "SLHH_02TC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : STELLA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : STELLA**",
+         "min": 1000,
+         "max": 1500,
+         "card": 159
+      }
+   ],
+   "SLHH_02TC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : STELLA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : STELLA**",
+         "min": 0,
+         "max": 500,
+         "card": 160
+      }
+   ],
+"JUHH_02TC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : JUUN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : JUUN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 161
+      }
+   ],
+   "JUHH_02TC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : JUUN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : JUUN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 162
+      }
+   ],
+   "JUHH_02TC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : JUUN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : JUUN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 163
+      }
+   ],
+   "JUHH_02TC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : JUUN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : JUUN**",
+         "min": 1000,
+         "max": 1500,
+         "card": 164
+      }
+   ],
+   "JUHH_02TC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : JUUN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : JUUN**",
+         "min": 0,
+         "max": 500,
+         "card": 165
+      }
+   ],
+
+"ANHH_02TC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : A-NA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : A-NA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 166
+      }
+   ],
+   "ANHH_02TC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : A-NA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : A-NA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 167
+      }
+   ],
+   "ANHH_02TC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : A-NA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : A-NA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 168
+      }
+   ],
+   "ANHH_02TC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : A-NA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : A-NA**",
+         "min": 1000,
+         "max": 1500,
+         "card": 169
+      }
+   ],
+   "ANHH_02TC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : A-NA** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : A-NA**",
+         "min": 0,
+         "max": 500,
+         "card": 170
+      }
+   ],
+"IAHH_02TC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : IAN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : IAN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 171
+      }
+   ],
+   "IAHH_02TC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : IAN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : IAN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 172
+      }
+   ],
+   "IAHH_02TC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : IAN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : IAN**",
+         "min": 2000,
+         "max": 3000,
+         "card": 173
+      }
+   ],
+   "IAHH_02TC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : IAN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : IAN**",
+         "min": 1000,
+         "max": 1500,
+         "card": 174
+      }
+   ],
+   "IAHH_02TC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : IAN** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : IAN**",
+         "min": 0,
+         "max": 500,
+         "card": 175
+      }
+   ],
+"YOHH_02TC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Hearts2Hearts : YE-ON** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **Hearts2Hearts : YE-ON**",
+         "min": 2500,
+         "max": 5000,
+         "card": 176
+      }
+   ],
+   "YOHH_02TC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Hearts2Hearts : YE-ON** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **Hearts2Hearts : YE-ON**",
+         "min": 2000,
+         "max": 3000,
+         "card": 177
+      }
+   ],
+   "YOHH_02TC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Hearts2Hearts : YE-ON** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **Hearts2Hearts : YE-ON**",
+         "min": 2000,
+         "max": 3000,
+         "card": 178
+      }
+   ],
+   "YOHH_02TC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Hearts2Hearts : YE-ON** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **Hearts2Hearts : YE-ON**",
+         "min": 1000,
+         "max": 1500,
+         "card": 179
+      }
+   ],
+   "YOHH_02TC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Hearts2Hearts : YE-ON** The Chase",
+         "artist": "Hearts2Hearts",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **Hearts2Hearts : YE-ON**",
+         "min": 0,
+         "max": 500,
+         "card": 180
+      }
    ]
 
 
