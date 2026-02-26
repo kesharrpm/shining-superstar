@@ -7,7 +7,7 @@
          "guessname":"<:grade_R:1365330012240216217> **GIRLSET : LEXI**",
          "min":2500,
          "max":5000,
-         "card":1
+         "card":6
       }
    ],
    "LXGS_01LM_S":[
@@ -18,7 +18,7 @@
          "guessname":"<:grade_S:1365330009333436477> **GIRLSET : LEXI**",
          "min":2000,
          "max":3000,
-         "card":2
+         "card":7
       }
    ],
    "LXGS_01LM_A":[
@@ -29,7 +29,7 @@
          "guessname":"<:grade_A:1365330006640824421> **GIRLSET : LEXI**",
          "min":2000,
          "max":3000,
-         "card":3
+         "card":8
       }
    ],
    "LXGS_01LM_B":[
@@ -40,7 +40,7 @@
          "guessname":" <:grade_B:1365330003994214480> **GIRLSET : LEXI**",
          "min":1000,
          "max":1500,
-         "card":4
+         "card":9
       }
    ],
    "LXGS_01LM_C":[
@@ -51,7 +51,7 @@
          "guessname":"<:grade_C:1365330001045753886> **GIRLSET : LEXI**",
          "min":0,
          "max":500,
-         "card":5
+         "card":10
       }
    ],
    "CMGS_01LM_R": [
@@ -62,7 +62,7 @@
          "guessname": "<:grade_R:1365330012240216217> **GIRLSET : CAMILA**",
          "min": 2500,
          "max": 5000,
-         "card": 6
+         "card": 11
       }
    ],
    "CMGS_01LM_S": [
@@ -73,7 +73,7 @@
          "guessname": "<:grade_S:1365330009333436477> **GIRLSET : CAMILA**",
          "min": 2000,
          "max": 3000,
-         "card": 7
+         "card": 12
       }
    ],
    "CMGS_01LM_A": [
@@ -84,7 +84,7 @@
          "guessname": "<:grade_A:1365330006640824421> **GIRLSET : CAMILA**",
          "min": 2000,
          "max": 3000,
-         "card": 8
+         "card": 13
       }
    ],
    "CMGS_01LM_B": [
@@ -95,7 +95,7 @@
          "guessname": "<:grade_B:1365330003994214480> **GIRLSET : CAMILA**",
          "min": 1000,
          "max": 1500,
-         "card": 9
+         "card": 14
       }
    ],
    "CMGS_01LM_C": [
@@ -106,7 +106,7 @@
          "guessname": "<:grade_C:1365330001045753886> **GIRLSET : CAMILA**",
          "min": 0,
          "max": 500,
-         "card": 10
+         "card": 15
       }
    ],
    "KDGS_01LM_R": [
@@ -117,7 +117,7 @@
          "guessname": "<:grade_R:1365330012240216217> **GIRLSET : KENDALL**",
          "min": 2500,
          "max": 5000,
-         "card": 11
+         "card": 1
       }
    ],
    "KDGS_01LM_S": [
@@ -128,7 +128,7 @@
          "guessname": "<:grade_S:1365330009333436477> **GIRLSET : KENDALL**",
          "min": 2000,
          "max": 3000,
-         "card": 12
+         "card": 2
       }
    ],
    "KDGS_01LM_A": [
@@ -139,7 +139,7 @@
          "guessname": "<:grade_A:1365330006640824421> **GIRLSET : KENDALL**",
          "min": 2000,
          "max": 3000,
-         "card": 13
+         "card": 3
       }
    ],
    "KDGS_01LM_B": [
@@ -150,7 +150,7 @@
          "guessname": "<:grade_B:1365330003994214480> **GIRLSET : KENDALL**",
          "min": 1000,
          "max": 1500,
-         "card": 14
+         "card": 4
       }
    ],
    "KDGS_01LM_C": [
@@ -161,7 +161,7 @@
          "guessname": "<:grade_C:1365330001045753886> **GIRLSET : KENDALL**",
          "min": 0,
          "max": 500,
-         "card": 15
+         "card": 5
       }
    ],
     "SVGS_01LM_R": [
