@@ -2101,7 +2101,6 @@
          "card": 225
       }
    ],
-   {
    "WTAE_01DW_R": [
       {
          "name": "<:grade_R:1365330012240216217> **aespa : WINTER** Dirty Work",
@@ -2156,8 +2155,7 @@
          "max": 500,
          "card": 230
       }
-   ]
-},
+   ],
 "NNAE_01DW_R": [
       {
          "name": "<:grade_R:1365330012240216217> **aespa : NINGNING** Dirty Work",
@@ -2323,7 +2321,6 @@
          "card": 245
       }
    ],
-   {
    "WTAE_02RM_R": [
       {
          "name": "<:grade_R:1365330012240216217> **aespa : WINTER** Rich Man",
@@ -2378,8 +2375,7 @@
          "max": 500,
          "card": 250
       }
-   ]
-},
+   ],
 "NNAE_02RM_R": [
       {
          "name": "<:grade_R:1365330012240216217> **aespa : NINGNING** Rich Man",
