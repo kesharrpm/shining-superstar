@@ -1990,8 +1990,451 @@
          "max": 500,
          "card": 180
       }
+   ],
+   "KRAE_01DW_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **aespa : KARINA** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **aespa : KARINA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 216
+      }
+   ],
+   "KRAE_01DW_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **aespa : KARINA** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **aespa : KARINA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 217
+      }
+   ],
+   "KRAE_01DW_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **aespa : KARINA** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **aespa : KARINA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 218
+      }
+   ],
+   "KRAE_01DW_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **aespa : KARINA** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **aespa : KARINA**",
+         "min": 1000,
+         "max": 1500,
+         "card": 219
+      }
+   ],
+   "KRAE_01DW_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **aespa : KARINA** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **aespa : KARINA**",
+         "min": 0,
+         "max": 500,
+         "card": 220
+      }
+   ],
+   "GSAE_01DW_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **aespa : GISELLE** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **aespa : GISELLE**",
+         "min": 2500,
+         "max": 5000,
+         "card": 221
+      }
+   ],
+   "GSAE_01DW_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **aespa : GISELLE** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **aespa : GISELLE**",
+         "min": 2000,
+         "max": 3000,
+         "card": 222
+      }
+   ],
+   "GSAE_01DW_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **aespa : GISELLE** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **aespa : GISELLE**",
+         "min": 2000,
+         "max": 3000,
+         "card": 223
+      }
+   ],
+   "GSAE_01DW_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **aespa : GISELLE** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **aespa : GISELLE**",
+         "min": 1000,
+         "max": 1500,
+         "card": 224
+      }
+   ],
+   "GSAE_01DW_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **aespa : GISELLE** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **aespa : GISELLE**",
+         "min": 0,
+         "max": 500,
+         "card": 225
+      }
+   ],
+   {
+   "WTAE_01DW_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **aespa : WINTER** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **aespa : WINTER**",
+         "min": 2500,
+         "max": 5000,
+         "card": 226
+      }
+   ],
+   "WTAE_01DW_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **aespa : WINTER** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **aespa : WINTER**",
+         "min": 2000,
+         "max": 3000,
+         "card": 227
+      }
+   ],
+   "WTAE_01DW_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **aespa : WINTER** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **aespa : WINTER**",
+         "min": 2000,
+         "max": 3000,
+         "card": 228
+      }
+   ],
+   "WTAE_01DW_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **aespa : WINTER** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **aespa : WINTER**",
+         "min": 1000,
+         "max": 1500,
+         "card": 229
+      }
+   ],
+   "WTAE_01DW_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **aespa : WINTER** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **aespa : WINTER**",
+         "min": 0,
+         "max": 500,
+         "card": 230
+      }
    ]
-
+},
+"NNAE_01DW_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **aespa : NINGNING** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **aespa : NINGNING**",
+         "min": 2500,
+         "max": 5000,
+         "card": 231
+      }
+   ],
+   "NNAE_01DW_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **aespa : NINGNING** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **aespa : NINGNING**",
+         "min": 2000,
+         "max": 3000,
+         "card": 232
+      }
+   ],
+   "NNAE_01DW_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **aespa : NINGNING** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **aespa : NINGNING**",
+         "min": 2000,
+         "max": 3000,
+         "card": 233
+      }
+   ],
+   "NNAE_01DW_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **aespa : NINGNING** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **aespa : NINGNING**",
+         "min": 1000,
+         "max": 1500,
+         "card": 234
+      }
+   ],
+   "NNAE_01DW_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **aespa : NINGNING** Dirty Work",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **aespa : NINGNING**",
+         "min": 0,
+         "max": 500,
+         "card": 235
+      }
+   ],
+"KRAE_02RM_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **aespa : KARINA** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **aespa : KARINA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 236
+      }
+   ],
+   "KRAE_02RM_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **aespa : KARINA** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **aespa : KARINA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 237
+      }
+   ],
+   "KRAE_02RM_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **aespa : KARINA** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **aespa : KARINA**",
+         "min": 2000,
+         "max": 3000,
+         "card": 238
+      }
+   ],
+   "KRAE_02RM_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **aespa : KARINA** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **aespa : KARINA**",
+         "min": 1000,
+         "max": 1500,
+         "card": 239
+      }
+   ],
+   "KRAE_02RM_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **aespa : KARINA** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **aespa : KARINA**",
+         "min": 0,
+         "max": 500,
+         "card": 240
+      }
+   ],
+   "GSAE_02RM_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **aespa : GISELLE** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **aespa : GISELLE**",
+         "min": 2500,
+         "max": 5000,
+         "card": 241
+      }
+   ],
+   "GSAE_02RM_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **aespa : GISELLE** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **aespa : GISELLE**",
+         "min": 2000,
+         "max": 3000,
+         "card": 242
+      }
+   ],
+   "GSAE_02RM_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **aespa : GISELLE** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **aespa : GISELLE**",
+         "min": 2000,
+         "max": 3000,
+         "card": 243
+      }
+   ],
+   "GSAE_02RM_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **aespa : GISELLE** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **aespa : GISELLE**",
+         "min": 1000,
+         "max": 1500,
+         "card": 244
+      }
+   ],
+   "GSAE_02RM_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **aespa : GISELLE** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **aespa : GISELLE**",
+         "min": 0,
+         "max": 500,
+         "card": 245
+      }
+   ],
+   {
+   "WTAE_02RM_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **aespa : WINTER** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **aespa : WINTER**",
+         "min": 2500,
+         "max": 5000,
+         "card": 246
+      }
+   ],
+   "WTAE_02RM_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **aespa : WINTER** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **aespa : WINTER**",
+         "min": 2000,
+         "max": 3000,
+         "card": 247
+      }
+   ],
+   "WTAE_02RM_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **aespa : WINTER** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **aespa : WINTER**",
+         "min": 2000,
+         "max": 3000,
+         "card": 248
+      }
+   ],
+   "WTAE_02RM_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **aespa : WINTER** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **aespa : WINTER**",
+         "min": 1000,
+         "max": 1500,
+         "card": 249
+      }
+   ],
+   "WTAE_02RM_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **aespa : WINTER** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **aespa : WINTER**",
+         "min": 0,
+         "max": 500,
+         "card": 250
+      }
+   ]
+},
+"NNAE_02RM_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **aespa : NINGNING** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **aespa : NINGNING**",
+         "min": 2500,
+         "max": 5000,
+         "card": 251
+      }
+   ],
+   "NNAE_02RM_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **aespa : NINGNING** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **aespa : NINGNING**",
+         "min": 2000,
+         "max": 3000,
+         "card": 252
+      }
+   ],
+   "NNAE_02RM_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **aespa : NINGNING** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **aespa : NINGNING**",
+         "min": 2000,
+         "max": 3000,
+         "card": 253
+      }
+   ],
+   "NNAE_02RM_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **aespa : NINGNING** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **aespa : NINGNING**",
+         "min": 1000,
+         "max": 1500,
+         "card": 254
+      }
+   ],
+   "NNAE_02RM_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **aespa : NINGNING** Rich Man",
+         "artist": "aespa",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **aespa : NINGNING**",
+         "min": 0,
+         "max": 500,
+         "card": 255
+      }
+   ]
 
    
 
