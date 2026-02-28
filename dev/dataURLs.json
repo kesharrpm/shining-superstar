@@ -2760,6 +2760,556 @@
          "max": 1000,
          "card": 285
       }
+   ],
+   "MKIL_01CR_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : MOKA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : MOKA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 286
+      }
+   ],
+   "MKIL_01CR_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : MOKA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : MOKA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 287
+      }
+   ],
+   "MKIL_01CR_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : MOKA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : MOKA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 288
+      }
+   ],
+   "MKIL_01CR_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : MOKA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : MOKA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 289
+      }
+   ],
+   "MKIL_01CR_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : MOKA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : MOKA**",
+         "min": 500,
+         "max": 1000,
+         "card": 290
+      }
+   ],
+   "MJIL_01CR_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : MINJU** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : MINJU**",
+         "min": 2500,
+         "max": 5000,
+         "card": 291
+      }
+   ],
+   "MJIL_01CR_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : MINJU** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : MINJU**",
+         "min": 2000,
+         "max": 4000,
+         "card": 292
+      }
+   ],
+   "MJIL_01CR_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : MINJU** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : MINJU**",
+         "min": 1500,
+         "max": 3000,
+         "card": 293
+      }
+   ],
+   "MJIL_01CR_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : MINJU** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : MINJU**",
+         "min": 1000,
+         "max": 2000,
+         "card": 294
+      }
+   ],
+   "MJIL_01CR_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : MINJU** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : MINJU**",
+         "min": 500,
+         "max": 1000,
+         "card": 295
+      }
+   ],
+   "YNIL_01CR_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : YUNAH** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : YUNAH**",
+         "min": 2500,
+         "max": 5000,
+         "card": 296
+      }
+   ],
+   "YNIL_01CR_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : YUNAH** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : YUNAH**",
+         "min": 2000,
+         "max": 4000,
+         "card": 297
+      }
+   ],
+   "YNIL_01CR_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : YUNAH** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : YUNAH**",
+         "min": 1500,
+         "max": 3000,
+         "card": 298
+      }
+   ],
+   "YNIL_01CR_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : YUNAH** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : YUNAH**",
+         "min": 1000,
+         "max": 2000,
+         "card": 299
+      }
+   ],
+   "YNIL_01CR_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : YUNAH** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : YUNAH**",
+         "min": 500,
+         "max": 1000,
+         "card": 300
+      }
+   ],
+   "WHIL_01CR_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : WONHEE** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : WONHEE**",
+         "min": 2500,
+         "max": 5000,
+         "card": 301
+      }
+   ],
+   "WHIL_01CR_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : WONHEE** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : WONHEE**",
+         "min": 2000,
+         "max": 4000,
+         "card": 302
+      }
+   ],
+   "WHIL_01CR_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : WONHEE** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : WONHEE**",
+         "min": 1500,
+         "max": 3000,
+         "card": 303
+      }
+   ],
+   "WHIL_01CR_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : WONHEE** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : WONHEE**",
+         "min": 1000,
+         "max": 2000,
+         "card": 304
+      }
+   ],
+   "WHIL_01CR_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : WONHEE** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : WONHEE**",
+         "min": 500,
+         "max": 1000,
+         "card": 305
+      }
+   ],
+   "IRIL_01CR_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : IROHA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : IROHA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 306
+      }
+   ],
+   "IRIL_01CR_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : IROHA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : IROHA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 307
+      }
+   ],
+   "IRIL_01CR_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : IROHA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : IROHA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 308
+      }
+   ],
+   "IRIL_01CR_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : IROHA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : IROHA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 309
+      }
+   ],
+   "IRIL_01CR_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : IROHA** Cherish",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : IROHA**",
+         "min": 500,
+         "max": 1000,
+         "card": 310
+      }
+   ],
+   "MKIL_02MG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : MOKA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : MOKA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 311
+      }
+   ],
+   "MKIL_02MG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : MOKA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : MOKA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 312
+      }
+   ],
+   "MKIL_02MG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : MOKA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : MOKA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 313
+      }
+   ],
+   "MKIL_02MG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : MOKA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : MOKA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 314
+      }
+   ],
+   "MKIL_02MG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : MOKA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : MOKA**",
+         "min": 500,
+         "max": 1000,
+         "card": 315
+      }
+   ],
+   "MJIL_02MG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : MINJU** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : MINJU**",
+         "min": 2500,
+         "max": 5000,
+         "card": 316
+      }
+   ],
+   "MJIL_02MG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : MINJU** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : MINJU**",
+         "min": 2000,
+         "max": 4000,
+         "card": 317
+      }
+   ],
+   "MJIL_02MG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : MINJU** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : MINJU**",
+         "min": 1500,
+         "max": 3000,
+         "card": 318
+      }
+   ],
+   "MJIL_02MG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : MINJU** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : MINJU**",
+         "min": 1000,
+         "max": 2000,
+         "card": 319
+      }
+   ],
+   "MJIL_02MG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : MINJU** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : MINJU**",
+         "min": 500,
+         "max": 1000,
+         "card": 320
+      }
+   ],
+   "YNIL_02MG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : YUNAH** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : YUNAH**",
+         "min": 2500,
+         "max": 5000,
+         "card": 321
+      }
+   ],
+   "YNIL_02MG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : YUNAH** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : YUNAH**",
+         "min": 2000,
+         "max": 4000,
+         "card": 322
+      }
+   ],
+   "YNIL_02MG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : YUNAH** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : YUNAH**",
+         "min": 1500,
+         "max": 3000,
+         "card": 323
+      }
+   ],
+   "YNIL_02MG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : YUNAH** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : YUNAH**",
+         "min": 1000,
+         "max": 2000,
+         "card": 324
+      }
+   ],
+   "YNIL_02MG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : YUNAH** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : YUNAH**",
+         "min": 500,
+         "max": 1000,
+         "card": 325
+      }
+   ],
+   "WHIL_02MG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : WONHEE** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : WONHEE**",
+         "min": 2500,
+         "max": 5000,
+         "card": 326
+      }
+   ],
+   "WHIL_02MG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : WONHEE** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : WONHEE**",
+         "min": 2000,
+         "max": 4000,
+         "card": 327
+      }
+   ],
+   "WHIL_02MG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : WONHEE** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : WONHEE**",
+         "min": 1500,
+         "max": 3000,
+         "card": 328
+      }
+   ],
+   "WHIL_02MG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : WONHEE** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : WONHEE**",
+         "min": 1000,
+         "max": 2000,
+         "card": 329
+      }
+   ],
+   "WHIL_02MG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : WONHEE** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : WONHEE**",
+         "min": 500,
+         "max": 1000,
+         "card": 330
+      }
+   ],
+   "IRIL_02MG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **ILLIT : IROHA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **ILLIT : IROHA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 331
+      }
+   ],
+   "IRIL_02MG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **ILLIT : IROHA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **ILLIT : IROHA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 332
+      }
+   ],
+   "IRIL_02MG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **ILLIT : IROHA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **ILLIT : IROHA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 333
+      }
+   ],
+   "IRIL_02MG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **ILLIT : IROHA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **ILLIT : IROHA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 334
+      }
+   ],
+   "IRIL_02MG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **ILLIT : IROHA** Magnetic",
+         "artist": "ILLIT",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **ILLIT : IROHA**",
+         "min": 500,
+         "max": 1000,
+         "card": 335
+      }
    ]
 
    
