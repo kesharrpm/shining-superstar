@@ -2477,10 +2477,10 @@
    ],
    "SMSC_01BB_C": [
       {
-         "name": "<:grade_C:1365330012240216221> **STAYC : SUMIN** BEBE",
+         "name": "<:grade_C:1365330001045753886> **STAYC : SUMIN** BEBE",
          "artist": "STAYC",
          "guess": 1,
-         "guessname": "<:grade_C:1365330012240216221> **STAYC : SUMIN**",
+         "guessname": "<:grade_C:1365330001045753886> **STAYC : SUMIN**",
          "min": 500,
          "max": 1000,
          "card": 260
@@ -2532,10 +2532,10 @@
    ],
    "SISC_01BB_C": [
       {
-         "name": "<:grade_C:1365330012240216221> **STAYC : SIEUN** BEBE",
+         "name": "<:grade_C:1365330001045753886> **STAYC : SIEUN** BEBE",
          "artist": "STAYC",
          "guess": 1,
-         "guessname": "<:grade_C:1365330012240216221> **STAYC : SIEUN**",
+         "guessname": "<:grade_C:1365330001045753886> **STAYC : SIEUN**",
          "min": 500,
          "max": 1000,
          "card": 265
@@ -2587,10 +2587,10 @@
    ],
    "ISSC_01BB_C": [
       {
-         "name": "<:grade_C:1365330012240216221> **STAYC : ISA** BEBE",
+         "name": "<:grade_C:1365330001045753886> **STAYC : ISA** BEBE",
          "artist": "STAYC",
          "guess": 1,
-         "guessname": "<:grade_C:1365330012240216221> **STAYC : ISA**",
+         "guessname": "<:grade_C:1365330001045753886> **STAYC : ISA**",
          "min": 500,
          "max": 1000,
          "card": 270
@@ -2697,10 +2697,10 @@
    ],
    "YOSC_01BB_C": [
       {
-         "name": "<:grade_C:1365330012240216221> **STAYC : YOON** BEBE",
+         "name": "<:grade_C:1365330001045753886> **STAYC : YOON** BEBE",
          "artist": "STAYC",
          "guess": 1,
-         "guessname": "<:grade_C:1365330012240216221> **STAYC : YOON**",
+         "guessname": "<:grade_C:1365330001045753886> **STAYC : YOON**",
          "min": 500,
          "max": 1000,
          "card": 280
@@ -2752,10 +2752,10 @@
    ],
    "JSC_01BB_C": [
       {
-         "name": "<:grade_C:1365330012240216221> **STAYC : J** BEBE",
+         "name": "<:grade_C:1365330001045753886> **STAYC : J** BEBE",
          "artist": "STAYC",
          "guess": 1,
-         "guessname": "<:grade_C:1365330012240216221> **STAYC : J**",
+         "guessname": "<:grade_C:1365330001045753886> **STAYC : J**",
          "min": 500,
          "max": 1000,
          "card": 285
