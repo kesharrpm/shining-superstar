@@ -3310,6 +3310,831 @@
          "max": 1000,
          "card": 335
       }
+   ],
+    "KCLS_01ES_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : KIM CHAEWON** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 2500,
+         "max": 5000,
+         "card": 336
+      }
+   ],
+   "KCLS_01ES_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : KIM CHAEWON** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 2000,
+         "max": 4000,
+         "card": 337
+      }
+   ],
+   "KCLS_01ES_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : KIM CHAEWON** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 1500,
+         "max": 3000,
+         "card": 338
+      }
+   ],
+   "KCLS_01ES_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : KIM CHAEWON** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 1000,
+         "max": 2000,
+         "card": 339
+      }
+   ],
+   "KCLS_01ES_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : KIM CHAEWON** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 500,
+         "max": 1000,
+         "card": 340
+      }
+   ],
+   "SKLS_01ES_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : SAKURA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : SAKURA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 341
+      }
+   ],
+   "SKLS_01ES_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : SAKURA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : SAKURA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 342
+      }
+   ],
+   "SKLS_01ES_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : SAKURA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : SAKURA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 343
+      }
+   ],
+   "SKLS_01ES_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : SAKURA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : SAKURA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 344
+      }
+   ],
+   "SKLS_01ES_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : SAKURA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : SAKURA**",
+         "min": 500,
+         "max": 1000,
+         "card": 345
+      }
+   ],
+   "HYLS_01ES_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : HUH YUNJIN** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 346
+      }
+   ],
+   "HYLS_01ES_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : HUH YUNJIN** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 2000,
+         "max": 4000,
+         "card": 347
+      }
+   ],
+   "HYLS_01ES_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : HUH YUNJIN** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 1500,
+         "max": 3000,
+         "card": 348
+      }
+   ],
+   "HYLS_01ES_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : HUH YUNJIN** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 1000,
+         "max": 2000,
+         "card": 349
+      }
+   ],
+   "HYLS_01ES_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : HUH YUNJIN** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 500,
+         "max": 1000,
+         "card": 350
+      }
+   ],
+   "KZLS_01ES_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : KAZUHA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : KAZUHA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 351
+      }
+   ],
+   "KZLS_01ES_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : KAZUHA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : KAZUHA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 352
+      }
+   ],
+   "KZLS_01ES_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : KAZUHA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : KAZUHA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 353
+      }
+   ],
+   "KZLS_01ES_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : KAZUHA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : KAZUHA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 354
+      }
+   ],
+   "KZLS_01ES_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : KAZUHA** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : KAZUHA**",
+         "min": 500,
+         "max": 1000,
+         "card": 355
+      }
+   ],
+   "HELS_01ES_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : HONG EUNCHAE** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 2500,
+         "max": 5000,
+         "card": 356
+      }
+   ],
+   "HELS_01ES_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : HONG EUNCHAE** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 2000,
+         "max": 4000,
+         "card": 357
+      }
+   ],
+   "HELS_01ES_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : HONG EUNCHAE** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 1500,
+         "max": 3000,
+         "card": 358
+      }
+   ],
+   "HELS_01ES_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : HONG EUNCHAE** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 1000,
+         "max": 2000,
+         "card": 359
+      }
+   ],
+   "HELS_01ES_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : HONG EUNCHAE** EASY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 500,
+         "max": 1000,
+         "card": 360
+      }
+   ],
+   "KCLS_02CZ_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : KIM CHAEWON** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 2500,
+         "max": 5000,
+         "card": 361
+      }
+   ],
+   "KCLS_02CZ_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : KIM CHAEWON** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 2000,
+         "max": 4000,
+         "card": 362
+      }
+   ],
+   "KCLS_02CZ_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : KIM CHAEWON** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 1500,
+         "max": 3000,
+         "card": 363
+      }
+   ],
+   "KCLS_02CZ_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : KIM CHAEWON** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 1000,
+         "max": 2000,
+         "card": 364
+      }
+   ],
+   "KCLS_02CZ_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : KIM CHAEWON** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 500,
+         "max": 1000,
+         "card": 365
+      }
+   ],
+   "SKLS_02CZ_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : SAKURA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : SAKURA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 366
+      }
+   ],
+   "SKLS_02CZ_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : SAKURA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : SAKURA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 367
+      }
+   ],
+   "SKLS_02CZ_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : SAKURA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : SAKURA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 368
+      }
+   ],
+   "SKLS_02CZ_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : SAKURA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : SAKURA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 369
+      }
+   ],
+   "SKLS_02CZ_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : SAKURA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : SAKURA**",
+         "min": 500,
+         "max": 1000,
+         "card": 370
+      }
+   ],
+   "HYLS_02CZ_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : HUH YUNJIN** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 371
+      }
+   ],
+   "HYLS_02CZ_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : HUH YUNJIN** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 2000,
+         "max": 4000,
+         "card": 372
+      }
+   ],
+   "HYLS_02CZ_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : HUH YUNJIN** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 1500,
+         "max": 3000,
+         "card": 373
+      }
+   ],
+   "HYLS_02CZ_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : HUH YUNJIN** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 1000,
+         "max": 2000,
+         "card": 374
+      }
+   ],
+   "HYLS_02CZ_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : HUH YUNJIN** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 500,
+         "max": 1000,
+         "card": 375
+      }
+   ],
+   "KZLS_02CZ_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : KAZUHA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : KAZUHA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 376
+      }
+   ],
+   "KZLS_02CZ_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : KAZUHA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : KAZUHA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 377
+      }
+   ],
+   "KZLS_02CZ_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : KAZUHA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : KAZUHA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 378
+      }
+   ],
+   "KZLS_02CZ_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : KAZUHA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : KAZUHA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 379
+      }
+   ],
+   "KZLS_02CZ_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : KAZUHA** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : KAZUHA**",
+         "min": 500,
+         "max": 1000,
+         "card": 380
+      }
+   ],
+   "HELS_02CZ_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : HONG EUNCHAE** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 2500,
+         "max": 5000,
+         "card": 381
+      }
+   ],
+   "HELS_02CZ_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : HONG EUNCHAE** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 2000,
+         "max": 4000,
+         "card": 382
+      }
+   ],
+   "HELS_02CZ_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : HONG EUNCHAE** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 1500,
+         "max": 3000,
+         "card": 383
+      }
+   ],
+   "HELS_02CZ_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : HONG EUNCHAE** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 1000,
+         "max": 2000,
+         "card": 384
+      }
+   ],
+   "HELS_02CZ_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : HONG EUNCHAE** CRAZY",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 500,
+         "max": 1000,
+         "card": 385
+      }
+   ],
+   "KCLS_03HT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : KIM CHAEWON** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 2500,
+         "max": 5000,
+         "card": 386
+      }
+   ],
+   "KCLS_03HT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : KIM CHAEWON** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 2000,
+         "max": 4000,
+         "card": 387
+      }
+   ],
+   "KCLS_03HT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : KIM CHAEWON** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 1500,
+         "max": 3000,
+         "card": 388
+      }
+   ],
+   "KCLS_03HT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : KIM CHAEWON** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 1000,
+         "max": 2000,
+         "card": 389
+      }
+   ],
+   "KCLS_03HT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : KIM CHAEWON** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : KIM CHAEWON**",
+         "min": 500,
+         "max": 1000,
+         "card": 390
+      }
+   ],
+   "SKLS_03HT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : SAKURA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : SAKURA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 391
+      }
+   ],
+   "SKLS_03HT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : SAKURA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : SAKURA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 392
+      }
+   ],
+   "SKLS_03HT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : SAKURA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : SAKURA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 393
+      }
+   ],
+   "SKLS_03HT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : SAKURA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : SAKURA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 394
+      }
+   ],
+   "SKLS_03HT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : SAKURA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : SAKURA**",
+         "min": 500,
+         "max": 1000,
+         "card": 395
+      }
+   ],
+   "HYLS_03HT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : HUH YUNJIN** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 2500,
+         "max": 5000,
+         "card": 396
+      }
+   ],
+   "HYLS_03HT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : HUH YUNJIN** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 2000,
+         "max": 4000,
+         "card": 397
+      }
+   ],
+   "HYLS_03HT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : HUH YUNJIN** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 1500,
+         "max": 3000,
+         "card": 398
+      }
+   ],
+   "HYLS_03HT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : HUH YUNJIN** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 1000,
+         "max": 2000,
+         "card": 399
+      }
+   ],
+   "HYLS_03HT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : HUH YUNJIN** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : HUH YUNJIN**",
+         "min": 500,
+         "max": 1000,
+         "card": 400
+      }
+   ],
+   "KZLS_03HT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : KAZUHA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : KAZUHA**",
+         "min": 2500,
+         "max": 5000,
+         "card": 401
+      }
+   ],
+   "KZLS_03HT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : KAZUHA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : KAZUHA**",
+         "min": 2000,
+         "max": 4000,
+         "card": 402
+      }
+   ],
+   "KZLS_03HT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : KAZUHA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : KAZUHA**",
+         "min": 1500,
+         "max": 3000,
+         "card": 403
+      }
+   ],
+   "KZLS_03HT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : KAZUHA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : KAZUHA**",
+         "min": 1000,
+         "max": 2000,
+         "card": 404
+      }
+   ],
+   "KZLS_03HT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : KAZUHA** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : KAZUHA**",
+         "min": 500,
+         "max": 1000,
+         "card": 405
+      }
+   ],
+   "HELS_03HT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LE SSERAFIM : HONG EUNCHAE** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_R:1365330012240216217> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 2500,
+         "max": 5000,
+         "card": 406
+      }
+   ],
+   "HELS_03HT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LE SSERAFIM : HONG EUNCHAE** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_S:1365330009333436477> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 2000,
+         "max": 4000,
+         "card": 407
+      }
+   ],
+   "HELS_03HT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LE SSERAFIM : HONG EUNCHAE** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_A:1365330006640824421> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 1500,
+         "max": 3000,
+         "card": 408
+      }
+   ],
+   "HELS_03HT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LE SSERAFIM : HONG EUNCHAE** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_B:1365330003994214480> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 1000,
+         "max": 2000,
+         "card": 409
+      }
+   ],
+   "HELS_03HT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LE SSERAFIM : HONG EUNCHAE** HOT",
+         "artist": "LE SSERAFIM",
+         "guess": 1,
+         "guessname": "<:grade_C:1365330001045753886> **LE SSERAFIM : HONG EUNCHAE**",
+         "min": 500,
+         "max": 1000,
+         "card": 410
+      }
    ]
 
    
