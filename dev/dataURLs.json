@@ -2596,7 +2596,7 @@
          "card": 270
       }
    ],
-    "SESC_01BB_R": [
+   "SESC_01BB_R": [
       {
          "name": "<:grade_R:1365330012240216217> **STAYC : SEEUN** BEBE",
          "artist": "STAYC",
@@ -2642,126 +2642,16 @@
    ],
    "SESC_01BB_C": [
       {
-         "name": "<:grade_C:1365330012240216221> **STAYC : SEEUN** BEBE",
+         "name": "<:grade_C:1365330001045753886> **STAYC : SEEUN** BEBE",
          "artist": "STAYC",
          "guess": 1,
-         "guessname": "<:grade_C:1365330012240216221> **STAYC : SEEUN**",
+         "guessname": "<:grade_C:1365330001045753886> **STAYC : SEEUN**",
          "min": 500,
          "max": 1000,
          "card": 275
       }
    ],
-    "ISSC_01BB_R": [
-      {
-         "name": "<:grade_R:1365330012240216217> **STAYC : ISA** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_R:1365330012240216217> **STAYC : ISA**",
-         "min": 2500,
-         "max": 5000,
-         "card": 276
-      }
-   ],
-   "ISSC_01BB_S": [
-      {
-         "name": "<:grade_S:1365330009333436477> **STAYC : ISA** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_S:1365330009333436477> **STAYC : ISA**",
-         "min": 2000,
-         "max": 4000,
-         "card": 277
-      }
-   ],
-   "ISSC_01BB_A": [
-      {
-         "name": "<:grade_A:1365330006640824421> **STAYC : ISA** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_A:1365330006640824421> **STAYC : ISA**",
-         "min": 1500,
-         "max": 3000,
-         "card": 278
-      }
-   ],
-   "ISSC_01BB_B": [
-      {
-         "name": "<:grade_B:1365330003994214480> **STAYC : ISA** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_B:1365330003994214480> **STAYC : ISA**",
-         "min": 1000,
-         "max": 2000,
-         "card": 279
-      }
-   ],
-   "ISSC_01BB_C": [
-      {
-         "name": "<:grade_C:1365330012240216221> **STAYC : ISA** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_C:1365330012240216221> **STAYC : ISA**",
-         "min": 500,
-         "max": 1000,
-         "card": 280
-      }
-   ],
-   "SESC_01BB_R": [
-      {
-         "name": "<:grade_R:1365330012240216217> **STAYC : SEEUN** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_R:1365330012240216217> **STAYC : SEEUN**",
-         "min": 2500,
-         "max": 5000,
-         "card": 281
-      }
-   ],
-   "SESC_01BB_S": [
-      {
-         "name": "<:grade_S:1365330009333436477> **STAYC : SEEUN** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_S:1365330009333436477> **STAYC : SEEUN**",
-         "min": 2000,
-         "max": 4000,
-         "card": 282
-      }
-   ],
-   "SESC_01BB_A": [
-      {
-         "name": "<:grade_A:1365330006640824421> **STAYC : SEEUN** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_A:1365330006640824421> **STAYC : SEEUN**",
-         "min": 1500,
-         "max": 3000,
-         "card": 283
-      }
-   ],
-   "SESC_01BB_B": [
-      {
-         "name": "<:grade_B:1365330003994214480> **STAYC : SEEUN** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_B:1365330003994214480> **STAYC : SEEUN**",
-         "min": 1000,
-         "max": 2000,
-         "card": 284
-      }
-   ],
-   "SESC_01BB_C": [
-      {
-         "name": "<:grade_C:1365330012240216221> **STAYC : SEEUN** BEBE",
-         "artist": "STAYC",
-         "guess": 1,
-         "guessname": "<:grade_C:1365330012240216221> **STAYC : SEEUN**",
-         "min": 500,
-         "max": 1000,
-         "card": 285
-      }
-   ],
-    "YOSC_01BB_R": [
+"YOSC_01BB_R": [
       {
          "name": "<:grade_R:1365330012240216217> **STAYC : YOON** BEBE",
          "artist": "STAYC",
@@ -2769,7 +2659,7 @@
          "guessname": "<:grade_R:1365330012240216217> **STAYC : YOON**",
          "min": 2500,
          "max": 5000,
-         "card": 286
+         "card": 276
       }
    ],
    "YOSC_01BB_S": [
@@ -2780,7 +2670,7 @@
          "guessname": "<:grade_S:1365330009333436477> **STAYC : YOON**",
          "min": 2000,
          "max": 4000,
-         "card": 287
+         "card": 277
       }
    ],
    "YOSC_01BB_A": [
@@ -2791,7 +2681,7 @@
          "guessname": "<:grade_A:1365330006640824421> **STAYC : YOON**",
          "min": 1500,
          "max": 3000,
-         "card": 288
+         "card": 278
       }
    ],
    "YOSC_01BB_B": [
@@ -2802,7 +2692,7 @@
          "guessname": "<:grade_B:1365330003994214480> **STAYC : YOON**",
          "min": 1000,
          "max": 2000,
-         "card": 289
+         "card": 279
       }
    ],
    "YOSC_01BB_C": [
@@ -2813,7 +2703,7 @@
          "guessname": "<:grade_C:1365330012240216221> **STAYC : YOON**",
          "min": 500,
          "max": 1000,
-         "card": 290
+         "card": 280
       }
    ],
    "JSC_01BB_R": [
@@ -2824,7 +2714,7 @@
          "guessname": "<:grade_R:1365330012240216217> **STAYC : J**",
          "min": 2500,
          "max": 5000,
-         "card": 291
+         "card": 281
       }
    ],
    "JSC_01BB_S": [
@@ -2835,7 +2725,7 @@
          "guessname": "<:grade_S:1365330009333436477> **STAYC : J**",
          "min": 2000,
          "max": 4000,
-         "card": 292
+         "card": 282
       }
    ],
    "JSC_01BB_A": [
@@ -2846,7 +2736,7 @@
          "guessname": "<:grade_A:1365330006640824421> **STAYC : J**",
          "min": 1500,
          "max": 3000,
-         "card": 293
+         "card": 283
       }
    ],
    "JSC_01BB_B": [
@@ -2857,7 +2747,7 @@
          "guessname": "<:grade_B:1365330003994214480> **STAYC : J**",
          "min": 1000,
          "max": 2000,
-         "card": 294
+         "card": 284
       }
    ],
    "JSC_01BB_C": [
@@ -2868,7 +2758,7 @@
          "guessname": "<:grade_C:1365330012240216221> **STAYC : J**",
          "min": 500,
          "max": 1000,
-         "card": 295
+         "card": 285
       }
    ]
 
