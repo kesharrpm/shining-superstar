@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bg_default",
+    "type": "BASIC",
+    "name": "Default Dark Void",
+    "url": "https://jyp.com/placeholder-black.png",
+    "cost": 0,
+    "currency": "free"
+  },
+  {
+    "id": "bg_basic_01",
+    "type": "BASIC",
+    "name": "Aespa Stage",
+    "url": "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/images/mybg/aespa/mybg_lobby_dirty_work.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+  {
+    "id": "bg_prem_01",
+    "type": "PREMIUM",
+    "name": "Next Level Concept",
+    "url": "https://jyp.com/placeholder1.png",
+    "cost": 300,
+    "currency": "diamond"
+  },
+  {
+    "id": "bg_lim_01",
+    "type": "LIMITED",
+    "name": "Supernova Tour",
+    "url": "https://jyp.com/placeholder2.png",
+    "cost": 500,
+    "currency": "diamond"
+  },
+  {
+    "id": "bg_evt_01",
+    "type": "EVENT",
+    "name": "Summer Event 2026",
+    "url": "https://jyp.com/placeholder3.png",
+    "cost": 50,
+    "currency": "mileage"
+  }
+]
