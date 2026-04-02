@@ -4137,6 +4137,277 @@
       }
    ]
 
+   "DYKP_01BG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **KEP1ER : DAYEON** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2500,
+         "max": 5000,
+         "card": 411
+      }
+   ],
+   "DYKP_01BG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **KEP1ER : DAYEON** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 412
+      }
+   ],
+   "DYKP_01BG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **KEP1ER : DAYEON** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 413
+      }
+   ],
+   "DYKP_01BG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **KEP1ER : DAYEON** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 1000,
+         "max": 1500,
+         "card": 414
+      }
+   ],
+   "DYKP_01BG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **KEP1ER : DAYEON** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 0,
+         "max": 500,
+         "card": 415
+      }
+   ],
+   "CHKP_01BG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **KEP1ER : CHAEHYUN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2500,
+         "max": 5000,
+         "card": 416
+      }
+   ],
+   "CHKP_01BG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **KEP1ER : CHAEHYUN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 417
+      }
+   ],
+   "CHKP_01BG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **KEP1ER : CHAEHYUN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 418
+      }
+   ],
+   "CHKP_01BG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **KEP1ER : CHAEHYUN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 1000,
+         "max": 1500,
+         "card": 419
+      }
+   ],
+   "CHKP_01BG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **KEP1ER : CHAEHYUN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 0,
+         "max": 500,
+         "card": 420
+      }
+   ],
+   "YJKP_01BG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **KEP1ER : YUJIN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2500,
+         "max": 5000,
+         "card": 421
+      }
+   ],
+   "YJKP_01BG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **KEP1ER : YUJIN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 422
+      }
+   ],
+   "YJKP_01BG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **KEP1ER : YUJIN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 423
+      }
+   ],
+   "YJKP_01BG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **KEP1ER : YUJIN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 1000,
+         "max": 1500,
+         "card": 424
+      }
+   ],
+   "YJKP_01BG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **KEP1ER : YUJIN** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 0,
+         "max": 500,
+         "card": 425
+      }
+   ],
+   "HBKP_01BG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **KEP1ER : HUENINGBAHIYYIH** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2500,
+         "max": 5000,
+         "card": 426
+      }
+   ],
+   "HBKP_01BG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **KEP1ER : HUENINGBAHIYYIH** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 427
+      }
+   ],
+   "HBKP_01BG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **KEP1ER : HUENINGBAHIYYIH** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 428
+      }
+   ],
+   "HBKP_01BG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **KEP1ER : HUENINGBAHIYYIH** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 1000,
+         "max": 1500,
+         "card": 429
+      }
+   ],
+   "HBKP_01BG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **KEP1ER : HUENINGBAHIYYIH** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 0,
+         "max": 500,
+         "card": 430
+      }
+   ],
+   "XTKP_01BG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **KEP1ER : XIAOTING** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2500,
+         "max": 5000,
+         "card": 431
+      }
+   ],
+   "XTKP_01BG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **KEP1ER : XIAOTING** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 432
+      }
+   ],
+   "XTKP_01BG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **KEP1ER : XIAOTING** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 433
+      }
+   ],
+   "XTKP_01BG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **KEP1ER : XIAOTING** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 1000,
+         "max": 1500,
+         "card": 434
+      }
+   ],
+   "XTKP_01BG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **KEP1ER : XIAOTING** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 0,
+         "max": 500,
+         "card": 435
+      }
+   ],
+   "HKKP_01BG_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **KEP1ER : HIKARU** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2500,
+         "max": 5000,
+         "card": 436
+      }
+   ],
+   "HKKP_01BG_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **KEP1ER : HIKARU** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 437
+      }
+   ],
+   "HKKP_01BG_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **KEP1ER : HIKARU** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 2000,
+         "max": 3000,
+         "card": 438
+      }
+   ],
+   "HKKP_01BG_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **KEP1ER : HIKARU** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 1000,
+         "max": 1500,
+         "card": 439
+      }
+   ],
+   "HKKP_01BG_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **KEP1ER : HIKARU** BUBBLE GUM",
+         "artist": "KEP1ER",
+         "min": 0,
+         "max": 500,
+         "card": 440
+      }
+   ]
+
    
 
    
