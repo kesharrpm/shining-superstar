@@ -3,7 +3,7 @@
     "id": "H2H_01",
     "group": "Hearts2Hearts",
     "type": "BASIC",
-    "name": "Hearts2Hearts [Starter]",
+    "name": "Hearts2Hearts 'Starter'",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/hearts2hearts/mybg_lobby_rude.png",
     "cost": 0,
     "currency": "free"
@@ -12,7 +12,7 @@
     "id": "H2H_02",
     "group": "Hearts2Hearts",
     "type": "BASIC",
-    "name": "Hearts2Hearts [The Chase]",
+    "name": "Hearts2Hearts 'The Chase'",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/hearts2hearts/mybg_lobby_the_chase.png",
     "cost": 50000,
     "currency": "rp"
@@ -21,7 +21,7 @@
     "id": "AES_01",
     "group": "aespa",
     "type": "BASIC",
-    "name": "aespa [Starter]",
+    "name": "aespa 'Starter'",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_rich_man.png",
     "cost": 0,
     "currency": "free"
@@ -30,7 +30,7 @@
     "id": "AES_02",
     "group": "aespa",
     "type": "BASIC",
-    "name": "aespa [Dirty Work]",
+    "name": "aespa 'Dirty Work'",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_dirty_work.png",
     "cost": 50000,
     "currency": "rp"
@@ -39,7 +39,7 @@
     "id": "AES_03",
     "group": "aespa",
     "type": "LIMITED",
-    "name": "aespa [SHINING SUPERSTAR]",
+    "name": "aespa 'SHINING SUPERSTAR'",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_dirty_work2.png",
     "cost": 500,
     "currency": "diamond"
