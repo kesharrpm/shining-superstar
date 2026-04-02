@@ -1,42 +1,47 @@
 [
   {
-    "id": "bg_default",
+    "id": "H2H_01",
+    "group": "Hearts2Hearts",
     "type": "BASIC",
-    "name": "Default Dark Void",
-    "url": "https://jyp.com/placeholder-black.png",
+    "name": "Hearts2Hearts [Starter]",
+    "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/hearts2hearts/mybg_lobby_rude.png",
     "cost": 0,
     "currency": "free"
   },
   {
-    "id": "bg_basic_01",
+    "id": "H2H_02",
+    "group": "Hearts2Hearts",
     "type": "BASIC",
-    "name": "Aespa Stage",
-    "url": "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/images/mybg/aespa/mybg_lobby_dirty_work.png",
+    "name": "Hearts2Hearts [The Chase]",
+    "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/hearts2hearts/mybg_lobby_the_chase.png",
     "cost": 50000,
     "currency": "rp"
   },
   {
-    "id": "bg_prem_01",
-    "type": "PREMIUM",
-    "name": "Next Level Concept",
-    "url": "https://jyp.com/placeholder1.png",
-    "cost": 300,
-    "currency": "diamond"
+    "id": "AES_01",
+    "group": "aespa",
+    "type": "BASIC",
+    "name": "aespa [Starter]",
+    "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_rich_man.png",
+    "cost": 0,
+    "currency": "free"
   },
   {
-    "id": "bg_lim_01",
+    "id": "AES_02",
+    "group": "aespa",
+    "type": "BASIC",
+    "name": "aespa [Dirty Work]",
+    "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_dirty_work.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+  {
+    "id": "AES_03",
+    "group": "aespa",
     "type": "LIMITED",
-    "name": "Supernova Tour",
-    "url": "https://jyp.com/placeholder2.png",
+    "name": "aespa [SHINING SUPERSTAR]",
+    "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_dirty_work2.png",
     "cost": 500,
     "currency": "diamond"
-  },
-  {
-    "id": "bg_evt_01",
-    "type": "EVENT",
-    "name": "Summer Event 2026",
-    "url": "https://jyp.com/placeholder3.png",
-    "cost": 50,
-    "currency": "mileage"
   }
 ]
