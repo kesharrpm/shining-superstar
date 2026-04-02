@@ -3,7 +3,7 @@
     "id": "H2H_01",
     "group": "Hearts2Hearts",
     "type": "BASIC",
-    "name": "Hearts2Hearts 'Starter'",
+    "name": "Hearts2Hearts",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/hearts2hearts/mybg_lobby_rude.png",
     "cost": 0,
     "currency": "free"
@@ -21,7 +21,7 @@
     "id": "AES_01",
     "group": "aespa",
     "type": "BASIC",
-    "name": "aespa 'Starter'",
+    "name": "aespa",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_rich_man.png",
     "cost": 0,
     "currency": "free"
