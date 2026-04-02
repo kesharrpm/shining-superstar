@@ -11,7 +11,7 @@
   {
     "id": "H2H_02",
     "group": "Hearts2Hearts",
-    "type": "BASIC",
+    "type": "PREMIUM",
     "name": "Hearts2Hearts 'The Chase'",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/hearts2hearts/mybg_lobby_the_chase.png",
     "cost": 50000,
@@ -29,7 +29,7 @@
   {
     "id": "AES_02",
     "group": "aespa",
-    "type": "BASIC",
+    "type": "PREMIUM",
     "name": "aespa 'Dirty Work'",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_dirty_work.png",
     "cost": 50000,
@@ -38,7 +38,7 @@
   {
     "id": "AES_03",
     "group": "aespa",
-    "type": "LIMITED",
+    "type": "EVENT",
     "name": "aespa 'SHINING SUPERSTAR'",
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_dirty_work2.png",
     "cost": 500,
