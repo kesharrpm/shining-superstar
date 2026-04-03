@@ -4722,6 +4722,996 @@
          "max": 500,
          "card": 475
       }
+   ],
+   "HJLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HeeJin** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 476
+      }
+   ],
+   "HJLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HeeJin** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 477
+      }
+   ],
+   "HJLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HeeJin** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 478
+      }
+   ],
+   "HJLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HeeJin** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 479
+      }
+   ],
+   "HJLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HeeJin** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 480
+      }
+   ],
+   "HYLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HyunJin** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 481
+      }
+   ],
+   "HYLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HyunJin** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 482
+      }
+   ],
+   "HYLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HyunJin** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 483
+      }
+   ],
+   "HYLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HyunJin** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 484
+      }
+   ],
+   "HYLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HyunJin** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 485
+      }
+   ],
+   "HSLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HaSeul** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 486
+      }
+   ],
+   "HSLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HaSeul** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 487
+      }
+   ],
+   "HSLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HaSeul** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 488
+      }
+   ],
+   "HSLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HaSeul** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 489
+      }
+   ],
+   "HSLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HaSeul** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 490
+      }
+   ],
+   "YJLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : YeoJin** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 491
+      }
+   ],
+   "YJLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : YeoJin** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 492
+      }
+   ],
+   "YJLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : YeoJin** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 493
+      }
+   ],
+   "YJLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : YeoJin** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 494
+      }
+   ],
+   "YJLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : YeoJin** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 495
+      }
+   ],
+   "VVLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : ViVi** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 496
+      }
+   ],
+   "VVLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : ViVi** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 497
+      }
+   ],
+   "VVLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : ViVi** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 498
+      }
+   ],
+   "VVLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : ViVi** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 499
+      }
+   ],
+   "VVLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : ViVi** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 500
+      }
+   ],
+   "KLLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Kim Lip** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 501
+      }
+   ],
+   "KLLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Kim Lip** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 502
+      }
+   ],
+   "KLLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Kim Lip** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 503
+      }
+   ],
+   "KLLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Kim Lip** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 504
+      }
+   ],
+   "KLLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Kim Lip** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 505
+      }
+   ],
+   "JSLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : JinSoul** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 506
+      }
+   ],
+   "JSLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : JinSoul** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 507
+      }
+   ],
+   "JSLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : JinSoul** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 508
+      }
+   ],
+   "JSLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : JinSoul** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 509
+      }
+   ],
+   "JSLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : JinSoul** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 510
+      }
+   ],
+   "CHLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Choerry** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 511
+      }
+   ],
+   "CHLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Choerry** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 512
+      }
+   ],
+   "CHLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Choerry** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 513
+      }
+   ],
+   "CHLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Choerry** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 514
+      }
+   ],
+   "CHLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Choerry** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 515
+      }
+   ],
+   "YVLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Yves** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 516
+      }
+   ],
+   "YVLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Yves** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 517
+      }
+   ],
+   "YVLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Yves** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 518
+      }
+   ],
+   "YVLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Yves** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 519
+      }
+   ],
+   "YVLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Yves** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 520
+      }
+   ],
+   "GWLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Go Won** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 521
+      }
+   ],
+   "GWLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Go Won** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 522
+      }
+   ],
+   "GWLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Go Won** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 523
+      }
+   ],
+   "GWLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Go Won** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 524
+      }
+   ],
+   "GWLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Go Won** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 525
+      }
+   ],
+   "OHLO_01HH_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Olivia Hye** Hi High",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 526
+      }
+   ],
+   "OHLO_01HH_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Olivia Hye** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 527
+      }
+   ],
+   "OHLO_01HH_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Olivia Hye** Hi High",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 528
+      }
+   ],
+   "OHLO_01HH_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Olivia Hye** Hi High",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 529
+      }
+   ],
+   "OHLO_01HH_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Olivia Hye** Hi High",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 530
+      }
+   ],
+      "HJLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HeeJin** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 531
+      }
+   ],
+   "HJLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HeeJin** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 532
+      }
+   ],
+   "HJLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HeeJin** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 533
+      }
+   ],
+   "HJLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HeeJin** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 534
+      }
+   ],
+   "HJLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HeeJin** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 535
+      }
+   ],
+   "HYLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HyunJin** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 536
+      }
+   ],
+   "HYLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HyunJin** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 537
+      }
+   ],
+   "HYLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HyunJin** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 538
+      }
+   ],
+   "HYLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HyunJin** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 539
+      }
+   ],
+   "HYLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HyunJin** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 540
+      }
+   ],
+   "HSLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HaSeul** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 541
+      }
+   ],
+   "HSLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HaSeul** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 542
+      }
+   ],
+   "HSLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HaSeul** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 543
+      }
+   ],
+   "HSLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HaSeul** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 544
+      }
+   ],
+   "HSLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HaSeul** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 545
+      }
+   ],
+   "YJLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : YeoJin** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 546
+      }
+   ],
+   "YJLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : YeoJin** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 547
+      }
+   ],
+   "YJLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : YeoJin** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 548
+      }
+   ],
+   "YJLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : YeoJin** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 549
+      }
+   ],
+   "YJLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : YeoJin** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 550
+      }
+   ],
+   "VVLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : ViVi** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 551
+      }
+   ],
+   "VVLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : ViVi** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 552
+      }
+   ],
+   "VVLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : ViVi** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 553
+      }
+   ],
+   "VVLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : ViVi** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 554
+      }
+   ],
+   "VVLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : ViVi** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 555
+      }
+   ],
+   "KLLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Kim Lip** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 556
+      }
+   ],
+   "KLLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Kim Lip** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 557
+      }
+   ],
+   "KLLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Kim Lip** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 558
+      }
+   ],
+   "KLLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Kim Lip** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 559
+      }
+   ],
+   "KLLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Kim Lip** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 560
+      }
+   ],
+   "JSLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : JinSoul** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 561
+      }
+   ],
+   "JSLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : JinSoul** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 562
+      }
+   ],
+   "JSLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : JinSoul** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 563
+      }
+   ],
+   "JSLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : JinSoul** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 564
+      }
+   ],
+   "JSLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : JinSoul** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 565
+      }
+   ],
+   "CHLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Choerry** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 566
+      }
+   ],
+   "CHLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Choerry** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 567
+      }
+   ],
+   "CHLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Choerry** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 568
+      }
+   ],
+   "CHLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Choerry** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 569
+      }
+   ],
+   "CHLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Choerry** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 570
+      }
+   ],
+   "YVLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Yves** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 571
+      }
+   ],
+   "YVLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Yves** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 572
+      }
+   ],
+   "YVLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Yves** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 573
+      }
+   ],
+   "YVLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Yves** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 574
+      }
+   ],
+   "YVLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Yves** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 575
+      }
+   ],
+   "GWLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Go Won** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 576
+      }
+   ],
+   "GWLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Go Won** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 577
+      }
+   ],
+   "GWLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Go Won** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 578
+      }
+   ],
+   "GWLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Go Won** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 579
+      }
+   ],
+   "GWLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Go Won** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 580
+      }
+   ],
+   "OHLO_02PT_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Olivia Hye** PTT",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 581
+      }
+   ],
+   "OHLO_02PT_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Olivia Hye** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 582
+      }
+   ],
+   "OHLO_02PT_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Olivia Hye** PTT",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 583
+      }
+   ],
+   "OHLO_02PT_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Olivia Hye** PTT",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 584
+      }
+   ],
+   "OHLO_02PT_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Olivia Hye** PTT",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 585
+      }
    ]
 
    
