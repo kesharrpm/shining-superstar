@@ -1,6 +1,9 @@
 { 
   
   "aespa": { "members": [ "KARINA", "GISELLE", "WINTER", "NINGNING" ],
-    "themes": [ "Rich Man", "Dirty Work" ] }
+    "themes": [ "Rich Man", "Dirty Work" ] },
+
+  "GIRLSET": { "members": [ "Lexi", "Camila", "Kendall", "Savanna" ],
+    "themes": [ "Little Miss", "SWEET" ] }
 
 }
