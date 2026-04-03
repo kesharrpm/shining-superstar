@@ -4,6 +4,9 @@
     "themes": [ "Rich Man", "Dirty Work" ] },
 
   "GIRLSET": { "members": [ "Lexi", "Camila", "Kendall", "Savanna" ],
-    "themes": [ "Little Miss", "SWEET" ] }
+    "themes": [ "Little Miss", "SWEET" ] },
+  
+   "Stray Kids": { "members": [ "BANG CHAN", "LEE KNOW", "CHANGBIN", "HYUNJIN", "HAN", "FELIX", "SEUNGMIN", "I.N" ],
+    "themes": [ "CEREMONY" ] }
 
 }
