@@ -7,6 +7,9 @@
     "themes": [ "Little Miss", "SWEET" ] },
   
    "Stray Kids": { "members": [ "BANG CHAN", "LEE KNOW", "CHANGBIN", "HYUNJIN", "HAN", "FELIX", "SEUNGMIN", "I.N" ],
-    "themes": [ "CEREMONY" ] }
+    "themes": [ "CEREMONY" ] },
+  
+   "LOONA": { "members": [ "HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Go Won", "Olivia Hye" ],
+    "themes": [ "Hi High", "PTT" ] }
 
 }
