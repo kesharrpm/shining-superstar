@@ -45,7 +45,7 @@
     "currency": "diamond"
   },
     {
-    "id": "LNA_01",
+    "id": "LON_01",
     "group": "LOOΠΔ",
     "type": "BASIC",
     "name": "LOOΠΔ",
@@ -54,7 +54,7 @@
     "currency": "free"
   },
     {
-    "id": "LNA_02",
+    "id": "LON_02",
     "group": "LOOΠΔ",
     "type": "PREMIUM",
     "name": "LOOΠΔ 'Why Not?'",
