@@ -49,7 +49,7 @@
     "group": "LOOΠΔ",
     "type": "BASIC",
     "name": "LOOΠΔ",
-    "url": "https://ik.imagekit.io/shiningsuperstar/live/resources/live/images/mybg/loona/mybg_lobby_loona.png",
+    "url": "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/images/mybg/loona/mybg_lobby_loona.png",
     "cost": 0,
     "currency": "free"
   },
@@ -58,7 +58,7 @@
     "group": "LOOΠΔ",
     "type": "PREMIUM",
     "name": "LOOΠΔ 'Why Not?'",
-    "url": "https://ik.imagekit.io/shiningsuperstar/live/resources/live/images/mybg/loona/mybg_lobby_loona_premium.png",
+    "url": "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/images/mybg/loona/mybg_lobby_loona_premium.png",
     "cost": 50000,
     "currency": "rp"
   }
