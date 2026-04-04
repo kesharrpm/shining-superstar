@@ -43,5 +43,23 @@
     "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/aespa/mybg_lobby_dirty_work2.png",
     "cost": 500,
     "currency": "diamond"
+  },
+    {
+    "id": "LNA_01",
+    "group": "LOOΠΔ",
+    "type": "FREE",
+    "name": "LOOΠΔ",
+    "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/loona/mybg_lobby_loona.png",
+    "cost": 0,
+    "currency": "free"
+  },
+    {
+    "id": "LNA_02",
+    "group": "LOOΠΔ",
+    "type": "PREMIUM",
+    "name": "LOOΠΔ 'Why Not?'",
+    "url": "https://superstarcdn.onelocal.host/resources/live/images/mybg/loona/mybg_lobby_loona_premium.png",
+    "cost": 50000,
+    "currency": "rp"
   }
 ]
