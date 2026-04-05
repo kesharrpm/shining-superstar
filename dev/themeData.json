@@ -15,6 +15,9 @@
     "themes": [ "CEREMONY" ] },
   
    "LOONA": { "members": [ "HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Go Won", "Olivia Hye" ],
-    "themes": [ "Hi High", "PTT" ] }
+    "themes": [ "Hi High", "PTT" ] },
+
+     "ILLIT": { "members": [ "YUNAH", "MINJU", "MOKA", "WONHEE", "IROHA" ],
+    "themes": [ "Magnetic", "Cherish" ] }
 
 }
