@@ -1,7 +1,12 @@
 { 
   
   "aespa": { "members": [ "KARINA", "GISELLE", "WINTER", "NINGNING" ],
-    "themes": [ "Rich Man", "Dirty Work" ] },
+             "themes": [ "Rich Man", "Dirty Work" ],
+             "profiles": {
+             "FREE": [ "KRAE_01DW_R", "GSAE_01DW_R", "WTAE_01DW_R", "NNAE_01DW_R" ],
+             "BASIC": [ "KRAE_02RM_R", "GSAE_02RM_R", "WTAE_02RM_R", "NNAE_02RM_R" ],
+             "EVENT": [] }
+  },
 
   "GIRLSET": { "members": [ "Lexi", "Camila", "Kendall", "Savanna" ],
     "themes": [ "Little Miss", "SWEET" ] },
