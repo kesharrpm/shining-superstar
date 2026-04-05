@@ -1,51 +1,43 @@
 { 
   
-  "aespa": { "members": [ "KARINA", "GISELLE", "WINTER", "NINGNING" ],
-             "themes": [ "Rich Man", "Dirty Work" ],
-             "profiles": {
-             "FREE": [ "KRAE_01DW_R", "GSAE_01DW_R", "WTAE_01DW_R", "NNAE_01DW_R" ],
-             "BASIC": [ "KRAE_02RM_R", "GSAE_02RM_R", "WTAE_02RM_R", "NNAE_02RM_R" ],
-             "EVENT": [] }
-  },
-
-  "GIRLSET": { "members": [ "Lexi", "Camila", "Kendall", "Savanna" ],
-    "themes": [ "Little Miss", "SWEET" ],
-               "profiles": {
-             "FREE": [ "LXGS_01LM_R", "CMGS_01LM_R", "KDGS_01LM_R", "SVGS_01LM_R" ],
-             "BASIC": [ "LXGS_02SW_R", "CMGS_02SW_R", "KDGS_02SW_R", "SVGS_02SW_R" ],
-             "EVENT": [] }
-  },
-  
-   "Stray Kids": { "members": [ "BANG CHAN", "LEE KNOW", "CHANGBIN", "HYUNJIN", "HAN", "FELIX", "SEUNGMIN", "I.N" ],
-    "themes": [ "CEREMONY" ],
-                  "profiles": {
-             "FREE": [ "BCSK_01CM_R", "LKSK_01CM_R", "CBSK_01CM_R", "HJSK_01CM_R", "HNSK_01CM_R", "FLSK_01CM_R", "SMSK_01CM_R", "INSK_01CM_R" ],
-             "BASIC": [],
-             "EVENT": [] }
-  },
-  
-   "LOONA": { "members": [ "HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Go Won", "Olivia Hye" ],
+  "LOONA": { 
+    "members": [ "HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Go Won", "Olivia Hye" ],
     "themes": [ "Hi High", "PTT" ],
     "profiles": {
-             "FREE": [ "HJLN_01HH_R", "HYLN_01HH_R", "HSLN_01HH_R", "YJLN_01HH_R", "VVLN_01HH_R", "KLLN_01HH_R", "JSLN_01HH_R", "CHLN_01HH_R", "YVLN_01HH_R", "GWLN_01HH_R", "OHLN_01HH_R" ],
-             "BASIC": [ "HJLN_02PT_R", "HYLN_02PT_R", "HSLN_02PT_R", "YJLN_02PT_R", "VVLN_02PT_R", "KLLN_02PT_R", "JSLN_02PT_R", "CHLN_02PT_R", "YVLN_02PT_R", "GWLN_02PT_R", "OHLN_02PT_R" ],
-             "EVENT": [] }
+      "FREE": [ "HJLO_01HH_R", "HYLO_01HH_R", "HSLO_01HH_R", "YJLO_01HH_R", "VVLO_01HH_R", "KLLO_01HH_R", "JSLO_01HH_R", "CHLO_01HH_R", "YVLO_01HH_R", "GWLO_01HH_R", "OHLO_01HH_R" ],
+      "BASIC": [ "HJLO_02PT_R", "HYLO_02PT_R", "HSLO_02PT_R", "YJLO_02PT_R", "VVLO_02PT_R", "KLLO_02PT_R", "JSLO_02PT_R", "CHLO_02PT_R", "YVLO_02PT_R", "GWLO_02PT_R", "OHLO_02PT_R" ],
+      "EVENT": [] 
+    }
   },
 
-     "ILLIT": { "members": [ "YUNAH", "MINJU", "MOKA", "WONHEE", "IROHA" ],
+  "Stray Kids": { 
+    "members": [ "BANG CHAN", "LEE KNOW", "CHANGBIN", "HYUNJIN", "HAN", "FELIX", "SEUNGMIN", "I.N" ],
+    "themes": [ "CEREMONY" ],
+    "profiles": {
+      "FREE": [ "BCSK_01CM_R", "LKSK_01CM_R", "CBSK_01CM_R", "HYSK_01CM_R", "HNSK_01CM_R", "FLSK_01CM_R", "SMSK_01CM_R", "INSK_01CM_R" ],
+      "BASIC": [],
+      "EVENT": [] 
+    }
+  },
+
+  "GIRLSET": { 
+    "members": [ "Lexi", "Camila", "Kendall", "Savanna" ],
+    "themes": [ "Little Miss", "SWEET" ],
+    "profiles": {
+      "FREE": [ "LXGS_01LM_R", "CMGS_01LM_R", "KDGS_01LM_R", "SVGS_01LM_R" ],
+      "BASIC": [ "LXGS_02ST_R", "CMGS_02ST_R", "KDGS_02ST_R", "SVGS_02ST_R" ],
+      "EVENT": [] 
+    }
+  },
+
+  "ILLIT": { 
+    "members": [ "YUNAH", "MINJU", "MOKA", "WONHEE", "IROHA" ],
     "themes": [ "Magnetic", "Cherish" ],
-           "profiles": {
-             "FREE": [ "YNIL_01MG_R", "MJIL_01MG_R", "MKIL_01MG_R", "WHIL_01MG_R", "IRIL_01MG_R" ],
-             "BASIC": [ "YNIL_02CR_R", "MJIL_02CR_R", "MKIL_02CR_R", "WHIL_02CR_R", "IRIL_02CR_R" ],
-             "EVENT": [] }
-  },
-
-  "Hearts2Hearts": { "members": [ "JIWOO", "CARMEN", "YUHA", "STELLA", "JUUN", "A-NA", "IAN", "YE-ON" ],
-    "themes": [ "The Chase", "RUDE!" ],
-             "profiles": {
-             "FREE": [ "JWHH_01TC_R", "CMHH_01TC_R", "YHHH_01TC_R", "SLHH_01TC_R", "JUHH_01TC_R", "ANHH_01TC_R", "IAHH_01TC_R", "YOHH_01TC_R" ],
-             "BASIC": [ "JWHH_02RD_R", "CMHH_02RD_R", "YHHH_02RD_R", "SLHH_02RD_R", "JUHH_02RD_R", "ANHH_02RD_R", "IAHH_02RD_R", "YOHH_02RD_R" ],
-             "EVENT": [] }
+    "profiles": {
+      "FREE": [ "YNIL_02MG_R", "MJIL_02MG_R", "MKIL_02MG_R", "WHIL_02MG_R", "IRIL_02MG_R" ],
+      "BASIC": [ "YNIL_01CR_R", "MJIL_01CR_R", "MKIL_01CR_R", "WHIL_01CR_R", "IRIL_01CR_R" ],
+      "EVENT": [] 
+    }
   }
 
 }
