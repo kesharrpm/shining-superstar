@@ -5712,7 +5712,53 @@
          "max": 500,
          "card": 585
       }
+   ],
+    "CBSK_01CM_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **Stray Kids : CHANGBIN** CEREMONY",
+         "artist": "Stray Kids",
+         "min": 2500,
+         "max": 5000,
+         "card": 586
+      }
+   ],
+   "CBSK_01CM_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **Stray Kids : CHANGBIN** CEREMONY",
+         "artist": "Stray Kids",
+         "min": 2000,
+         "max": 3000,
+         "card": 587
+      }
+   ],
+   "CBSK_01CM_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **Stray Kids : CHANGBIN** CEREMONY",
+         "artist": "Stray Kids",
+         "min": 2000,
+         "max": 3000,
+         "card": 588
+      }
+   ],
+   "CBSK_01CM_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **Stray Kids : CHANGBIN** CEREMONY",
+         "artist": "Stray Kids",
+         "min": 1000,
+         "max": 1500,
+         "card": 589
+      }
+   ],
+   "CBSK_01CM_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **Stray Kids : CHANGBIN** CEREMONY",
+         "artist": "Stray Kids",
+         "min": 0,
+         "max": 500,
+         "card": 590
+      }
    ]
+}
 
    
 
