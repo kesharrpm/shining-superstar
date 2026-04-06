@@ -46,6 +46,25 @@
              "FREE": [ "JWHH_01TC_R", "CMHH_01TC_R", "YHHH_01TC_R", "SLHH_01TC_R", "JUHH_01TC_R", "ANHH_01TC_R", "IAHH_01TC_R", "YOHH_01TC_R" ],
              "BASIC": [ "JWHH_02RD_R", "CMHH_02RD_R", "YHHH_02RD_R", "SLHH_02RD_R", "JUHH_02RD_R", "ANHH_02RD_R", "IAHH_02RD_R", "YOHH_02RD_R" ],
              "EVENT": [] }
-  }
+  },
+  
+  "LE SSERAFIM": {
+        "members": [ "KIM CHAEWON", "SAKURA", "HUH YUNJIN", "KAZUHA", "HONG EUNCHAE" ],
+        "themes": [ "EASY", "CRAZY", "HOT" ],
+        "profiles": {
+            "FREE": [ "KCLS_01ES_R", "SKLS_01ES_R", "HYLS_01ES_R", "KZLS_01ES_R", "HCLS_01ES_R" ],
+            "BASIC": [ "KCLS_02CZ_R", "SKLS_02CZ_R", "HYLS_02CZ_R", "KZLS_02CZ_R", "HCLS_02CZ_R" ],
+            "EVENT": [ "KCLS_03HT_R", "SKLS_03HT_R", "HYLS_03HT_R", "KZLS_03HT_R", "HCLS_03HT_R" ]
+        }
+    },
+
+  "IVE": {
+        "members": [ "ANYUJIN", "GAEUL", "REI", "JANGWONYOUNG", "LIZ", "LEESEO" ],
+        "themes": [ "REBEL HEART", "XOXZ" ],
+        "profiles": {
+            "FREE": [ "AYIV_01RH_R", "GAIV_01RH_R", "REIV_01RH_R", "JWIV_01RH_R", "LIIV_01RH_R", "LSIV_01RH_R" ],
+            "BASIC": [ "AYIV_02XO_R", "GAIV_02XO_R", "REIV_02XO_R", "JWIV_02XO_R", "LIIV_02XO_R", "LSIV_02XO_R" ]
+        }
+    }
 
 }
