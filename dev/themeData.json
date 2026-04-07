@@ -60,7 +60,7 @@
 
   "IVE": {
         "members": [ "ANYUJIN", "GAEUL", "REI", "JANGWONYOUNG", "LIZ", "LEESEO" ],
-        "themes": [ "REBEL HEART", "XOXZ", "BANG BANG" ],
+        "themes": [ "BANG BANG", "REBEL HEART", "XOXZ" ],
         "profiles": {
             "FREE": [ "AYIV_01RH_R", "GAIV_01RH_R", "REIV_01RH_R", "JWIV_01RH_R", "LIIV_01RH_R", "LSIV_01RH_R" ],
             "BASIC": [ "AYIV_02XO_R", "GAIV_02XO_R", "REIV_02XO_R", "JWIV_02XO_R", "LIIV_02XO_R", "LSIV_02XO_R" ],
