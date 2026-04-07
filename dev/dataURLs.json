@@ -5757,6 +5757,277 @@
          "max": 500,
          "card": 590
       }
+   ],
+
+   "AYIV_03BB_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **IVE : ANYUJIN** BANG BANG",
+         "artist": "IVE",
+         "min": 5000,
+         "max": 10000,
+         "card": 591
+      }
+   ],
+   "AYIV_03BB_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **IVE : ANYUJIN** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 592
+      }
+   ],
+   "AYIV_03BB_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **IVE : ANYUJIN** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 593
+      }
+   ],
+   "AYIV_03BB_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **IVE : ANYUJIN** BANG BANG",
+         "artist": "IVE",
+         "min": 2000,
+         "max": 3000,
+         "card": 594
+      }
+   ],
+   "AYIV_03BB_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **IVE : ANYUJIN** BANG BANG",
+         "artist": "IVE",
+         "min": 500,
+         "max": 1000,
+         "card": 595
+      }
+   ],
+   "GAIV_03BB_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **IVE : GAEUL** BANG BANG",
+         "artist": "IVE",
+         "min": 5000,
+         "max": 10000,
+         "card": 596
+      }
+   ],
+   "GAIV_03BB_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **IVE : GAEUL** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 597
+      }
+   ],
+   "GAIV_03BB_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **IVE : GAEUL** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 598
+      }
+   ],
+   "GAIV_03BB_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **IVE : GAEUL** BANG BANG",
+         "artist": "IVE",
+         "min": 2000,
+         "max": 3000,
+         "card": 599
+      }
+   ],
+   "GAIV_03BB_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **IVE : GAEUL** BANG BANG",
+         "artist": "IVE",
+         "min": 500,
+         "max": 1000,
+         "card": 600
+      }
+   ],
+   "REIV_03BB_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **IVE : REI** BANG BANG",
+         "artist": "IVE",
+         "min": 5000,
+         "max": 10000,
+         "card": 601
+      }
+   ],
+   "REIV_03BB_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **IVE : REI** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 602
+      }
+   ],
+   "REIV_03BB_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **IVE : REI** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 603
+      }
+   ],
+   "REIV_03BB_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **IVE : REI** BANG BANG",
+         "artist": "IVE",
+         "min": 2000,
+         "max": 3000,
+         "card": 604
+      }
+   ],
+   "REIV_03BB_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **IVE : REI** BANG BANG",
+         "artist": "IVE",
+         "min": 500,
+         "max": 1000,
+         "card": 605
+      }
+   ],
+   "JWIV_03BB_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **IVE : JANGWONYOUNG** BANG BANG",
+         "artist": "IVE",
+         "min": 5000,
+         "max": 10000,
+         "card": 606
+      }
+   ],
+   "JWIV_03BB_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **IVE : JANGWONYOUNG** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 607
+      }
+   ],
+   "JWIV_03BB_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **IVE : JANGWONYOUNG** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 608
+      }
+   ],
+   "JWIV_03BB_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **IVE : JANGWONYOUNG** BANG BANG",
+         "artist": "IVE",
+         "min": 2000,
+         "max": 3000,
+         "card": 609
+      }
+   ],
+   "JWIV_03BB_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **IVE : JANGWONYOUNG** BANG BANG",
+         "artist": "IVE",
+         "min": 500,
+         "max": 1000,
+         "card": 610
+      }
+   ],
+   "LIIV_03BB_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **IVE : LIZ** BANG BANG",
+         "artist": "IVE",
+         "min": 5000,
+         "max": 10000,
+         "card": 611
+      }
+   ],
+   "LIIV_03BB_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **IVE : LIZ** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 612
+      }
+   ],
+   "LIIV_03BB_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **IVE : LIZ** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 613
+      }
+   ],
+   "LIIV_03BB_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **IVE : LIZ** BANG BANG",
+         "artist": "IVE",
+         "min": 2000,
+         "max": 3000,
+         "card": 614
+      }
+   ],
+   "LIIV_03BB_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **IVE : LIZ** BANG BANG",
+         "artist": "IVE",
+         "min": 500,
+         "max": 1000,
+         "card": 615
+      }
+   ],
+   "LSIV_03BB_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **IVE : LEESEO** BANG BANG",
+         "artist": "IVE",
+         "min": 5000,
+         "max": 10000,
+         "card": 616
+      }
+   ],
+   "LSIV_03BB_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **IVE : LEESEO** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 617
+      }
+   ],
+   "LSIV_03BB_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **IVE : LEESEO** BANG BANG",
+         "artist": "IVE",
+         "min": 4000,
+         "max": 6000,
+         "card": 618
+      }
+   ],
+   "LSIV_03BB_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **IVE : LEESEO** BANG BANG",
+         "artist": "IVE",
+         "min": 2000,
+         "max": 3000,
+         "card": 619
+      }
+   ],
+   "LSIV_03BB_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **IVE : LEESEO** BANG BANG",
+         "artist": "IVE",
+         "min": 500,
+         "max": 1000,
+         "card": 620
+      }
    ]
 }
 
