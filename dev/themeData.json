@@ -74,7 +74,7 @@
         "profiles": {
             "FREE": [],
             "BASIC": [],
-            "EVENT": [ "JLKO_01LH", "NTKO_01LH", "BLKO_01LH", "HNKO_01LH" ]
+            "EVENT": [ "JLKO_01LH_R", "NTKO_01LH_R", "BLKO_01LH_R", "HNKO_01LH_R" ]
         }
     }
 
