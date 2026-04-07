@@ -66,6 +66,16 @@
             "BASIC": [ "AYIV_02XO_R", "GAIV_02XO_R", "REIV_02XO_R", "JWIV_02XO_R", "LIIV_02XO_R", "LSIV_02XO_R" ],
             "EVENT": [ "AYIV_03BB_R", "GAIV_03BB_R", "REIV_03BB_R", "JWIV_03BB_R", "LIIV_03BB_R", "LSIV_03BB_R" ]
         }
+    },
+
+    "KISS OF LIFE": {
+        "members": [ "JULIE", "NATTY", "BELLE", "HANEUL" ],
+        "themes": [ "Lips Hips Kiss" ],
+        "profiles": {
+            "FREE": [],
+            "BASIC": [],
+            "EVENT": [ "JLKO_01LH", "NTKO_01LH", "BLKO_01LH", "HNKO_01LH" ]
+        }
     }
 
 }
