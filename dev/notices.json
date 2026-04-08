@@ -13,14 +13,14 @@
         "date": "2026.04.08",
         "title": "'Who is she?' KISS OF LIFE says.",
         "description": "Check special deals from KISS OF LIFE from their new comeback!",
-        "image": "https://ik.imagekit.io/shiningsuperstar/live/tr:lo-true/resources/live/2026/0508/bg2.png",
+        "image": "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/2026/0508/bg2.png",
         "borderColor": "var(--primary-glow)",
         "action": "openEventModal('kiof-whoisshe')",
         "cards": [
-            "https://ik.imagekit.io/shiningsuperstar/live/tr:lo-true/resources/live/2026/0508/c_f_who_is_she_julie.png",
-            "https://ik.imagekit.io/shiningsuperstar/live/tr:lo-true/resources/live/2026/0508/c_f_who_is_she_natty.png",
-            "https://ik.imagekit.io/shiningsuperstar/live/tr:lo-true/resources/live/2026/0508/c_f_who_is_she_belle.png",
-            "https://ik.imagekit.io/shiningsuperstar/live/tr:lo-true/resources/live/2026/0508/c_f_who_is_she_haneul.png"
+            "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/2026/0508/c_f_who_is_she_julie.png",
+            "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/2026/0508/c_f_who_is_she_natty.png",
+            "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/2026/0508/c_f_who_is_she_belle.png",
+            "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/2026/0508/c_f_who_is_she_haneul.png"
         ]
         }
 ]
