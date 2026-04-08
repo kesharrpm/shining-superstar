@@ -1,14 +1,5 @@
 [
-    {
-        "category": "UPDATE",
-        "date": "2026.04.06",
-        "title": "LOONA stuns in New Theme Update!",
-        "description": "Check out the new theme 'Why Not?' and the limited-time sale exclusively for LOONA! Don't miss out on exciting deals!",
-        "image": "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/images/mybg/loona/mybg_lobby_loona_premium.png",
-        "borderColor": "var(--primary-glow)"
-    },
-
-        {
+            {
         "category": "NEW THEME",
         "date": "2026.04.08",
         "title": "'Who is she?' KISS OF LIFE says.",
@@ -22,5 +13,13 @@
             "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/2026/0508/c_f_who_is_she_belle.png",
             "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/2026/0508/c_f_who_is_she_haneul.png"
         ]
-        }
+        },
+    {
+        "category": "UPDATE",
+        "date": "2026.04.06",
+        "title": "LOONA stuns in New Theme Update!",
+        "description": "Check out the new theme 'Why Not?' and the limited-time sale exclusively for LOONA! Don't miss out on exciting deals!",
+        "image": "https://ik.imagekit.io/shiningsuperstar/tr:lo-true/live/resources/live/images/mybg/loona/mybg_lobby_loona_premium.png",
+        "borderColor": "var(--primary-glow)"
+    }
 ]
