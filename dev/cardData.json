@@ -1,0 +1,295 @@
+{
+    "GIRLSET": {
+        "LITTLE_MISS2": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/girlset/theme_s_little_miss.png",
+            "emblem": "live/resources/live/images/card/girlset/emblem_girlset.png",
+            "cards": {
+                "Kendall": "live/resources/live/images/card/girlset/little_miss2/c_l_little_miss_kendall.png",
+                "Lexi": "live/resources/live/images/card/girlset/little_miss2/c_l_little_miss_lexi.png",
+                "Camila": "live/resources/live/images/card/girlset/little_miss2/c_l_little_miss_camila.png",
+                "Savanna": "live/resources/live/images/card/girlset/little_miss2/c_l_little_miss_savanna.png"
+            }
+        },
+        "SWEET2": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/girlset/theme_s_sweet.png",
+            "emblem": "live/resources/live/images/card/girlset/emblem_girlset.png",
+            "cards": {
+                "Kendall": "live/resources/live/images/card/girlset/sweet2/c_l_sweet_kendall.png",
+                "Camila": "live/resources/live/images/card/girlset/sweet2/c_l_sweet_camila.png",
+                "Savanna": "live/resources/live/images/card/girlset/sweet2/c_l_sweet_savanna.png",
+                "Lexi": "live/resources/live/images/card/girlset/sweet2/c_l_sweet_lexi.png"
+            }
+        }
+    },
+    "IVE": {
+        "XOXZ": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/ive/theme_s_xoxz.png",
+            "emblem": "live/resources/live/images/card/ive/emblem_ive.png",
+            "cards": {
+                "YUJIN": "live/resources/live/images/card/ive/xoxz/c_l_xoxz_anyujin.png",
+                "GAEUL": "live/resources/live/images/card/ive/xoxz/c_l_xoxz_gaeul.png",
+                "REI": "live/resources/live/images/card/ive/xoxz/c_l_xoxz_rei.png",
+                "WONYOUNG": "live/resources/live/images/card/ive/xoxz/c_l_xoxz_jangwonyoung.png",
+                "LIZ": "live/resources/live/images/card/ive/xoxz/c_l_xoxz_liz.png",
+                "LEESEO": "live/resources/live/images/card/ive/xoxz/c_l_xoxz_leeseo.png"
+            }
+        },
+        "REBEL_HEART": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/ive/theme_s_rebel_heart.png",
+            "emblem": "live/resources/live/images/card/ive/emblem_ive.png",
+            "cards": {
+                "YUJIN": "live/resources/live/images/card/ive/rebel_heart/c_l_rebel_heart_anyujin.png",
+                "GAEUL": "live/resources/live/images/card/ive/rebel_heart/c_l_rebel_heart_gaeul.png",
+                "REI": "live/resources/live/images/card/ive/rebel_heart/c_l_rebel_heart_rei.png",
+                "WONYOUNG": "live/resources/live/images/card/ive/rebel_heart/c_l_rebel_heart_jangwonyoung.png",
+                "LIZ": "live/resources/live/images/card/ive/rebel_heart/c_l_rebel_heart_liz.png",
+                "LEESEO": "live/resources/live/images/card/ive/rebel_heart/c_l_rebel_heart_leeseo.png"
+            }
+        },
+        "BANG_BANG": {
+            "type": 1,
+            "themeLogo": "",
+            "emblem": "live/resources/live/images/card/ive/emblem_ive.png",
+            "cards": {
+                "ANYUJIN": "live/resources/live/images/card/ive/bang_bang/c_l_bang_bang_anyujin.png",
+                "GAEUL": "live/resources/live/images/card/ive/bang_bang/c_l_bang_bang_gaeul.png",
+                "REI": "live/resources/live/images/card/ive/bang_bang/c_l_bang_bang_rei.png",
+                "JANGWONYOUNG": "live/resources/live/images/card/ive/bang_bang/c_l_bang_bang_jangwonyoung.png",
+                "LIZ": "live/resources/live/images/card/ive/bang_bang/c_l_bang_bang_liz.png",
+                "LEESEO": "live/resources/live/images/card/ive/bang_bang/c_l_bang_bang_leeseo.png"
+            }
+        }
+    },
+    "HEARTS2HEARTS": {
+        "RUDE": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/hearts2hearts/theme_s_rude.png",
+            "emblem": "live/resources/live/images/card/hearts2hearts/emblem_hearts2hearts.png",
+            "cards": {
+                "JIWOO": "live/resources/live/images/card/hearts2hearts/rude/c_l_rude_jiwoo.png",
+                "CARMEN": "live/resources/live/images/card/hearts2hearts/rude/c_l_rude_carmen.png",
+                "YUHA": "live/resources/live/images/card/hearts2hearts/rude/c_l_rude_yuha.png",
+                "STELLA": "live/resources/live/images/card/hearts2hearts/rude/c_l_rude_stella.png",
+                "JUUN": "live/resources/live/images/card/hearts2hearts/rude/c_l_rude_juun.png",
+                "A-NA": "live/resources/live/images/card/hearts2hearts/rude/c_l_rude_a-na.png",
+                "IAN": "live/resources/live/images/card/hearts2hearts/rude/c_l_rude_ian.png",
+                "YE-ON": "live/resources/live/images/card/hearts2hearts/rude/c_l_rude_ye-on.png"
+            }
+        },
+        "THE_CHASE": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/hearts2hearts/theme_s_the_chase.png",
+            "emblem": "live/resources/live/images/card/hearts2hearts/emblem_hearts2hearts.png",
+            "cards": {
+                "JIWOO": "live/resources/live/images/card/hearts2hearts/the_chase/c_l_the_chase_jiwoo.png",
+                "CARMEN": "live/resources/live/images/card/hearts2hearts/the_chase/c_l_the_chase_carmen.png",
+                "YUHA": "live/resources/live/images/card/hearts2hearts/the_chase/c_l_the_chase_yuha.png",
+                "STELLA": "live/resources/live/images/card/hearts2hearts/the_chase/c_l_the_chase_stella.png",
+                "JUUN": "live/resources/live/images/card/hearts2hearts/the_chase/c_l_the_chase_juun.png",
+                "A-NA": "live/resources/live/images/card/hearts2hearts/the_chase/c_l_the_chase_a-na.png",
+                "IAN": "live/resources/live/images/card/hearts2hearts/the_chase/c_l_the_chase_ian.png",
+                "YE-ON": "live/resources/live/images/card/hearts2hearts/the_chase/c_l_the_chase_ye-on.png"
+            }
+        }
+    },
+    "AESPA": {
+        "RICH_MAN": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/aespa/theme_s_rich_man.png",
+            "emblem": "live/resources/live/images/card/aespa/emblem_aespa.png",
+            "cards": {
+                "KARINA": "live/resources/live/images/card/aespa/rich_man/c_l_rich_man_karina.png",
+                "GISELLE": "live/resources/live/images/card/aespa/rich_man/c_l_rich_man_giselle.png",
+                "WINTER": "live/resources/live/images/card/aespa/rich_man/c_l_rich_man_winter.png",
+                "NINGNING": "live/resources/live/images/card/aespa/rich_man/c_l_rich_man_ningning.png"
+            }
+        },
+        "DIRTY_WORK": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/aespa/theme_s_dirty_work.png",
+            "emblem": "live/resources/live/images/card/aespa/emblem_aespa.png",
+            "cards": {
+                "KARINA": "live/resources/live/images/card/aespa/dirty_work/c_l_dirty_work_karina.png",
+                "GISELLE": "live/resources/live/images/card/aespa/dirty_work/c_l_dirty_work_giselle.png",
+                "WINTER": "live/resources/live/images/card/aespa/dirty_work/c_l_dirty_work_winter.png",
+                "NINGNING": "live/resources/live/images/card/aespa/dirty_work/c_l_dirty_work_ningning.png"
+            }
+        }
+    },
+    "ADDISON_RAE": {
+        "FAME_IS_A_GUN": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/addison_rae/theme_s_fame_is_a_gun.png",
+            "emblem": "live/resources/live/images/card/addison_rae/emblem_addison_rae.png",
+            "cards": {
+                "Addison Rae": "live/resources/live/images/card/addison_rae/fame_is_a_gun/c_l_fame_is_a_gun_r.png"
+            }
+        }
+    },
+    "STAYC": {
+        "BEBE": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/stayc/theme_s_bebe.png",
+            "emblem": "live/resources/live/images/card/stayc/emblem_stayc.png",
+            "cards": {
+                "SUMIN": "live/resources/live/images/card/stayc/bebe/c_l_bebe_sumin.png",
+                "SIEUN": "live/resources/live/images/card/stayc/bebe/c_l_bebe_sieun.png",
+                "ISA": "live/resources/live/images/card/stayc/bebe/c_l_bebe_isa.png",
+                "SEEUN": "live/resources/live/images/card/stayc/bebe/c_l_bebe_seeun.png",
+                "YOON": "live/resources/live/images/card/stayc/bebe/c_l_bebe_yoon.png",
+                "J": "live/resources/live/images/card/stayc/bebe/c_l_bebe_j.png"
+            }
+        }
+    },
+    "ILLIT": {
+        "CHERISH": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/illit/theme_s_cherish.png",
+            "emblem": "live/resources/live/images/card/illit/emblem_illit.png",
+            "cards": {
+                "MOKA": "live/resources/live/images/card/illit/cherish/c_l_moka.png",
+                "MINJU": "live/resources/live/images/card/illit/cherish/c_l_minju.png",
+                "YUNAH": "live/resources/live/images/card/illit/cherish/c_l_yunah.png",
+                "WONHEE": "live/resources/live/images/card/illit/cherish/c_l_wonhee.png",
+                "IROHA": "live/resources/live/images/card/illit/cherish/c_l_iroha.png"
+            }
+        },
+        "MAGNETIC": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/illit/theme_s_magnetic.png",
+            "emblem": "live/resources/live/images/card/illit/emblem_illit.png",
+            "cards": {
+                "MOKA": "live/resources/live/images/card/illit/magnetic/c_l_moka.png",
+                "MINJU": "live/resources/live/images/card/illit/magnetic/c_l_minju.png",
+                "YUNAH": "live/resources/live/images/card/illit/magnetic/c_l_yunah.png",
+                "WONHEE": "live/resources/live/images/card/illit/magnetic/c_l_wonhee.png",
+                "IROHA": "live/resources/live/images/card/illit/magnetic/c_l_iroha.png"
+            }
+        }
+    },
+    "LE_SSERAFIM": {
+        "EASY": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/le_sserafim/theme_s_easy.png",
+            "emblem": "live/resources/live/images/card/le_sserafim/emblem_le_sserafim.png",
+            "cards": {
+                "KIM CHAEWON": "live/resources/live/images/card/le_sserafim/easy/c_l_kimchaewon.png",
+                "SAKURA": "live/resources/live/images/card/le_sserafim/easy/c_l_sakura.png",
+                "HUH YUNJIN": "live/resources/live/images/card/le_sserafim/easy/c_l_huhyunjin.png",
+                "KAZUHA": "live/resources/live/images/card/le_sserafim/easy/c_l_kazuha.png",
+                "HONG EUNCHAE": "live/resources/live/images/card/le_sserafim/easy/c_l_hongeunchae.png"
+            }
+        },
+        "CRAZY": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/le_sserafim/theme_s_crazy.png",
+            "emblem": "live/resources/live/images/card/le_sserafim/emblem_le_sserafim.png",
+            "cards": {
+                "KIM CHAEWON": "live/resources/live/images/card/le_sserafim/crazy/c_l_kimchaewon.png",
+                "SAKURA": "live/resources/live/images/card/le_sserafim/crazy/c_l_sakura.png",
+                "HUH YUNJIN": "live/resources/live/images/card/le_sserafim/crazy/c_l_huhyunjin.png",
+                "KAZUHA": "live/resources/live/images/card/le_sserafim/crazy/c_l_kazuha.png",
+                "HONG EUNCHAE": "live/resources/live/images/card/le_sserafim/crazy/c_l_hongeunchae.png"
+            }
+        },
+        "HOT": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/le_sserafim/theme_s_hot.png",
+            "emblem": "live/resources/live/images/card/le_sserafim/emblem_le_sserafim.png",
+            "cards": {
+                "KIM CHAEWON": "live/resources/live/images/card/le_sserafim/hot/c_l_kimchaewon.png",
+                "SAKURA": "live/resources/live/images/card/le_sserafim/hot/c_l_sakura.png",
+                "HUH YUNJIN": "live/resources/live/images/card/le_sserafim/hot/c_l_huhyunjin.png",
+                "KAZUHA": "live/resources/live/images/card/le_sserafim/hot/c_l_kazuha.png",
+                "HONG EUNCHAE": "live/resources/live/images/card/le_sserafim/hot/c_l_hongeunchae.png"
+            }
+        }
+    },
+    "KEP1ER": {
+        "BUBBLE_GUM": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/kep1er/theme_s_bubble_gum.png",
+            "emblem": "live/resources/live/images/card/kep1er/emblem_kep1er.png",
+            "cards": {
+                "DAYEON": "live/resources/live/images/card/kep1er/bubble_gum/c_l_bubble_gum_dayeon.png",
+                "CHAEHYUN": "live/resources/live/images/card/kep1er/bubble_gum/c_l_bubble_gum_chaehyun.png",
+                "YUJIN": "live/resources/live/images/card/kep1er/bubble_gum/c_l_bubble_gum_yujin.png",
+                "BAHIYYIH": "live/resources/live/images/card/kep1er/bubble_gum/c_l_bubble_gum_hueningbahiyyih.png",
+                "XIAOTING": "live/resources/live/images/card/kep1er/bubble_gum/c_l_bubble_gum_xiaoting.png",
+                "HIKARU": "live/resources/live/images/card/kep1er/bubble_gum/c_l_bubble_gum_hikaru.png"
+            }
+        }
+    },
+    "STRAY_KIDS": {
+        "CEREMONY": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/stray_kids/theme_s_ceremony.png",
+            "emblem": "live/resources/live/images/card/stray_kids/emblem_stray_kids.png",
+            "cards": {
+                "BANG CHAN": "live/resources/live/images/card/stray_kids/ceremony/c_l_ceremony_bang_chan.png",
+                "HYUNJIN": "live/resources/live/images/card/stray_kids/ceremony/c_l_ceremony_hyunjin.png",
+                "FELIX": "live/resources/live/images/card/stray_kids/ceremony/c_l_ceremony_felix.png",
+                "SEUNGMIN": "live/resources/live/images/card/stray_kids/ceremony/c_l_ceremony_seungmin.png",
+                "LEE KNOW": "live/resources/live/images/card/stray_kids/ceremony/c_l_ceremony_lee_know.png",
+                "I.N": "live/resources/live/images/card/stray_kids/ceremony/c_l_ceremony_i.n.png",
+                "HAN": "live/resources/live/images/card/stray_kids/ceremony/c_l_ceremony_han.png",
+                "CHANGBIN": "live/resources/live/images/card/stray_kids/ceremony/c_l_ceremony_changbin.png"
+            }
+        }
+    },
+    "LOONA": {
+        "HI_HIGH": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/loona/theme_s_hi_high.png",
+            "emblem": "live/resources/live/images/card/loona/emblem_loona.png",
+            "cards": {
+                "HeeJin": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_heejin.png",
+                "HyunJin": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_hyunjin.png",
+                "HaSeul": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_haseul.png",
+                "YeoJin": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_yeojin.png",
+                "ViVi": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_vivi.png",
+                "Kim Lip": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_kim_lip.png",
+                "JinSoul": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_jinsoul.png",
+                "Choerry": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_choerry.png",
+                "Yves": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_yves.png",
+                "Go Won": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_go_won.png",
+                "Olivia Hye": "live/resources/live/images/card/loona/hi_high/c_l_hi_high_olivia_hye.png"
+            }
+        },
+        "PTT": {
+            "type": 0,
+            "themeLogo": "live/resources/live/images/card/loona/theme_s_ptt.png",
+            "emblem": "live/resources/live/images/card/loona/emblem_loona.png",
+            "cards": {
+                "HeeJin": "live/resources/live/images/card/loona/ptt/c_l_ptt_heejin.png",
+                "HyunJin": "live/resources/live/images/card/loona/ptt/c_l_ptt_hyunjin.png",
+                "HaSeul": "live/resources/live/images/card/loona/ptt/c_l_ptt_haseul.png",
+                "YeoJin": "live/resources/live/images/card/loona/ptt/c_l_ptt_yeojin.png",
+                "ViVi": "live/resources/live/images/card/loona/ptt/c_l_ptt_vivi.png",
+                "Kim Lip": "live/resources/live/images/card/loona/ptt/c_l_ptt_kim_lip.png",
+                "JinSoul": "live/resources/live/images/card/loona/ptt/c_l_ptt_jinsoul.png",
+                "Choerry": "live/resources/live/images/card/loona/ptt/c_l_ptt_choerry.png",
+                "Yves": "live/resources/live/images/card/loona/ptt/c_l_ptt_yves.png",
+                "Go Won": "live/resources/live/images/card/loona/ptt/c_l_ptt_go_won.png",
+                "Olivia Hye": "live/resources/live/images/card/loona/ptt/c_l_ptt_olivia_hye.png"
+            }
+        }
+    },
+    "KISS_OF_LIFE": {
+        "LIPS_HIPS_KISS": {
+            "type": 1,
+            "themeLogo": "",
+            "emblem": "live/resources/live/images/card/kiss_of_life/emblem_kiss_of_life.png",
+            "cards": {
+                "JULIE": "live/resources/live/images/card/kiss_of_life/lips_hips_kiss/c_l_lips_hips_kiss_julie.png",
+                "NATTY": "live/resources/live/images/card/kiss_of_life/lips_hips_kiss/c_l_lips_hips_kiss_natty.png",
+                "BELLE": "live/resources/live/images/card/kiss_of_life/lips_hips_kiss/c_l_lips_hips_kiss_belle.png",
+                "HANEUL": "live/resources/live/images/card/kiss_of_life/lips_hips_kiss/c_l_lips_hips_kiss_haneul.png"
+            }
+        }
+    }
+}
