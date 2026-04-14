@@ -1,0 +1,114 @@
+{ 
+  
+  "aespa": { "members": [ "KARINA", "GISELLE", "WINTER", "NINGNING" ],
+             "themes": [ "Rich Man", "Dirty Work" ],
+             "profiles": {
+             "FREE": [ "KRAE_01DW_R", "GSAE_01DW_R", "WTAE_01DW_R", "NNAE_01DW_R" ],
+             "BASIC": [ "KRAE_02RM_R", "GSAE_02RM_R", "WTAE_02RM_R", "NNAE_02RM_R" ],
+             "EVENT": [] }
+  },
+
+  "GIRLSET": { "members": [ "Lexi", "Camila", "Kendall", "Savanna" ],
+    "themes": [ "Little Miss", "SWEET" ],
+               "profiles": {
+             "FREE": [ "LXGS_01LM_R", "CMGS_01LM_R", "KDGS_01LM_R", "SVGS_01LM_R" ],
+             "BASIC": [ "LXGS_02SW_R", "CMGS_02SW_R", "KDGS_02SW_R", "SVGS_02SW_R" ],
+             "EVENT": [] }
+  },
+  
+   "Stray Kids": { "members": [ "BANG CHAN", "LEE KNOW", "CHANGBIN", "HYUNJIN", "HAN", "FELIX", "SEUNGMIN", "I.N" ],
+    "themes": [ "CEREMONY" ],
+                  "profiles": {
+             "FREE": [ "BCSK_01CM_R", "LKSK_01CM_R", "CBSK_01CM_R", "HJSK_01CM_R", "HNSK_01CM_R", "FLSK_01CM_R", "SMSK_01CM_R", "INSK_01CM_R" ],
+             "BASIC": [],
+             "EVENT": [] }
+  },
+  
+   "LOONA": { "members": [ "HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Go Won", "Olivia Hye" ],
+    "themes": [ "Hi High", "PTT" ],
+    "profiles": {
+             "FREE": [ "HJLN_01HH_R", "HYLN_01HH_R", "HSLN_01HH_R", "YJLN_01HH_R", "VVLN_01HH_R", "KLLN_01HH_R", "JSLN_01HH_R", "CHLN_01HH_R", "YVLN_01HH_R", "GWLN_01HH_R", "OHLN_01HH_R" ],
+             "BASIC": [ "HJLN_02PT_R", "HYLN_02PT_R", "HSLN_02PT_R", "YJLN_02PT_R", "VVLN_02PT_R", "KLLN_02PT_R", "JSLN_02PT_R", "CHLN_02PT_R", "YVLN_02PT_R", "GWLN_02PT_R", "OHLN_02PT_R" ],
+             "EVENT": [] }
+  },
+
+     "ILLIT": { "members": [ "YUNAH", "MINJU", "MOKA", "WONHEE", "IROHA" ],
+    "themes": [ "Magnetic", "Cherish" ],
+           "profiles": {
+             "FREE": [ "YNIL_01MG_R", "MJIL_01MG_R", "MKIL_01MG_R", "WHIL_01MG_R", "IRIL_01MG_R" ],
+             "BASIC": [ "YNIL_02CR_R", "MJIL_02CR_R", "MKIL_02CR_R", "WHIL_02CR_R", "IRIL_02CR_R" ],
+             "EVENT": [] }
+  },
+
+  "Hearts2Hearts": { "members": [ "JIWOO", "CARMEN", "YUHA", "STELLA", "JUUN", "A-NA", "IAN", "YE-ON" ],
+    "themes": [ "The Chase", "RUDE!" ],
+             "profiles": {
+             "FREE": [ "JWHH_01TC_R", "CMHH_01TC_R", "YHHH_01TC_R", "SLHH_01TC_R", "JUHH_01TC_R", "ANHH_01TC_R", "IAHH_01TC_R", "YOHH_01TC_R" ],
+             "BASIC": [ "JWHH_02RD_R", "CMHH_02RD_R", "YHHH_02RD_R", "SLHH_02RD_R", "JUHH_02RD_R", "ANHH_02RD_R", "IAHH_02RD_R", "YOHH_02RD_R" ],
+             "EVENT": [] }
+  },
+  
+  "LE SSERAFIM": {
+        "members": [ "KIM CHAEWON", "SAKURA", "HUH YUNJIN", "KAZUHA", "HONG EUNCHAE" ],
+        "themes": [ "EASY", "CRAZY", "HOT" ],
+        "profiles": {
+            "FREE": [ "KCLS_01ES_R", "SKLS_01ES_R", "HYLS_01ES_R", "KZLS_01ES_R", "HCLS_01ES_R" ],
+            "BASIC": [ "KCLS_02CZ_R", "SKLS_02CZ_R", "HYLS_02CZ_R", "KZLS_02CZ_R", "HCLS_02CZ_R" ],
+            "EVENT": [ "KCLS_03HT_R", "SKLS_03HT_R", "HYLS_03HT_R", "KZLS_03HT_R", "HCLS_03HT_R" ]
+        }
+    },
+
+  "IVE": {
+        "members": [ "ANYUJIN", "GAEUL", "REI", "JANGWONYOUNG", "LIZ", "LEESEO" ],
+        "themes": [ "REBEL HEART", "XOXZ" ],
+    "le_themes": ["BANG BANG"],
+        "profiles": {
+            "FREE": [ "AYIV_01RH_R", "GAIV_01RH_R", "REIV_01RH_R", "JWIV_01RH_R", "LIIV_01RH_R", "LSIV_01RH_R" ],
+            "BASIC": [ "AYIV_02XO_R", "GAIV_02XO_R", "REIV_02XO_R", "JWIV_02XO_R", "LIIV_02XO_R", "LSIV_02XO_R" ],
+            "EVENT": [ "AYIV_03BB_R", "GAIV_03BB_R", "REIV_03BB_R", "JWIV_03BB_R", "LIIV_03BB_R", "LSIV_03BB_R" ]
+        }
+    },
+
+    "KISS OF LIFE": {
+        "members": [ "JULIE", "NATTY", "BELLE", "HANEUL" ],
+      "themes": [],
+        "le_themes": [ "Lips Hips Kiss" ],
+        "profiles": {
+            "FREE": [],
+            "BASIC": [],
+            "EVENT": [ "JLKO_01LH_R", "NTKO_01LH_R", "BLKO_01LH_R", "HNKO_01LH_R" ]
+        },
+
+          "ITZY": {
+        "members": [ "YEJI", "LIA", "RYUJIN", "CHAERYEONG", "YUNA" ],
+      "themes": [ "TUNNEL VISION", "Girls Will Be Girls" ],
+        "le_themes": [],
+        "profiles": {
+            "FREE": [ "YJIT_01TV_R", "LIIT_01TV_R", "RJIT_01TV_R", "CYIT_01TV_R", "YNIT_01TV_R" ],
+            "BASIC": [ "YJIT_02GW_R", "LIIT_02GW_R", "RJIT_02GW_R", "CYIT_02GW_R", "YNIT_02GW_R" ],
+            "EVENT": []
+        }
+    },
+
+                "i-dle": {
+        "members": [ "MIYEON", "MINNIE", "SOYEON", "YUQI", "SHUHUA" ],
+      "themes": [ "Mono" ],
+        "le_themes": [],
+        "profiles": {
+            "FREE": [ "MYID_01MN_R", "MNID_01MN_R", "SYID_01MN_R", "YQID_01MN_R", "SHID_01MN_R" ],
+            "BASIC": [],
+            "EVENT": []
+        }
+    },
+                "EVERGLOW": {
+        "members": [ "E.U", "SIHYEON", "ONDA", "MIA", "AISHA", "YIREN" ],
+      "themes": [ "LA DI DA" ],
+        "le_themes": [],
+        "profiles": {
+            "FREE": [ "EUEG_01LD_R", "SHEG_01LD_R", "ODEG_01LD_R", "MIEG_01LD_R", "ASEG_01LD_R", "YREG_01LD_R" ],
+            "BASIC": [],
+            "EVENT": []
+        }
+    }
+
+}
