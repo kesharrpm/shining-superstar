@@ -1,32 +1,65 @@
-{
-   "H2H_01":[
-      {
-         "name":"`Starter` **Hearts2Hearts** BG Image",
-         "img":"https://res.cloudinary.com/shining-superstar/mybg_lobby_rude.png"
-      }
-   ],
-     "H2H_02":[
-      {
-         "name":"`Common` **Hearts2Hearts 'The Chase'** BG Image",
-         "img":"https://res.cloudinary.com/shining-superstar/mybg_lobby_the_chase.png"
-      }
-   ],
-       "AES_01":[
-      {
-         "name":"`Starter` **aespa** BG Image",
-         "img":"https://res.cloudinary.com/shining-superstar/mybg_lobby_rich_man.png"
-      }
-   ],
-         "AES_02":[
-      {
-         "name":"`Common` **aespa 'Dirty Work'** BG Image",
-         "img":"https://res.cloudinary.com/shining-superstar/mybg_lobby_dirty_work.png"
-      }
-   ],
-           "AES_02":[
-      {
-         "name":"`Legendary` **aespa 'SHINING SUPERSTAR'** BG Image",
-         "img":"https://res.cloudinary.com/shining-superstar/mybg_lobby_dirty_work2.png"
-      }
-   ]
-}
+[
+  {
+    "id": "H2H_01",
+    "group": "Hearts2Hearts",
+    "type": "BASIC",
+    "name": "Hearts2Hearts",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_rude.png",
+    "cost": 0,
+    "currency": "free"
+  },
+  {
+    "id": "H2H_02",
+    "group": "Hearts2Hearts",
+    "type": "PREMIUM",
+    "name": "Hearts2Hearts 'The Chase'",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_the_chase.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+  {
+    "id": "AES_01",
+    "group": "aespa",
+    "type": "BASIC",
+    "name": "aespa",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_rich_man.png",
+    "cost": 0,
+    "currency": "free"
+  },
+  {
+    "id": "AES_02",
+    "group": "aespa",
+    "type": "PREMIUM",
+    "name": "aespa 'Dirty Work'",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_dirty_work.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+  {
+    "id": "AES_03",
+    "group": "aespa",
+    "type": "EVENT",
+    "name": "aespa 'SHINING SUPERSTAR'",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_dirty_work2.png",
+    "cost": 500,
+    "currency": "diamond"
+  },
+    {
+    "id": "LON_01",
+    "group": "LOOΠΔ",
+    "type": "BASIC",
+    "name": "LOOΠΔ",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_loona.png",
+    "cost": 0,
+    "currency": "free"
+  },
+    {
+    "id": "LON_02",
+    "group": "LOOΠΔ",
+    "type": "PREMIUM",
+    "name": "LOOΠΔ 'Why Not?'",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_loona_premium.png",
+    "cost": 50000,
+    "currency": "rp"
+  }
+]
