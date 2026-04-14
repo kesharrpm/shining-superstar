@@ -77,7 +77,8 @@
             "FREE": [],
             "BASIC": [],
             "EVENT": [ "JLKO_01LH_R", "NTKO_01LH_R", "BLKO_01LH_R", "HNKO_01LH_R" ]
-        },
+        }
+    },
 
           "ITZY": {
         "members": [ "YEJI", "LIA", "RYUJIN", "CHAERYEONG", "YUNA" ],
