@@ -1,0 +1,14 @@
+[
+  {
+    "img": "https://res.cloudinary.com/shining-superstar/image/upload/v1776273606/newtheme_oishi.png",
+    "action": "openShopModal()"
+  },
+  {
+    "img": "https://res.cloudinary.com/shining-superstar/image/upload/v1776273606/newevent_oishi.png",
+    "action": "openShopModal()"
+  },
+  {
+    "img": "https://res.cloudinary.com/shining-superstar/image/upload/v1776273606/newevent_oishi.png",
+    "action": "openEventDiv('loona-special-event')"
+  }
+]
