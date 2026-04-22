@@ -110,6 +110,28 @@
             "BASIC": [],
             "EVENT": []
         }
+    },
+
+                  "UNIS": {
+        "members": ["HYEONJU", "GEHLEE", "NANA", "YOONA", "YUNHA", "ELISIA", "KOTOKO", "SEOWON"],
+      "themes": [ "SWICY" ],
+        "le_themes": [],
+        "profiles": {
+            "FREE": [ "HJUN_01SC_R", "GLUN_01SC_R", "NNUN_01SC_R", "YNUN_01SC_R", "YHUN_01SC_R", "ELUN_01SC_R", "KTUN_01SC_R", "SWUN_01SC_R" ],
+            "BASIC": [],
+            "EVENT": []
+        }
+    },
+
+                    "UNCHILD": {
+        "members": [ "YEEUN", "AKO", "HEEKIE", "HAEUN", "EVON", "TINA" ] ,
+      "themes": [ "UNCHILD" ],
+        "le_themes": [],
+        "profiles": {
+            "FREE": [ "YUUC_01UC_R", "AKUC_01UC_R", "HKUC_01UC_R", "HEUC_01UC_R", "EVUC_01UC_R", "TNUC_01UC_R" ],
+            "BASIC": [],
+            "EVENT": []
+        }
     }
 
 }
