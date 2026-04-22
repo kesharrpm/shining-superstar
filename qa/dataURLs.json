@@ -7384,6 +7384,1653 @@
          "max": 500,
          "card": 770
       }
+   ],
+   "YUUC_01UC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNCHILD : YEEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2500,
+         "max": 5000,
+         "card": 771
+      }
+   ],
+   "YUUC_01UC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNCHILD : YEEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 772
+      }
+   ],
+   "YUUC_01UC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNCHILD : YEEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 773
+      }
+   ],
+   "YUUC_01UC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNCHILD : YEEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 1000,
+         "max": 1500,
+         "card": 774
+      }
+   ],
+   "YUUC_01UC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNCHILD : YEEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 0,
+         "max": 500,
+         "card": 775
+      }
+   ],
+   "AKUC_01UC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNCHILD : AKO** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2500,
+         "max": 5000,
+         "card": 776
+      }
+   ],
+   "AKUC_01UC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNCHILD : AKO** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 777
+      }
+   ],
+   "AKUC_01UC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNCHILD : AKO** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 778
+      }
+   ],
+   "AKUC_01UC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNCHILD : AKO** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 1000,
+         "max": 1500,
+         "card": 779
+      }
+   ],
+   "AKUC_01UC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNCHILD : AKO** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 0,
+         "max": 500,
+         "card": 780
+      }
+   ],
+   "HKUC_01UC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNCHILD : HEEKIE** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2500,
+         "max": 5000,
+         "card": 781
+      }
+   ],
+   "HKUC_01UC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNCHILD : HEEKIE** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 782
+      }
+   ],
+   "HKUC_01UC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNCHILD : HEEKIE** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 783
+      }
+   ],
+   "HKUC_01UC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNCHILD : HEEKIE** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 1000,
+         "max": 1500,
+         "card": 784
+      }
+   ],
+   "HKUC_01UC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNCHILD : HEEKIE** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 0,
+         "max": 500,
+         "card": 785
+      }
+   ],
+   "HEUC_01UC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNCHILD : HAEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2500,
+         "max": 5000,
+         "card": 786
+      }
+   ],
+   "HEUC_01UC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNCHILD : HAEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 787
+      }
+   ],
+   "HEUC_01UC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNCHILD : HAEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 788
+      }
+   ],
+   "HEUC_01UC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNCHILD : HAEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 1000,
+         "max": 1500,
+         "card": 789
+      }
+   ],
+   "HEUC_01UC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNCHILD : HAEUN** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 0,
+         "max": 500,
+         "card": 790
+      }
+   ],
+   "EVUC_01UC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNCHILD : EVON** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2500,
+         "max": 5000,
+         "card": 791
+      }
+   ],
+   "EVUC_01UC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNCHILD : EVON** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 792
+      }
+   ],
+   "EVUC_01UC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNCHILD : EVON** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 793
+      }
+   ],
+   "EVUC_01UC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNCHILD : EVON** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 1000,
+         "max": 1500,
+         "card": 794
+      }
+   ],
+   "EVUC_01UC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNCHILD : EVON** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 0,
+         "max": 500,
+         "card": 795
+      }
+   ],
+   "TNUC_01UC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNCHILD : TINA** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2500,
+         "max": 5000,
+         "card": 796
+      }
+   ],
+   "TNUC_01UC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNCHILD : TINA** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 797
+      }
+   ],
+   "TNUC_01UC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNCHILD : TINA** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 2000,
+         "max": 3000,
+         "card": 798
+      }
+   ],
+   "TNUC_01UC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNCHILD : TINA** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 1000,
+         "max": 1500,
+         "card": 799
+      }
+   ],
+   "TNUC_01UC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNCHILD : TINA** UNCHILD",
+         "artist": "UNCHILD",
+         "min": 0,
+         "max": 500,
+         "card": 800
+      }
+   ],
+
+   "HJUN_01SC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNIS : HYEONJU** SWICY",
+         "artist": "UNIS",
+         "min": 2500,
+         "max": 5000,
+         "card": 801
+      }
+   ],
+   "HJUN_01SC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNIS : HYEONJU** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 802
+      }
+   ],
+   "HJUN_01SC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNIS : HYEONJU** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 803
+      }
+   ],
+   "HJUN_01SC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNIS : HYEONJU** SWICY",
+         "artist": "UNIS",
+         "min": 1000,
+         "max": 1500,
+         "card": 804
+      }
+   ],
+   "HJUN_01SC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNIS : HYEONJU** SWICY",
+         "artist": "UNIS",
+         "min": 0,
+         "max": 500,
+         "card": 805
+      }
+   ],
+   "GLUN_01SC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNIS : GEHLEE** SWICY",
+         "artist": "UNIS",
+         "min": 2500,
+         "max": 5000,
+         "card": 806
+      }
+   ],
+   "GLUN_01SC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNIS : GEHLEE** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 807
+      }
+   ],
+   "GLUN_01SC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNIS : GEHLEE** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 808
+      }
+   ],
+   "GLUN_01SC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNIS : GEHLEE** SWICY",
+         "artist": "UNIS",
+         "min": 1000,
+         "max": 1500,
+         "card": 809
+      }
+   ],
+   "GLUN_01SC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNIS : GEHLEE** SWICY",
+         "artist": "UNIS",
+         "min": 0,
+         "max": 500,
+         "card": 810
+      }
+   ],
+   "NNUN_01SC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNIS : NANA** SWICY",
+         "artist": "UNIS",
+         "min": 2500,
+         "max": 5000,
+         "card": 811
+      }
+   ],
+   "NNUN_01SC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNIS : NANA** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 812
+      }
+   ],
+   "NNUN_01SC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNIS : NANA** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 813
+      }
+   ],
+   "NNUN_01SC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNIS : NANA** SWICY",
+         "artist": "UNIS",
+         "min": 1000,
+         "max": 1500,
+         "card": 814
+      }
+   ],
+   "NNUN_01SC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNIS : NANA** SWICY",
+         "artist": "UNIS",
+         "min": 0,
+         "max": 500,
+         "card": 815
+      }
+   ],
+   "YNUN_01SC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNIS : YOONA** SWICY",
+         "artist": "UNIS",
+         "min": 2500,
+         "max": 5000,
+         "card": 816
+      }
+   ],
+   "YNUN_01SC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNIS : YOONA** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 817
+      }
+   ],
+   "YNUN_01SC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNIS : YOONA** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 818
+      }
+   ],
+   "YNUN_01SC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNIS : YOONA** SWICY",
+         "artist": "UNIS",
+         "min": 1000,
+         "max": 1500,
+         "card": 819
+      }
+   ],
+   "YNUN_01SC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNIS : YOONA** SWICY",
+         "artist": "UNIS",
+         "min": 0,
+         "max": 500,
+         "card": 820
+      }
+   ],
+   "YHUN_01SC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNIS : YUNHA** SWICY",
+         "artist": "UNIS",
+         "min": 2500,
+         "max": 5000,
+         "card": 821
+      }
+   ],
+   "YHUN_01SC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNIS : YUNHA** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 822
+      }
+   ],
+   "YHUN_01SC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNIS : YUNHA** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 823
+      }
+   ],
+   "YHUN_01SC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNIS : YUNHA** SWICY",
+         "artist": "UNIS",
+         "min": 1000,
+         "max": 1500,
+         "card": 824
+      }
+   ],
+   "YHUN_01SC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNIS : YUNHA** SWICY",
+         "artist": "UNIS",
+         "min": 0,
+         "max": 500,
+         "card": 825
+      }
+   ],
+   "ELUN_01SC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNIS : ELISIA** SWICY",
+         "artist": "UNIS",
+         "min": 2500,
+         "max": 5000,
+         "card": 826
+      }
+   ],
+   "ELUN_01SC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNIS : ELISIA** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 827
+      }
+   ],
+   "ELUN_01SC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNIS : ELISIA** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 828
+      }
+   ],
+   "ELUN_01SC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNIS : ELISIA** SWICY",
+         "artist": "UNIS",
+         "min": 1000,
+         "max": 1500,
+         "card": 829
+      }
+   ],
+   "ELUN_01SC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNIS : ELISIA** SWICY",
+         "artist": "UNIS",
+         "min": 0,
+         "max": 500,
+         "card": 830
+      }
+   ],
+   "KTUN_01SC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNIS : KOTOKO** SWICY",
+         "artist": "UNIS",
+         "min": 2500,
+         "max": 5000,
+         "card": 831
+      }
+   ],
+   "KTUN_01SC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNIS : KOTOKO** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 832
+      }
+   ],
+   "KTUN_01SC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNIS : KOTOKO** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 833
+      }
+   ],
+   "KTUN_01SC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNIS : KOTOKO** SWICY",
+         "artist": "UNIS",
+         "min": 1000,
+         "max": 1500,
+         "card": 834
+      }
+   ],
+   "KTUN_01SC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNIS : KOTOKO** SWICY",
+         "artist": "UNIS",
+         "min": 0,
+         "max": 500,
+         "card": 835
+      }
+   ],
+   "SWUN_01SC_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **UNIS : SEOWON** SWICY",
+         "artist": "UNIS",
+         "min": 2500,
+         "max": 5000,
+         "card": 836
+      }
+   ],
+   "SWUN_01SC_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **UNIS : SEOWON** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 837
+      }
+   ],
+   "SWUN_01SC_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **UNIS : SEOWON** SWICY",
+         "artist": "UNIS",
+         "min": 2000,
+         "max": 3000,
+         "card": 838
+      }
+   ],
+   "SWUN_01SC_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **UNIS : SEOWON** SWICY",
+         "artist": "UNIS",
+         "min": 1000,
+         "max": 1500,
+         "card": 839
+      }
+   ],
+   "SWUN_01SC_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **UNIS : SEOWON** SWICY",
+         "artist": "UNIS",
+         "min": 0,
+         "max": 500,
+         "card": 840
+      }
+   ],
+   "RYLS_01MW_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LNGSHOT : RYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2500,
+         "max": 5000,
+         "card": 841
+      }
+   ],
+   "RYLS_01MW_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LNGSHOT : RYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2000,
+         "max": 3000,
+         "card": 842
+      }
+   ],
+   "RYLS_01MW_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LNGSHOT : RYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2000,
+         "max": 3000,
+         "card": 843
+      }
+   ],
+   "RYLS_01MW_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LNGSHOT : RYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 1000,
+         "max": 1500,
+         "card": 844
+      }
+   ],
+   "RYLS_01MW_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LNGSHOT : RYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 0,
+         "max": 500,
+         "card": 845
+      }
+   ],
+   "LOLS_01MW_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LNGSHOT : LOUIS** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2500,
+         "max": 5000,
+         "card": 846
+      }
+   ],
+   "LOLS_01MW_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LNGSHOT : LOUIS** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2000,
+         "max": 3000,
+         "card": 847
+      }
+   ],
+   "LOLS_01MW_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LNGSHOT : LOUIS** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2000,
+         "max": 3000,
+         "card": 848
+      }
+   ],
+   "LOLS_01MW_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LNGSHOT : LOUIS** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 1000,
+         "max": 1500,
+         "card": 849
+      }
+   ],
+   "LOLS_01MW_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LNGSHOT : LOUIS** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 0,
+         "max": 500,
+         "card": 850
+      }
+   ],
+   "OYLS_01MW_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LNGSHOT : OHYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2500,
+         "max": 5000,
+         "card": 851
+      }
+   ],
+   "OYLS_01MW_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LNGSHOT : OHYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2000,
+         "max": 3000,
+         "card": 852
+      }
+   ],
+   "OYLS_01MW_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LNGSHOT : OHYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2000,
+         "max": 3000,
+         "card": 853
+      }
+   ],
+   "OYLS_01MW_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LNGSHOT : OHYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 1000,
+         "max": 1500,
+         "card": 854
+      }
+   ],
+   "OYLS_01MW_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LNGSHOT : OHYUL** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 0,
+         "max": 500,
+         "card": 855
+      }
+   ],
+   "WJLS_01MW_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LNGSHOT : WOOJIN** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2500,
+         "max": 5000,
+         "card": 856
+      }
+   ],
+   "WJLS_01MW_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LNGSHOT : WOOJIN** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2000,
+         "max": 3000,
+         "card": 857
+      }
+   ],
+   "WJLS_01MW_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LNGSHOT : WOOJIN** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 2000,
+         "max": 3000,
+         "card": 858
+      }
+   ],
+   "WJLS_01MW_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LNGSHOT : WOOJIN** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 1000,
+         "max": 1500,
+         "card": 859
+      }
+   ],
+   "WJLS_01MW_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LNGSHOT : WOOJIN** Moonwalkin'",
+         "artist": "LNGSHOT",
+         "min": 0,
+         "max": 500,
+         "card": 860
+      }
+   ],
+
+   "JRXG_01WU_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **XG : JURIN** WOKE UP",
+         "artist": "XG",
+         "min": 2500,
+         "max": 5000,
+         "card": 861
+      },
+      {
+         "name": "<:grade_R:1365330012240216217> **XG : JURIA** WOKE UP",
+         "artist": "XG",
+         "min": 2500,
+         "max": 5000,
+         "card": 876
+      }
+   ],
+   "JRXG_01WU_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **XG : JURIN** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 862
+      },
+      {
+         "name": "<:grade_S:1365330009333436477> **XG : JURIA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 877
+      }
+   ],
+   "JRXG_01WU_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **XG : JURIN** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 863
+      },
+      {
+         "name": "<:grade_A:1365330006640824421> **XG : JURIA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 878
+      }
+   ],
+   "JRXG_01WU_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **XG : JURIN** WOKE UP",
+         "artist": "XG",
+         "min": 1000,
+         "max": 1500,
+         "card": 864
+      },
+      {
+         "name": "<:grade_B:1365330003994214480> **XG : JURIA** WOKE UP",
+         "artist": "XG",
+         "min": 1000,
+         "max": 1500,
+         "card": 879
+      }
+   ],
+   "JRXG_01WU_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **XG : JURIN** WOKE UP",
+         "artist": "XG",
+         "min": 0,
+         "max": 500,
+         "card": 865
+      },
+      {
+         "name": "<:grade_C:1365330001045753886> **XG : JURIA** WOKE UP",
+         "artist": "XG",
+         "min": 0,
+         "max": 500,
+         "card": 880
+      }
+   ],
+   "CSXG_01WU_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **XG : CHISA** WOKE UP",
+         "artist": "XG",
+         "min": 2500,
+         "max": 5000,
+         "card": 866
+      }
+   ],
+   "CSXG_01WU_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **XG : CHISA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 867
+      }
+   ],
+   "CSXG_01WU_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **XG : CHISA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 868
+      }
+   ],
+   "CSXG_01WU_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **XG : CHISA** WOKE UP",
+         "artist": "XG",
+         "min": 1000,
+         "max": 1500,
+         "card": 869
+      }
+   ],
+   "CSXG_01WU_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **XG : CHISA** WOKE UP",
+         "artist": "XG",
+         "min": 0,
+         "max": 500,
+         "card": 870
+      }
+   ],
+   "HNXG_01WU_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **XG : HINATA** WOKE UP",
+         "artist": "XG",
+         "min": 2500,
+         "max": 5000,
+         "card": 871
+      }
+   ],
+   "HNXG_01WU_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **XG : HINATA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 872
+      }
+   ],
+   "HNXG_01WU_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **XG : HINATA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 873
+      }
+   ],
+   "HNXG_01WU_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **XG : HINATA** WOKE UP",
+         "artist": "XG",
+         "min": 1000,
+         "max": 1500,
+         "card": 874
+      }
+   ],
+   "HNXG_01WU_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **XG : HINATA** WOKE UP",
+         "artist": "XG",
+         "min": 0,
+         "max": 500,
+         "card": 875
+      }
+   ],
+   "CCXG_01WU_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **XG : COCONA** WOKE UP",
+         "artist": "XG",
+         "min": 2500,
+         "max": 5000,
+         "card": 881
+      }
+   ],
+   "CCXG_01WU_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **XG : COCONA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 882
+      }
+   ],
+   "CCXG_01WU_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **XG : COCONA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 883
+      }
+   ],
+   "CCXG_01WU_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **XG : COCONA** WOKE UP",
+         "artist": "XG",
+         "min": 1000,
+         "max": 1500,
+         "card": 884
+      }
+   ],
+   "CCXG_01WU_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **XG : COCONA** WOKE UP",
+         "artist": "XG",
+         "min": 0,
+         "max": 500,
+         "card": 885
+      }
+   ],
+   "MYXG_01WU_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **XG : MAYA** WOKE UP",
+         "artist": "XG",
+         "min": 2500,
+         "max": 5000,
+         "card": 886
+      }
+   ],
+   "MYXG_01WU_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **XG : MAYA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 887
+      }
+   ],
+   "MYXG_01WU_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **XG : MAYA** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 888
+      }
+   ],
+   "MYXG_01WU_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **XG : MAYA** WOKE UP",
+         "artist": "XG",
+         "min": 1000,
+         "max": 1500,
+         "card": 889
+      }
+   ],
+   "MYXG_01WU_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **XG : MAYA** WOKE UP",
+         "artist": "XG",
+         "min": 0,
+         "max": 500,
+         "card": 890
+      }
+   ],
+   "HVXG_01WU_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **XG : HARVEY** WOKE UP",
+         "artist": "XG",
+         "min": 2500,
+         "max": 5000,
+         "card": 891
+      }
+   ],
+   "HVXG_01WU_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **XG : HARVEY** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 892
+      }
+   ],
+   "HVXG_01WU_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **XG : HARVEY** WOKE UP",
+         "artist": "XG",
+         "min": 2000,
+         "max": 3000,
+         "card": 893
+      }
+   ],
+   "HVXG_01WU_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **XG : HARVEY** WOKE UP",
+         "artist": "XG",
+         "min": 1000,
+         "max": 1500,
+         "card": 894
+      }
+   ],
+   "HVXG_01WU_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **XG : HARVEY** WOKE UP",
+         "artist": "XG",
+         "min": 0,
+         "max": 500,
+         "card": 895
+      }
+   ],
+   "HJLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HeeJin** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 896
+      }
+   ],
+   "HJLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HeeJin** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 897
+      }
+   ],
+   "HJLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HeeJin** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 898
+      }
+   ],
+   "HJLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HeeJin** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 899
+      }
+   ],
+   "HJLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HeeJin** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 900
+      }
+   ],
+   "HYLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HyunJin** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 901
+      }
+   ],
+   "HYLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HyunJin** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 902
+      }
+   ],
+   "HYLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HyunJin** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 903
+      }
+   ],
+   "HYLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HyunJin** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 904
+      }
+   ],
+   "HYLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HyunJin** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 905
+      }
+   ],
+   "HSLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : HaSeul** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 906
+      }
+   ],
+   "HSLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : HaSeul** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 907
+      }
+   ],
+   "HSLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : HaSeul** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 908
+      }
+   ],
+   "HSLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : HaSeul** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 909
+      }
+   ],
+   "HSLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : HaSeul** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 910
+      }
+   ],
+   "YJLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : YeoJin** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 911
+      }
+   ],
+   "YJLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : YeoJin** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 912
+      }
+   ],
+   "YJLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : YeoJin** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 913
+      }
+   ],
+   "YJLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : YeoJin** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 914
+      }
+   ],
+   "YJLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : YeoJin** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 915
+      }
+   ],
+   "VVLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : ViVi** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 916
+      }
+   ],
+   "VVLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : ViVi** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 917
+      }
+   ],
+   "VVLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : ViVi** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 918
+      }
+   ],
+   "VVLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : ViVi** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 919
+      }
+   ],
+   "VVLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : ViVi** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 920
+      }
+   ],
+   "KLLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Kim Lip** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 921
+      }
+   ],
+   "KLLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Kim Lip** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 922
+      }
+   ],
+   "KLLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Kim Lip** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 923
+      }
+   ],
+   "KLLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Kim Lip** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 924
+      }
+   ],
+   "KLLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Kim Lip** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 925
+      }
+   ],
+   "JSLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : JinSoul** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 926
+      }
+   ],
+   "JSLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : JinSoul** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 927
+      }
+   ],
+   "JSLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : JinSoul** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 928
+      }
+   ],
+   "JSLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : JinSoul** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 929
+      }
+   ],
+   "JSLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : JinSoul** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 930
+      }
+   ],
+   "CHLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Choerry** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 931
+      },
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Chuu** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 941
+      }
+   ],
+   "CHLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Choerry** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 932
+      },
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Chuu** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 942
+      }
+   ],
+   "CHLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Choerry** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 933
+      },
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Chuu** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 943
+      }
+   ],
+   "CHLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Choerry** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 934
+      },
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Chuu** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 944
+      }
+   ],
+   "CHLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Choerry** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 935
+      },
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Chuu** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 945
+      }
+   ],
+   "YVLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Yves** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 936
+      }
+   ],
+   "YVLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Yves** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 937
+      }
+   ],
+   "YVLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Yves** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 938
+      }
+   ],
+   "YVLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Yves** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 939
+      }
+   ],
+   "YVLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Yves** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 940
+      }
+   ],
+   "GWLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Go Won** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 946
+      }
+   ],
+   "GWLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Go Won** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 947
+      }
+   ],
+   "GWLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Go Won** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 948
+      }
+   ],
+   "GWLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Go Won** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 949
+      }
+   ],
+   "GWLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Go Won** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 950
+      }
+   ],
+   "OHLO_03WN_R": [
+      {
+         "name": "<:grade_R:1365330012240216217> **LOONA : Olivia Hye** Why Not",
+         "artist": "LOONA",
+         "min": 2500,
+         "max": 5000,
+         "card": 951
+      }
+   ],
+   "OHLO_03WN_S": [
+      {
+         "name": "<:grade_S:1365330009333436477> **LOONA : Olivia Hye** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 952
+      }
+   ],
+   "OHLO_03WN_A": [
+      {
+         "name": "<:grade_A:1365330006640824421> **LOONA : Olivia Hye** Why Not",
+         "artist": "LOONA",
+         "min": 2000,
+         "max": 3000,
+         "card": 953
+      }
+   ],
+   "OHLO_03WN_B": [
+      {
+         "name": "<:grade_B:1365330003994214480> **LOONA : Olivia Hye** Why Not",
+         "artist": "LOONA",
+         "min": 1000,
+         "max": 1500,
+         "card": 954
+      }
+   ],
+   "OHLO_03WN_C": [
+      {
+         "name": "<:grade_C:1365330001045753886> **LOONA : Olivia Hye** Why Not",
+         "artist": "LOONA",
+         "min": 0,
+         "max": 500,
+         "card": 955
+      }
    ]
 
   
