@@ -3,84 +3,123 @@
     "members": ["KARINA", "GISELLE", "WINTER", "NINGNING"],
     "themes": ["Rich Man", "Dirty Work"],
     "le_themes": [],
-    "availability": { "Dirty Work": "FREE", "Rich Man": "BASIC" }
+    "availability": {
+      "Dirty Work": { "type": "FREE", "in_pool": true },
+      "Rich Man": { "type": "BASIC", "in_pool": true }
+    }
   },
   "GIRLSET": {
     "members": ["Lexi", "Camila", "Kendall", "Savanna"],
     "themes": ["Little Miss", "SWEET"],
     "le_themes": [],
-    "availability": { "Little Miss": "FREE", "SWEET": "BASIC" }
+    "availability": {
+      "Little Miss": { "type": "FREE", "in_pool": true },
+      "SWEET": { "type": "BASIC", "in_pool": true }
+    }
   },
   "Stray Kids": {
     "members": ["BANG CHAN", "LEE KNOW", "CHANGBIN", "HYUNJIN", "HAN", "FELIX", "SEUNGMIN", "I.N"],
     "themes": ["CEREMONY"],
     "le_themes": [],
-    "availability": { "CEREMONY": "FREE" }
+    "availability": {
+      "CEREMONY": { "type": "FREE", "in_pool": true }
+    }
   },
   "LOONA": {
     "members": ["HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Go Won", "Olivia Hye"],
     "themes": ["Hi High", "PTT", "Why Not"],
     "le_themes": [],
-    "availability": { "Hi High": "FREE", "PTT": "BASIC", "Why Not": "EVENT" }
+    "availability": {
+      "Hi High": { "type": "FREE", "in_pool": true },
+      "PTT": { "type": "BASIC", "in_pool": true },
+      "Why Not": { "type": "EVENT", "in_pool": true }
+    }
   },
   "ILLIT": {
     "members": ["YUNAH", "MINJU", "MOKA", "WONHEE", "IROHA"],
     "themes": ["Magnetic", "Cherish"],
     "le_themes": [],
-    "availability": { "Magnetic": "FREE", "Cherish": "BASIC" }
+    "availability": {
+      "Magnetic": { "type": "FREE", "in_pool": true },
+      "Cherish": { "type": "BASIC", "in_pool": true }
+    }
   },
   "Hearts2Hearts": {
     "members": ["JIWOO", "CARMEN", "YUHA", "STELLA", "JUUN", "A-NA", "IAN", "YE-ON"],
     "themes": ["The Chase", "RUDE!"],
     "le_themes": [],
-    "availability": { "The Chase": "FREE", "RUDE!": "BASIC" }
+    "availability": {
+      "The Chase": { "type": "FREE", "in_pool": true },
+      "RUDE!": { "type": "BASIC", "in_pool": true }
+    }
   },
   "LE SSERAFIM": {
     "members": ["KIM CHAEWON", "SAKURA", "HUH YUNJIN", "KAZUHA", "HONG EUNCHAE"],
     "themes": ["EASY", "CRAZY", "HOT"],
     "le_themes": [],
-    "availability": { "EASY": "FREE", "CRAZY": "BASIC", "HOT": "EVENT" }
+    "availability": {
+      "EASY": { "type": "FREE", "in_pool": true },
+      "CRAZY": { "type": "BASIC", "in_pool": true },
+      "HOT": { "type": "EVENT", "in_pool": true }
+    }
   },
   "IVE": {
     "members": ["ANYUJIN", "GAEUL", "REI", "JANGWONYOUNG", "LIZ", "LEESEO"],
     "themes": ["REBEL HEART", "XOXZ"],
     "le_themes": ["BANG BANG"],
-    "availability": { "REBEL HEART": "FREE", "XOXZ": "BASIC", "BANG BANG": "EVENT" }
+    "availability": {
+      "REBEL HEART": { "type": "FREE", "in_pool": true },
+      "XOXZ": { "type": "BASIC", "in_pool": true },
+      "BANG BANG": { "type": "EVENT", "in_pool": true }
+    }
   },
   "KISS OF LIFE": {
     "members": ["JULIE", "NATTY", "BELLE", "HANEUL"],
     "themes": [],
     "le_themes": ["Lips Hips Kiss"],
-    "availability": { "Lips Hips Kiss": "EVENT" }
+    "availability": {
+      "Lips Hips Kiss": { "type": "EVENT", "in_pool": true }
+    }
   },
   "ITZY": {
     "members": ["YEJI", "LIA", "RYUJIN", "CHAERYEONG", "YUNA"],
     "themes": ["TUNNEL VISION", "Girls Will Be Girls"],
     "le_themes": [],
-    "availability": { "TUNNEL VISION": "FREE", "Girls Will Be Girls": "BASIC" }
+    "availability": {
+      "TUNNEL VISION": { "type": "FREE", "in_pool": true },
+      "Girls Will Be Girls": { "type": "BASIC", "in_pool": true }
+    }
   },
   "i-dle": {
     "members": ["MIYEON", "MINNIE", "SOYEON", "YUQI", "SHUHUA"],
     "themes": ["Mono"],
     "le_themes": [],
-    "availability": { "Mono": "FREE" }
+    "availability": {
+      "Mono": { "type": "FREE", "in_pool": true }
+    }
   },
   "EVERGLOW": {
     "members": ["E.U", "SIHYEON", "ONDA", "MIA", "AISHA", "YIREN"],
     "themes": ["LA DI DA"],
     "le_themes": [],
-    "availability": { "LA DI DA": "FREE" }
+    "availability": {
+      "LA DI DA": { "type": "FREE", "in_pool": true }
+    }
   },
   "UNIS": {
     "members": ["HYEONJU", "GEHLEE", "NANA", "YOONA", "YUNHA", "ELISIA", "KOTOKO", "SEOWON"],
     "themes": ["SWICY"],
     "le_themes": [],
-    "availability": { "SWICY": "FREE" }
+    "availability": {
+      "SWICY": { "type": "FREE", "in_pool": true }
+    }
   },
   "UNCHILD": {
     "members": ["YEEUN", "AKO", "HEEKIE", "HAEUN", "EVON", "TINA"],
     "themes": ["UNCHILD"],
     "le_themes": [],
-    "availability": { "UNCHILD": "FREE" }
+    "availability": {
+      "UNCHILD": { "type": "FREE", "in_pool": true }
+    }
   }
 }
