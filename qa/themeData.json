@@ -121,5 +121,14 @@
     "availability": {
       "UNCHILD": { "type": "FREE", "in_pool": true }
     }
+  },
+  "NMIXX": {
+    "members": [ "LILY", "HAEWON", "SULLYOON", "BAE", "JIWOO", "KYUJIN" ],
+    "themes": [ "Blue Valentine" ],
+    "le_themes": [ "Rosy Rollie Ruby" ],
+    "availability": {
+      "Blue Valentine": { "type": "FREE", "in_pool": true },
+      "Rosy Rollie Ruby": { "type": "FREE", "in_pool": false }
+    }
   }
 }
