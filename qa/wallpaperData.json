@@ -92,13 +92,13 @@
     "currency": "free"
   },
     {
-    "id": "IVE_02",
-    "group": "IVE",
-    "type": "PREMIUM",
-    "name": "IVE 'BANG BANG'",
-    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_ive_bang_bang_premium.png",
-    "cost": 50000,
-    "currency": "rp"
+    "id": "KKI_01",
+    "group": "KiiiKiii",
+    "type": "BASIC",
+    "name": "KiiiKiii",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_kiiikiii.png",
+    "cost": 0,
+    "currency": "free"
     },
 
           {
