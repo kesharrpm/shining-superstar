@@ -87,7 +87,7 @@
     "group": "IVE",
     "type": "BASIC",
     "name": "IVE",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_ive.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_ive.png",
     "cost": 0,
     "currency": "free"
   },
@@ -96,7 +96,7 @@
     "group": "IVE",
     "type": "PREMIUM",
     "name": "IVE 'BANG BANG'",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_ive_bang_bang_premium.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_ive_bang_bang_premium.png",
     "cost": 50000,
     "currency": "rp"
     },
@@ -106,7 +106,7 @@
     "group": "KATSEYE",
     "type": "BASIC",
     "name": "KATSEYE",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_katseye.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_katseye.png",
     "cost": 0,
     "currency": "free"
   },
@@ -115,7 +115,7 @@
     "group": "KATSEYE",
     "type": "PREMIUM",
     "name": "KATSEYE 'Gameboy'",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_gameboy.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_gameboy.png",
     "cost": 50000,
     "currency": "rp"
   },
@@ -125,7 +125,7 @@
     "group": "KATSEYE (PINKY UP)",
     "type": "BASIC",
     "name": "KATSEYE",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_pinky_up.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_pinky_up.png",
     "cost": 0,
     "currency": "free"
   },
@@ -134,7 +134,7 @@
     "group": "KATSEYE",
     "type": "PREMIUM",
     "name": "KATSEYE 'UP'",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_up.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_up.png",
     "cost": 50000,
     "currency": "rp"
   },
@@ -143,7 +143,7 @@
     "group": "UNIS",
     "type": "BASIC",
     "name": "UNIS",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_unis.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_unis.png",
     "cost": 0,
     "currency": "free"
   },
@@ -152,7 +152,7 @@
     "group": "UNIS",
     "type": "PREMIUM",
     "name": "UNIS 'SWICY'",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_swicy.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_swicy.png",
     "cost": 50000,
     "currency": "rp"
   },
@@ -161,7 +161,7 @@
     "group": "IFEYE",
     "type": "BASIC",
     "name": "IFEYE",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_ifeye.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_ifeye.png",
     "cost": 0,
     "currency": "free"
   },
@@ -170,7 +170,7 @@
     "group": "ARTMS",
     "type": "BASIC",
     "name": "ARTMS",
-    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_artms.png",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_artms.png",
     "cost": 0,
     "currency": "free"
   }
