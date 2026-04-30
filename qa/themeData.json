@@ -130,5 +130,24 @@
       "Blue Valentine": { "type": "FREE", "in_pool": true },
       "Rosy Rollie Ruby": { "type": "FREE", "in_pool": false }
     }
+  },
+"KATSEYE": {
+        "members": [ "Sophia", "Manon", "Daniela", "Lara", "Megan", "Yoonchae" ],
+        "themes": [ "Gameboy", "BEAUTIFUL CHAOS" ],
+        "le_themes": [  ],
+        "availability": {
+            "Gameboy": { "type": "FREE", "in_pool": true },
+            "BEAUTIFUL CHAOS": { "type": "BASIC", "in_pool": true }
+        }
+    },
+
+  "KATSEYE (PINKY UP)": {
+        "members": [ "Sophia", "Daniela", "Lara", "Megan", "Yoonchae" ],
+        "themes": [ "PINKY UP", "UP" ],
+        "le_themes": [  ],
+        "availability": {
+            "PINKY UP": { "type": "EVENT", "in_pool": false },
+            "UP": { "type": "FREE", "in_pool": true }
+        }
   }
 }
