@@ -99,5 +99,79 @@
     "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_ive_bang_bang_premium.png",
     "cost": 50000,
     "currency": "rp"
+    },
+
+          {
+    "id": "KSY_01",
+    "group": "KATSEYE",
+    "type": "BASIC",
+    "name": "KATSEYE",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_katseye.png",
+    "cost": 0,
+    "currency": "free"
+  },
+      {
+    "id": "KSY_02",
+    "group": "KATSEYE",
+    "type": "PREMIUM",
+    "name": "KATSEYE 'Gameboy'",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_gameboy.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+
+      {
+    "id": "KSY_03",
+    "group": "KATSEYE (PINKY UP)",
+    "type": "BASIC",
+    "name": "KATSEYE",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_pinky_up.png",
+    "cost": 0,
+    "currency": "free"
+  },
+        {
+    "id": "KSY_04",
+    "group": "KATSEYE",
+    "type": "PREMIUM",
+    "name": "KATSEYE 'UP'",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_up.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+            {
+    "id": "UNS_01",
+    "group": "UNIS",
+    "type": "BASIC",
+    "name": "UNIS",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_unis.png",
+    "cost": 0,
+    "currency": "free"
+  },
+          {
+    "id": "UNS_02",
+    "group": "UNIS",
+    "type": "PREMIUM",
+    "name": "UNIS 'SWICY'",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_swicy.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+              {
+    "id": "IFE_01",
+    "group": "IFEYE",
+    "type": "BASIC",
+    "name": "IFEYE",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_ifeye.png",
+    "cost": 0,
+    "currency": "free"
+  },
+              {
+    "id": "ART_01",
+    "group": "ARTMS",
+    "type": "BASIC",
+    "name": "ARTMS",
+    "url": "https://res.cloudinary.com/shining-superstar/mybg_lobby_artms.png",
+    "cost": 0,
+    "currency": "free"
   }
 ]
