@@ -70,7 +70,7 @@
     "availability": {
       "REBEL HEART": { "type": "FREE", "in_pool": true },
       "XOXZ": { "type": "BASIC", "in_pool": true },
-      "BANG BANG": { "type": "EVENT", "in_pool": true }
+      "BANG BANG": { "type": "EVENT", "in_pool": false }
     }
   },
   "KISS OF LIFE": {
@@ -78,7 +78,7 @@
     "themes": [],
     "le_themes": ["Lips Hips Kiss"],
     "availability": {
-      "Lips Hips Kiss": { "type": "EVENT", "in_pool": true }
+      "Lips Hips Kiss": { "type": "EVENT", "in_pool": false }
     }
   },
   "ITZY": {
