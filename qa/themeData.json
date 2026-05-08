@@ -1,11 +1,13 @@
 {
   "aespa": {
     "members": ["KARINA", "GISELLE", "WINTER", "NINGNING"],
-    "themes": ["Rich Man", "Dirty Work"],
+    "themes": ["Rich Man", "Dirty Work", "ENERGY", "Drama"],
     "le_themes": [],
     "availability": {
       "Dirty Work": { "type": "FREE", "in_pool": true },
-      "Rich Man": { "type": "BASIC", "in_pool": true }
+      "Rich Man": { "type": "BASIC", "in_pool": true },
+      "ENERGY": { "type": "BASIC", "in_pool": true },
+      "Drama": { "type": "BASIC", "in_pool": true }
     }
   },
   "GIRLSET": {
@@ -27,12 +29,12 @@
   },
   "LOONA": {
     "members": ["HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Go Won", "Olivia Hye"],
-    "themes": ["Hi High", "PTT", "Why Not"],
+    "themes": ["Hi High", "PTT", "Flip That"],
     "le_themes": [],
     "availability": {
       "Hi High": { "type": "FREE", "in_pool": true },
       "PTT": { "type": "BASIC", "in_pool": true },
-      "Why Not": { "type": "EVENT", "in_pool": true }
+      "Flip That": { "type": "EVENT", "in_pool": true }
     }
   },
   "ILLIT": {
@@ -65,17 +67,18 @@
   },
   "IVE": {
     "members": ["ANYUJIN", "GAEUL", "REI", "JANGWONYOUNG", "LIZ", "LEESEO"],
-    "themes": ["REBEL HEART", "XOXZ"],
+    "themes": ["BLACKHOLE", "REBEL HEART", "XOXZ"],
     "le_themes": ["BANG BANG"],
     "availability": {
       "REBEL HEART": { "type": "FREE", "in_pool": true },
       "XOXZ": { "type": "BASIC", "in_pool": true },
+      "BLACKHOLE": { "type": "EVENT", "in_pool": true },
       "BANG BANG": { "type": "EVENT", "in_pool": false }
     }
   },
   "KISS OF LIFE": {
     "members": ["JULIE", "NATTY", "BELLE", "HANEUL"],
-    "themes": [],
+    "themes": [ "INCEPTION", "Sticky" ],
     "le_themes": ["Lips Hips Kiss"],
     "availability": {
       "Lips Hips Kiss": { "type": "EVENT", "in_pool": false }
@@ -124,7 +127,7 @@
   },
   "NMIXX": {
     "members": [ "LILY", "HAEWON", "SULLYOON", "BAE", "JIWOO", "KYUJIN" ],
-    "themes": [ "Blue Valentine" ],
+    "themes": [ "Blue Valentine", "See That", "KNOW ABOUT ME" ],
     "le_themes": [ "Rosy Rollie Ruby" ],
     "availability": {
       "Blue Valentine": { "type": "FREE", "in_pool": true },
@@ -149,5 +152,33 @@
             "PINKY UP": { "type": "EVENT", "in_pool": false },
             "UP": { "type": "FREE", "in_pool": true }
         }
-  }
+  },
+"CORTIS": {
+        "members": [ "JAMES", "MARTIN", "JUHOON", "SEONGHYEON", "KEONHO" ],
+        "themes": [ "GREENGREEN" ],
+        "le_themes": [  ],
+        "availability": {
+            "GREENGREEN": { "type": "FREE", "in_pool": true }
+        }
+    },
+  "XG": {
+        "members": [ "JURIN", "CHISA", "HINATA", "HARVEY", "JURIA", "MAYA", "COCONA" ],
+        "themes": [ "HYPNOTIZE", "WOKE UP", "IS THIS LOVE" ],
+        "le_themes": [  ],
+        "availability": {
+            "HYPNOTIZE": { "type": "FREE", "in_pool": true },
+            "WOKE UP": { "type": "BASIC", "in_pool": true },
+            "IS THIS LOVE": { "type": "BASIC", "in_pool": true }
+        }
+    },
+  "TWS": {
+        "members": [ "SHINYU", "DOHOON", "YOUNGJAE", "HANJIN", "JIHOON", "KYUNGMIN" ],
+        "themes": [ "Last Festival", "plot twist" ],
+        "le_themes": [  ],
+        "availability": {
+            "Last Festival": { "type": "FREE", "in_pool": true },
+            "plot twist": { "type": "BASIC", "in_pool": true }
+        }
+    }
+  
 }
