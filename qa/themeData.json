@@ -127,13 +127,25 @@
   },
   "NMIXX": {
     "members": [ "LILY", "HAEWON", "SULLYOON", "BAE", "JIWOO", "KYUJIN" ],
-    "themes": [ "Blue Valentine", "See That", "KNOW ABOUT ME" ],
+    "themes": [ "Blue Valentine", "See that", "KNOW ABOUT ME" ],
     "le_themes": [ "Rosy Rollie Ruby" ],
     "availability": {
       "Blue Valentine": { "type": "FREE", "in_pool": true },
+      "See that": { "type": "BASIC", "in_pool": true },
+      "KNOW ABOUT ME": { "type": "BASIC", "in_pool": true },
       "Rosy Rollie Ruby": { "type": "FREE", "in_pool": false }
     }
   },
+
+  "STAYC": {
+        "members": [ "SUMIN", "SIEUN", "ISA", "SEEUN", "YOON", "J" ],
+        "themes": [ "BEBE", "GPT" ],
+        "le_themes": [  ],
+        "availability": {
+            "BEBE": { "type": "FREE", "in_pool": true },
+            "GPT": { "type": "BASIC", "in_pool": true }
+        }
+    },
 "KATSEYE": {
         "members": [ "Sophia", "Manon", "Daniela", "Lara", "Megan", "Yoonchae" ],
         "themes": [ "Gameboy", "BEAUTIFUL CHAOS" ],
