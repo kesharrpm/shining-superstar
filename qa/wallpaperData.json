@@ -173,5 +173,41 @@
     "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_artms.png",
     "cost": 0,
     "currency": "free"
+  },
+                {
+    "id": "LMX_01",
+    "group": "Little Mix",
+    "type": "BASIC",
+    "name": "Little Mix",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_little_mix.png",
+    "cost": 0,
+    "currency": "free"
+  },
+                  {
+    "id": "LMX_02",
+    "group": "Little Mix",
+    "type": "PREMIUM",
+    "name": "Little Mix 'Woman Like Me'",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_woman_like_me.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+                    {
+    "id": "LMX_03",
+    "group": "Little Mix",
+    "type": "PREMIUM",
+    "name": "Little Mix 'Shout Out To My Ex'",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_shout_out_to_my_ex.png",
+    "cost": 50000,
+    "currency": "rp"
+  },
+                      {
+    "id": "LMX_03",
+    "group": "Little Mix",
+    "type": "PREMIUM",
+    "name": "Little Mix 'Bounce Back'",
+    "url": "https://res.cloudinary.com/shining-superstar/lobby_mybg_bounce_back.png",
+    "cost": 50000,
+    "currency": "rp"
   }
 ]
