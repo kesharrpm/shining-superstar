@@ -1,13 +1,14 @@
 {
   "aespa": {
     "members": ["KARINA", "GISELLE", "WINTER", "NINGNING"],
-    "themes": ["Rich Man", "Dirty Work", "ENERGY", "Drama"],
+    "themes": ["Rich Man", "Dirty Work", "ENERGY", "Drama", "WDA"],
     "le_themes": [],
     "availability": {
       "Dirty Work": { "type": "FREE", "in_pool": true },
       "Rich Man": { "type": "BASIC", "in_pool": true },
       "ENERGY": { "type": "BASIC", "in_pool": true },
-      "Drama": { "type": "BASIC", "in_pool": true }
+      "Drama": { "type": "BASIC", "in_pool": true },
+      "WDA": { "type": "EVENT", "in_pool": true }
     }
   },
   "GIRLSET": {
@@ -95,10 +96,12 @@
   },
   "i-dle": {
     "members": ["MIYEON", "MINNIE", "SOYEON", "YUQI", "SHUHUA"],
-    "themes": ["Mono"],
+    "themes": ["Mono", "Uh-Oh", "Rosy Rollie Ruby"],
     "le_themes": [],
     "availability": {
-      "Mono": { "type": "FREE", "in_pool": true }
+      "Mono": { "type": "FREE", "in_pool": true },
+      "Uh-Oh": { "type": "BASIC", "in_pool": true },
+      "Rosy Rollie Ruby": { "type": "EVENT", "in_pool": false }
     }
   },
   "EVERGLOW": {
@@ -190,6 +193,53 @@
         "availability": {
             "Last Festival": { "type": "FREE", "in_pool": true },
             "plot twist": { "type": "BASIC", "in_pool": true }
+        }
+    },
+  "Little Mix": {
+        "members": [ "Leigh-Anne", "Jade", "Perrie" ],
+        "themes": [ "Bounce Back", "Woman Like Me", "Shout Out To My Ex" ],
+        "le_themes": [  ],
+        "availability": {
+            "Bounce Back": { "type": "FREE", "in_pool": true },
+            "Woman Like Me": { "type": "BASIC", "in_pool": true },
+            "Shout Out To My Ex": { "type": "BASIC", "in_pool": true }
+        }
+    },
+  "ODD EYE CIRCLE": {
+        "members": [ "Kim Lip", "JinSoul", "Choerry" ],
+        "themes": [ "Air Force One", "Girl Front" ],
+        "le_themes": [  ],
+        "availability": {
+            "Air Force One": { "type": "FREE", "in_pool": true },
+            "Girl Front": { "type": "BASIC", "in_pool": true }
+        }
+    },
+  
+  "BABYMONSTER (CHOOM)": {
+        "members": [ "RUKA", "PHARITA", "ASA", "AHYEON", "RORA", "CHIQUITA" ],
+        "themes": [ "CHOOM", "WE GO UP" ],
+        "le_themes": [  ],
+        "availability": {
+            "CHOOM": { "type": "FREE", "in_pool": true },
+            "WE GO UP": { "type": "BASIC", "in_pool": true }
+        }
+    },
+  "BABYMONSTER": {
+        "members": [ "RUKA", "PHARITA", "ASA", "AHYEON", "RORA", "CHIQUITA" ],
+        "themes": [ "FOREVER" ],
+        "le_themes": [  ],
+        "availability": {
+            "FOREVER": { "type": "FREE", "in_pool": true }
+        }
+    },
+  "ARTMS": {
+        "members": [ "HeeJin", "HaSeul", "Kim Lip", "JinSoul", "Choerry" ],
+        "themes": [ "Dall", "Virtual Angel" ],
+        "le_themes": [ "Rosy Rollie Ruby" ],
+        "availability": {
+            "Dall": { "type": "FREE", "in_pool": true },
+            "Virtual Angel": { "type": "BASIC", "in_pool": true },
+            "Rosy Rollie Ruby": { "type": "EVENT", "in_pool": false }
         }
     }
   
