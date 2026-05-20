@@ -81,9 +81,12 @@
   "KISS OF LIFE": {
     "members": ["JULIE", "NATTY", "BELLE", "HANEUL"],
     "themes": [ "INCEPTION", "Sticky" ],
-    "le_themes": ["Lips Hips Kiss"],
+    "le_themes": ["Rosy Rollie Ruby"],
     "availability": {
-      "Lips Hips Kiss": { "type": "EVENT", "in_pool": false }
+    
+      "INCEPTION": { "type": "FREE", "in_pool": true },
+"Sticky": { "type": "FREE", "in_pool": true },
+      "Rosy Rollie Ruby": { "type": "EVENT", "in_pool": false }
     }
   },
   "ITZY": {
@@ -97,8 +100,8 @@
   },
   "i-dle": {
     "members": ["MIYEON", "MINNIE", "SOYEON", "YUQI", "SHUHUA"],
-    "themes": ["Mono", "Uh-Oh", "Rosy Rollie Ruby"],
-    "le_themes": [],
+    "themes": ["Mono", "Uh-Oh"],
+    "le_themes": [ "Rosy Rollie Ruby" ],
     "availability": {
       "Mono": { "type": "FREE", "in_pool": true },
       "Uh-Oh": { "type": "BASIC", "in_pool": true },
@@ -137,7 +140,7 @@
       "Blue Valentine": { "type": "FREE", "in_pool": true },
       "See that": { "type": "BASIC", "in_pool": true },
       "KNOW ABOUT ME": { "type": "BASIC", "in_pool": true },
-      "Rosy Rollie Ruby": { "type": "FREE", "in_pool": false }
+      "Rosy Rollie Ruby": { "type": "EVENT", "in_pool": false }
     }
   },
 
@@ -189,11 +192,12 @@
     },
   "TWS": {
         "members": [ "SHINYU", "DOHOON", "YOUNGJAE", "HANJIN", "JIHOON", "KYUNGMIN" ],
-        "themes": [ "Last Festival", "plot twist" ],
-        "le_themes": [  ],
+        "themes": [ "Last Festival", "plot twist"],
+        "le_themes": [ "Rosy Rollie Ruby" ],
         "availability": {
             "Last Festival": { "type": "FREE", "in_pool": true },
-            "plot twist": { "type": "BASIC", "in_pool": true }
+            "plot twist": { "type": "BASIC", "in_pool": true },
+          "Rosy Rollie Ruby": { "type": "EVENT", "in_pool": false }
         }
     },
   "Little Mix": {
@@ -209,10 +213,11 @@
   "ODD EYE CIRCLE": {
         "members": [ "Kim Lip", "JinSoul", "Choerry" ],
         "themes": [ "Air Force One", "Girl Front" ],
-        "le_themes": [  ],
+        "le_themes": [ "Rosy Rollie Ruby" ],
         "availability": {
             "Air Force One": { "type": "FREE", "in_pool": true },
-            "Girl Front": { "type": "BASIC", "in_pool": true }
+            "Girl Front": { "type": "BASIC", "in_pool": true },
+          "Rosy Rollie Ruby": { "type": "BASIC", "in_pool": true }
         }
     },
   
