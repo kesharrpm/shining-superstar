@@ -9,7 +9,7 @@
       "ENERGY": { "type": "BASIC", "in_pool": true },
       "Drama": { "type": "BASIC", "in_pool": true },
       "WDA": { "type": "EVENT", "in_pool": true },
-      "Whole Different Animal": { "type": "EVENT", "in_pool": false }
+      "Whole Different Animal": { "type": "EVENT", "in_pool": "le"}
     }
   },
   "GIRLSET": {
