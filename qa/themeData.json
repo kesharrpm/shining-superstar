@@ -2,13 +2,14 @@
   "aespa": {
     "members": ["KARINA", "GISELLE", "WINTER", "NINGNING"],
     "themes": ["Rich Man", "Dirty Work", "ENERGY", "Drama", "WDA"],
-    "le_themes": [],
+    "le_themes": ["Whole Different Animal"],
     "availability": {
       "Dirty Work": { "type": "FREE", "in_pool": true },
       "Rich Man": { "type": "BASIC", "in_pool": true },
       "ENERGY": { "type": "BASIC", "in_pool": true },
       "Drama": { "type": "BASIC", "in_pool": true },
-      "WDA": { "type": "EVENT", "in_pool": true }
+      "WDA": { "type": "EVENT", "in_pool": true },
+      "Whole Different Animal": { "type": "EVENT", "in_pool": false }
     }
   },
   "GIRLSET": {
