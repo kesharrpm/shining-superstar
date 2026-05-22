@@ -213,11 +213,10 @@
   "ODD EYE CIRCLE": {
         "members": [ "Kim Lip", "JinSoul", "Choerry" ],
         "themes": [ "Air Force One", "Girl Front" ],
-        "le_themes": [ "Rosy Rollie Ruby" ],
+        "le_themes": [ ],
         "availability": {
             "Air Force One": { "type": "FREE", "in_pool": true },
             "Girl Front": { "type": "BASIC", "in_pool": true },
-          "Rosy Rollie Ruby": { "type": "BASIC", "in_pool": true }
         }
     },
   
