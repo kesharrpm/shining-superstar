@@ -1,4 +1,15 @@
 {
+  "Red Velvet": {
+        "members": [ "IRENE", "SEULGI", "WENDY", "JOY", "YERI" ],
+        "themes": [ "Chill Kill", "Happiness", "Queendom" ],
+        "le_themes": [ "Rosy Rollie Ruby" ],
+        "availability": {
+            "Chill Kill": { "type": "FREE", "in_pool": true },
+            "Rosy Rollie Ruby": { "type": "EVENT", "in_pool": false },
+            "Happiness": { "type": "BASIC", "in_pool": true },
+            "Queendom": { "type": "BASIC", "in_pool": true }
+        }
+    },
   "TWICE": {
         "members": [ "NAYEON", "JEONGYEON", "MOMO", "SANA", "JIHYO", "MINA", "DAHYUN", "CHAEYOUNG", "TZUYU" ],
         "themes": [ "THIS IS FOR" ],
