@@ -1,4 +1,20 @@
 {
+  "TWICE": {
+        "members": [ "NAYEON", "JEONGYEON", "MOMO", "SANA", "JIHYO", "MINA", "DAHYUN", "CHAEYOUNG", "TZUYU" ],
+        "themes": [ "THIS IS FOR" ],
+        "le_themes": [  ],
+        "availability": {
+            "THIS IS FOR": { "type": "FREE", "in_pool": true }
+        }
+    },
+  "BLACKPINK": {
+        "members": [ "JISOO", "JENNIE", "ROSE", "LISA" ],
+        "themes": [ "GO" ],
+        "le_themes": [  ],
+        "availability": {
+            "GO": { "type": "FREE", "in_pool": true }
+        }
+    },
   "AESPA": {
     "members": ["KARINA", "GISELLE", "WINTER", "NINGNING"],
     "themes": ["Rich Man", "Dirty Work", "ENERGY", "Drama", "WDA"],
@@ -216,7 +232,7 @@
         "le_themes": [ ],
         "availability": {
             "Air Force One": { "type": "FREE", "in_pool": true },
-            "Girl Front": { "type": "BASIC", "in_pool": true },
+            "Girl Front": { "type": "BASIC", "in_pool": true }
         }
     },
   
