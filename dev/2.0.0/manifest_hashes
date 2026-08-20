@@ -614,5 +614,278 @@
     "bg_little_mix_little_mix_bounce_back": {
         "file": "images_2_assets_images_update_bg_little_mix_little_mix_bounce_back_4e5841fe949c4484b33c16108016399e",
         "md5_checksum": "1d3390b4f9ef971433e69dda1abaf7aa"
+    },
+    "empty_cards_red_velvet_chill_kill": {
+        "file": "images_2_assets_images_update_em_red_velvet_chill_kill_f66368da79fb424ba9f3fe8d3c6b60ee",
+        "md5_checksum": "9975f8739974aef8ab418b5bc05ef6ac"
+    },
+    "empty_cards_red_velvet_dumb_dumb": {
+        "file": "images_2_assets_images_update_em_red_velvet_dumb_dumb_67d1a63336994cb9b9422692f405a946",
+        "md5_checksum": "9bf7d2fafe7f9e99f895cf09bd1a8861"
+    },
+    "empty_cards_red_velvet_queendom": {
+        "file": "images_2_assets_images_update_em_red_velvet_queendom_248539e773a64d9f87933051fca37cae",
+        "md5_checksum": "7274702cb4b845debce98220724e8ce0"
+    },
+    "empty_cards_red_velvet_rosy_rollie_ruby": {
+        "file": "images_2_assets_images_update_em_red_velvet_rosy_rollie_ruby_0319e7a3f7a848318e6a4262c1c2d9c2",
+        "md5_checksum": "ee15688b6178920479b6f02c99077455"
+    },
+    "empty_cards_twice_this_is_for": {
+        "file": "images_2_assets_images_update_em_twice_this_is_for_9d5a79bee6ea4d87a563214975bf31a1",
+        "md5_checksum": "cbeccf703947f989a965179788e352b8"
+    },
+    "empty_cards_blackpink_go": {
+        "file": "images_2_assets_images_update_em_blackpink_go_1e8862fc3c0a488bb11caf4022781895",
+        "md5_checksum": "1eab4a99b787e8e4669c7a2ff484f978"
+    },
+    "empty_cards_aespa_rich_man": {
+        "file": "images_2_assets_images_update_em_aespa_rich_man_a33aaaff462247a19c5914ceaea5c70c",
+        "md5_checksum": "e91e9f52f3bb76721b41f6e8d82ce390"
+    },
+    "empty_cards_aespa_dirty_work": {
+        "file": "images_2_assets_images_update_em_aespa_dirty_work_45dba5a7377e40b496c3609112b5bd9a",
+        "md5_checksum": "142c97a4fcc6ed07c282798a86951879"
+    },
+    "empty_cards_aespa_energy": {
+        "file": "images_2_assets_images_update_em_aespa_energy_4f681c02b9ec4900a45daecaa04cd1e7",
+        "md5_checksum": "c4a452603ebec523a1201d014085a9eb"
+    },
+    "empty_cards_aespa_drama": {
+        "file": "images_2_assets_images_update_em_aespa_drama_6a031473fdba492ebf5d385579c875a1",
+        "md5_checksum": "a2d0d1d8c535a2804197feca27921e2d"
+    },
+    "empty_cards_aespa_wda": {
+        "file": "images_2_assets_images_update_em_aespa_wda_2d4d29a8d2084230a36b0ce841edc570",
+        "md5_checksum": "878a36ca1c2db6225c8be4a3af769a00"
+    },
+    "empty_cards_aespa_whole_different_animal": {
+        "file": "images_2_assets_images_update_em_aespa_whole_different_animal_98f0f0f24ead488d8615d0c95976d892",
+        "md5_checksum": "856ad1ef5ebf6758911660a11902aa54"
+    },
+    "empty_cards_girlset_little_miss": {
+        "file": "images_2_assets_images_update_em_girlset_little_miss_76cef56c98eb40fdb92cada3fa0089ef",
+        "md5_checksum": "c042f7a71ff06db69f8f26fe2a2363d1"
+    },
+    "empty_cards_girlset_sweet": {
+        "file": "images_2_assets_images_update_em_girlset_sweet_6fa281451c034164b8887cc147e367d4",
+        "md5_checksum": "3f7bf4c97dcd0c774a4d5ffac6d0e10a"
+    },
+    "empty_cards_stray_kids_ceremony": {
+        "file": "images_2_assets_images_update_em_stray_kids_ceremony_ae31fd7ff7274b4eb2d9d186e7a14de0",
+        "md5_checksum": "f5428d92e9d288c2c13b0974f6d857ca"
+    },
+    "empty_cards_loona_hi_high": {
+        "file": "images_2_assets_images_update_em_loona_hi_high_07ad88e7eea74cd5965b0b15c245c182",
+        "md5_checksum": "67e3d563270bf40ee56af405c3c7303a"
+    },
+    "empty_cards_loona_ptt": {
+        "file": "images_2_assets_images_update_em_loona_ptt_b36baceaa07649a8b88311d7f28f05eb",
+        "md5_checksum": "d4c7ba8df606d7976fb9b09f8cb6a9cf"
+    },
+    "empty_cards_loona_flip_that": {
+        "file": "images_2_assets_images_update_em_loona_flip_that_1f6d67043b174ea196d7671c64f460ab",
+        "md5_checksum": "b19f9dc785316c78a93ecf07ebb52ecb"
+    },
+    "empty_cards_illit_magnetic": {
+        "file": "images_2_assets_images_update_em_illit_magnetic_6834f54727b44ea7a181a5e8bf409370",
+        "md5_checksum": "a04f16c5510abaaa89cae8f6ebbec3f9"
+    },
+    "empty_cards_illit_cherish": {
+        "file": "images_2_assets_images_update_em_illit_cherish_ff064a6c66e24e14ad536ac4ef827ac2",
+        "md5_checksum": "b23d6176d51cbc4fc7c77e115e8b6221"
+    },
+    "empty_cards_hearts2hearts_the_chase": {
+        "file": "images_2_assets_images_update_em_hearts2hearts_the_chase_0a4d735c95dc44d5a3b41d4228ee780f",
+        "md5_checksum": "10b55ff6c568a9278a21a2798b3ceca6"
+    },
+    "empty_cards_hearts2hearts_rude": {
+        "file": "images_2_assets_images_update_em_hearts2hearts_rude_f82c0928200044049b65212146f936b7",
+        "md5_checksum": "4b9793b76589586d04f7b03be0491ec0"
+    },
+    "empty_cards_le_sserafim_easy": {
+        "file": "images_2_assets_images_update_em_le_sserafim_easy_8c4627e6212047afb29028b0b4ff5830",
+        "md5_checksum": "a5d62931ba420df7d83337956bc88f0a"
+    },
+    "empty_cards_le_sserafim_crazy": {
+        "file": "images_2_assets_images_update_em_le_sserafim_crazy_4e491c2e721f401b802205c5ebe243f3",
+        "md5_checksum": "a593566f315df38cfa1d6ee42b1bf93f"
+    },
+    "empty_cards_le_sserafim_hot": {
+        "file": "images_2_assets_images_update_em_le_sserafim_hot_202c16c146ae4011a01771854abb95eb",
+        "md5_checksum": "1bcc187cc14c9ccf5b63ea97a68d2c69"
+    },
+    "empty_cards_ive_blackhole": {
+        "file": "images_2_assets_images_update_em_ive_blackhole_51ce5a087fc44023812c522f0500aef5",
+        "md5_checksum": "3b5ec3d64859c379803f109252afbea1"
+    },
+    "empty_cards_ive_rebel_heart": {
+        "file": "images_2_assets_images_update_em_ive_rebel_heart_e6534f6627fb4fd58a44f42428bc15e2",
+        "md5_checksum": "d8f3d073f48fed74776b0a34fe3e86fc"
+    },
+    "empty_cards_ive_xoxz": {
+        "file": "images_2_assets_images_update_em_ive_xoxz_4e33e30d8f604f8492f2b977d708c1cb",
+        "md5_checksum": "6bb8abeb6cec642bf3e011c50d60e5e9"
+    },
+    "empty_cards_ive_bang_bang": {
+        "file": "images_2_assets_images_update_em_ive_bang_bang_64f5a4f749df4ecba0d870a56c464ad9",
+        "md5_checksum": "4557aac5b588972fa3e35c94b444a227"
+    },
+    "empty_cards_kiss_of_life_inception": {
+        "file": "images_2_assets_images_update_em_kiss_of_life_inception_d6ffd4df5e5c449bb72974000c9b0efb",
+        "md5_checksum": "3e4a145c2827c2d9c24ce1b284b2a022"
+    },
+    "empty_cards_kiss_of_life_sticky": {
+        "file": "images_2_assets_images_update_em_kiss_of_life_sticky_439d3cebd96f4db4bbe8948e04fae481",
+        "md5_checksum": "d5553130abdff37b96ebd010c945aef0"
+    },
+    "empty_cards_kiss_of_life_rosy_rollie_ruby": {
+        "file": "images_2_assets_images_update_em_kiss_of_life_rosy_rollie_ruby_e8d446fecf7043b99eff2acbee69809f",
+        "md5_checksum": "9cb6abd3a5fa5403d5e337cd92af7fbe"
+    },
+    "empty_cards_itzy_tunnel_vision": {
+        "file": "images_2_assets_images_update_em_itzy_tunnel_vision_44e04b8dfb744564bed31c20492aec32",
+        "md5_checksum": "e6ad1883a71ba258d9f95e6b0e71c557"
+    },
+    "empty_cards_itzy_girls_will_be_girls": {
+        "file": "images_2_assets_images_update_em_itzy_girls_will_be_girls_7ff31c53806f465ebf53202872eb3b4d",
+        "md5_checksum": "e3df245009702014ae5b1aac0949b05f"
+    },
+    "empty_cards_i-dle_mono": {
+        "file": "images_2_assets_images_update_em_i-dle_mono_245040e695584a3caa31b3c6212bbe13",
+        "md5_checksum": "2e33c89ba45f491a5b870a9a645ac741"
+    },
+    "empty_cards_i-dle_uh-oh": {
+        "file": "images_2_assets_images_update_em_i-dle_uh-oh_64e8911d84fb444286e7e45c01dbf456",
+        "md5_checksum": "c87dc822a58824e8b7f4e05b3e8c8176"
+    },
+    "empty_cards_i-dle_rosy_rollie_ruby": {
+        "file": "images_2_assets_images_update_em_i-dle_rosy_rollie_ruby_0fb9b5a950c740d99087a9a085783b09",
+        "md5_checksum": "a3ccb3ccb1e40df2332c39f2ceb35860"
+    },
+    "empty_cards_everglow_la_di_da": {
+        "file": "images_2_assets_images_update_em_everglow_la_di_da_a2c97ae8c185471e9d9c8fe878b5876e",
+        "md5_checksum": "7bf7622a44ed90d366a229a161884cf1"
+    },
+    "empty_cards_unis_swicy": {
+        "file": "images_2_assets_images_update_em_unis_swicy_5f69b04978e44d07af912b8e24fbf0c7",
+        "md5_checksum": "5745203dc1d7a0ad563d677ae23b8101"
+    },
+    "empty_cards_unchild_unchild": {
+        "file": "images_2_assets_images_update_em_unchild_unchild_e2636522340845fa8c1528933a2fad0b",
+        "md5_checksum": "c956d1cdc706046a1b62538c577f1db9"
+    },
+    "empty_cards_nmixx_blue_valentine": {
+        "file": "images_2_assets_images_update_em_nmixx_blue_valentine_bba27f036c4f46fca8cab78eb7b78759",
+        "md5_checksum": "f9bbe447d8d18356428064c9db57edb1"
+    },
+    "empty_cards_nmixx_see_that": {
+        "file": "images_2_assets_images_update_em_nmixx_see_that_fc76fd33ae9d4215a1924cc5bbcd6209",
+        "md5_checksum": "ebf53216c49e16b60ae589f54757fb56"
+    },
+    "empty_cards_nmixx_know_about_me": {
+        "file": "images_2_assets_images_update_em_nmixx_know_about_me_0ea3883e5f9046549b1f2b804aff7c66",
+        "md5_checksum": "bd6687c482f5f56cc4637b2f17bf1359"
+    },
+    "empty_cards_nmixx_rosy_rollie_ruby": {
+        "file": "images_2_assets_images_update_em_nmixx_rosy_rollie_ruby_8f7821a1cab842ae93f5dc0334beabaa",
+        "md5_checksum": "9bf0b71090221819b6bc67d57183e99b"
+    },
+    "empty_cards_stayc_bebe": {
+        "file": "images_2_assets_images_update_em_stayc_bebe_519c27aa127546bfbb8c64127b560114",
+        "md5_checksum": "8a08c2283c8f14c71bd6962d7b575ddb"
+    },
+    "empty_cards_stayc_gpt": {
+        "file": "images_2_assets_images_update_em_stayc_gpt_b268ee5235b94d9880aba2473c21735a",
+        "md5_checksum": "a66c0d20e17bd7e3a11db0f368a43523"
+    },
+    "empty_cards_katseye_gameboy": {
+        "file": "images_2_assets_images_update_em_katseye_gameboy_a2efedd9e8b44c4bbfc2804871138ff0",
+        "md5_checksum": "e59dd00d54302ea057cebd6dfaf0249e"
+    },
+    "empty_cards_katseye_beautiful_chaos": {
+        "file": "images_2_assets_images_update_em_katseye_beautiful_chaos_71396bc47af04bb999adf1519fd428c3",
+        "md5_checksum": "3c2ffe7cc4dfa1d30c86112fa5ed7d11"
+    },
+    "empty_cards_katseye_pinky_up_pinky_up": {
+        "file": "images_2_assets_images_update_em_katseye_pinky_up_pinky_up_b299a22040084742b3a19f7f249ac0f5",
+        "md5_checksum": "8f176485cc9a1587b262fa32b1dfc869"
+    },
+    "empty_cards_katseye_pinky_up_up": {
+        "file": "images_2_assets_images_update_em_katseye_pinky_up_up_4949598b84004469aa00a8f97d241971",
+        "md5_checksum": "7fc7a764fc715fea07c55a52185f646e"
+    },
+    "empty_cards_cortis_greengreen": {
+        "file": "images_2_assets_images_update_em_cortis_greengreen_1a1cea8936304290a04516e449610f1a",
+        "md5_checksum": "8cab3ce76342ef905fcb6df203c65fbe"
+    },
+    "empty_cards_xg_hypnotize": {
+        "file": "images_2_assets_images_update_em_xg_hypnotize_b4466e94b9f8458b85d08466d9341516",
+        "md5_checksum": "fd7270fd2be01972644088044ddcf8cc"
+    },
+    "empty_cards_xg_woke_up": {
+        "file": "images_2_assets_images_update_em_xg_woke_up_4a40b82e7dd547e49e7cac5be933ef9f",
+        "md5_checksum": "1076dd68a760d1b25c6374b4e43020ee"
+    },
+    "empty_cards_xg_is_this_love": {
+        "file": "images_2_assets_images_update_em_xg_is_this_love_b231a5f21b9748b4b5810678018f4df5",
+        "md5_checksum": "47d3b1651f9872e22577c66a19f1619d"
+    },
+    "empty_cards_tws_last_festival": {
+        "file": "images_2_assets_images_update_em_tws_last_festival_80f7acf8066a428aa57f3d668e86c0fe",
+        "md5_checksum": "aa46107d2e882af7d1278ff208453fff"
+    },
+    "empty_cards_tws_plot_twist": {
+        "file": "images_2_assets_images_update_em_tws_plot_twist_a8ba970564ed478f81c5cf6086433bf3",
+        "md5_checksum": "89263f8d06c608ce547bc2adcf85d1cf"
+    },
+    "empty_cards_tws_rosy_rollie_ruby": {
+        "file": "images_2_assets_images_update_em_tws_rosy_rollie_ruby_a5435738f4564a059aab58ffe0453bd0",
+        "md5_checksum": "a3455e67a1abaf8990feff2ce83ef65c"
+    },
+    "empty_cards_little_mix_bounce_back": {
+        "file": "images_2_assets_images_update_em_little_mix_bounce_back_e714bcc5b274494bbdb44b188610b8f5",
+        "md5_checksum": "16954dc05803ed3631bb04db860871a3"
+    },
+    "empty_cards_little_mix_woman_like_me": {
+        "file": "images_2_assets_images_update_em_little_mix_woman_like_me_f37a6e888a85499589a1ed9d26df78cc",
+        "md5_checksum": "005e568b6eda10cf9c5828be3ab9cd64"
+    },
+    "empty_cards_little_mix_shout_out_to_my_ex": {
+        "file": "images_2_assets_images_update_em_little_mix_shout_out_to_my_ex_f2203506975a4757ad2f279cf94f9bb8",
+        "md5_checksum": "5bcb58bea9cdc137dcbd2f41ab7488f8"
+    },
+    "empty_cards_odd_eye_circle_air_force_one": {
+        "file": "images_2_assets_images_update_em_odd_eye_circle_air_force_one_6855053d047c4bd58670ebf1b95e19a3",
+        "md5_checksum": "e3b7701fb3e1028856ed4216067d1758"
+    },
+    "empty_cards_odd_eye_circle_girl_front": {
+        "file": "images_2_assets_images_update_em_odd_eye_circle_girl_front_d82413885d4c445998720c312605dd9c",
+        "md5_checksum": "86bd9939143d3d746803d94e00f6b25f"
+    },
+    "empty_cards_babymonster_choom_choom": {
+        "file": "images_2_assets_images_update_em_babymonster_choom_choom_3b74759330134642854ed0cb9a11c785",
+        "md5_checksum": "46f38e7c43f05a5cf6d0e001164170aa"
+    },
+    "empty_cards_babymonster_choom_we_go_up": {
+        "file": "images_2_assets_images_update_em_babymonster_choom_we_go_up_a69962572986490d8eda4e08c05ccffa",
+        "md5_checksum": "2e7b23d7d40c0c812b11359b40a4e1b8"
+    },
+    "empty_cards_babymonster_forever": {
+        "file": "images_2_assets_images_update_em_babymonster_forever_459b04e70f4a4105bf419aaa1e1901f9",
+        "md5_checksum": "f1d57485b75c5326c26bb08bec6794dc"
+    },
+    "empty_cards_artms_dall": {
+        "file": "images_2_assets_images_update_em_artms_dall_8ea605c00004444687eb6e87fcb40fa6",
+        "md5_checksum": "c33fbd5f08cab32a111e7d692142fc01"
+    },
+    "empty_cards_artms_virtual_angel": {
+        "file": "images_2_assets_images_update_em_artms_virtual_angel_601eedd423a34b70b18b9c8df3e501eb",
+        "md5_checksum": "6e3a98e41e5a1508772a02cc7913fa8a"
+    },
+    "empty_cards_artms_rosy_rollie_ruby": {
+        "file": "images_2_assets_images_update_em_artms_rosy_rollie_ruby_b69657b8a4354afbb9a3fa01c63cae0b",
+        "md5_checksum": "593adc837f96f70702e88e046b3ce35b"
     }
+
 }
