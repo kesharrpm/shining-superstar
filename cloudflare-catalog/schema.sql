@@ -39,7 +39,6 @@ CREATE TABLE IF NOT EXISTS bundles (
   theme_slug TEXT,
   source_file TEXT NOT NULL,
   checksum TEXT,
-  source_r2_key TEXT,
   status TEXT NOT NULL DEFAULT 'registered',
   asset_count INTEGER NOT NULL DEFAULT 0,
   imported_at TEXT,
@@ -49,14 +48,14 @@ CREATE TABLE IF NOT EXISTS bundles (
 CREATE TABLE IF NOT EXISTS assets (
   id TEXT PRIMARY KEY,
   kind TEXT NOT NULL,
-  r2_key TEXT NOT NULL UNIQUE,
   sha256 TEXT NOT NULL,
   mime TEXT NOT NULL DEFAULT 'image/png',
   size INTEGER NOT NULL DEFAULT 0,
   original_name TEXT,
-  source_bundle TEXT,
+  source_bundle TEXT NOT NULL,
+  source_entry TEXT NOT NULL,
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  FOREIGN KEY (source_bundle) REFERENCES bundles(manifest_key) ON DELETE SET NULL
+  FOREIGN KEY (source_bundle) REFERENCES bundles(manifest_key) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS asset_aliases (
