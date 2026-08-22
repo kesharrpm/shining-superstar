@@ -1,4 +1,4 @@
-name = "shining-superstar-catalog"
+name = "shining-superstar"
 main = "src/index-d1.js"
 compatibility_date = "2026-08-01"
 
@@ -10,5 +10,6 @@ database_id = "a778d9dd-005e-4f97-b89a-c6b50eb18655"
 [vars]
 APP_ENV = "production"
 
-# Required secret:
+# Required secrets:
 # npx wrangler secret put BUNDLE_PASSWORD
+# npx wrangler secret put ADMIN_TOKEN
