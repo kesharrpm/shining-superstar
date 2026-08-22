@@ -1,0 +1,19 @@
+name = "shining-superstar-catalog"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+[[d1_databases]]
+binding = "CATALOG_DB"
+database_name = "shining-superstar-catalog"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "ASSETS"
+bucket_name = "shining-superstar-assets"
+
+[vars]
+APP_ENV = "production"
+
+# Set these as secrets, never commit them:
+#   npx wrangler secret put ADMIN_TOKEN
+#   npx wrangler secret put BUNDLE_PASSWORD
