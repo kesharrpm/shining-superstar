@@ -1,4 +1,23 @@
 {
+    "ALLDAY PROJECT": {
+        "members": [ "ANNIE", "TARZZAN", "BAILEY", "WOOCHAN", "YOUNGSEO" ],
+        "themes": [ "FAMOUS", "ALLDAY", "WICKED" ],
+        "le_themes": [],
+        "availability": {
+            "FAMOUS": { "type": "FREE", "in_pool": true },
+            "ALLDAY": { "type": "BASIC", "in_pool": true },
+            "WICKED": { "type": "BASIC", "in_pool": true }
+        }
+    },
+
+      "MEOVV": {
+        "members": [ "SOOIN", "GAWON", "ANNA", "NARIN", "ELLA" ],
+        "themes": [ "HANDS UP" ],
+        "le_themes": [],
+        "availability": {
+            "HANDS UP": { "type": "FREE", "in_pool": true }
+        }
+    },
   "Red Velvet": {
         "members": [ "IRENE", "SEULGI", "WENDY", "JOY", "YERI" ],
         "themes": [ "Chill Kill", "Dumb Dumb", "Queendom" ],
