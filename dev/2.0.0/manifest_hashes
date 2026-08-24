@@ -1,4 +1,34 @@
 {
+    "cards_hearts2hearts_lemon_tang": {
+        "file": "images_2_assets_images_update_hearts2hearts_lemon_tang_e1695ea87a302e89e64833d919ef81d9",
+        "md5_checksum": "aafa48405cd67441e1da961987b7782d"
+    },
+
+    "cards_aespa_kiss_n_tell": {
+        "file": "images_2_assets_images_update_aespa_kiss_n_tell_88f90e64e19ba5efa257e7fed084e7ff",
+        "md5_checksum": "ede5dd2704c602264d3269863b0560f7"
+    },
+
+    "profile_aespa_kiss_n_tell": {
+        "file": "images_2_assets_images_update_profile_aespa_kiss_n_tell_8fb2d96d22390adb51c6ef07972de0a7",
+        "md5_checksum": "26974a0c3cc12ae810a2defbdffe7cb1"
+    },
+
+    "profile_hearts2hearts_lemon_tang": {
+        "file": "images_2_assets_images_update_profile_hearts2hearts_lemon_tang_8adad438937fe4fabff129f3ddd58bc6",
+        "md5_checksum": "4bcbf33679be3aec9694da2ea791a5b7"
+    },
+
+    "empty_cards_hearts2hearts_lemon_tang": {
+        "file": "images_2_assets_images_update_em_hearts2hearts_lemon_tang_f9ec310159a2003c59ad04c550e92d61",
+        "md5_checksum": "c45c275b5523ad828f7d770692758980"
+    },
+
+    "empty_cards_aespa_kiss_n_tell": {
+        "file": "images_2_assets_images_update_em_aespa_kiss_n_tell_d3bf74eb1b3059efe1e8b9caa6cbb9fe",
+        "md5_checksum": "a117bfa9f557ee9fbb4cf7c14f3f8d0b"
+    },
+
     "profile_red_velvet_chill_kill": {
         "file": "images_2_assets_images_update_profile_red_velvet_chill_kill_4f5cd4b3603846429750e73212bd9be3",
         "md5_checksum": "5a77f556f4c6b17eebbf984f1844a7c5"
