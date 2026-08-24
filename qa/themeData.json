@@ -47,7 +47,7 @@
     },
   "AESPA": {
     "members": ["KARINA", "GISELLE", "WINTER", "NINGNING"],
-    "themes": ["Rich Man", "Dirty Work", "ENERGY", "Drama", "WDA"],
+    "themes": ["Rich Man", "Dirty Work", "ENERGY", "Drama", "WDA", "KISS N TELL"],
     "le_themes": ["Whole Different Animal"],
     "availability": {
       "Dirty Work": { "type": "FREE", "in_pool": true },
@@ -55,6 +55,7 @@
       "ENERGY": { "type": "BASIC", "in_pool": true },
       "Drama": { "type": "BASIC", "in_pool": true },
       "WDA": { "type": "EVENT", "in_pool": true },
+        "KISS N TELL": { "type": "EVENT", "in_pool": true },
       "Whole Different Animal": { "type": "EVENT", "in_pool": "le"}
     }
   },
@@ -95,14 +96,15 @@
     }
   },
   "Hearts2Hearts": {
-    "members": ["JIWOO", "CARMEN", "YUHA", "STELLA", "JUUN", "A-NA", "IAN", "YE-ON"],
-    "themes": ["The Chase", "RUDE!"],
-    "le_themes": [],
-    "availability": {
-      "The Chase": { "type": "FREE", "in_pool": true },
-      "RUDE!": { "type": "BASIC", "in_pool": true }
-    }
-  },
+  "members": ["JIWOO", "CARMEN", "YUHA", "STELLA", "JUUN", "A-NA", "IAN", "YE-ON"],
+  "themes": ["The Chase", "RUDE!", "Lemon Tang"],
+  "le_themes": [],
+  "availability": {
+    "The Chase": { "type": "FREE", "in_pool": true },
+    "RUDE!": { "type": "BASIC", "in_pool": true },
+    "Lemon Tang": { "type": "BASIC", "in_pool": true }
+  }
+}
   "LE SSERAFIM": {
     "members": ["KIM CHAEWON", "SAKURA", "HUH YUNJIN", "KAZUHA", "HONG EUNCHAE"],
     "themes": ["EASY", "CRAZY", "HOT"],
