@@ -1128,6 +1128,30 @@
     "c_l_is_this_love_maya_em": "sha256:083fe182c4df1f0bd86e8197cb372c818515ffa2e17c977a02b174bd0cc8f3b3",
     "c_l_is_this_love_maya_r": "sha256:6de14aaa9e8ac9d06a04dbf5ee35d9b20f5aa7f8459becd0c09a79c5c284574c",
     "c_l_is_this_love_maya_s": "sha256:9814c6dac8d0cd873ef12e741a4496c750b4dba82637381f8026d6488ce71784",
+    "c_l_kiss_n_tell_giselle_a": "sha256:4595c8e8363fdcdd4acae9dada1a743ca79ed398847f8c70607e5bb207aac4dc",
+    "c_l_kiss_n_tell_giselle_b": "sha256:1dacdf9a47543451394479f211211b4b0ffe1ce14912f6cce59ceb456bf03156",
+    "c_l_kiss_n_tell_giselle_c": "sha256:78babff39f3ea35e25b25d4cdbbe299ab25bc9bb202bc29505d5de558c6ddf16",
+    "c_l_kiss_n_tell_giselle_em": "sha256:65319942c97ab357295c234d34b542db0cb6fa1699320c724b42192494619494",
+    "c_l_kiss_n_tell_giselle_r": "sha256:ee94975fa17cd9e9b4f42d0426c1482e7528f5454322c56d4ec3f4da05ee61b1",
+    "c_l_kiss_n_tell_giselle_s": "sha256:cd4566aade47a8d9da067cebbe8860372eaf197f2b6f5883f784baa2f4d6bcfe",
+    "c_l_kiss_n_tell_karina_a": "sha256:e46ba3d6783b3c3585f48e36d699c0fd7c28500024486f6fb11702921a68278b",
+    "c_l_kiss_n_tell_karina_b": "sha256:d272074137c7b5d27d6b63fb42be06a948768aef0adf82c82ba5d78f9e376e1e",
+    "c_l_kiss_n_tell_karina_c": "sha256:2f0502d34a83f7b716b46f23a4a7804b659d0a0717a39af5c98e6829c3946c20",
+    "c_l_kiss_n_tell_karina_em": "sha256:715f1b018031b83f98ec771c0eae3939a1ef8d099ce84d70ab77d8d0d29f5c74",
+    "c_l_kiss_n_tell_karina_r": "sha256:5f93e402f4b9c914d17ef74614e5b9aacd31df63e3961b572298320cd005559d",
+    "c_l_kiss_n_tell_karina_s": "sha256:36ce8b5b957dca54cd51b1833fe7db62ab243270f77f3b37b8b8f57dae5b51b3",
+    "c_l_kiss_n_tell_ningning_a": "sha256:9d002ea6a159e9375d43bf8517b2f64b22921f3eb7c8346f5c6a7eb4c22be408",
+    "c_l_kiss_n_tell_ningning_b": "sha256:b0976eeb39f1c0e26d1de97da2192e6350a0baa48f98cab494bfb0ed8195403c",
+    "c_l_kiss_n_tell_ningning_c": "sha256:40553abf730b76077a8afd002a84f4a28a717ffe40c0b4765c31ee83769d1f53",
+    "c_l_kiss_n_tell_ningning_em": "sha256:9e3a751d09cb1b49b25aaa79941d4564f440b47d75289977fadb0a88f266e4ca",
+    "c_l_kiss_n_tell_ningning_r": "sha256:1af800a2d7c26fab106117a59f00dc492d8b873e84e34b3a9c6cd7785f9244f9",
+    "c_l_kiss_n_tell_ningning_s": "sha256:ebb3989b9aec6fb8dca456827b15d6d228c8072d23f7b48fb731acf9ddb4d6a4",
+    "c_l_kiss_n_tell_winter_a": "sha256:6150efa5e74b24e6fa62a98d18ef1f058d62ff31489eb80077a36d2dde7bee63",
+    "c_l_kiss_n_tell_winter_b": "sha256:eb62fff099d587a49c411850e35b1527ed14536e27a640e626a956718ef63389",
+    "c_l_kiss_n_tell_winter_c": "sha256:4c185c3bc8a8261e1fdc8189cf93b78c90c4a427984d4d510023c7b2bf0fe891",
+    "c_l_kiss_n_tell_winter_em": "sha256:1fe9218290937699b44b5c6eec4ec6e87015e9c1c8572f99e1bf3a66f6bb7421",
+    "c_l_kiss_n_tell_winter_r": "sha256:973e94e8c5f67fb12d4df927de99a9961134ec7c7178930c687442dfc73cf6a6",
+    "c_l_kiss_n_tell_winter_s": "sha256:296841608062b7f5d66f8474c82f3714fe8e174af09f8a8a73634d4be30c0b0a",
     "c_l_know_about_me_bae_a": "sha256:57f2b89c1a3e559ee99dff51dff0a5da96ea1f3d4ffb7227846d4b5b28a972ba",
     "c_l_know_about_me_bae_b": "sha256:16fc350132b2f76b029d888bdf2b4715044153d5c0c141e19ecda55a861a78cf",
     "c_l_know_about_me_bae_c": "sha256:c6a446eed4911578723ebd9b6bf34eb5db9aa5ad796abb0dee47171bef71449d",
@@ -1236,6 +1260,58 @@
     "c_l_last_festival_youngjae_em": "sha256:2cfac466eca2fb3e297dee2058553d7a65cdaac7edb22ff3d7cdfc32553f661a",
     "c_l_last_festival_youngjae_r": "sha256:f1468aa73fd6d0ccb632e295785bc26e6edd9e43b9204b0340b68e7171c8dc28",
     "c_l_last_festival_youngjae_s": "sha256:ccc60dc97352c4881146d1b9728b03dfb6683022c65b8a3b7db7bb1d2959363b",
+    "c_l_lemon_tang_a-na_a": "sha256:97419a81aec451b026537b5b07afcdef1941d563407f78c9e5bedfaa55f5c5d0",
+    "c_l_lemon_tang_a-na_b": "sha256:dfa86b340c6a92bf3c37a9116435427d3d276e80459bf28f97d73ed72314b7c9",
+    "c_l_lemon_tang_a-na_c": "sha256:c8c7cb2181d45170f018db6f92df7537107a6ce5144cd59e96ad71b9edc06b62",
+    "c_l_lemon_tang_a-na_em": "sha256:c0827e3ec1f8ec41b05544bf575639bea868f9a3b6f7af61d0e7749654ad4a14",
+    "c_l_lemon_tang_a-na_r": "sha256:6b4b061df0d27945109b65d2e6cf9a5a7045862da06ab57e291b18a49b35a035",
+    "c_l_lemon_tang_a-na_s": "sha256:82f1a3f9ab14b8ab5ca1efb91367c5299d08a09c258726c1b84ec5987cc9a629",
+    "c_l_lemon_tang_carmen_a": "sha256:f8094d533d094799d4fd30788a6bf740066ff54a4eb6afcfaf3aa7bc7d5cf3c4",
+    "c_l_lemon_tang_carmen_b": "sha256:452a97da6279ee789047b3e95778dadfb71ab364957d0977da9774cba2204414",
+    "c_l_lemon_tang_carmen_c": "sha256:e5c3ae23e6e5f33d862becb688aaa4022c5d9a09b7603b895c9bf8aba166b4ad",
+    "c_l_lemon_tang_carmen_em": "sha256:46e121fa17ce58ed96342d0a086ed3b91204ef0be8de552137958769545814eb",
+    "c_l_lemon_tang_carmen_r": "sha256:d0c8715e67c779a5f1435d7d74ec39d404dac1a646eec27ed7a73de0b91b4c64",
+    "c_l_lemon_tang_carmen_s": "sha256:7cb64a43807f3172d8ad29e7fb1418e47c82972fbb3917f5234e02974e86da3c",
+    "c_l_lemon_tang_giselle_r": "sha256:65319942c97ab357295c234d34b542db0cb6fa1699320c724b42192494619494",
+    "c_l_lemon_tang_ian_a": "sha256:2e510491e8022539c504b2548e2bcc688552b73f10ddf6a93c6f7a9ead797ff4",
+    "c_l_lemon_tang_ian_b": "sha256:d73a1388ae10cf9a412df6559b64feee3a22fcfc67fdb331805182d5e183ca09",
+    "c_l_lemon_tang_ian_c": "sha256:2edf76762211eda0ca8d839ebe31c0e9bea9ecc019546eb7205540d3140d5eab",
+    "c_l_lemon_tang_ian_em": "sha256:cdfcf5bbcd5bb920468ac231ba2a772179f71ad1dd2cbcb236b1df9447195a5f",
+    "c_l_lemon_tang_ian_r": "sha256:5ca2190b43095a2df618d1343ce016d517afd98770d0951f655262b7503f188f",
+    "c_l_lemon_tang_ian_s": "sha256:3e38279a39c2132c740bc1665f73dde60132a81e89011d4bf27224d52f52cd0f",
+    "c_l_lemon_tang_jiwoo_a": "sha256:0352c88b2b8378a7340a59c04304c0579aad23a8596a625764a3ac59821fc358",
+    "c_l_lemon_tang_jiwoo_b": "sha256:efdae549017bc16a4bbf253010d486957edbc792dbbf709ab5e52f057dc1713b",
+    "c_l_lemon_tang_jiwoo_c": "sha256:a678ba2531a77005c01790f7ed7442bb889f6fb4f6b3704969e6e49092fdc571",
+    "c_l_lemon_tang_jiwoo_em": "sha256:2ac54c8f6de7f9460fc4a647c113325cc5df12ff4a044ae56acf7981fb076c6b",
+    "c_l_lemon_tang_jiwoo_r": "sha256:53477feeb92d7ae2f925648d00f5dba7dc684cfc2d42b33ec0c02db631301db7",
+    "c_l_lemon_tang_jiwoo_s": "sha256:c994ac6701d484e84826431bfd3a058866606c92597f39dc58df8649a601caba",
+    "c_l_lemon_tang_juun_a": "sha256:8ec78c0de063e3a5c9be32c4783d6f1e4fa94195d6dc58d1d6d379fe3db7c00d",
+    "c_l_lemon_tang_juun_b": "sha256:79063bcbc6fb04ed4d6f478f2f8e6dee97c2011dd6fa22d8edbf93add046ecc1",
+    "c_l_lemon_tang_juun_c": "sha256:e4429323e25e02de2fb35f7171915fc26984b03f72860c82d324cd1117d167f4",
+    "c_l_lemon_tang_juun_em": "sha256:e4901f7c69b878dc6f1ae1c0e10a4e0aba906be1f7ed1ced268bfbf9a51a61a8",
+    "c_l_lemon_tang_juun_r": "sha256:1208a3884a3190e8144518e05dfdeec1a163d39ecb20c811e8aca6ed4ba24a6b",
+    "c_l_lemon_tang_juun_s": "sha256:139da47db062f4a6edb940e41edf5b2f8beb023816d8979ddaee2b79da459d9f",
+    "c_l_lemon_tang_karina_r": "sha256:715f1b018031b83f98ec771c0eae3939a1ef8d099ce84d70ab77d8d0d29f5c74",
+    "c_l_lemon_tang_ningning_r": "sha256:9e3a751d09cb1b49b25aaa79941d4564f440b47d75289977fadb0a88f266e4ca",
+    "c_l_lemon_tang_stella_a": "sha256:5629efc2b7e53a02348133e0872314f1e26fdbe8e9d967143bfa44efe7e83d50",
+    "c_l_lemon_tang_stella_b": "sha256:6fe2222576b956c2975a315442469d803905f9af61617a81c91ddf682cf20f1d",
+    "c_l_lemon_tang_stella_c": "sha256:77f4b0192ba19e6322f169282006c16fa70faff40e71d26e4a3b28aa2d641c54",
+    "c_l_lemon_tang_stella_em": "sha256:d66605b6567e56a9ee522ad4732cb59d08c3eadca72eee13c8d66f7a1bc03d6a",
+    "c_l_lemon_tang_stella_r": "sha256:2d910feb9053c11a43a66ed9d12fd9a5f07acffbd0d589663fad337dbe7503fe",
+    "c_l_lemon_tang_stella_s": "sha256:88967d9c509ad055b830b3959fde13f40c893145ddc1c31b5a8baaddf2883aec",
+    "c_l_lemon_tang_winter_r": "sha256:1fe9218290937699b44b5c6eec4ec6e87015e9c1c8572f99e1bf3a66f6bb7421",
+    "c_l_lemon_tang_ye-on_a": "sha256:5316d9b4570d5d87f9e5e1675a2d24fc73e8092fe2e7b4be669a8a87dd0838df",
+    "c_l_lemon_tang_ye-on_b": "sha256:56625d9ca2d7fe64dbef90c610e90777384e871ca3b63215dbbb63186ffc6108",
+    "c_l_lemon_tang_ye-on_c": "sha256:ade2ef57180bc09c47876bdbee91211c5c89063375bb7db31ba6428d289142e9",
+    "c_l_lemon_tang_ye-on_em": "sha256:c84c75094419c74a17f581ad731eb8009838e0259239740ec05c491ba996faaa",
+    "c_l_lemon_tang_ye-on_r": "sha256:61128a1bc5f781c1500dd51d4f5eab0ed81f9e440b33b5aad4e0205ab4b67921",
+    "c_l_lemon_tang_ye-on_s": "sha256:33e2037295664f0d63b95a78e1d7c83cd19b8e77d6a71b5498684e5c8e5e6f97",
+    "c_l_lemon_tang_yuha_a": "sha256:1227281cbeb6cfffc12f0ec333873793863bd9c03414682fa5b49d67f5db7c0b",
+    "c_l_lemon_tang_yuha_b": "sha256:7a78ff6d1b9be60c30b49d1d9c5bef3d8bf19009b0ca3c468cadc84b5ba5c173",
+    "c_l_lemon_tang_yuha_c": "sha256:ebcc2f555b88ca3ee191bcc5881f8b386af44fc55ed8d0d01e27704131aff53c",
+    "c_l_lemon_tang_yuha_em": "sha256:3354e8798d62536a48a3e395ad5ef84b05b996a63f9d4ad213119aaa699ff083",
+    "c_l_lemon_tang_yuha_r": "sha256:9a0a49ea6aea8d2f046d7429b44279e7dce3fa32f65f9fdd5f93ef7a767f86aa",
+    "c_l_lemon_tang_yuha_s": "sha256:f16afecfcf88ef7e8bb5e13d6579086210a7115da03b9f948a12833f36826e58",
     "c_l_little_miss_camila_a": "sha256:fd16c6a3ff8851991f841cb11b0014dcbcaaddd947f974352d9441116a11e9ef",
     "c_l_little_miss_camila_b": "sha256:6eb14019f0255ac89cc205337fa793f25f8bfe3ca0097a115df910947fdd828d",
     "c_l_little_miss_camila_c": "sha256:8f31e13715b2846ba11ea1c6534e97e33d9c09c653eb8bc797807f5131a2b2c5",
@@ -3500,6 +3576,30 @@
     "c_s_is_this_love_maya_em": "sha256:5671437284f617a068f319609653ec7903897e1126bb10b160f8e820d4546339",
     "c_s_is_this_love_maya_r": "sha256:99ec64924b048a817454ead0fda1d55b6713e5b3a72fcbc59096a8bdf75b9303",
     "c_s_is_this_love_maya_s": "sha256:a0de011caf816269de2473204aa3063e3efceccbe59b3f71d8930a6148f01cef",
+    "c_s_kiss_n_tell_giselle_a": "sha256:74e4054c874ec25cd27eed12bd739265bf5ec0a5bb6916f11085514814d60fd0",
+    "c_s_kiss_n_tell_giselle_b": "sha256:857c08d13f20427a1329e59de1182f430c2fecd3c1801f995ac2a50d48022c4d",
+    "c_s_kiss_n_tell_giselle_c": "sha256:1fcdaafb5a1aa534e8eaf0df4febddc8c0b2201ef780d10a24ccb4705c4e8a6b",
+    "c_s_kiss_n_tell_giselle_em": "sha256:1bf785ae0bb5f5ec2a6a480badee61cc5de23ce2a95ec242fcff78c133b858f5",
+    "c_s_kiss_n_tell_giselle_r": "sha256:9bd486c191b4a3d2753d4f561541b4472ced5d6ab5e442bbbd5fd4d6d14cbb9e",
+    "c_s_kiss_n_tell_giselle_s": "sha256:912986e8a8aed64e492a669926bb38a7350aa9428a6e7b8cf7a504d4ccb70db2",
+    "c_s_kiss_n_tell_karina_a": "sha256:110234a068fdbad748785125f8ce6111cd0d0fee00c120fe5577a0b5a2f2fdb4",
+    "c_s_kiss_n_tell_karina_b": "sha256:c1188919d3c55336c6cf02511a31e7e175263dc82a236d4da79362298e5c736f",
+    "c_s_kiss_n_tell_karina_c": "sha256:2386605727e61253e04abc1c875350f00c51f31372e9d206a3a52ba0410668cb",
+    "c_s_kiss_n_tell_karina_em": "sha256:41af17136fef9e19df6818b4e12b7d9febe91e6efa252936ac3a2672e3988037",
+    "c_s_kiss_n_tell_karina_r": "sha256:dd98e07ecbc69722970e16438e73c1ae9300371d3d66d799d29e7456a4771c9d",
+    "c_s_kiss_n_tell_karina_s": "sha256:974a60f19ef06c944526685fb10e8daf0a1c00d1ce5aa02d68e41fdc6cf6d712",
+    "c_s_kiss_n_tell_ningning_a": "sha256:4a6b7c3ae667e583d506a04dc39940134d7cca0756ba439799fc6bf8dc066e6f",
+    "c_s_kiss_n_tell_ningning_b": "sha256:b0e3a860e3604dfb7750f6241ab79caff6ed8eca3317786d7754bf71a51a820b",
+    "c_s_kiss_n_tell_ningning_c": "sha256:b3ecaa21478e9ce0cfc6a8c5b0ddff971359e5c86e2ea75c2d5aef23224659b1",
+    "c_s_kiss_n_tell_ningning_em": "sha256:9da1fbc91fa39ca54790ec19cab5a2af9dbca8c395c18c3bb1a595779e2ce261",
+    "c_s_kiss_n_tell_ningning_r": "sha256:bfa0f99dd4e3f3999485ab677548eccccb1c22c93c0af2b01feb2ae5262102f2",
+    "c_s_kiss_n_tell_ningning_s": "sha256:400e628d4e64aa2f22f8a423200de1102a28a1fe378842d0b4ae8e33997980a0",
+    "c_s_kiss_n_tell_winter_a": "sha256:3b4b438ee8603474f8ee8f436dc49df9cf13031b23b6e0265ccc6a9aed27fb6d",
+    "c_s_kiss_n_tell_winter_b": "sha256:ecdae6ee107e514344718044e5ea820b79bc51a73de65ad9c16fee9cc1e99375",
+    "c_s_kiss_n_tell_winter_c": "sha256:2e2619f0b910aa0df79ed58cdd2bfb3fcfa3860966a2b0f59dd3f579ebfb36a4",
+    "c_s_kiss_n_tell_winter_em": "sha256:36f4cc7ff411921b898221eb7719801f04283b75a581b53f5c1b82faf2a3837c",
+    "c_s_kiss_n_tell_winter_r": "sha256:566e54f06cb354bcf58483a90e05874fd7cabbc59c259206f6926c9a7a6a92f1",
+    "c_s_kiss_n_tell_winter_s": "sha256:84f99c6e77b89cd73cbb693d36cdac84ee01e1a6fd5e322e37d817a31b313e34",
     "c_s_know_about_me_bae_a": "sha256:dc62b7a4eca4a2f7ebb62c4ec948358ef8b197946350be71aa4006446b544a71",
     "c_s_know_about_me_bae_b": "sha256:53c79c9ba33e8746e1065b3888ec4219312efbd9e1b9317731be9633e143d2b0",
     "c_s_know_about_me_bae_c": "sha256:6962999a2de27f285f724983aac06fd2da0ce74df55e63deef657b721f863793",
@@ -3608,6 +3708,58 @@
     "c_s_last_festival_youngjae_em": "sha256:372fe23a92ef85431fa461953887d2ec8f360987aadca85a7241a231114d9c44",
     "c_s_last_festival_youngjae_r": "sha256:f81bf9e86e97d83de6a6c3ffb86b8faa306c1e4f347c69322079a93fcb73f6c3",
     "c_s_last_festival_youngjae_s": "sha256:8b8df9275ab545b03b9e7ac898ae241c696fa9d6e5de4ed140e6c201f386a6b4",
+    "c_s_lemon_tang_a-na_a": "sha256:18e4da38f25222bf342b115c734b079e75e4a15c11e878ac676aefa38707c36a",
+    "c_s_lemon_tang_a-na_b": "sha256:067277c2b9d5f9f7dd97ff72a39de98ff4a319b926dd6f103acd7a0ba5051e34",
+    "c_s_lemon_tang_a-na_c": "sha256:a26e45512ebe7a26fdce0dcdb539a6449c898dcd95290a3b824033978e69cc79",
+    "c_s_lemon_tang_a-na_em": "sha256:848ab8d605fcd7bab22a462fb6752c16bd890e309822014a72efd7aa25da83d5",
+    "c_s_lemon_tang_a-na_r": "sha256:40fe442212f7959c337507febbd982eaa28b6300f84cc97227be1ce1e7d95e4f",
+    "c_s_lemon_tang_a-na_s": "sha256:310e5bfba5fc8439e489729e49a521cbbd8025cbb2208228827f80936d72ce43",
+    "c_s_lemon_tang_carmen_a": "sha256:376d080697090e241ce948d42a03f9498b703910b64319c59f5e15b2da13e692",
+    "c_s_lemon_tang_carmen_b": "sha256:f193adf86c43cc73a9663e39f3ad3fa4a798f053a635d391f1e30f78996fa9ab",
+    "c_s_lemon_tang_carmen_c": "sha256:f28b927c9161a82b76c0e6e4b75b07c17a6a0057ab3847a6489db594c0108702",
+    "c_s_lemon_tang_carmen_em": "sha256:3dbcbc588e6db29de6c09839d10d3d1019f1d37d8068522e1997a3f040cc5555",
+    "c_s_lemon_tang_carmen_r": "sha256:a9e866524dc8dcf34a4ff714b77485af555eb83e8ce1adeeeddc4183aeccc304",
+    "c_s_lemon_tang_carmen_s": "sha256:2260559afd5e347d895a6d412e13e4d4553825063e58238dd08c3441b7a92c9e",
+    "c_s_lemon_tang_giselle_r": "sha256:1bf785ae0bb5f5ec2a6a480badee61cc5de23ce2a95ec242fcff78c133b858f5",
+    "c_s_lemon_tang_ian_a": "sha256:db538a076c45aefd0dd3e34aa08fdacfde8685209d8ade805e97d9894c153c1f",
+    "c_s_lemon_tang_ian_b": "sha256:aa84c84d48cccf8cda75c4d9b115757b543d82f92c9ce9bdc043fe90d79cfdf6",
+    "c_s_lemon_tang_ian_c": "sha256:2a6cf88ccf52a7af6f9a7183381df28647f6d386e3cc445191c17646b96197be",
+    "c_s_lemon_tang_ian_em": "sha256:d3d11347d021af70c0a485c5e73e92420dba0e9d925a6d1ef4994cea48be1e73",
+    "c_s_lemon_tang_ian_r": "sha256:c244d59f1f4e67fea4bfd702299491a6693cb3f0c9ca9331a957ba27294efaf7",
+    "c_s_lemon_tang_ian_s": "sha256:e278d39e0b48e0d46e49d9cd5b383a2ccdf933c172c17f89c80de22491bea834",
+    "c_s_lemon_tang_jiwoo_a": "sha256:5c14a69a02c4a78700a46f6d6ce1e96b1aee18079b47b55d1d62669428a1d72e",
+    "c_s_lemon_tang_jiwoo_b": "sha256:36d3212aa12eaa2707e80e6781b6f787bbf0ad1d5088306559658bc5a8e87f9b",
+    "c_s_lemon_tang_jiwoo_c": "sha256:a2dfc3845afb5d41ff0c99a3feb6daf6d1b05a45109d9b030e47e6f63d00366a",
+    "c_s_lemon_tang_jiwoo_em": "sha256:859add6562d622362c3107b5171b6e243111d3e30d5d7bf3d9aa6221562b2d64",
+    "c_s_lemon_tang_jiwoo_r": "sha256:843503cec9600eba4223d55f7d6c0917a23ef2161db285e3b676b81e1b7e3e43",
+    "c_s_lemon_tang_jiwoo_s": "sha256:053033b251bc40b6ad16013d0c2c89b4fc7f22f0db9fc48ba97dce6aaf332385",
+    "c_s_lemon_tang_juun_a": "sha256:29f3b1a0c5031620443e3675890eccfa3a82bfba22e0865d3e1e487ae555a8c7",
+    "c_s_lemon_tang_juun_b": "sha256:141c74b6964aa07257271ba6ba3b653de3321f1949e06206ca01ec55796d675e",
+    "c_s_lemon_tang_juun_c": "sha256:178fdc8d5b165b2219caee56f6709f378809126d58906bd80bf11fe4cc4ce93d",
+    "c_s_lemon_tang_juun_em": "sha256:d39d803cda7c95b43b2eb63becfbecfda2739f20bfbc4ea9fa08ba814ec122cb",
+    "c_s_lemon_tang_juun_r": "sha256:9ed025169373fc7aaaaf695a84934d33f2ecbf105b5d320ee29e9d22c9528d60",
+    "c_s_lemon_tang_juun_s": "sha256:37867a2ebef389f91973874145ca05b258632b94a73150e081d0929a2a0ab68f",
+    "c_s_lemon_tang_karina_r": "sha256:41af17136fef9e19df6818b4e12b7d9febe91e6efa252936ac3a2672e3988037",
+    "c_s_lemon_tang_ningning_r": "sha256:9da1fbc91fa39ca54790ec19cab5a2af9dbca8c395c18c3bb1a595779e2ce261",
+    "c_s_lemon_tang_stella_a": "sha256:daea3de3dccd92fb014480d7e67e040a5adbb516593f0794c870858adbd82668",
+    "c_s_lemon_tang_stella_b": "sha256:81776580ebcfd51eba88b3f8d36cc8060a44cfb84afd05fcb144a6eff69dacc7",
+    "c_s_lemon_tang_stella_c": "sha256:35ad4c9d5dc5274bb10ed7ec3322e98cb732104d85c08893f16c7d6049be5a44",
+    "c_s_lemon_tang_stella_em": "sha256:a305e614d81ba37fc2bfe5671523d21a1fe08873fcc58089cac497d9d1d157c8",
+    "c_s_lemon_tang_stella_r": "sha256:a1d4e52f5c6c6c91e9f20552f1281267dcca3af55a6572705a3e0dc521fcc294",
+    "c_s_lemon_tang_stella_s": "sha256:0657e5ecfc6e4f16625625692a07a5706b5f11b1a13aef2b0f3ff48ef73cf495",
+    "c_s_lemon_tang_winter_r": "sha256:36f4cc7ff411921b898221eb7719801f04283b75a581b53f5c1b82faf2a3837c",
+    "c_s_lemon_tang_ye-on_a": "sha256:d58ba167a7a75d9dd17e7c6155ceb328c05348ebfd048a7d8ebb0c25109fbbe1",
+    "c_s_lemon_tang_ye-on_b": "sha256:a3a98ec589e2c540ad38b9125f6d0ed5b5afd3dcf28770d6ed4df74bdbaa153b",
+    "c_s_lemon_tang_ye-on_c": "sha256:bb7f63a99bd47631b99bcb575ed3bbd095290de47e29dfeb7fca4fbddcc2f9e4",
+    "c_s_lemon_tang_ye-on_em": "sha256:e5d810118b99c28e3e5c2fc2adad5ca2eb072dba6f97597c44897c8c773221b1",
+    "c_s_lemon_tang_ye-on_r": "sha256:7d56f23dde49c0c70edf08027353a4a15bcdd54f54bdabb264335c226ad2d164",
+    "c_s_lemon_tang_ye-on_s": "sha256:1683d34b3fdd8a460869276be70323404fba04607a07371201c0ea8588f7e65a",
+    "c_s_lemon_tang_yuha_a": "sha256:a8ddfc4e4daaa70eed07a2dbddcbdb6c87a45b1f4c31db377807530e5b1cb7e3",
+    "c_s_lemon_tang_yuha_b": "sha256:f763cb0d6a42389d975393404638e361898ed2465e0ea74a94f2eb546d5a98f4",
+    "c_s_lemon_tang_yuha_c": "sha256:bbb6127258f08bf49a68c8aaf65538d948252ec2cd5924d9a4bd8b364e413d7f",
+    "c_s_lemon_tang_yuha_em": "sha256:6fbbaa613a639377a900dfd826d36cdf9eb7af4a610831e785725d56029a4496",
+    "c_s_lemon_tang_yuha_r": "sha256:e8c89934f4ec637838139e6db5d1be8dcaa428b107a277b03a4ec43de80ab807",
+    "c_s_lemon_tang_yuha_s": "sha256:9eee767bb8c59357f0f1ca083ebb62907d4dec2e832f3d0644155a1a570f797f",
     "c_s_little_miss_camila_a": "sha256:0a6588f0e32caf6e363196fb4086b4bb10ce607306b33aa174d85defbc11080a",
     "c_s_little_miss_camila_b": "sha256:fbf79ac5733c3a09db17cf9f2795ac8c02317e5d6b13d493e6edd5c71c1d01f8",
     "c_s_little_miss_camila_c": "sha256:80d503a37c3a9005fa9a212ec4a979a6c073d665c9b7f51026bb42b5fa287450",
@@ -4957,6 +5109,10 @@
     "p_is_this_love_juria": "sha256:07ff6ef283b748833d782e0d8dd613d43df2938a1a998a320bf26ba4f5fca55f",
     "p_is_this_love_jurin": "sha256:4795bf6bbc9a432fff8f88d17096e47170ee03a4ffdb4bfa48d94b01dd40190b",
     "p_is_this_love_maya": "sha256:79c9b54ebdcb27cfe4aadbbf3132b7f10f59487ad709a012dd047bf810dc9f4d",
+    "p_kiss_n_tell_giselle": "sha256:dc753460423f9597f1ad8c0c7eab422535a5f51bbe8e08b15ae19905f7756e87",
+    "p_kiss_n_tell_karina": "sha256:6e566018bf5c10bb954cb6244ea52fd81da557eb87708bb379e440a86a671eba",
+    "p_kiss_n_tell_ningning": "sha256:4e7a76162939eb3122e992dc9e93b7448985b180380e69c73e3b041abd983b8f",
+    "p_kiss_n_tell_winter": "sha256:e69a74fb95764491b0c81d9a9320ddd60ec7d278b882db887437bfd5127e0aa3",
     "p_know_about_me_bae": "sha256:a8bffe99d84688682398600fc2914c875db4f83da289d909831da3824318a07f",
     "p_know_about_me_haewon": "sha256:776a1d18079ebb28dd65cfb13abcc725a95459081c17d7af0a51346e13470f93",
     "p_know_about_me_jiwoo": "sha256:c90f384dd37411e701c874636d777fe82229deed7bdbc44e76245dac65c50cd2",
@@ -4975,6 +5131,14 @@
     "p_last_festival_kyungmin": "sha256:101ef63fd9eb790db557518cd246b1a9dc957043fa11fe995d8594af9cea8f9f",
     "p_last_festival_shinyu": "sha256:7011b251c31b85faea0d1f63587afa1ae1329af11cfd84ea60c0a8f9b73f869a",
     "p_last_festival_youngjae": "sha256:20becc2aaed338c33c2f630d838b3e875df98593c554600b8b9e32b3407400f3",
+    "p_lemon_tang_a-na": "sha256:9b8fe8d3c2ef337a858237c47e0066812164471e6b4c7d908a0f7b7126895ebd",
+    "p_lemon_tang_carmen": "sha256:bb6e4a7af7d8da3d44799265015a191aa09a7ad8aac6a76ff04230a7d69bf284",
+    "p_lemon_tang_ian": "sha256:a0bbb7d3a76a96efa02434380b3e8292311f23cd53bb2cbd627d4effccb008d0",
+    "p_lemon_tang_jiwoo": "sha256:5b0c5d9d61ccc35dedd184cf8c7dc68b51229c60b09d43feb620266f6ee6a91a",
+    "p_lemon_tang_juun": "sha256:206bb1bf45861f7e6cce293983967197daa39f481ecd5ae05678efffc94fae98",
+    "p_lemon_tang_stella": "sha256:cad1f1c118a43a15d165c56f935cca2c7add644a4756b9679b6357bb58d8a6e8",
+    "p_lemon_tang_ye-on": "sha256:60d609d5e980427a817f236a6ce53a1208fc1d39c36a8cc2c2f00ce9995a5464",
+    "p_lemon_tang_yuha": "sha256:a5cb39338b2cddd1185ec4edd1268c589a00613d248d4d36e9f7db4c673c3e0f",
     "p_little_miss_camila": "sha256:f439019184abc47c2071d3181de2702dce0c4bcaea599b9805c37130ad2c8c8e",
     "p_little_miss_kendall": "sha256:0d03b9c95b57ec5ffc5726b6f33d932185887dadc07ff01d0e71a59471db69f4",
     "p_little_miss_lexi": "sha256:cf795dbc82d72f8633b0c29db57deba0160ea2cb8e9dabd3904b427ede2fc088",
@@ -5785,6 +5949,14 @@
       "source_bundle": "cards_odd_eye_circle_girl_front",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/03/034426f5f14f46180a0d7f31d0c44b311f56333dbc90f938928537e566810752.png"
     },
+    "sha256:0352c88b2b8378a7340a59c04304c0579aad23a8596a625764a3ac59821fc358": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_jiwoo_a",
+      "sha256": "0352c88b2b8378a7340a59c04304c0579aad23a8596a625764a3ac59821fc358",
+      "size": 139906,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/03/0352c88b2b8378a7340a59c04304c0579aad23a8596a625764a3ac59821fc358.png"
+    },
     "sha256:03532c58adad21bf44c87a63b451aebcf113e5a531f045d3dec719c1549e2843": {
       "mime": "image/png",
       "original_name": "c_l_greengreen_keonho_s",
@@ -6089,6 +6261,14 @@
       "source_bundle": "profile_artms_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/05/052cd40b396616af7aa7467c7d011b759db9a605bdd708d2bba924cc7677f743.png"
     },
+    "sha256:053033b251bc40b6ad16013d0c2c89b4fc7f22f0db9fc48ba97dce6aaf332385": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_jiwoo_s",
+      "sha256": "053033b251bc40b6ad16013d0c2c89b4fc7f22f0db9fc48ba97dce6aaf332385",
+      "size": 25809,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/05/053033b251bc40b6ad16013d0c2c89b4fc7f22f0db9fc48ba97dce6aaf332385.png"
+    },
     "sha256:05423075ca9e4800cc361ae9c1c9887ba7083276cc6137d0f359fa21acc643cd": {
       "mime": "image/png",
       "original_name": "c_l_hands_up_sooin_c",
@@ -6273,6 +6453,14 @@
       "source_bundle": "cards_le_sserafim_easy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/06/064fadf27f19bbeb83d05622d7cafa89bcd422e761ee14b08136b9eae1f44654.png"
     },
+    "sha256:0657e5ecfc6e4f16625625692a07a5706b5f11b1a13aef2b0f3ff48ef73cf495": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_stella_s",
+      "sha256": "0657e5ecfc6e4f16625625692a07a5706b5f11b1a13aef2b0f3ff48ef73cf495",
+      "size": 24427,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/06/0657e5ecfc6e4f16625625692a07a5706b5f11b1a13aef2b0f3ff48ef73cf495.png"
+    },
     "sha256:0667a17c054ddc90196d11a103c7eeb12a9f4b5e4fcaa6006551361b0f97ed85": {
       "mime": "image/png",
       "original_name": "c_l_choom_rora_r",
@@ -6280,6 +6468,14 @@
       "size": 114901,
       "source_bundle": "cards_babymonster_choom_choom",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/06/0667a17c054ddc90196d11a103c7eeb12a9f4b5e4fcaa6006551361b0f97ed85.png"
+    },
+    "sha256:067277c2b9d5f9f7dd97ff72a39de98ff4a319b926dd6f103acd7a0ba5051e34": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_a-na_b",
+      "sha256": "067277c2b9d5f9f7dd97ff72a39de98ff4a319b926dd6f103acd7a0ba5051e34",
+      "size": 22615,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/06/067277c2b9d5f9f7dd97ff72a39de98ff4a319b926dd6f103acd7a0ba5051e34.png"
     },
     "sha256:06783afe2aaea54f751d9282944e34a9820ec34c4f1e037dc05ce464fe3a426a": {
       "mime": "image/png",
@@ -7969,6 +8165,14 @@
       "source_bundle": "cards_odd_eye_circle_air_force_one",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/10/10ffab3c464af90d7cdbd0c6d3cfea827295f3df45a0b18f68f0494420db3b42.png"
     },
+    "sha256:110234a068fdbad748785125f8ce6111cd0d0fee00c120fe5577a0b5a2f2fdb4": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_karina_a",
+      "sha256": "110234a068fdbad748785125f8ce6111cd0d0fee00c120fe5577a0b5a2f2fdb4",
+      "size": 23573,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/11/110234a068fdbad748785125f8ce6111cd0d0fee00c120fe5577a0b5a2f2fdb4.png"
+    },
     "sha256:1105bf2a633d0c6d5960af79db5b3f765588d2739de87d2ac37ba3ae9276934a": {
       "mime": "image/png",
       "original_name": "c_l_hot_kazuha_s",
@@ -8129,6 +8333,14 @@
       "source_bundle": "cards_stray_kids_ceremony",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/12/12029b01e1b8fd7af329bff656569346353eb451b2632546892ad5b8c3f07e95.png"
     },
+    "sha256:1208a3884a3190e8144518e05dfdeec1a163d39ecb20c811e8aca6ed4ba24a6b": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_juun_r",
+      "sha256": "1208a3884a3190e8144518e05dfdeec1a163d39ecb20c811e8aca6ed4ba24a6b",
+      "size": 135838,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/12/1208a3884a3190e8144518e05dfdeec1a163d39ecb20c811e8aca6ed4ba24a6b.png"
+    },
     "sha256:12196449e110f13565ac99f53bcde85ba0807c24bfbc4fe3cba730bfc241afb1": {
       "mime": "image/png",
       "original_name": "c_s_famous_tarzzan_a",
@@ -8144,6 +8356,14 @@
       "size": 76691,
       "source_bundle": "empty_cards_loona_ptt",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/12/121ea9f47ec6192710a51f48d598be2f487ee2f259bd5d652d22cbc1308e6335.png"
+    },
+    "sha256:1227281cbeb6cfffc12f0ec333873793863bd9c03414682fa5b49d67f5db7c0b": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_yuha_a",
+      "sha256": "1227281cbeb6cfffc12f0ec333873793863bd9c03414682fa5b49d67f5db7c0b",
+      "size": 144536,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/12/1227281cbeb6cfffc12f0ec333873793863bd9c03414682fa5b49d67f5db7c0b.png"
     },
     "sha256:1239d4b2a6826302dd623afa43cb224a8c28db6c7d9bca35bd1ce603c64413bc": {
       "mime": "image/png",
@@ -8321,6 +8541,14 @@
       "source_bundle": "profile_stayc_bebe",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/13/1396d1020c1b6f7ecb2b4d9b338ae1126ecba3fa185cc2b6d42145e844905c93.png"
     },
+    "sha256:139da47db062f4a6edb940e41edf5b2f8beb023816d8979ddaee2b79da459d9f": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_juun_s",
+      "sha256": "139da47db062f4a6edb940e41edf5b2f8beb023816d8979ddaee2b79da459d9f",
+      "size": 131052,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/13/139da47db062f4a6edb940e41edf5b2f8beb023816d8979ddaee2b79da459d9f.png"
+    },
     "sha256:13c4b3d8fcb0137a2c7fcf69969f83229edbcce8fbf6f1674d9b42d806d8a194": {
       "mime": "image/png",
       "original_name": "p_girls_will_be_girls_chaeryeong",
@@ -8368,6 +8596,14 @@
       "size": 26223,
       "source_bundle": "cards_katseye_pinky_up_pinky_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/14/1408487ab9361e66e24e120aeb9b90a24146523ae31be723d4b05c74be5cf22c.png"
+    },
+    "sha256:141c74b6964aa07257271ba6ba3b653de3321f1949e06206ca01ec55796d675e": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_juun_b",
+      "sha256": "141c74b6964aa07257271ba6ba3b653de3321f1949e06206ca01ec55796d675e",
+      "size": 24540,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/14/141c74b6964aa07257271ba6ba3b653de3321f1949e06206ca01ec55796d675e.png"
     },
     "sha256:144126513b2a3522e5229284ae92360b0bbddf6dddcb931a1ce1820fa2212b1c": {
       "mime": "image/png",
@@ -8697,6 +8933,14 @@
       "source_bundle": "empty_cards_artms_dall",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/16/1680b76d0a135e0a1017d74931ae26a83a4c24e6fe68aa84a72fc58538128698.png"
     },
+    "sha256:1683d34b3fdd8a460869276be70323404fba04607a07371201c0ea8588f7e65a": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ye-on_s",
+      "sha256": "1683d34b3fdd8a460869276be70323404fba04607a07371201c0ea8588f7e65a",
+      "size": 24576,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/16/1683d34b3fdd8a460869276be70323404fba04607a07371201c0ea8588f7e65a.png"
+    },
     "sha256:1689260e9d21202e08918a190f0d8bbfd6fa21e47b0151c137468a200d367a89": {
       "mime": "image/png",
       "original_name": "c_s_rich_man_karina_b",
@@ -8872,6 +9116,14 @@
       "size": 109053,
       "source_bundle": "cards_allday_project_wicked",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/17/17894202c09e88589f64f21d88ae2178e3e904b0d41264a244bab74ed84d60bc.png"
+    },
+    "sha256:178fdc8d5b165b2219caee56f6709f378809126d58906bd80bf11fe4cc4ce93d": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_juun_c",
+      "sha256": "178fdc8d5b165b2219caee56f6709f378809126d58906bd80bf11fe4cc4ce93d",
+      "size": 24444,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/17/178fdc8d5b165b2219caee56f6709f378809126d58906bd80bf11fe4cc4ce93d.png"
     },
     "sha256:1796ee9d6ac33421f448fcfd754e1c16ce419971d77454d7c807900265952ff5": {
       "mime": "image/png",
@@ -9104,6 +9356,14 @@
       "size": 74100,
       "source_bundle": "profile_nmixx_know_about_me",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/18/18c3e3fccff13a248dbf75219905d51418435cffd0dc18f3a308b81b20eba34d.png"
+    },
+    "sha256:18e4da38f25222bf342b115c734b079e75e4a15c11e878ac676aefa38707c36a": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_a-na_a",
+      "sha256": "18e4da38f25222bf342b115c734b079e75e4a15c11e878ac676aefa38707c36a",
+      "size": 23641,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/18/18e4da38f25222bf342b115c734b079e75e4a15c11e878ac676aefa38707c36a.png"
     },
     "sha256:18e8d2536d76aa29bdb0ed01f423f0eb8f3334a3b6d797a482e8068ad58b131a": {
       "mime": "image/png",
@@ -9345,6 +9605,14 @@
       "source_bundle": "cards_artms_dall",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1a/1af2a6346d50da06560a08b49690b5298af6b7a899151f48b934c57ebc25f592.png"
     },
+    "sha256:1af800a2d7c26fab106117a59f00dc492d8b873e84e34b3a9c6cd7785f9244f9": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_ningning_r",
+      "sha256": "1af800a2d7c26fab106117a59f00dc492d8b873e84e34b3a9c6cd7785f9244f9",
+      "size": 116820,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1a/1af800a2d7c26fab106117a59f00dc492d8b873e84e34b3a9c6cd7785f9244f9.png"
+    },
     "sha256:1af95222551d009126e4cd0fa7bf5bf0008cfb14c49c8d2f9dafd02677d90c6b": {
       "mime": "image/png",
       "original_name": "c_l_greengreen_james_c",
@@ -9536,6 +9804,14 @@
       "size": 19276,
       "source_bundle": "cards_loona_hi_high",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1b/1bf48baf3c17fdbdee5b430ed6b839abd598dca47ed85b9ba1f0c481928080a6.png"
+    },
+    "sha256:1bf785ae0bb5f5ec2a6a480badee61cc5de23ce2a95ec242fcff78c133b858f5": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_giselle_em",
+      "sha256": "1bf785ae0bb5f5ec2a6a480badee61cc5de23ce2a95ec242fcff78c133b858f5",
+      "size": 8305,
+      "source_bundle": "empty_cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1b/1bf785ae0bb5f5ec2a6a480badee61cc5de23ce2a95ec242fcff78c133b858f5.png"
     },
     "sha256:1bfcaff9ad740b88de305c64b6f34d66b9de60dbb0f74db3225d4b36ab506bdb": {
       "mime": "image/png",
@@ -9840,6 +10116,14 @@
       "size": 124775,
       "source_bundle": "cards_i-dle_uh-oh",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1d/1da6dbc3d88b193672fd3d31999ee0e68fd00865de59ca737120fd04f3a09deb.png"
+    },
+    "sha256:1dacdf9a47543451394479f211211b4b0ffe1ce14912f6cce59ceb456bf03156": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_giselle_b",
+      "sha256": "1dacdf9a47543451394479f211211b4b0ffe1ce14912f6cce59ceb456bf03156",
+      "size": 106165,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1d/1dacdf9a47543451394479f211211b4b0ffe1ce14912f6cce59ceb456bf03156.png"
     },
     "sha256:1daf27770f980a46925478b53883cb561fe11c7847c9de7bac20fd47d93f1fa1": {
       "mime": "image/png",
@@ -10209,6 +10493,14 @@
       "source_bundle": "cards_xg_hypnotize",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1f/1fbdc4677c753850bed87ea516f88f831c5ec06511072b2c41bea836e9917ba3.png"
     },
+    "sha256:1fcdaafb5a1aa534e8eaf0df4febddc8c0b2201ef780d10a24ccb4705c4e8a6b": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_giselle_c",
+      "sha256": "1fcdaafb5a1aa534e8eaf0df4febddc8c0b2201ef780d10a24ccb4705c4e8a6b",
+      "size": 21035,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1f/1fcdaafb5a1aa534e8eaf0df4febddc8c0b2201ef780d10a24ccb4705c4e8a6b.png"
+    },
     "sha256:1fe3712af300b32707c1b7d25c0afc634f4dc3f769145dafd88b4a72a342ec59": {
       "mime": "image/png",
       "original_name": "c_l_uh-oh_shuhua_b",
@@ -10224,6 +10516,14 @@
       "size": 22377,
       "source_bundle": "cards_allday_project_wicked",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1f/1fe85874f63e9e372ab2a8c044b6f7825d6b6d59d2f6b0715bf65772b7c3e4b6.png"
+    },
+    "sha256:1fe9218290937699b44b5c6eec4ec6e87015e9c1c8572f99e1bf3a66f6bb7421": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_winter_em",
+      "sha256": "1fe9218290937699b44b5c6eec4ec6e87015e9c1c8572f99e1bf3a66f6bb7421",
+      "size": 57625,
+      "source_bundle": "empty_cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/1f/1fe9218290937699b44b5c6eec4ec6e87015e9c1c8572f99e1bf3a66f6bb7421.png"
     },
     "sha256:1ff48d2c2b02267cf42d571db9d87537e16925ccf5f17f094fd0b70a19df5476": {
       "mime": "image/png",
@@ -10288,6 +10588,14 @@
       "size": 79963,
       "source_bundle": "cards_loona_hi_high",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/20/20684cbd8e991da81a6ef467eaedcdda29e6744099158236f22178a4d248fe24.png"
+    },
+    "sha256:206bb1bf45861f7e6cce293983967197daa39f481ecd5ae05678efffc94fae98": {
+      "mime": "image/png",
+      "original_name": "p_lemon_tang_juun",
+      "sha256": "206bb1bf45861f7e6cce293983967197daa39f481ecd5ae05678efffc94fae98",
+      "size": 73716,
+      "source_bundle": "profile_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/20/206bb1bf45861f7e6cce293983967197daa39f481ecd5ae05678efffc94fae98.png"
     },
     "sha256:2080e5d2026899f9180dab22e3c9fba8def584cd9748c099cdbe256bbf0e024b": {
       "mime": "image/png",
@@ -10681,6 +10989,14 @@
       "source_bundle": "empty_cards_xg_hypnotize",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/22/2259092a454b5c784e527ea13d9eb4d4685d8ee69385fe492febcac26fa33e5d.png"
     },
+    "sha256:2260559afd5e347d895a6d412e13e4d4553825063e58238dd08c3441b7a92c9e": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_carmen_s",
+      "sha256": "2260559afd5e347d895a6d412e13e4d4553825063e58238dd08c3441b7a92c9e",
+      "size": 26093,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/22/2260559afd5e347d895a6d412e13e4d4553825063e58238dd08c3441b7a92c9e.png"
+    },
     "sha256:2265f9e7ff3781d7fe080c76d2ef2e977e445443b7599073e6095d60a9fc5cb4": {
       "mime": "image/png",
       "original_name": "c_l_hypnotize_chisa_a",
@@ -10864,6 +11180,14 @@
       "size": 23320,
       "source_bundle": "cards_xg_hypnotize",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/23/23812d2d61eed90c4d38eecbc3d5070b6fc6abd51ea79962039d7ba848bce44a.png"
+    },
+    "sha256:2386605727e61253e04abc1c875350f00c51f31372e9d206a3a52ba0410668cb": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_karina_c",
+      "sha256": "2386605727e61253e04abc1c875350f00c51f31372e9d206a3a52ba0410668cb",
+      "size": 22596,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/23/2386605727e61253e04abc1c875350f00c51f31372e9d206a3a52ba0410668cb.png"
     },
     "sha256:239017d84dce171d8bb669904d1a9cdf56df58051dbd00022231e313b7346755": {
       "mime": "image/png",
@@ -11801,6 +12125,14 @@
       "source_bundle": "cards_ive_rebel_heart",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/29/2958460ff14e976da2f1f93543c17e0bf7f6afae3c4fcbfa247d3a4eb90d1450.png"
     },
+    "sha256:296841608062b7f5d66f8474c82f3714fe8e174af09f8a8a73634d4be30c0b0a": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_winter_s",
+      "sha256": "296841608062b7f5d66f8474c82f3714fe8e174af09f8a8a73634d4be30c0b0a",
+      "size": 120845,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/29/296841608062b7f5d66f8474c82f3714fe8e174af09f8a8a73634d4be30c0b0a.png"
+    },
     "sha256:2968ea3063665056a71e5bfc8319d86b19ef8c4a00b4421df266bfd934696515": {
       "mime": "image/png",
       "original_name": "c_s_choom_ruka_b",
@@ -11969,6 +12301,14 @@
       "source_bundle": "empty_cards_hearts2hearts_rude",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/29/29ef903b0433e61b8ed73b57f8ec2ece9cfd51a3ac988e1d2355902d7834a5d8.png"
     },
+    "sha256:29f3b1a0c5031620443e3675890eccfa3a82bfba22e0865d3e1e487ae555a8c7": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_juun_a",
+      "sha256": "29f3b1a0c5031620443e3675890eccfa3a82bfba22e0865d3e1e487ae555a8c7",
+      "size": 25361,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/29/29f3b1a0c5031620443e3675890eccfa3a82bfba22e0865d3e1e487ae555a8c7.png"
+    },
     "sha256:2a3cf7b1fc1d00828b44e8dcb774d9ee1e308a373d21ce0fbad6a03e0d742738": {
       "mime": "image/png",
       "original_name": "c_l_unchild_yeeun_c",
@@ -12033,6 +12373,14 @@
       "source_bundle": "cards_illit_cherish",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2a/2a60a08c072ef9ca640594fc3c37fcb942e21fb4ab76cc50b6e20d790a4eb08c.png"
     },
+    "sha256:2a6cf88ccf52a7af6f9a7183381df28647f6d386e3cc445191c17646b96197be": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ian_c",
+      "sha256": "2a6cf88ccf52a7af6f9a7183381df28647f6d386e3cc445191c17646b96197be",
+      "size": 24096,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2a/2a6cf88ccf52a7af6f9a7183381df28647f6d386e3cc445191c17646b96197be.png"
+    },
     "sha256:2a79b8510f436d91339fb7a9581802425bad1ad7dd8f10b37854e2b34d34ac19": {
       "mime": "image/png",
       "original_name": "c_l_xoxz_anyujin_s",
@@ -12072,6 +12420,14 @@
       "size": 122200,
       "source_bundle": "cards_red_velvet_chill_kill",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2a/2abaf2d07582ade403358d6b9c4414dc78f249939240135ea335c8c7339e6a87.png"
+    },
+    "sha256:2ac54c8f6de7f9460fc4a647c113325cc5df12ff4a044ae56acf7981fb076c6b": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_jiwoo_em",
+      "sha256": "2ac54c8f6de7f9460fc4a647c113325cc5df12ff4a044ae56acf7981fb076c6b",
+      "size": 63197,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2a/2ac54c8f6de7f9460fc4a647c113325cc5df12ff4a044ae56acf7981fb076c6b.png"
     },
     "sha256:2ace01f26e3188b63c772867b738bfe53c8d4cd5ee55f0c980cf764e77ef3871": {
       "mime": "image/png",
@@ -12513,6 +12869,14 @@
       "source_bundle": "cards_red_velvet_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2d/2d9034f968abeacaed55cb5bd20f29cfed5ad12d1a912512e0b8833964496ec5.png"
     },
+    "sha256:2d910feb9053c11a43a66ed9d12fd9a5f07acffbd0d589663fad337dbe7503fe": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_stella_r",
+      "sha256": "2d910feb9053c11a43a66ed9d12fd9a5f07acffbd0d589663fad337dbe7503fe",
+      "size": 128994,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2d/2d910feb9053c11a43a66ed9d12fd9a5f07acffbd0d589663fad337dbe7503fe.png"
+    },
     "sha256:2d9d023048323999f61859b7abded1c7d1e95ec48b1a5907a8144b2f64611787": {
       "mime": "image/png",
       "original_name": "c_s_rosy_rollie_ruby_choerry_em",
@@ -12624,6 +12988,22 @@
       "size": 23319,
       "source_bundle": "cards_babymonster_choom_we_go_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2e/2e20fec9192e56ed7e621cc9794467a174571a9477402b40f078c220e5c1e086.png"
+    },
+    "sha256:2e2619f0b910aa0df79ed58cdd2bfb3fcfa3860966a2b0f59dd3f579ebfb36a4": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_winter_c",
+      "sha256": "2e2619f0b910aa0df79ed58cdd2bfb3fcfa3860966a2b0f59dd3f579ebfb36a4",
+      "size": 22032,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2e/2e2619f0b910aa0df79ed58cdd2bfb3fcfa3860966a2b0f59dd3f579ebfb36a4.png"
+    },
+    "sha256:2e510491e8022539c504b2548e2bcc688552b73f10ddf6a93c6f7a9ead797ff4": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ian_a",
+      "sha256": "2e510491e8022539c504b2548e2bcc688552b73f10ddf6a93c6f7a9ead797ff4",
+      "size": 130023,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2e/2e510491e8022539c504b2548e2bcc688552b73f10ddf6a93c6f7a9ead797ff4.png"
     },
     "sha256:2e708dd90765445350a3514a8e36f753f28b45eb3af791bd6df7b8bdb6f74798": {
       "mime": "image/png",
@@ -12737,6 +13117,14 @@
       "source_bundle": "cards_artms_dall",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2e/2ed70695030c80b7a6cd8e718e9f4dae51003c67c0202ff7ec8896497df99720.png"
     },
+    "sha256:2edf76762211eda0ca8d839ebe31c0e9bea9ecc019546eb7205540d3140d5eab": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ian_c",
+      "sha256": "2edf76762211eda0ca8d839ebe31c0e9bea9ecc019546eb7205540d3140d5eab",
+      "size": 122708,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2e/2edf76762211eda0ca8d839ebe31c0e9bea9ecc019546eb7205540d3140d5eab.png"
+    },
     "sha256:2ef3a6b6e20c13d77bf9cc75fc73416b29c4f0fb71a1175ad52e66ade02342e4": {
       "mime": "image/png",
       "original_name": "c_s_woke_up_juria_b",
@@ -12760,6 +13148,14 @@
       "size": 109141,
       "source_bundle": "cards_le_sserafim_easy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2f/2f042eac2ca58158a0505a684b872c9e78ca4f1903510541fb0a8299f3324a0e.png"
+    },
+    "sha256:2f0502d34a83f7b716b46f23a4a7804b659d0a0717a39af5c98e6829c3946c20": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_karina_c",
+      "sha256": "2f0502d34a83f7b716b46f23a4a7804b659d0a0717a39af5c98e6829c3946c20",
+      "size": 111179,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/2f/2f0502d34a83f7b716b46f23a4a7804b659d0a0717a39af5c98e6829c3946c20.png"
     },
     "sha256:2f34ef55ca964232fc043aab9658135a6d949d00e2d78c19f1b4dd6cf3e362c4": {
       "mime": "image/png",
@@ -12992,6 +13388,14 @@
       "size": 23190,
       "source_bundle": "cards_ive_rebel_heart",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/30/30f96074665e2a4c85236f0887b9291ac4c3728d4f7ffd85f4d2e20542f1afeb.png"
+    },
+    "sha256:310e5bfba5fc8439e489729e49a521cbbd8025cbb2208228827f80936d72ce43": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_a-na_s",
+      "sha256": "310e5bfba5fc8439e489729e49a521cbbd8025cbb2208228827f80936d72ce43",
+      "size": 23125,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/31/310e5bfba5fc8439e489729e49a521cbbd8025cbb2208228827f80936d72ce43.png"
     },
     "sha256:311bd9e146500392fcdb6290bbbcb33dbcb5adee044e47c9b7820be170efc8c8": {
       "mime": "image/png",
@@ -13337,6 +13741,14 @@
       "source_bundle": "empty_cards_le_sserafim_easy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/33/3351daafa5ade380db3a0d0528ae24aacafd279b55d1a96857660b8f46386d18.png"
     },
+    "sha256:3354e8798d62536a48a3e395ad5ef84b05b996a63f9d4ad213119aaa699ff083": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_yuha_em",
+      "sha256": "3354e8798d62536a48a3e395ad5ef84b05b996a63f9d4ad213119aaa699ff083",
+      "size": 65528,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/33/3354e8798d62536a48a3e395ad5ef84b05b996a63f9d4ad213119aaa699ff083.png"
+    },
     "sha256:3358f8fa08e40076abd874219864260cd8e0fc2022358d7ec5470d387cb26989": {
       "mime": "image/png",
       "original_name": "c_s_see_that_bae_s",
@@ -13416,6 +13828,14 @@
       "size": 26493,
       "source_bundle": "cards_cortis_greengreen",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/33/33cedd4efdc3f99a3525d29f65c22c5ecbaccf0f763127762fa383c6677fd34d.png"
+    },
+    "sha256:33e2037295664f0d63b95a78e1d7c83cd19b8e77d6a71b5498684e5c8e5e6f97": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ye-on_s",
+      "sha256": "33e2037295664f0d63b95a78e1d7c83cd19b8e77d6a71b5498684e5c8e5e6f97",
+      "size": 128729,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/33/33e2037295664f0d63b95a78e1d7c83cd19b8e77d6a71b5498684e5c8e5e6f97.png"
     },
     "sha256:33e2510b140d359d166310176cc2c283d52b2983f5adef84ae4e3dd2c958ceed": {
       "mime": "image/png",
@@ -13729,6 +14149,14 @@
       "source_bundle": "cards_loona_flip_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/35/3598646a8d7f0b067fc0607ed09c935b4b847043cffdf062336e9f4c08290c8b.png"
     },
+    "sha256:35ad4c9d5dc5274bb10ed7ec3322e98cb732104d85c08893f16c7d6049be5a44": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_stella_c",
+      "sha256": "35ad4c9d5dc5274bb10ed7ec3322e98cb732104d85c08893f16c7d6049be5a44",
+      "size": 23836,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/35/35ad4c9d5dc5274bb10ed7ec3322e98cb732104d85c08893f16c7d6049be5a44.png"
+    },
     "sha256:35bfea337afac9d0ef437f719a4edf0a825bd30213e6d7c6c993bdf6f49e3c35": {
       "mime": "image/png",
       "original_name": "c_l_queendom_wendy_c",
@@ -13921,6 +14349,22 @@
       "source_bundle": "cards_loona_flip_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/36/36c3d070abb1e48edc98b9941171375dcba7219c757799957f90a5aba55fd30b.png"
     },
+    "sha256:36ce8b5b957dca54cd51b1833fe7db62ab243270f77f3b37b8b8f57dae5b51b3": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_karina_s",
+      "sha256": "36ce8b5b957dca54cd51b1833fe7db62ab243270f77f3b37b8b8f57dae5b51b3",
+      "size": 118773,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/36/36ce8b5b957dca54cd51b1833fe7db62ab243270f77f3b37b8b8f57dae5b51b3.png"
+    },
+    "sha256:36d3212aa12eaa2707e80e6781b6f787bbf0ad1d5088306559658bc5a8e87f9b": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_jiwoo_b",
+      "sha256": "36d3212aa12eaa2707e80e6781b6f787bbf0ad1d5088306559658bc5a8e87f9b",
+      "size": 25357,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/36/36d3212aa12eaa2707e80e6781b6f787bbf0ad1d5088306559658bc5a8e87f9b.png"
+    },
     "sha256:36d9b4a2e6f075ae54a53ae8424cc888abd195ab17508dac8409ad1fd49e58c1": {
       "mime": "image/png",
       "original_name": "c_l_inception_haneul_r",
@@ -13968,6 +14412,14 @@
       "size": 127902,
       "source_bundle": "cards_odd_eye_circle_air_force_one",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/36/36edad908873ab694e5e84076d796b0dda4fa6a855a42dea9098353ae40a6135.png"
+    },
+    "sha256:36f4cc7ff411921b898221eb7719801f04283b75a581b53f5c1b82faf2a3837c": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_winter_em",
+      "sha256": "36f4cc7ff411921b898221eb7719801f04283b75a581b53f5c1b82faf2a3837c",
+      "size": 8477,
+      "source_bundle": "empty_cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/36/36f4cc7ff411921b898221eb7719801f04283b75a581b53f5c1b82faf2a3837c.png"
     },
     "sha256:36f7e4e9844aeed77a1e11d02a4429006c96b642a35808091671198eee9b63a8": {
       "mime": "image/png",
@@ -14089,6 +14541,14 @@
       "source_bundle": "cards_i-dle_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/37/376908ccaba7eddbc8873e708ea601602bb8612165b32cdab7a302fdc1520776.png"
     },
+    "sha256:376d080697090e241ce948d42a03f9498b703910b64319c59f5e15b2da13e692": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_carmen_a",
+      "sha256": "376d080697090e241ce948d42a03f9498b703910b64319c59f5e15b2da13e692",
+      "size": 26226,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/37/376d080697090e241ce948d42a03f9498b703910b64319c59f5e15b2da13e692.png"
+    },
     "sha256:37714404c5a7e9c1260c401d7fd142ff12f0f53673220b6d0db91d556d13a12b": {
       "mime": "image/png",
       "original_name": "c_s_choom_chiquita_c",
@@ -14128,6 +14588,14 @@
       "size": 12426,
       "source_bundle": "empty_cards_nmixx_blue_valentine",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/37/377fc870d57f6cf0d322ed2344af575e13d8746294b651ab8951874bd4d7f598.png"
+    },
+    "sha256:37867a2ebef389f91973874145ca05b258632b94a73150e081d0929a2a0ab68f": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_juun_s",
+      "sha256": "37867a2ebef389f91973874145ca05b258632b94a73150e081d0929a2a0ab68f",
+      "size": 25074,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/37/37867a2ebef389f91973874145ca05b258632b94a73150e081d0929a2a0ab68f.png"
     },
     "sha256:378a8922fd3ef39228a5ad99b2e88fa7e97bd3a58ba0e6fb4b40cb3203745d46": {
       "mime": "image/png",
@@ -14649,6 +15117,14 @@
       "source_bundle": "profile_illit_cherish",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/3b/3b3dd6b699390eb1d54952952c2dc77d50651facb3e26f4545a5382240ccc133.png"
     },
+    "sha256:3b4b438ee8603474f8ee8f436dc49df9cf13031b23b6e0265ccc6a9aed27fb6d": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_winter_a",
+      "sha256": "3b4b438ee8603474f8ee8f436dc49df9cf13031b23b6e0265ccc6a9aed27fb6d",
+      "size": 23100,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/3b/3b4b438ee8603474f8ee8f436dc49df9cf13031b23b6e0265ccc6a9aed27fb6d.png"
+    },
     "sha256:3b4fea127404c8f988d3f8fc45ba723f48f7dc4f3f105bf290cf42db8ec5ae9c": {
       "mime": "image/png",
       "original_name": "c_s_chill_kill_wendy_em",
@@ -15009,6 +15485,14 @@
       "source_bundle": "profile_itzy_tunnel_vision",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/3d/3db248dd8405e5324d6be2b6da94c851dc8a3055a0f30bfd5ec996d60f251507.png"
     },
+    "sha256:3dbcbc588e6db29de6c09839d10d3d1019f1d37d8068522e1997a3f040cc5555": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_carmen_em",
+      "sha256": "3dbcbc588e6db29de6c09839d10d3d1019f1d37d8068522e1997a3f040cc5555",
+      "size": 10480,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/3d/3dbcbc588e6db29de6c09839d10d3d1019f1d37d8068522e1997a3f040cc5555.png"
+    },
     "sha256:3dc00b4a0b022de64f82ea96cea21f8205a08818e53c7d0c90b7042b424624be": {
       "mime": "image/png",
       "original_name": "c_s_pinky_up_daniela_r",
@@ -15064,6 +15548,14 @@
       "size": 80030,
       "source_bundle": "empty_cards_artms_rosy_rollie_ruby",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/3e/3e37d7922448b9fb0be8b43df1cc33b2b98cfe5beb96dba90c2357b521e324d0.png"
+    },
+    "sha256:3e38279a39c2132c740bc1665f73dde60132a81e89011d4bf27224d52f52cd0f": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ian_s",
+      "sha256": "3e38279a39c2132c740bc1665f73dde60132a81e89011d4bf27224d52f52cd0f",
+      "size": 128428,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/3e/3e38279a39c2132c740bc1665f73dde60132a81e89011d4bf27224d52f52cd0f.png"
     },
     "sha256:3e3e02159e2b374c5dd5fe1047dae9d7ae8365c3a2da5650ad04122976862500": {
       "mime": "image/png",
@@ -15393,6 +15885,14 @@
       "source_bundle": "cards_illit_magnetic",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/40/40013466cd4027c02aa734679bb72cce0a2fc3934b68c74c97dc9615f9fb5e49.png"
     },
+    "sha256:400e628d4e64aa2f22f8a423200de1102a28a1fe378842d0b4ae8e33997980a0": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_ningning_s",
+      "sha256": "400e628d4e64aa2f22f8a423200de1102a28a1fe378842d0b4ae8e33997980a0",
+      "size": 19922,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/40/400e628d4e64aa2f22f8a423200de1102a28a1fe378842d0b4ae8e33997980a0.png"
+    },
     "sha256:401761b66db2d14b6b8ed92dafa3d890d63b02e6ee9f333d26464c2e3bed5074": {
       "mime": "image/png",
       "original_name": "c_l_gpt_isa_s",
@@ -15472,6 +15972,14 @@
       "size": 125423,
       "source_bundle": "cards_aespa_rich_man",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/40/404f6111a9ceb9f17555d3c73291aa08cd51b882e5c5bd7ef43508e63ba82387.png"
+    },
+    "sha256:40553abf730b76077a8afd002a84f4a28a717ffe40c0b4765c31ee83769d1f53": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_ningning_c",
+      "sha256": "40553abf730b76077a8afd002a84f4a28a717ffe40c0b4765c31ee83769d1f53",
+      "size": 101515,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/40/40553abf730b76077a8afd002a84f4a28a717ffe40c0b4765c31ee83769d1f53.png"
     },
     "sha256:4061038958e6da579a32ec2f0346913c6ce86bb030bf6878863f20f8b9ef1dce": {
       "mime": "image/png",
@@ -15568,6 +16076,14 @@
       "size": 111493,
       "source_bundle": "cards_i-dle_uh-oh",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/40/40f69eb27b1c4042feec0e0b422893c2ec3ad437a09a7381863ac511831f125f.png"
+    },
+    "sha256:40fe442212f7959c337507febbd982eaa28b6300f84cc97227be1ce1e7d95e4f": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_a-na_r",
+      "sha256": "40fe442212f7959c337507febbd982eaa28b6300f84cc97227be1ce1e7d95e4f",
+      "size": 23774,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/40/40fe442212f7959c337507febbd982eaa28b6300f84cc97227be1ce1e7d95e4f.png"
     },
     "sha256:410ea301861d0e93da3dca1da0b42d9c8786e7f1f4f0aa8637d75f286025b8c5": {
       "mime": "image/png",
@@ -15680,6 +16196,14 @@
       "size": 76965,
       "source_bundle": "empty_cards_babymonster_choom_we_go_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/41/4192de404296dbdd6fa5007123ce5d7166cbc42ef3ac263dbd1139ac01935df6.png"
+    },
+    "sha256:41af17136fef9e19df6818b4e12b7d9febe91e6efa252936ac3a2672e3988037": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_karina_em",
+      "sha256": "41af17136fef9e19df6818b4e12b7d9febe91e6efa252936ac3a2672e3988037",
+      "size": 10111,
+      "source_bundle": "empty_cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/41/41af17136fef9e19df6818b4e12b7d9febe91e6efa252936ac3a2672e3988037.png"
     },
     "sha256:41e77d1d074728c78cbbee66b6a4d7fbb405fbffe0ef8a6d8dfd4f44dc6129fc": {
       "mime": "image/png",
@@ -16289,6 +16813,14 @@
       "source_bundle": "profile_twice_this_is_for",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/45/4519ac5ae27e0784e0126efe0ad2ee47261323cfe41d3a638060058972f01be5.png"
     },
+    "sha256:452a97da6279ee789047b3e95778dadfb71ab364957d0977da9774cba2204414": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_carmen_b",
+      "sha256": "452a97da6279ee789047b3e95778dadfb71ab364957d0977da9774cba2204414",
+      "size": 131774,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/45/452a97da6279ee789047b3e95778dadfb71ab364957d0977da9774cba2204414.png"
+    },
     "sha256:4543014af737f5744254e771def6246dbd024a1dc6609aa534ad7881cb11bea8": {
       "mime": "image/png",
       "original_name": "c_l_easy_huh_yunjin_b",
@@ -16328,6 +16860,14 @@
       "size": 71023,
       "source_bundle": "profile_loona_ptt",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/45/457a2a43900aec07643c7ad616b33cc003cf087966d449a864b1178b6fba5b50.png"
+    },
+    "sha256:4595c8e8363fdcdd4acae9dada1a743ca79ed398847f8c70607e5bb207aac4dc": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_giselle_a",
+      "sha256": "4595c8e8363fdcdd4acae9dada1a743ca79ed398847f8c70607e5bb207aac4dc",
+      "size": 114146,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/45/4595c8e8363fdcdd4acae9dada1a743ca79ed398847f8c70607e5bb207aac4dc.png"
     },
     "sha256:459f6db888255ae0e4ba66ebae2c538f1762446953d88be9094bcc85e4c69659": {
       "mime": "image/png",
@@ -16568,6 +17108,14 @@
       "size": 20895,
       "source_bundle": "cards_stayc_bebe",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/46/46d6f50b2d71395cf2a4383a8b56ecde85e6145b7c6d0d3171a6d61587c06a8c.png"
+    },
+    "sha256:46e121fa17ce58ed96342d0a086ed3b91204ef0be8de552137958769545814eb": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_carmen_em",
+      "sha256": "46e121fa17ce58ed96342d0a086ed3b91204ef0be8de552137958769545814eb",
+      "size": 62075,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/46/46e121fa17ce58ed96342d0a086ed3b91204ef0be8de552137958769545814eb.png"
     },
     "sha256:46e9bd4a329a9e4e12c5fc542cc94e852408276346ee076ca387c944f7126e74": {
       "mime": "image/png",
@@ -17121,6 +17669,14 @@
       "source_bundle": "cards_nmixx_see_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/4a/4a59f0c9361646959c8b59e54ed1998b6414562b381210e778331d30aa9ee74a.png"
     },
+    "sha256:4a6b7c3ae667e583d506a04dc39940134d7cca0756ba439799fc6bf8dc066e6f": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_ningning_a",
+      "sha256": "4a6b7c3ae667e583d506a04dc39940134d7cca0756ba439799fc6bf8dc066e6f",
+      "size": 20495,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/4a/4a6b7c3ae667e583d506a04dc39940134d7cca0756ba439799fc6bf8dc066e6f.png"
+    },
     "sha256:4a72799c9b6db615d9da58c568820748c041f9f77eec8405e24e7204c7921856": {
       "mime": "image/png",
       "original_name": "c_s_rebel_heart_gaeul_s",
@@ -17336,6 +17892,14 @@
       "size": 23566,
       "source_bundle": "cards_tws_plot_twist",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/4b/4bf81f57a76efaba6c12581600fd4cec690d0eadcfa8dbdff7d6e23f3801b767.png"
+    },
+    "sha256:4c185c3bc8a8261e1fdc8189cf93b78c90c4a427984d4d510023c7b2bf0fe891": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_winter_c",
+      "sha256": "4c185c3bc8a8261e1fdc8189cf93b78c90c4a427984d4d510023c7b2bf0fe891",
+      "size": 114017,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/4c/4c185c3bc8a8261e1fdc8189cf93b78c90c4a427984d4d510023c7b2bf0fe891.png"
     },
     "sha256:4c1e656dd09a09c1768aa62b3bf3ac1b474c1019ec16097c41fe7c0d456234d7": {
       "mime": "image/png",
@@ -17688,6 +18252,14 @@
       "size": 57780,
       "source_bundle": "profile_hearts2hearts_the_chase",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/4e/4e79d2e5f2f95c54f7455f19c4af149e0dc0dfafb5389c0d69a85295a77fdf8d.png"
+    },
+    "sha256:4e7a76162939eb3122e992dc9e93b7448985b180380e69c73e3b041abd983b8f": {
+      "mime": "image/png",
+      "original_name": "p_kiss_n_tell_ningning",
+      "sha256": "4e7a76162939eb3122e992dc9e93b7448985b180380e69c73e3b041abd983b8f",
+      "size": 61370,
+      "source_bundle": "profile_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/4e/4e7a76162939eb3122e992dc9e93b7448985b180380e69c73e3b041abd983b8f.png"
     },
     "sha256:4e7af7a674ec9bf4eaaadcda1e266eb0b130f26e5200ae317debbff5c0867316": {
       "mime": "image/png",
@@ -18353,6 +18925,14 @@
       "source_bundle": "cards_itzy_girls_will_be_girls",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/53/530ab07f6372261392efbc96dcb90f335c3d2ccfb65d9263db60fe9e28e51caa.png"
     },
+    "sha256:5316d9b4570d5d87f9e5e1675a2d24fc73e8092fe2e7b4be669a8a87dd0838df": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ye-on_a",
+      "sha256": "5316d9b4570d5d87f9e5e1675a2d24fc73e8092fe2e7b4be669a8a87dd0838df",
+      "size": 129987,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/53/5316d9b4570d5d87f9e5e1675a2d24fc73e8092fe2e7b4be669a8a87dd0838df.png"
+    },
     "sha256:53176169f4a323a6e2f871f04e740ef07bf0cd958f5b9b8a3801833037a66af4": {
       "mime": "image/png",
       "original_name": "c_s_last_festival_shinyu_em",
@@ -18384,6 +18964,14 @@
       "size": 22499,
       "source_bundle": "cards_babymonster_choom_we_go_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/53/532a53067755084e3fe864e9a893012bbc7714d09634300f1e55ac09633ea111.png"
+    },
+    "sha256:53477feeb92d7ae2f925648d00f5dba7dc684cfc2d42b33ec0c02db631301db7": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_jiwoo_r",
+      "sha256": "53477feeb92d7ae2f925648d00f5dba7dc684cfc2d42b33ec0c02db631301db7",
+      "size": 141415,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/53/53477feeb92d7ae2f925648d00f5dba7dc684cfc2d42b33ec0c02db631301db7.png"
     },
     "sha256:534e5c2b0bf18e496aba8e6bc032f9d38e384289780d627b3809631172deceb0": {
       "mime": "image/png",
@@ -18841,6 +19429,14 @@
       "source_bundle": "cards_twice_this_is_for",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/56/561481868cdd5c268fb15ae43689fa8c6c8e9cae02d4e98039f9120267733f50.png"
     },
+    "sha256:5629efc2b7e53a02348133e0872314f1e26fdbe8e9d967143bfa44efe7e83d50": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_stella_a",
+      "sha256": "5629efc2b7e53a02348133e0872314f1e26fdbe8e9d967143bfa44efe7e83d50",
+      "size": 125864,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/56/5629efc2b7e53a02348133e0872314f1e26fdbe8e9d967143bfa44efe7e83d50.png"
+    },
     "sha256:56304c8d9d8855899d70bdb5396e02adbc3d98d10f4f5dfb58f7493a8baf7f8d": {
       "mime": "image/png",
       "original_name": "c_s_queendom_wendy_s",
@@ -18904,6 +19500,22 @@
       "size": 22220,
       "source_bundle": "cards_illit_cherish",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/56/56547e89927f91cd96402ba635eb37d916938c432bb5b7e5d181da6dec2cf190.png"
+    },
+    "sha256:56625d9ca2d7fe64dbef90c610e90777384e871ca3b63215dbbb63186ffc6108": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ye-on_b",
+      "sha256": "56625d9ca2d7fe64dbef90c610e90777384e871ca3b63215dbbb63186ffc6108",
+      "size": 122751,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/56/56625d9ca2d7fe64dbef90c610e90777384e871ca3b63215dbbb63186ffc6108.png"
+    },
+    "sha256:566e54f06cb354bcf58483a90e05874fd7cabbc59c259206f6926c9a7a6a92f1": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_winter_r",
+      "sha256": "566e54f06cb354bcf58483a90e05874fd7cabbc59c259206f6926c9a7a6a92f1",
+      "size": 23211,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/56/566e54f06cb354bcf58483a90e05874fd7cabbc59c259206f6926c9a7a6a92f1.png"
     },
     "sha256:5671437284f617a068f319609653ec7903897e1126bb10b160f8e820d4546339": {
       "mime": "image/png",
@@ -19665,6 +20277,14 @@
       "source_bundle": "cards_tws_plot_twist",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/5a/5aec39ad9adf7870d83c75aa8f67afa104e2a6c9d85422cc77199ff3afd7e721.png"
     },
+    "sha256:5b0c5d9d61ccc35dedd184cf8c7dc68b51229c60b09d43feb620266f6ee6a91a": {
+      "mime": "image/png",
+      "original_name": "p_lemon_tang_jiwoo",
+      "sha256": "5b0c5d9d61ccc35dedd184cf8c7dc68b51229c60b09d43feb620266f6ee6a91a",
+      "size": 78519,
+      "source_bundle": "profile_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/5b/5b0c5d9d61ccc35dedd184cf8c7dc68b51229c60b09d43feb620266f6ee6a91a.png"
+    },
     "sha256:5b1b076328e5b07ed1893108ca7a9c68cd5f84311e9275514f49c4f335692a38": {
       "mime": "image/png",
       "original_name": "c_l_the_chase_carmen_c",
@@ -19849,6 +20469,14 @@
       "source_bundle": "empty_cards_katseye_pinky_up_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/5c/5c124f7103c67528264e3983c6dd1afa7637b3a037c6f1d1b5ab12972899e442.png"
     },
+    "sha256:5c14a69a02c4a78700a46f6d6ce1e96b1aee18079b47b55d1d62669428a1d72e": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_jiwoo_a",
+      "sha256": "5c14a69a02c4a78700a46f6d6ce1e96b1aee18079b47b55d1d62669428a1d72e",
+      "size": 26277,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/5c/5c14a69a02c4a78700a46f6d6ce1e96b1aee18079b47b55d1d62669428a1d72e.png"
+    },
     "sha256:5c161897cb90a1befaeece625e9e544734373792111cccde587724aebe074584": {
       "mime": "image/png",
       "original_name": "c_s_hi_high_choerry_a",
@@ -19912,6 +20540,14 @@
       "size": 22758,
       "source_bundle": "cards_little_mix_woman_like_me",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/5c/5c9b774fccc9232cd7a4e3a2d81fcc2b6955ee5783ec98f8711d046d89cb2a21.png"
+    },
+    "sha256:5ca2190b43095a2df618d1343ce016d517afd98770d0951f655262b7503f188f": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ian_r",
+      "sha256": "5ca2190b43095a2df618d1343ce016d517afd98770d0951f655262b7503f188f",
+      "size": 132683,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/5c/5ca2190b43095a2df618d1343ce016d517afd98770d0951f655262b7503f188f.png"
     },
     "sha256:5ca816cc6761fa9fe9bae5d6c5d8c6f01b06f75e641aa0522600fd2b8782dcae": {
       "mime": "image/png",
@@ -20449,6 +21085,14 @@
       "source_bundle": "empty_cards_stayc_gpt",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/5f/5f7c71ace867338e1f5a10ed0af33f6373fd11885b0efbfa03429f5a966452ee.png"
     },
+    "sha256:5f93e402f4b9c914d17ef74614e5b9aacd31df63e3961b572298320cd005559d": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_karina_r",
+      "sha256": "5f93e402f4b9c914d17ef74614e5b9aacd31df63e3961b572298320cd005559d",
+      "size": 123974,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/5f/5f93e402f4b9c914d17ef74614e5b9aacd31df63e3961b572298320cd005559d.png"
+    },
     "sha256:5fa569a0f599bb5464d49590e6e6748a437748ce5db28ee95ac1a44f7465e373": {
       "mime": "image/png",
       "original_name": "c_s_la_di_da_sihyeon_s",
@@ -20657,6 +21301,14 @@
       "source_bundle": "empty_cards_katseye_gameboy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/60/60d2dea2525e9844333305f2c8a4b6542bf1e7df1ff9092eeee25bb9370515bd.png"
     },
+    "sha256:60d609d5e980427a817f236a6ce53a1208fc1d39c36a8cc2c2f00ce9995a5464": {
+      "mime": "image/png",
+      "original_name": "p_lemon_tang_ye-on",
+      "sha256": "60d609d5e980427a817f236a6ce53a1208fc1d39c36a8cc2c2f00ce9995a5464",
+      "size": 73063,
+      "source_bundle": "profile_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/60/60d609d5e980427a817f236a6ce53a1208fc1d39c36a8cc2c2f00ce9995a5464.png"
+    },
     "sha256:60e96aceaa78eff2d19b204680e4d8396b26bcd021dc604a7785c6d3156ef71d": {
       "mime": "image/png",
       "original_name": "c_s_la_di_da_e.u_b",
@@ -20672,6 +21324,14 @@
       "size": 61326,
       "source_bundle": "profile_little_mix_woman_like_me",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/61/610b31a7f975fbf17802c59c7bf905eb813a5eb393451a4eea24665c427e1967.png"
+    },
+    "sha256:61128a1bc5f781c1500dd51d4f5eab0ed81f9e440b33b5aad4e0205ab4b67921": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ye-on_r",
+      "sha256": "61128a1bc5f781c1500dd51d4f5eab0ed81f9e440b33b5aad4e0205ab4b67921",
+      "size": 133470,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/61/61128a1bc5f781c1500dd51d4f5eab0ed81f9e440b33b5aad4e0205ab4b67921.png"
     },
     "sha256:6117e2250dc2994f3aea0ea599e63c3535efed79a1d17d2f799935244b48a8de": {
       "mime": "image/png",
@@ -20712,6 +21372,14 @@
       "size": 122252,
       "source_bundle": "cards_red_velvet_queendom",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/61/61484318a6a3c9592ad0b98745ec8c851a440d5cd64de8bc571b1acd80b9bdc4.png"
+    },
+    "sha256:6150efa5e74b24e6fa62a98d18ef1f058d62ff31489eb80077a36d2dde7bee63": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_winter_a",
+      "sha256": "6150efa5e74b24e6fa62a98d18ef1f058d62ff31489eb80077a36d2dde7bee63",
+      "size": 122323,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/61/6150efa5e74b24e6fa62a98d18ef1f058d62ff31489eb80077a36d2dde7bee63.png"
     },
     "sha256:616a7f13aad1f373a21c1ff6ed5a46f1a31c45c8efe84670becab3bc32a2ebe3": {
       "mime": "image/png",
@@ -21288,6 +21956,14 @@
       "size": 20417,
       "source_bundle": "cards_itzy_girls_will_be_girls",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/65/651e23590524a5a2279d65a46b287c7994845213d7beebf538a7f93a83167d7c.png"
+    },
+    "sha256:65319942c97ab357295c234d34b542db0cb6fa1699320c724b42192494619494": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_giselle_em",
+      "sha256": "65319942c97ab357295c234d34b542db0cb6fa1699320c724b42192494619494",
+      "size": 54556,
+      "source_bundle": "empty_cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/65/65319942c97ab357295c234d34b542db0cb6fa1699320c724b42192494619494.png"
     },
     "sha256:654b3959647ff6caf2c515e2174c4e31a9fdfd0e560bc4fcb9f4efe25c709242": {
       "mime": "image/png",
@@ -22297,6 +22973,14 @@
       "source_bundle": "cards_xg_is_this_love",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/6b/6b427850e3e2ae1f1de7f62b338095535f64c75c2863e6f16ce34828c7592fe8.png"
     },
+    "sha256:6b4b061df0d27945109b65d2e6cf9a5a7045862da06ab57e291b18a49b35a035": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_a-na_r",
+      "sha256": "6b4b061df0d27945109b65d2e6cf9a5a7045862da06ab57e291b18a49b35a035",
+      "size": 128098,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/6b/6b4b061df0d27945109b65d2e6cf9a5a7045862da06ab57e291b18a49b35a035.png"
+    },
     "sha256:6b4d4b1ae80b6a39535dec69eee559c8715f74ca6ca53dcee6c0dba82fb01942": {
       "mime": "image/png",
       "original_name": "c_s_woke_up_harvey_r",
@@ -22761,6 +23445,14 @@
       "source_bundle": "empty_cards_red_velvet_chill_kill",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/6e/6e50f513f73db4615c9b94c6bfe879d56e241ea3de6f3d3640c51fa9e329716d.png"
     },
+    "sha256:6e566018bf5c10bb954cb6244ea52fd81da557eb87708bb379e440a86a671eba": {
+      "mime": "image/png",
+      "original_name": "p_kiss_n_tell_karina",
+      "sha256": "6e566018bf5c10bb954cb6244ea52fd81da557eb87708bb379e440a86a671eba",
+      "size": 64253,
+      "source_bundle": "profile_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/6e/6e566018bf5c10bb954cb6244ea52fd81da557eb87708bb379e440a86a671eba.png"
+    },
     "sha256:6e6677c9e2a7dbc40c83907f2757edd9c0ee0a0bb90455e8c15e99da979cb504": {
       "mime": "image/png",
       "original_name": "c_l_inception_julie_em",
@@ -23065,6 +23757,14 @@
       "source_bundle": "cards_stray_kids_ceremony",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/6f/6fb2a67aef5784f2f5a6f8955e71e5398451890c33cab745da95651026c8f54f.png"
     },
+    "sha256:6fbbaa613a639377a900dfd826d36cdf9eb7af4a610831e785725d56029a4496": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_yuha_em",
+      "sha256": "6fbbaa613a639377a900dfd826d36cdf9eb7af4a610831e785725d56029a4496",
+      "size": 10610,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/6f/6fbbaa613a639377a900dfd826d36cdf9eb7af4a610831e785725d56029a4496.png"
+    },
     "sha256:6fc1c7a910df706e5edec925dd9742cc8191530e029762cb1a97854504560dbd": {
       "mime": "image/png",
       "original_name": "c_l_is_this_love_juria_r",
@@ -23096,6 +23796,14 @@
       "size": 84605,
       "source_bundle": "empty_cards_ive_bang_bang",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/6f/6fdaabeceac6f1d8b53ad7233c4fc33454f8b6627bc6c74a9ba8181228f10dec.png"
+    },
+    "sha256:6fe2222576b956c2975a315442469d803905f9af61617a81c91ddf682cf20f1d": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_stella_b",
+      "sha256": "6fe2222576b956c2975a315442469d803905f9af61617a81c91ddf682cf20f1d",
+      "size": 119026,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/6f/6fe2222576b956c2975a315442469d803905f9af61617a81c91ddf682cf20f1d.png"
     },
     "sha256:6fe2e4cbf01e4c73f5b849200806ba661bdb738050dd1a616d071d89ede28768": {
       "mime": "image/png",
@@ -23416,6 +24124,14 @@
       "size": 124826,
       "source_bundle": "cards_allday_project_allday",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/71/7147c8accd93986478b0a59bcd312268fb973364ab64adfda9135db071693697.png"
+    },
+    "sha256:715f1b018031b83f98ec771c0eae3939a1ef8d099ce84d70ab77d8d0d29f5c74": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_karina_em",
+      "sha256": "715f1b018031b83f98ec771c0eae3939a1ef8d099ce84d70ab77d8d0d29f5c74",
+      "size": 56293,
+      "source_bundle": "empty_cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/71/715f1b018031b83f98ec771c0eae3939a1ef8d099ce84d70ab77d8d0d29f5c74.png"
     },
     "sha256:7180d2b0b1123c35949b380672038e477fb1c0978ff3f316fe53438bd8d6ef97": {
       "mime": "image/png",
@@ -24065,6 +24781,14 @@
       "source_bundle": "cards_hearts2hearts_the_chase",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/74/74d78c190364171d93e2b198f9bfcfcfefef07bb7cbd1d34ac791bcc4e2f51bc.png"
     },
+    "sha256:74e4054c874ec25cd27eed12bd739265bf5ec0a5bb6916f11085514814d60fd0": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_giselle_a",
+      "sha256": "74e4054c874ec25cd27eed12bd739265bf5ec0a5bb6916f11085514814d60fd0",
+      "size": 22045,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/74/74e4054c874ec25cd27eed12bd739265bf5ec0a5bb6916f11085514814d60fd0.png"
+    },
     "sha256:74eede8616ef1475e9fbd1655c01ace942f25f53daf4f847013a08bf4bf5de34": {
       "mime": "image/png",
       "original_name": "c_s_virtual_angel_heejin_b",
@@ -24489,6 +25213,14 @@
       "source_bundle": "cards_i-dle_mono",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/77/77d51dda4f251eec8049fc76c5f9375bc16b37c4641ffa208432fa926440750f.png"
     },
+    "sha256:77f4b0192ba19e6322f169282006c16fa70faff40e71d26e4a3b28aa2d641c54": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_stella_c",
+      "sha256": "77f4b0192ba19e6322f169282006c16fa70faff40e71d26e4a3b28aa2d641c54",
+      "size": 118713,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/77/77f4b0192ba19e6322f169282006c16fa70faff40e71d26e4a3b28aa2d641c54.png"
+    },
     "sha256:77ff68cf0d8e4c14853794fa1fbd5a2e5e85734003066cf49688877872055e5d": {
       "mime": "image/png",
       "original_name": "c_s_flip_that_heejin_r",
@@ -24617,6 +25349,14 @@
       "source_bundle": "empty_cards_stray_kids_ceremony",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/78/78b87b9d9d1a2c9481127afd478b2b4536c5febc009068013f7f9ba5d380584f.png"
     },
+    "sha256:78babff39f3ea35e25b25d4cdbbe299ab25bc9bb202bc29505d5de558c6ddf16": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_giselle_c",
+      "sha256": "78babff39f3ea35e25b25d4cdbbe299ab25bc9bb202bc29505d5de558c6ddf16",
+      "size": 104557,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/78/78babff39f3ea35e25b25d4cdbbe299ab25bc9bb202bc29505d5de558c6ddf16.png"
+    },
     "sha256:78c4a7074a6c87ad3f9f9ec5dfccb5716ec2137465675cea1eb23c128252308f": {
       "mime": "image/png",
       "original_name": "c_l_bang_bang_jangwonyoung_em",
@@ -24640,6 +25380,14 @@
       "size": 24669,
       "source_bundle": "cards_stayc_gpt",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/78/78d3ea0a9200851b5f0b05f6e8f1e08d027b0b75e5d6975e7c7031031647cdc8.png"
+    },
+    "sha256:79063bcbc6fb04ed4d6f478f2f8e6dee97c2011dd6fa22d8edbf93add046ecc1": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_juun_b",
+      "sha256": "79063bcbc6fb04ed4d6f478f2f8e6dee97c2011dd6fa22d8edbf93add046ecc1",
+      "size": 124861,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/79/79063bcbc6fb04ed4d6f478f2f8e6dee97c2011dd6fa22d8edbf93add046ecc1.png"
     },
     "sha256:79092d8cef36993f21c3fff42f84d73845d7e2c98394f14b0503f4c3f2c774af": {
       "mime": "image/png",
@@ -24896,6 +25644,14 @@
       "size": 65358,
       "source_bundle": "profile_katseye_pinky_up_pinky_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/7a/7a761921d7042dc7905bb98aa0b8d42b2217134e3149eb617074323a24155fe6.png"
+    },
+    "sha256:7a78ff6d1b9be60c30b49d1d9c5bef3d8bf19009b0ca3c468cadc84b5ba5c173": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_yuha_b",
+      "sha256": "7a78ff6d1b9be60c30b49d1d9c5bef3d8bf19009b0ca3c468cadc84b5ba5c173",
+      "size": 138800,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/7a/7a78ff6d1b9be60c30b49d1d9c5bef3d8bf19009b0ca3c468cadc84b5ba5c173.png"
     },
     "sha256:7a7f9042e11e672bd6e95f8ff6bb71be511968071737fe1dfe3cb59f59ace97d": {
       "mime": "image/png",
@@ -25409,6 +26165,14 @@
       "source_bundle": "empty_cards_babymonster_choom_we_go_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/7c/7c9700e03b8cc5e9b005056cbb11b135b865189b67f2315ad2e48a06e515254d.png"
     },
+    "sha256:7cb64a43807f3172d8ad29e7fb1418e47c82972fbb3917f5234e02974e86da3c": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_carmen_s",
+      "sha256": "7cb64a43807f3172d8ad29e7fb1418e47c82972fbb3917f5234e02974e86da3c",
+      "size": 137284,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/7c/7cb64a43807f3172d8ad29e7fb1418e47c82972fbb3917f5234e02974e86da3c.png"
+    },
     "sha256:7cc8222edb908854efc7f88dc166ab6bbe18fbcbb5cbc3d551d71c9a7eb9c3ed": {
       "mime": "image/png",
       "original_name": "c_l_hi_high_kim_lip_c",
@@ -25512,6 +26276,14 @@
       "size": 71082,
       "source_bundle": "profile_girlset_sweet",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/7d/7d531e25383348a3d728d9a312bbe84e9cff4d0c8b828017b183ed06a1e897a3.png"
+    },
+    "sha256:7d56f23dde49c0c70edf08027353a4a15bcdd54f54bdabb264335c226ad2d164": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ye-on_r",
+      "sha256": "7d56f23dde49c0c70edf08027353a4a15bcdd54f54bdabb264335c226ad2d164",
+      "size": 25309,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/7d/7d56f23dde49c0c70edf08027353a4a15bcdd54f54bdabb264335c226ad2d164.png"
     },
     "sha256:7d59d0d57ffa8c62026ac22a7e6bc1705336779ef6ada93dab569f3bdbdcf05c": {
       "mime": "image/png",
@@ -26073,6 +26845,14 @@
       "source_bundle": "cards_kiss_of_life_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/81/81656632843a56fa88ceeb0f9c7ffffb589713566c8cff7d0bc1137c58e83629.png"
     },
+    "sha256:81776580ebcfd51eba88b3f8d36cc8060a44cfb84afd05fcb144a6eff69dacc7": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_stella_b",
+      "sha256": "81776580ebcfd51eba88b3f8d36cc8060a44cfb84afd05fcb144a6eff69dacc7",
+      "size": 23799,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/81/81776580ebcfd51eba88b3f8d36cc8060a44cfb84afd05fcb144a6eff69dacc7.png"
+    },
     "sha256:81825fdde58a3382fd0c34ce32727ff58daafe006d5155ce1c105c3d15caaa42": {
       "mime": "image/png",
       "original_name": "c_s_blackhole_jangwonyoung_c",
@@ -26321,6 +27101,14 @@
       "source_bundle": "cards_katseye_pinky_up_pinky_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/82/82f0fd494aa09a1114f2b9f05f72e6f0152de5b537439140c6e5e25ff9e41c5e.png"
     },
+    "sha256:82f1a3f9ab14b8ab5ca1efb91367c5299d08a09c258726c1b84ec5987cc9a629": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_a-na_s",
+      "sha256": "82f1a3f9ab14b8ab5ca1efb91367c5299d08a09c258726c1b84ec5987cc9a629",
+      "size": 123825,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/82/82f1a3f9ab14b8ab5ca1efb91367c5299d08a09c258726c1b84ec5987cc9a629.png"
+    },
     "sha256:830736aa23803b9d5884b5f84df140324251108ffae25c85334ca6e3b7bd4164": {
       "mime": "image/png",
       "original_name": "c_l_last_festival_jihoon_r",
@@ -26505,6 +27293,14 @@
       "source_bundle": "cards_katseye_gameboy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/84/8433f0d49b91ae37ab59f78e77591b186c17694e082b992a65aeb68f10aeb1ec.png"
     },
+    "sha256:843503cec9600eba4223d55f7d6c0917a23ef2161db285e3b676b81e1b7e3e43": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_jiwoo_r",
+      "sha256": "843503cec9600eba4223d55f7d6c0917a23ef2161db285e3b676b81e1b7e3e43",
+      "size": 26212,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/84/843503cec9600eba4223d55f7d6c0917a23ef2161db285e3b676b81e1b7e3e43.png"
+    },
     "sha256:843a469a320d798fed053d508a060ca858c85bee550c16154acc153be6744316": {
       "mime": "image/png",
       "original_name": "c_s_pinky_up_sophia_b",
@@ -26601,6 +27397,14 @@
       "source_bundle": "empty_cards_odd_eye_circle_girl_front",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/84/848a200651df767936db5d0d7aa8109084c09794d8c61bc30b33591bebe59a60.png"
     },
+    "sha256:848ab8d605fcd7bab22a462fb6752c16bd890e309822014a72efd7aa25da83d5": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_a-na_em",
+      "sha256": "848ab8d605fcd7bab22a462fb6752c16bd890e309822014a72efd7aa25da83d5",
+      "size": 9511,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/84/848ab8d605fcd7bab22a462fb6752c16bd890e309822014a72efd7aa25da83d5.png"
+    },
     "sha256:8492653484de53e629b6315944f353d91161c01a5d6f5d8b1809d6e46e657c12": {
       "mime": "image/png",
       "original_name": "c_l_this_is_for_mina_em",
@@ -26664,6 +27468,14 @@
       "size": 20473,
       "source_bundle": "cards_nmixx_blue_valentine",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/84/84e2577530854d3cf15af208c04b53b84c5c8dd3c0c619055a91f807fc821768.png"
+    },
+    "sha256:84f99c6e77b89cd73cbb693d36cdac84ee01e1a6fd5e322e37d817a31b313e34": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_winter_s",
+      "sha256": "84f99c6e77b89cd73cbb693d36cdac84ee01e1a6fd5e322e37d817a31b313e34",
+      "size": 22660,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/84/84f99c6e77b89cd73cbb693d36cdac84ee01e1a6fd5e322e37d817a31b313e34.png"
     },
     "sha256:84fc55231702107ee3db4af0af4c68d1f15bcd168442d650f18b5bcf226d7300": {
       "mime": "image/png",
@@ -26793,6 +27605,14 @@
       "source_bundle": "cards_xg_woke_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/85/8567b5b3a5abff03c372e2740da46ace3083a023ba011e1848a6f047977412f9.png"
     },
+    "sha256:857c08d13f20427a1329e59de1182f430c2fecd3c1801f995ac2a50d48022c4d": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_giselle_b",
+      "sha256": "857c08d13f20427a1329e59de1182f430c2fecd3c1801f995ac2a50d48022c4d",
+      "size": 21316,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/85/857c08d13f20427a1329e59de1182f430c2fecd3c1801f995ac2a50d48022c4d.png"
+    },
     "sha256:857dad3d21c41e51f1c9ed90fad4af244abbe36be52a1e5b5beee66431d400b0": {
       "mime": "image/png",
       "original_name": "c_s_rosy_rollie_ruby_shinyu_em",
@@ -26808,6 +27628,14 @@
       "size": 22227,
       "source_bundle": "cards_red_velvet_chill_kill",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/85/85899033275bea50a736cd064f65cda756a5ac76b3ac1b51da153a1d85cdd15b.png"
+    },
+    "sha256:859add6562d622362c3107b5171b6e243111d3e30d5d7bf3d9aa6221562b2d64": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_jiwoo_em",
+      "sha256": "859add6562d622362c3107b5171b6e243111d3e30d5d7bf3d9aa6221562b2d64",
+      "size": 10596,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/85/859add6562d622362c3107b5171b6e243111d3e30d5d7bf3d9aa6221562b2d64.png"
     },
     "sha256:859d14b183a2a5b7b0a9dc7de2672690bfef130bf084b3a3b5ad5c61657753f4": {
       "mime": "image/png",
@@ -27216,6 +28044,14 @@
       "size": 21848,
       "source_bundle": "cards_nmixx_see_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/88/887eff7c9b641ac4bc4811d78c44bf9adcae2a92a99a347efe2b58947a4476c1.png"
+    },
+    "sha256:88967d9c509ad055b830b3959fde13f40c893145ddc1c31b5a8baaddf2883aec": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_stella_s",
+      "sha256": "88967d9c509ad055b830b3959fde13f40c893145ddc1c31b5a8baaddf2883aec",
+      "size": 124698,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/88/88967d9c509ad055b830b3959fde13f40c893145ddc1c31b5a8baaddf2883aec.png"
     },
     "sha256:8896ad3c9cb85c2954872adbf213daa98e6127936fe4bfd6ad5c11a55c4ead32": {
       "mime": "image/png",
@@ -28121,6 +28957,14 @@
       "source_bundle": "cards_unis_swicy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/8e/8ea514ad9c56cf687c0863afca0fa0a5a5a9e4afaed2a5a63aa965a87e0b310a.png"
     },
+    "sha256:8ec78c0de063e3a5c9be32c4783d6f1e4fa94195d6dc58d1d6d379fe3db7c00d": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_juun_a",
+      "sha256": "8ec78c0de063e3a5c9be32c4783d6f1e4fa94195d6dc58d1d6d379fe3db7c00d",
+      "size": 132433,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/8e/8ec78c0de063e3a5c9be32c4783d6f1e4fa94195d6dc58d1d6d379fe3db7c00d.png"
+    },
     "sha256:8eca90d96d639aa4dd33a3566cd2e4829fabf933a0cf2bbb9ed799eb3748ef54": {
       "mime": "image/png",
       "original_name": "c_l_rebel_heart_rei_em",
@@ -28456,6 +29300,14 @@
       "size": 27311,
       "source_bundle": "cards_le_sserafim_crazy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/91/91191fe3ddf1d94dcec32b01256d989df90619c32b16789afd60a032cfd0e492.png"
+    },
+    "sha256:912986e8a8aed64e492a669926bb38a7350aa9428a6e7b8cf7a504d4ccb70db2": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_giselle_s",
+      "sha256": "912986e8a8aed64e492a669926bb38a7350aa9428a6e7b8cf7a504d4ccb70db2",
+      "size": 21789,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/91/912986e8a8aed64e492a669926bb38a7350aa9428a6e7b8cf7a504d4ccb70db2.png"
     },
     "sha256:912a03c204b6674b9a5ff8b00249d8f19e2044b5449ee7d24b91bf0de45954a2": {
       "mime": "image/png",
@@ -29473,6 +30325,14 @@
       "source_bundle": "cards_odd_eye_circle_air_force_one",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/97/972c5f341035821c23beea56c3fac366e29928801c9723a8badee76ae39ee860.png"
     },
+    "sha256:973e94e8c5f67fb12d4df927de99a9961134ec7c7178930c687442dfc73cf6a6": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_winter_r",
+      "sha256": "973e94e8c5f67fb12d4df927de99a9961134ec7c7178930c687442dfc73cf6a6",
+      "size": 125217,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/97/973e94e8c5f67fb12d4df927de99a9961134ec7c7178930c687442dfc73cf6a6.png"
+    },
     "sha256:973ffe8be53670be6109ad8776db529aeeed4775757a6b887c7eeb5d06dd0425": {
       "mime": "image/png",
       "original_name": "c_s_see_that_haewon_a",
@@ -29481,6 +30341,14 @@
       "source_bundle": "cards_nmixx_see_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/97/973ffe8be53670be6109ad8776db529aeeed4775757a6b887c7eeb5d06dd0425.png"
     },
+    "sha256:97419a81aec451b026537b5b07afcdef1941d563407f78c9e5bedfaa55f5c5d0": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_a-na_a",
+      "sha256": "97419a81aec451b026537b5b07afcdef1941d563407f78c9e5bedfaa55f5c5d0",
+      "size": 125141,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/97/97419a81aec451b026537b5b07afcdef1941d563407f78c9e5bedfaa55f5c5d0.png"
+    },
     "sha256:9747c8e93b9825ba2210adc5621033fe65964041c64ae87c9a9082a65ccfde61": {
       "mime": "image/png",
       "original_name": "p_greengreen_keonho",
@@ -29488,6 +30356,14 @@
       "size": 71222,
       "source_bundle": "profile_cortis_greengreen",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/97/9747c8e93b9825ba2210adc5621033fe65964041c64ae87c9a9082a65ccfde61.png"
+    },
+    "sha256:974a60f19ef06c944526685fb10e8daf0a1c00d1ce5aa02d68e41fdc6cf6d712": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_karina_s",
+      "sha256": "974a60f19ef06c944526685fb10e8daf0a1c00d1ce5aa02d68e41fdc6cf6d712",
+      "size": 23303,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/97/974a60f19ef06c944526685fb10e8daf0a1c00d1ce5aa02d68e41fdc6cf6d712.png"
     },
     "sha256:97555e2bc67dfd2ccce10c3de94dac9ab7197bf179580833f3ac2b6c7321ab9b": {
       "mime": "image/png",
@@ -29881,6 +30757,14 @@
       "source_bundle": "profile_ive_bang_bang_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/99/99fd7eadc5df4b7ce1550c7a9bf6b22732ef8040064cafea6b25dfe29452d67d.png"
     },
+    "sha256:9a0a49ea6aea8d2f046d7429b44279e7dce3fa32f65f9fdd5f93ef7a767f86aa": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_yuha_r",
+      "sha256": "9a0a49ea6aea8d2f046d7429b44279e7dce3fa32f65f9fdd5f93ef7a767f86aa",
+      "size": 144822,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9a/9a0a49ea6aea8d2f046d7429b44279e7dce3fa32f65f9fdd5f93ef7a767f86aa.png"
+    },
     "sha256:9a158d158105449a671db51981d7b4e6b8253d94afa6b347d61e358a921b6afb": {
       "mime": "image/png",
       "original_name": "p_hands_up_sooin",
@@ -30177,6 +31061,14 @@
       "source_bundle": "cards_loona_flip_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9b/9b8ef6b8fd797fe4b107410b4d8a8c70e342565d9bc773036f1db108c7e3c0e3.png"
     },
+    "sha256:9b8fe8d3c2ef337a858237c47e0066812164471e6b4c7d908a0f7b7126895ebd": {
+      "mime": "image/png",
+      "original_name": "p_lemon_tang_a-na",
+      "sha256": "9b8fe8d3c2ef337a858237c47e0066812164471e6b4c7d908a0f7b7126895ebd",
+      "size": 68608,
+      "source_bundle": "profile_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9b/9b8fe8d3c2ef337a858237c47e0066812164471e6b4c7d908a0f7b7126895ebd.png"
+    },
     "sha256:9b98fbbf48930ccf5c66268be0e0d273e6706efe8d18f4f95983053a5260c7f1": {
       "mime": "image/png",
       "original_name": "c_s_forever_asa_c",
@@ -30192,6 +31084,14 @@
       "size": 118510,
       "source_bundle": "cards_tws_last_festival",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9b/9bc3ab2730f0b18a12a5cd1e1586a8df74d040bb855467790d2312eea81c1ced.png"
+    },
+    "sha256:9bd486c191b4a3d2753d4f561541b4472ced5d6ab5e442bbbd5fd4d6d14cbb9e": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_giselle_r",
+      "sha256": "9bd486c191b4a3d2753d4f561541b4472ced5d6ab5e442bbbd5fd4d6d14cbb9e",
+      "size": 22239,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9b/9bd486c191b4a3d2753d4f561541b4472ced5d6ab5e442bbbd5fd4d6d14cbb9e.png"
     },
     "sha256:9be6782f2f6d9a367dc97095269e75f6d9eb85bc66287fc454e98b03d84ce9e2": {
       "mime": "image/png",
@@ -30337,6 +31237,14 @@
       "source_bundle": "cards_unis_swicy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9d/9d000d833adcf69710db8f63039c2476a65ec52679f67cb9bc541a9325c16f69.png"
     },
+    "sha256:9d002ea6a159e9375d43bf8517b2f64b22921f3eb7c8346f5c6a7eb4c22be408": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_ningning_a",
+      "sha256": "9d002ea6a159e9375d43bf8517b2f64b22921f3eb7c8346f5c6a7eb4c22be408",
+      "size": 111335,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9d/9d002ea6a159e9375d43bf8517b2f64b22921f3eb7c8346f5c6a7eb4c22be408.png"
+    },
     "sha256:9d007b98a4b2a3284b8c5af37598449ebcb1f599b299462ddd220c4edb4730d7": {
       "mime": "image/png",
       "original_name": "c_s_mono_minnie_s",
@@ -30441,6 +31349,14 @@
       "source_bundle": "cards_artms_dall",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9d/9d929b4e4299a8dba5ddf6f7c080014f9770876bee86fd4d90eedfc169cd2ce4.png"
     },
+    "sha256:9da1fbc91fa39ca54790ec19cab5a2af9dbca8c395c18c3bb1a595779e2ce261": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_ningning_em",
+      "sha256": "9da1fbc91fa39ca54790ec19cab5a2af9dbca8c395c18c3bb1a595779e2ce261",
+      "size": 7485,
+      "source_bundle": "empty_cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9d/9da1fbc91fa39ca54790ec19cab5a2af9dbca8c395c18c3bb1a595779e2ce261.png"
+    },
     "sha256:9da5614cc8db6812a7fa87c87863524e1836dce7e44105c3b6322933641b6849": {
       "mime": "image/png",
       "original_name": "c_l_sticky_haneul_r",
@@ -30537,6 +31453,14 @@
       "source_bundle": "cards_le_sserafim_hot",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9e/9e326a202bb7b278d0ebd5a94e366caf52f22dc0fa0fd958f66b158c78a1962f.png"
     },
+    "sha256:9e3a751d09cb1b49b25aaa79941d4564f440b47d75289977fadb0a88f266e4ca": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_ningning_em",
+      "sha256": "9e3a751d09cb1b49b25aaa79941d4564f440b47d75289977fadb0a88f266e4ca",
+      "size": 39594,
+      "source_bundle": "empty_cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9e/9e3a751d09cb1b49b25aaa79941d4564f440b47d75289977fadb0a88f266e4ca.png"
+    },
     "sha256:9e4f0965c29787176cab18c5697595ed68bd0c1fb507400dca6769cd877c7a78": {
       "mime": "image/png",
       "original_name": "c_s_beautiful_chaos_megan_r",
@@ -30625,6 +31549,14 @@
       "source_bundle": "empty_cards_itzy_girls_will_be_girls",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9e/9ecd8cb156c22fa674d65f04ea7eec724a06a3975dd76dc781413261d99459e0.png"
     },
+    "sha256:9ed025169373fc7aaaaf695a84934d33f2ecbf105b5d320ee29e9d22c9528d60": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_juun_r",
+      "sha256": "9ed025169373fc7aaaaf695a84934d33f2ecbf105b5d320ee29e9d22c9528d60",
+      "size": 25614,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9e/9ed025169373fc7aaaaf695a84934d33f2ecbf105b5d320ee29e9d22c9528d60.png"
+    },
     "sha256:9ee98e8ff68f6b72ff07282620fd2a7df96ad33af088c05a93bfe13c5f2d3361": {
       "mime": "image/png",
       "original_name": "c_s_ceremony_han_s",
@@ -30632,6 +31564,14 @@
       "size": 20707,
       "source_bundle": "cards_stray_kids_ceremony",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9e/9ee98e8ff68f6b72ff07282620fd2a7df96ad33af088c05a93bfe13c5f2d3361.png"
+    },
+    "sha256:9eee767bb8c59357f0f1ca083ebb62907d4dec2e832f3d0644155a1a570f797f": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_yuha_s",
+      "sha256": "9eee767bb8c59357f0f1ca083ebb62907d4dec2e832f3d0644155a1a570f797f",
+      "size": 25964,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/9e/9eee767bb8c59357f0f1ca083ebb62907d4dec2e832f3d0644155a1a570f797f.png"
     },
     "sha256:9eff2fb4cf9e8cbef2bd6f4c992271d1e77a78031c9bfedadb8659fafa9bce84": {
       "mime": "image/png",
@@ -31009,6 +31949,14 @@
       "source_bundle": "cards_i-dle_uh-oh",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a0/a0b8a8055c3688c86338dc3b68a4752b20c366ae0643cece12500db6f552dd99.png"
     },
+    "sha256:a0bbb7d3a76a96efa02434380b3e8292311f23cd53bb2cbd627d4effccb008d0": {
+      "mime": "image/png",
+      "original_name": "p_lemon_tang_ian",
+      "sha256": "a0bbb7d3a76a96efa02434380b3e8292311f23cd53bb2cbd627d4effccb008d0",
+      "size": 71043,
+      "source_bundle": "profile_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a0/a0bbb7d3a76a96efa02434380b3e8292311f23cd53bb2cbd627d4effccb008d0.png"
+    },
     "sha256:a0c084b5243cb2f01c6e230584cec9fef9d08733f928f5339a404786cac9b368": {
       "mime": "image/png",
       "original_name": "p_rosy_rollie_ruby_haewon",
@@ -31217,6 +32165,14 @@
       "source_bundle": "cards_nmixx_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a1/a1d155871b17f9095eb08a115ec918463c03e017910c8c332d2aa5328cb7994d.png"
     },
+    "sha256:a1d4e52f5c6c6c91e9f20552f1281267dcca3af55a6572705a3e0dc521fcc294": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_stella_r",
+      "sha256": "a1d4e52f5c6c6c91e9f20552f1281267dcca3af55a6572705a3e0dc521fcc294",
+      "size": 25157,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a1/a1d4e52f5c6c6c91e9f20552f1281267dcca3af55a6572705a3e0dc521fcc294.png"
+    },
     "sha256:a1dbaf4971accdcda4e80f721cffe53c3573b6a37a86d1f6ed3c836717f5e70c": {
       "mime": "image/png",
       "original_name": "c_l_dirty_work_winter_s",
@@ -31296,6 +32252,14 @@
       "size": 26333,
       "source_bundle": "cards_ive_xoxz",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a2/a2622655fdeebd88211a736ffd3f77855ccc21e88ee610e8aabb3a17e344af86.png"
+    },
+    "sha256:a26e45512ebe7a26fdce0dcdb539a6449c898dcd95290a3b824033978e69cc79": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_a-na_c",
+      "sha256": "a26e45512ebe7a26fdce0dcdb539a6449c898dcd95290a3b824033978e69cc79",
+      "size": 22601,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a2/a26e45512ebe7a26fdce0dcdb539a6449c898dcd95290a3b824033978e69cc79.png"
     },
     "sha256:a27ebc8b43caeb6cbc7b9fbe372b5499510a5c703ec7bbdab1ee931f61da2d08": {
       "mime": "image/png",
@@ -31377,6 +32341,14 @@
       "source_bundle": "empty_cards_allday_project_famous",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a2/a2dd5423facbc1b815c6586909b566d78df30ffa9079d81b8488fc2bf3c00440.png"
     },
+    "sha256:a2dfc3845afb5d41ff0c99a3feb6daf6d1b05a45109d9b030e47e6f63d00366a": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_jiwoo_c",
+      "sha256": "a2dfc3845afb5d41ff0c99a3feb6daf6d1b05a45109d9b030e47e6f63d00366a",
+      "size": 25390,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a2/a2dfc3845afb5d41ff0c99a3feb6daf6d1b05a45109d9b030e47e6f63d00366a.png"
+    },
     "sha256:a2e21e2d5c271fc6e464a853f7458da58ff2b24487519742906e444c57e8b268": {
       "mime": "image/png",
       "original_name": "c_s_go_rose_s",
@@ -31400,6 +32372,14 @@
       "size": 13752,
       "source_bundle": "empty_cards_tws_plot_twist",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a3/a3037895fe4861492a491188feb4ae3a32675627485323e257c356ff72c50c3b.png"
+    },
+    "sha256:a305e614d81ba37fc2bfe5671523d21a1fe08873fcc58089cac497d9d1d157c8": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_stella_em",
+      "sha256": "a305e614d81ba37fc2bfe5671523d21a1fe08873fcc58089cac497d9d1d157c8",
+      "size": 9836,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a3/a305e614d81ba37fc2bfe5671523d21a1fe08873fcc58089cac497d9d1d157c8.png"
     },
     "sha256:a334070d738f8056308cec48709a2430c2ce5cc8db899e35d4766b4143ea44f2": {
       "mime": "image/png",
@@ -31536,6 +32516,14 @@
       "size": 20989,
       "source_bundle": "cards_illit_magnetic",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a3/a393ca11d5db94864924e340d3ab89912a67c742739db712b5af2b0807a55322.png"
+    },
+    "sha256:a3a98ec589e2c540ad38b9125f6d0ed5b5afd3dcf28770d6ed4df74bdbaa153b": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ye-on_b",
+      "sha256": "a3a98ec589e2c540ad38b9125f6d0ed5b5afd3dcf28770d6ed4df74bdbaa153b",
+      "size": 23941,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a3/a3a98ec589e2c540ad38b9125f6d0ed5b5afd3dcf28770d6ed4df74bdbaa153b.png"
     },
     "sha256:a3ad7e665709edf8f11ec3fa0a556c2fa7bcbb855f85cce3810c9358c92b65a1": {
       "mime": "image/png",
@@ -31881,6 +32869,14 @@
       "source_bundle": "cards_katseye_gameboy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a5/a5ca84caf1d88263c85b1277f3d99d229fd47aeac3de0de6fb314e0434e837db.png"
     },
+    "sha256:a5cb39338b2cddd1185ec4edd1268c589a00613d248d4d36e9f7db4c673c3e0f": {
+      "mime": "image/png",
+      "original_name": "p_lemon_tang_yuha",
+      "sha256": "a5cb39338b2cddd1185ec4edd1268c589a00613d248d4d36e9f7db4c673c3e0f",
+      "size": 77622,
+      "source_bundle": "profile_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a5/a5cb39338b2cddd1185ec4edd1268c589a00613d248d4d36e9f7db4c673c3e0f.png"
+    },
     "sha256:a5cd3bb636bf7615b1ef6c2ea983d84f7aa5f36a96e53540021491b8044d8a5a": {
       "mime": "image/png",
       "original_name": "c_s_pinky_up_megan_a",
@@ -31960,6 +32956,14 @@
       "size": 148099,
       "source_bundle": "cards_nmixx_see_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a6/a674fa381a8ffb8ed1161d930853278d81d28286d51cd277b24d8ec58abf9e7a.png"
+    },
+    "sha256:a678ba2531a77005c01790f7ed7442bb889f6fb4f6b3704969e6e49092fdc571": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_jiwoo_c",
+      "sha256": "a678ba2531a77005c01790f7ed7442bb889f6fb4f6b3704969e6e49092fdc571",
+      "size": 133428,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a6/a678ba2531a77005c01790f7ed7442bb889f6fb4f6b3704969e6e49092fdc571.png"
     },
     "sha256:a6817e1c0c3005c39a61e0d87ad75e65c61680176c8e4049cfb8ead150b5fa75": {
       "mime": "image/png",
@@ -32377,6 +33381,14 @@
       "source_bundle": "cards_loona_flip_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a8/a8d4683dd1c6fe496f99cf1b817a3109f4eefffd693e041a2da37415f815321f.png"
     },
+    "sha256:a8ddfc4e4daaa70eed07a2dbddcbdb6c87a45b1f4c31db377807530e5b1cb7e3": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_yuha_a",
+      "sha256": "a8ddfc4e4daaa70eed07a2dbddcbdb6c87a45b1f4c31db377807530e5b1cb7e3",
+      "size": 26257,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a8/a8ddfc4e4daaa70eed07a2dbddcbdb6c87a45b1f4c31db377807530e5b1cb7e3.png"
+    },
     "sha256:a8df2e4086868a988718058c8e475751bdbfabcf5ad7390fbb5ab8a4faa431ff": {
       "mime": "image/png",
       "original_name": "c_l_this_is_for_momo_b",
@@ -32521,6 +33533,14 @@
       "source_bundle": "cards_nmixx_know_about_me",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a9/a9d4b9a59979bf38012a5d83f98a8883d0e0b63f1b2a07523484e93da0863e44.png"
     },
+    "sha256:a9e866524dc8dcf34a4ff714b77485af555eb83e8ce1adeeeddc4183aeccc304": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_carmen_r",
+      "sha256": "a9e866524dc8dcf34a4ff714b77485af555eb83e8ce1adeeeddc4183aeccc304",
+      "size": 25999,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/a9/a9e866524dc8dcf34a4ff714b77485af555eb83e8ce1adeeeddc4183aeccc304.png"
+    },
     "sha256:a9eb02a97d75fe5fd747c96050d9b761ffc526992be44f9dc1f2911212f87dd6": {
       "mime": "image/png",
       "original_name": "c_l_xoxz_rei_r",
@@ -32624,6 +33644,14 @@
       "size": 25794,
       "source_bundle": "cards_everglow_la_di_da",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/aa/aa7e0178d4f279fea3477d194f75657e0378089f76e8cffd15d9801b46e1095a.png"
+    },
+    "sha256:aa84c84d48cccf8cda75c4d9b115757b543d82f92c9ce9bdc043fe90d79cfdf6": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ian_b",
+      "sha256": "aa84c84d48cccf8cda75c4d9b115757b543d82f92c9ce9bdc043fe90d79cfdf6",
+      "size": 24186,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/aa/aa84c84d48cccf8cda75c4d9b115757b543d82f92c9ce9bdc043fe90d79cfdf6.png"
     },
     "sha256:aa88bdbb995ee3330d381cfedc04760f275a349af779959023c174abb3da668d": {
       "mime": "image/png",
@@ -33241,6 +34269,14 @@
       "source_bundle": "empty_cards_nmixx_know_about_me",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ad/addeaec52adc0e1ba1e7a4e8e88d7ab0cb2bbcd10e14661dd8021db4f8770f6a.png"
     },
+    "sha256:ade2ef57180bc09c47876bdbee91211c5c89063375bb7db31ba6428d289142e9": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ye-on_c",
+      "sha256": "ade2ef57180bc09c47876bdbee91211c5c89063375bb7db31ba6428d289142e9",
+      "size": 122113,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ad/ade2ef57180bc09c47876bdbee91211c5c89063375bb7db31ba6428d289142e9.png"
+    },
     "sha256:adeb408261d69a23b5fe274a32894060d8fe95645e57b02df1711197911f23b1": {
       "mime": "image/png",
       "original_name": "c_l_virtual_angel_heejin_em",
@@ -33705,6 +34741,14 @@
       "source_bundle": "cards_allday_project_wicked",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/b0/b089ae0999f02b691cc9b9129d2452f8b086bc0ae254b1c151c1ddd7726d8663.png"
     },
+    "sha256:b0976eeb39f1c0e26d1de97da2192e6350a0baa48f98cab494bfb0ed8195403c": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_ningning_b",
+      "sha256": "b0976eeb39f1c0e26d1de97da2192e6350a0baa48f98cab494bfb0ed8195403c",
+      "size": 102619,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/b0/b0976eeb39f1c0e26d1de97da2192e6350a0baa48f98cab494bfb0ed8195403c.png"
+    },
     "sha256:b09b651fc7425fe099ea196a29ca5b31c6913814ce0993e122a62a1a7ab16c86": {
       "mime": "image/png",
       "original_name": "c_s_rude_carmen_a",
@@ -33760,6 +34804,14 @@
       "size": 83624,
       "source_bundle": "empty_cards_stayc_gpt",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/b0/b0d14ff3a388919ce0e285c2e89869fbe033054bbf12be05c6b754854fb6a8f9.png"
+    },
+    "sha256:b0e3a860e3604dfb7750f6241ab79caff6ed8eca3317786d7754bf71a51a820b": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_ningning_b",
+      "sha256": "b0e3a860e3604dfb7750f6241ab79caff6ed8eca3317786d7754bf71a51a820b",
+      "size": 19404,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/b0/b0e3a860e3604dfb7750f6241ab79caff6ed8eca3317786d7754bf71a51a820b.png"
     },
     "sha256:b0ed5135e30a9655a6340b4141d99c29ee920a9b07e7d4197fb72af300d2a5fd": {
       "mime": "image/png",
@@ -34200,6 +35252,14 @@
       "size": 26103,
       "source_bundle": "cards_loona_flip_that",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/b3/b3c656bfe7fef48e03662523be27efc72a53977512bd7f83413f0f56ed2fec6d.png"
+    },
+    "sha256:b3ecaa21478e9ce0cfc6a8c5b0ddff971359e5c86e2ea75c2d5aef23224659b1": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_ningning_c",
+      "sha256": "b3ecaa21478e9ce0cfc6a8c5b0ddff971359e5c86e2ea75c2d5aef23224659b1",
+      "size": 18954,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/b3/b3ecaa21478e9ce0cfc6a8c5b0ddff971359e5c86e2ea75c2d5aef23224659b1.png"
     },
     "sha256:b42010af3563d61797e3fe3c0a65690355a3c0ca8392ae669fa5c2bfea6983ca": {
       "mime": "image/png",
@@ -35281,6 +36341,22 @@
       "source_bundle": "cards_i-dle_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/bb/bb65335584180cee962148099003322ce28b87f0dbaa05e26f6db5ebccd86c09.png"
     },
+    "sha256:bb6e4a7af7d8da3d44799265015a191aa09a7ad8aac6a76ff04230a7d69bf284": {
+      "mime": "image/png",
+      "original_name": "p_lemon_tang_carmen",
+      "sha256": "bb6e4a7af7d8da3d44799265015a191aa09a7ad8aac6a76ff04230a7d69bf284",
+      "size": 74849,
+      "source_bundle": "profile_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/bb/bb6e4a7af7d8da3d44799265015a191aa09a7ad8aac6a76ff04230a7d69bf284.png"
+    },
+    "sha256:bb7f63a99bd47631b99bcb575ed3bbd095290de47e29dfeb7fca4fbddcc2f9e4": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ye-on_c",
+      "sha256": "bb7f63a99bd47631b99bcb575ed3bbd095290de47e29dfeb7fca4fbddcc2f9e4",
+      "size": 23817,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/bb/bb7f63a99bd47631b99bcb575ed3bbd095290de47e29dfeb7fca4fbddcc2f9e4.png"
+    },
     "sha256:bb7fed724773380b0d666e603c84a3a98d629b3bcce829bcc5b2824684551ff8": {
       "mime": "image/png",
       "original_name": "p_ptt_haseul",
@@ -35304,6 +36380,14 @@
       "size": 22011,
       "source_bundle": "cards_loona_ptt",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/bb/bba97fd798f00c43f6b8b31b249e3d0e2d299368623cd273fb124bba40af7a17.png"
+    },
+    "sha256:bbb6127258f08bf49a68c8aaf65538d948252ec2cd5924d9a4bd8b364e413d7f": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_yuha_c",
+      "sha256": "bbb6127258f08bf49a68c8aaf65538d948252ec2cd5924d9a4bd8b364e413d7f",
+      "size": 25616,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/bb/bbb6127258f08bf49a68c8aaf65538d948252ec2cd5924d9a4bd8b364e413d7f.png"
     },
     "sha256:bbd1cae6be295c7e4d1c75954fc826c9118466b4236678338bb5131f31db541c": {
       "mime": "image/png",
@@ -35881,6 +36965,14 @@
       "source_bundle": "cards_illit_cherish",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/bf/bf8fd76dd56df704f60776aabe80fba327c54a7f0bd70fb855c7f1d9fe65315c.png"
     },
+    "sha256:bfa0f99dd4e3f3999485ab677548eccccb1c22c93c0af2b01feb2ae5262102f2": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_ningning_r",
+      "sha256": "bfa0f99dd4e3f3999485ab677548eccccb1c22c93c0af2b01feb2ae5262102f2",
+      "size": 20985,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/bf/bfa0f99dd4e3f3999485ab677548eccccb1c22c93c0af2b01feb2ae5262102f2.png"
+    },
     "sha256:bfaf974f5e6e2b249f13813c77f919a7766d1fe0d88c528c069034ed9ffd58bd": {
       "mime": "image/png",
       "original_name": "c_s_easy_hong_eunchae_c",
@@ -36041,6 +37133,14 @@
       "source_bundle": "cards_illit_cherish",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c0/c076fa89a3efea07d2ce11603591c572e447949ae008284e463f76d4758bf689.png"
     },
+    "sha256:c0827e3ec1f8ec41b05544bf575639bea868f9a3b6f7af61d0e7749654ad4a14": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_a-na_em",
+      "sha256": "c0827e3ec1f8ec41b05544bf575639bea868f9a3b6f7af61d0e7749654ad4a14",
+      "size": 56618,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c0/c0827e3ec1f8ec41b05544bf575639bea868f9a3b6f7af61d0e7749654ad4a14.png"
+    },
     "sha256:c08c7238d1bd5f9607117856aa0f87ef333389c6684cdc504c69897943f2c43a": {
       "mime": "image/png",
       "original_name": "c_l_xoxz_liz_r",
@@ -36120,6 +37220,14 @@
       "size": 23702,
       "source_bundle": "cards_babymonster_choom_we_go_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c1/c111f7ed2b85ea164647ec353d5f9cbc3500214a57687d53b6b8498bcfe25f2e.png"
+    },
+    "sha256:c1188919d3c55336c6cf02511a31e7e175263dc82a236d4da79362298e5c736f": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_karina_b",
+      "sha256": "c1188919d3c55336c6cf02511a31e7e175263dc82a236d4da79362298e5c736f",
+      "size": 22876,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c1/c1188919d3c55336c6cf02511a31e7e175263dc82a236d4da79362298e5c736f.png"
     },
     "sha256:c1208e8512c0dcc48c4cf5f49b40c746cbb5472a47ba512a448e9256298ddb22": {
       "mime": "image/png",
@@ -36320,6 +37428,14 @@
       "size": 22547,
       "source_bundle": "cards_kiss_of_life_sticky",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c2/c2425c6e76d998a4dce1472c5a6faec0b968e93e433238013a62a13037488adf.png"
+    },
+    "sha256:c244d59f1f4e67fea4bfd702299491a6693cb3f0c9ca9331a957ba27294efaf7": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ian_r",
+      "sha256": "c244d59f1f4e67fea4bfd702299491a6693cb3f0c9ca9331a957ba27294efaf7",
+      "size": 25242,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c2/c244d59f1f4e67fea4bfd702299491a6693cb3f0c9ca9331a957ba27294efaf7.png"
     },
     "sha256:c24a8198d077022afeb1933e74c88b91619c5b1d3e06df4eac058103ba5b3a1d": {
       "mime": "image/png",
@@ -37297,6 +38413,14 @@
       "source_bundle": "cards_hearts2hearts_the_chase",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c8/c84510191711464ceeb7cc591e4210644560af3513b4aebac177246acce1e454.png"
     },
+    "sha256:c84c75094419c74a17f581ad731eb8009838e0259239740ec05c491ba996faaa": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ye-on_em",
+      "sha256": "c84c75094419c74a17f581ad731eb8009838e0259239740ec05c491ba996faaa",
+      "size": 58103,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c8/c84c75094419c74a17f581ad731eb8009838e0259239740ec05c491ba996faaa.png"
+    },
     "sha256:c84e9eaea96a80ee78df2b31b775f585a6d70735278d78ca9839714a618f1ea7": {
       "mime": "image/png",
       "original_name": "c_s_inception_julie_em",
@@ -37368,6 +38492,14 @@
       "size": 34394,
       "source_bundle": "cards_nmixx_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c8/c8a8922c644e5699d2e38992c176ab3c8a7d4acb64f777a7fb40123fb00c493e.png"
+    },
+    "sha256:c8c7cb2181d45170f018db6f92df7537107a6ce5144cd59e96ad71b9edc06b62": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_a-na_c",
+      "sha256": "c8c7cb2181d45170f018db6f92df7537107a6ce5144cd59e96ad71b9edc06b62",
+      "size": 117406,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c8/c8c7cb2181d45170f018db6f92df7537107a6ce5144cd59e96ad71b9edc06b62.png"
     },
     "sha256:c8d065eb07380b2d21033e7bc68e0a0a1c9203f988c8b25336e6021037dd89e1": {
       "mime": "image/png",
@@ -37528,6 +38660,14 @@
       "size": 17047,
       "source_bundle": "empty_cards_little_mix_shout_out_to_my_ex",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c9/c93b858df2757e027e66ababe39599f153358bb3ba1e6e6209d9851084414ce2.png"
+    },
+    "sha256:c994ac6701d484e84826431bfd3a058866606c92597f39dc58df8649a601caba": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_jiwoo_s",
+      "sha256": "c994ac6701d484e84826431bfd3a058866606c92597f39dc58df8649a601caba",
+      "size": 138269,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/c9/c994ac6701d484e84826431bfd3a058866606c92597f39dc58df8649a601caba.png"
     },
     "sha256:c996509b5954e2aaf0dc21b23c6f0785f53397aa2f4166fee984546aef1b406a": {
       "mime": "image/png",
@@ -37736,6 +38876,14 @@
       "size": 168452,
       "source_bundle": "cards_nmixx_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ca/cacfdce9cc75f043ac730ef0e16b5cb7295b6d0de7514cd4aa0c3cfcffed04d8.png"
+    },
+    "sha256:cad1f1c118a43a15d165c56f935cca2c7add644a4756b9679b6357bb58d8a6e8": {
+      "mime": "image/png",
+      "original_name": "p_lemon_tang_stella",
+      "sha256": "cad1f1c118a43a15d165c56f935cca2c7add644a4756b9679b6357bb58d8a6e8",
+      "size": 69606,
+      "source_bundle": "profile_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ca/cad1f1c118a43a15d165c56f935cca2c7add644a4756b9679b6357bb58d8a6e8.png"
     },
     "sha256:cad66050de4dbab7c5255bfc5b91d252a3d71ce06cb3232e56ce95605d0961b7": {
       "mime": "image/png",
@@ -38209,6 +39357,14 @@
       "source_bundle": "cards_red_velvet_chill_kill",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/cd/cd34d3045df8fd87bfa680edce50f8e239c089ff190fe60155f9ce2e600de5f5.png"
     },
+    "sha256:cd4566aade47a8d9da067cebbe8860372eaf197f2b6f5883f784baa2f4d6bcfe": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_giselle_s",
+      "sha256": "cd4566aade47a8d9da067cebbe8860372eaf197f2b6f5883f784baa2f4d6bcfe",
+      "size": 112996,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/cd/cd4566aade47a8d9da067cebbe8860372eaf197f2b6f5883f784baa2f4d6bcfe.png"
+    },
     "sha256:cd74427d461f175848cde885f27c73c75a967eb2818f1d672cace22c5fc9ae85": {
       "mime": "image/png",
       "original_name": "c_l_we_go_up_chiquita_b",
@@ -38296,6 +39452,14 @@
       "size": 25610,
       "source_bundle": "cards_le_sserafim_crazy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/cd/cde9e87342ddf3a66da31b3e31c610433ba72a600e9c64c90ee4f8dc83b11595.png"
+    },
+    "sha256:cdfcf5bbcd5bb920468ac231ba2a772179f71ad1dd2cbcb236b1df9447195a5f": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ian_em",
+      "sha256": "cdfcf5bbcd5bb920468ac231ba2a772179f71ad1dd2cbcb236b1df9447195a5f",
+      "size": 56770,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/cd/cdfcf5bbcd5bb920468ac231ba2a772179f71ad1dd2cbcb236b1df9447195a5f.png"
     },
     "sha256:ce08d0efc606174e7fd1575b552ad0aa8de9239ef4b475b0b3ce3b6c9291361e": {
       "mime": "image/png",
@@ -38825,6 +39989,14 @@
       "source_bundle": "cards_tws_plot_twist",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d0/d0ab2c748a3dbade939da617eca912104a96be4e56b64dc1668cdeeef9ded542.png"
     },
+    "sha256:d0c8715e67c779a5f1435d7d74ec39d404dac1a646eec27ed7a73de0b91b4c64": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_carmen_r",
+      "sha256": "d0c8715e67c779a5f1435d7d74ec39d404dac1a646eec27ed7a73de0b91b4c64",
+      "size": 139676,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d0/d0c8715e67c779a5f1435d7d74ec39d404dac1a646eec27ed7a73de0b91b4c64.png"
+    },
     "sha256:d0dc39a4566cdef7f3bd32124b0fd9188f4feac248ce6452eb4fac006f82ea61": {
       "mime": "image/png",
       "original_name": "c_s_bounce_back_leigh-anne_b",
@@ -39161,6 +40333,14 @@
       "source_bundle": "empty_cards_hearts2hearts_rude",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d2/d26d611a26a218294f3b74e49afa0fdbd197f0ae6cfb69acff247ef225535447.png"
     },
+    "sha256:d272074137c7b5d27d6b63fb42be06a948768aef0adf82c82ba5d78f9e376e1e": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_karina_b",
+      "sha256": "d272074137c7b5d27d6b63fb42be06a948768aef0adf82c82ba5d78f9e376e1e",
+      "size": 112494,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d2/d272074137c7b5d27d6b63fb42be06a948768aef0adf82c82ba5d78f9e376e1e.png"
+    },
     "sha256:d28292bcb6a8a1d803bc31b36f30a183fa136778170275c0e8e4ca760c96d14b": {
       "mime": "image/png",
       "original_name": "c_l_beautiful_chaos_daniela_c",
@@ -39353,6 +40533,14 @@
       "source_bundle": "cards_nmixx_blue_valentine",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d3/d390e63576e288479ccce6a52c47578effcc24c18f3690e4eb498ab634b99186.png"
     },
+    "sha256:d39d803cda7c95b43b2eb63becfbecfda2739f20bfbc4ea9fa08ba814ec122cb": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_juun_em",
+      "sha256": "d39d803cda7c95b43b2eb63becfbecfda2739f20bfbc4ea9fa08ba814ec122cb",
+      "size": 10147,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d3/d39d803cda7c95b43b2eb63becfbecfda2739f20bfbc4ea9fa08ba814ec122cb.png"
+    },
     "sha256:d3a4fe127cd4dc6d4ff3f38e4b430ffa6d903c1da150de1e9daf3f42ea24919d": {
       "mime": "image/png",
       "original_name": "c_s_flip_that_jinsoul_b",
@@ -39384,6 +40572,14 @@
       "size": 140242,
       "source_bundle": "cards_loona_ptt",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d3/d3b8a178742e76fc0a9047ea446ba2bb2f537335ec8fb664cb89756680b9d21d.png"
+    },
+    "sha256:d3d11347d021af70c0a485c5e73e92420dba0e9d925a6d1ef4994cea48be1e73": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ian_em",
+      "sha256": "d3d11347d021af70c0a485c5e73e92420dba0e9d925a6d1ef4994cea48be1e73",
+      "size": 9759,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d3/d3d11347d021af70c0a485c5e73e92420dba0e9d925a6d1ef4994cea48be1e73.png"
     },
     "sha256:d3de7262d6c61bfddc46b838a7e7c0cf07980d07a00c539213117137eb758aa7": {
       "mime": "image/png",
@@ -39713,6 +40909,14 @@
       "source_bundle": "empty_cards_aespa_energy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d5/d5791eece7b6c3f5bde064ee07b83b1cf276b85478ad56da2d7d6931fd971573.png"
     },
+    "sha256:d58ba167a7a75d9dd17e7c6155ceb328c05348ebfd048a7d8ebb0c25109fbbe1": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ye-on_a",
+      "sha256": "d58ba167a7a75d9dd17e7c6155ceb328c05348ebfd048a7d8ebb0c25109fbbe1",
+      "size": 24887,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d5/d58ba167a7a75d9dd17e7c6155ceb328c05348ebfd048a7d8ebb0c25109fbbe1.png"
+    },
     "sha256:d595390155fc9db2e570e97f910e1b9039cb9be1d16322169043962cade77ea9": {
       "mime": "image/png",
       "original_name": "c_l_forever_ruka_em",
@@ -39816,6 +41020,14 @@
       "size": 21227,
       "source_bundle": "cards_i-dle_uh-oh",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d6/d6474976fd0e0a82156d8d1fe062f12e031a0b5eea3cdc9f01968afa6b84114e.png"
+    },
+    "sha256:d66605b6567e56a9ee522ad4732cb59d08c3eadca72eee13c8d66f7a1bc03d6a": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_stella_em",
+      "sha256": "d66605b6567e56a9ee522ad4732cb59d08c3eadca72eee13c8d66f7a1bc03d6a",
+      "size": 56473,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d6/d66605b6567e56a9ee522ad4732cb59d08c3eadca72eee13c8d66f7a1bc03d6a.png"
     },
     "sha256:d66c0326b5c862f37c3b69fb703abfb734138777d830d2ac1afa10a7e153775d": {
       "mime": "image/png",
@@ -39960,6 +41172,14 @@
       "size": 106563,
       "source_bundle": "cards_babymonster_choom_choom",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d7/d724058a5b0dfcc701cb108d5e1d4ab42730893aa5796c0a70cdea934dc8dc0e.png"
+    },
+    "sha256:d73a1388ae10cf9a412df6559b64feee3a22fcfc67fdb331805182d5e183ca09": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_ian_b",
+      "sha256": "d73a1388ae10cf9a412df6559b64feee3a22fcfc67fdb331805182d5e183ca09",
+      "size": 123202,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/d7/d73a1388ae10cf9a412df6559b64feee3a22fcfc67fdb331805182d5e183ca09.png"
     },
     "sha256:d763dbe345bc9e155a5b1f0b787a23c28fbc8f2217ee3d9a0f897c5de810d397": {
       "mime": "image/png",
@@ -40569,6 +41789,14 @@
       "source_bundle": "empty_cards_unis_swicy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/da/dae66ef587d35906821e7af84d2a6b763e4c9a75b851915f18d3f4ad7c7c85cf.png"
     },
+    "sha256:daea3de3dccd92fb014480d7e67e040a5adbb516593f0794c870858adbd82668": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_stella_a",
+      "sha256": "daea3de3dccd92fb014480d7e67e040a5adbb516593f0794c870858adbd82668",
+      "size": 24966,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/da/daea3de3dccd92fb014480d7e67e040a5adbb516593f0794c870858adbd82668.png"
+    },
     "sha256:daec31be5765298d210ae273da7d0dc5a4f693c95cb0f3631da7ebddfd3ff2cf": {
       "mime": "image/png",
       "original_name": "c_l_swicy_yoona_em",
@@ -40608,6 +41836,14 @@
       "size": 66115,
       "source_bundle": "profile_ive_xoxz",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/db/db502cf933b835355c671eb3cb59fe6e68e330e30daa3c1741ed8f5f3750a616.png"
+    },
+    "sha256:db538a076c45aefd0dd3e34aa08fdacfde8685209d8ade805e97d9894c153c1f": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ian_a",
+      "sha256": "db538a076c45aefd0dd3e34aa08fdacfde8685209d8ade805e97d9894c153c1f",
+      "size": 25160,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/db/db538a076c45aefd0dd3e34aa08fdacfde8685209d8ade805e97d9894c153c1f.png"
     },
     "sha256:db5b973cb7d4044896e8a3cbb0ffa4d933a6766b760d453219a0c2f439963a01": {
       "mime": "image/png",
@@ -40792,6 +42028,14 @@
       "size": 28068,
       "source_bundle": "cards_le_sserafim_crazy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/dc/dc6c1f530cf42377f18917404290739ba63aeb24697ca88ef464d5bbfde03f58.png"
+    },
+    "sha256:dc753460423f9597f1ad8c0c7eab422535a5f51bbe8e08b15ae19905f7756e87": {
+      "mime": "image/png",
+      "original_name": "p_kiss_n_tell_giselle",
+      "sha256": "dc753460423f9597f1ad8c0c7eab422535a5f51bbe8e08b15ae19905f7756e87",
+      "size": 60275,
+      "source_bundle": "profile_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/dc/dc753460423f9597f1ad8c0c7eab422535a5f51bbe8e08b15ae19905f7756e87.png"
     },
     "sha256:dc7a6d44cf50313491e948b1a1cb83db7bb130d2063117b4322e2f780305c311": {
       "mime": "image/png",
@@ -40984,6 +42228,14 @@
       "size": 182025,
       "source_bundle": "cards_red_velvet_rosy_rollie_ruby_le",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/dd/dd70afa5e066cfc7f740dd524ecc6663a23874a7a7a63b849fe7bd915496d94e.png"
+    },
+    "sha256:dd98e07ecbc69722970e16438e73c1ae9300371d3d66d799d29e7456a4771c9d": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_karina_r",
+      "sha256": "dd98e07ecbc69722970e16438e73c1ae9300371d3d66d799d29e7456a4771c9d",
+      "size": 23720,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/dd/dd98e07ecbc69722970e16438e73c1ae9300371d3d66d799d29e7456a4771c9d.png"
     },
     "sha256:dd9c4d11c51374c48958f39a63e3e679b0513f8dbceeb4aad22d47986217742d": {
       "mime": "image/png",
@@ -41320,6 +42572,14 @@
       "size": 119352,
       "source_bundle": "cards_xg_hypnotize",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/df/df935a1b3db3092c640f2ed46631e572f7554d1fcdd08be1c0d2fba9b0c9a3e0.png"
+    },
+    "sha256:dfa86b340c6a92bf3c37a9116435427d3d276e80459bf28f97d73ed72314b7c9": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_a-na_b",
+      "sha256": "dfa86b340c6a92bf3c37a9116435427d3d276e80459bf28f97d73ed72314b7c9",
+      "size": 117493,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/df/dfa86b340c6a92bf3c37a9116435427d3d276e80459bf28f97d73ed72314b7c9.png"
     },
     "sha256:dfbfb26d4d196c2ac3b8ea30c3787d012debb8e63e817ea8ead49d13b278127c": {
       "mime": "image/png",
@@ -41865,6 +43125,14 @@
       "source_bundle": "cards_le_sserafim_easy",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e2/e27338cac7a3b0212241da73c185439334d7cc6d9e71775e81bf22184fd8a9bb.png"
     },
+    "sha256:e278d39e0b48e0d46e49d9cd5b383a2ccdf933c172c17f89c80de22491bea834": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ian_s",
+      "sha256": "e278d39e0b48e0d46e49d9cd5b383a2ccdf933c172c17f89c80de22491bea834",
+      "size": 24826,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e2/e278d39e0b48e0d46e49d9cd5b383a2ccdf933c172c17f89c80de22491bea834.png"
+    },
     "sha256:e28589d27c6ceeecfd3d4eb04bf7048b0cdf6d262205c8c1ea99ffd6e4902a00": {
       "mime": "image/png",
       "original_name": "c_l_energy_giselle_a",
@@ -42145,6 +43413,14 @@
       "source_bundle": "cards_hearts2hearts_the_chase",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e4/e43385e52454764532ebe8450df050c1d0b3519f99f7ba42e135368c9ef18bf7.png"
     },
+    "sha256:e4429323e25e02de2fb35f7171915fc26984b03f72860c82d324cd1117d167f4": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_juun_c",
+      "sha256": "e4429323e25e02de2fb35f7171915fc26984b03f72860c82d324cd1117d167f4",
+      "size": 125058,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e4/e4429323e25e02de2fb35f7171915fc26984b03f72860c82d324cd1117d167f4.png"
+    },
     "sha256:e4435886245918ec73119ef98389c34ffd754c7659a37ed6f838a61a0bfc9339": {
       "mime": "image/png",
       "original_name": "c_l_wda_karina_s",
@@ -42152,6 +43428,14 @@
       "size": 79139,
       "source_bundle": "cards_aespa_wda",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e4/e4435886245918ec73119ef98389c34ffd754c7659a37ed6f838a61a0bfc9339.png"
+    },
+    "sha256:e46ba3d6783b3c3585f48e36d699c0fd7c28500024486f6fb11702921a68278b": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_karina_a",
+      "sha256": "e46ba3d6783b3c3585f48e36d699c0fd7c28500024486f6fb11702921a68278b",
+      "size": 120279,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e4/e46ba3d6783b3c3585f48e36d699c0fd7c28500024486f6fb11702921a68278b.png"
     },
     "sha256:e46d6a8997ffd9c6206bf0536a91c8974f4e6be0373e4995ca9316d213980866": {
       "mime": "image/png",
@@ -42168,6 +43452,14 @@
       "size": 12933,
       "source_bundle": "empty_cards_aespa_rich_man",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e4/e482ae05b3f69a39aa1c53c8629cec4545647e5e83d8e4117eaa9365315d487d.png"
+    },
+    "sha256:e4901f7c69b878dc6f1ae1c0e10a4e0aba906be1f7ed1ced268bfbf9a51a61a8": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_juun_em",
+      "sha256": "e4901f7c69b878dc6f1ae1c0e10a4e0aba906be1f7ed1ced268bfbf9a51a61a8",
+      "size": 59537,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e4/e4901f7c69b878dc6f1ae1c0e10a4e0aba906be1f7ed1ced268bfbf9a51a61a8.png"
     },
     "sha256:e49a2de7e0717508829a1509373242775855851d1182e7c337f664bea3216041": {
       "mime": "image/png",
@@ -42353,6 +43645,22 @@
       "source_bundle": "cards_kiss_of_life_sticky",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e5/e5bea78cf40d7f07684b6498f82c94af0430ea7a81ea5be45384b10bfde84c80.png"
     },
+    "sha256:e5c3ae23e6e5f33d862becb688aaa4022c5d9a09b7603b895c9bf8aba166b4ad": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_carmen_c",
+      "sha256": "e5c3ae23e6e5f33d862becb688aaa4022c5d9a09b7603b895c9bf8aba166b4ad",
+      "size": 131310,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e5/e5c3ae23e6e5f33d862becb688aaa4022c5d9a09b7603b895c9bf8aba166b4ad.png"
+    },
+    "sha256:e5d810118b99c28e3e5c2fc2adad5ca2eb072dba6f97597c44897c8c773221b1": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_ye-on_em",
+      "sha256": "e5d810118b99c28e3e5c2fc2adad5ca2eb072dba6f97597c44897c8c773221b1",
+      "size": 9872,
+      "source_bundle": "empty_cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e5/e5d810118b99c28e3e5c2fc2adad5ca2eb072dba6f97597c44897c8c773221b1.png"
+    },
     "sha256:e5dd3a46d6e65989d4667104a01247ff68207350a43ee41b690cad74b292293c": {
       "mime": "image/png",
       "original_name": "p_allday_annie",
@@ -42472,6 +43780,14 @@
       "size": 16935,
       "source_bundle": "empty_cards_hearts2hearts_rude",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e6/e694c905cc9f6ded35d4aff448279ce9269daf5f1e380ccfbe115a5dc29c03e2.png"
+    },
+    "sha256:e69a74fb95764491b0c81d9a9320ddd60ec7d278b882db887437bfd5127e0aa3": {
+      "mime": "image/png",
+      "original_name": "p_kiss_n_tell_winter",
+      "sha256": "e69a74fb95764491b0c81d9a9320ddd60ec7d278b882db887437bfd5127e0aa3",
+      "size": 65523,
+      "source_bundle": "profile_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e6/e69a74fb95764491b0c81d9a9320ddd60ec7d278b882db887437bfd5127e0aa3.png"
     },
     "sha256:e6a54cb011dddecf3b2e8a10e8ae65be8f4eab6382620f1e59abfa4d0a608f04": {
       "mime": "image/png",
@@ -42680,6 +43996,14 @@
       "size": 7433,
       "source_bundle": "empty_cards_allday_project_allday",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e8/e8bac2981373e966eb7b453f50863c10f04f45606d5a91204c42ab23a5d84f7d.png"
+    },
+    "sha256:e8c89934f4ec637838139e6db5d1be8dcaa428b107a277b03a4ec43de80ab807": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_yuha_r",
+      "sha256": "e8c89934f4ec637838139e6db5d1be8dcaa428b107a277b03a4ec43de80ab807",
+      "size": 25980,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/e8/e8c89934f4ec637838139e6db5d1be8dcaa428b107a277b03a4ec43de80ab807.png"
     },
     "sha256:e8df99ba0e89b8d9562b2d4915bb3297a0822d28a7f33922470b9fa6df6bfd5e": {
       "mime": "image/png",
@@ -43081,6 +44405,14 @@
       "source_bundle": "empty_cards_red_velvet_rosy_rollie_ruby",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/eb/eb5a9b83f5862be8e2a69178d12a400d0ad9b4f0f5b71b422b7066c21c84dc9d.png"
     },
+    "sha256:eb62fff099d587a49c411850e35b1527ed14536e27a640e626a956718ef63389": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_winter_b",
+      "sha256": "eb62fff099d587a49c411850e35b1527ed14536e27a640e626a956718ef63389",
+      "size": 114870,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/eb/eb62fff099d587a49c411850e35b1527ed14536e27a640e626a956718ef63389.png"
+    },
     "sha256:eb6a86f1aa8bc77adf119b6db5aff18c58587004f8458668579bc07972e7fdde": {
       "mime": "image/png",
       "original_name": "c_l_rosy_rollie_ruby_kim_lip_a",
@@ -43121,6 +44453,14 @@
       "source_bundle": "cards_babymonster_choom_choom",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/eb/eba687516f61fa09627901000038ffe66dc275fa7b5f3af7b24ad8384c73e563.png"
     },
+    "sha256:ebb3989b9aec6fb8dca456827b15d6d228c8072d23f7b48fb731acf9ddb4d6a4": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_ningning_s",
+      "sha256": "ebb3989b9aec6fb8dca456827b15d6d228c8072d23f7b48fb731acf9ddb4d6a4",
+      "size": 109587,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/eb/ebb3989b9aec6fb8dca456827b15d6d228c8072d23f7b48fb731acf9ddb4d6a4.png"
+    },
     "sha256:ebb966c768a8030ae6d493dcba397547e3fb3249458c8a5159db77a94bcc6f74": {
       "mime": "image/png",
       "original_name": "c_l_flip_that_olivia_hye_c",
@@ -43144,6 +44484,14 @@
       "size": 74029,
       "source_bundle": "empty_cards_kiss_of_life_sticky",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/eb/ebcb44bb07263ece40fe89a6c4724efaf64889e200f91ea06250d169bc6963e9.png"
+    },
+    "sha256:ebcc2f555b88ca3ee191bcc5881f8b386af44fc55ed8d0d01e27704131aff53c": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_yuha_c",
+      "sha256": "ebcc2f555b88ca3ee191bcc5881f8b386af44fc55ed8d0d01e27704131aff53c",
+      "size": 138916,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/eb/ebcc2f555b88ca3ee191bcc5881f8b386af44fc55ed8d0d01e27704131aff53c.png"
     },
     "sha256:ebd62b068e77f082dbd7dd7c8984f07c5c78cb3b9fe78d0a6ee638c32c88634d": {
       "mime": "image/png",
@@ -43352,6 +44700,14 @@
       "size": 25653,
       "source_bundle": "cards_xg_is_this_love",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ec/ecca3682e35f84cda65a2a842d9f62a0a502fb572e5afc87b583eab1534ba6c3.png"
+    },
+    "sha256:ecdae6ee107e514344718044e5ea820b79bc51a73de65ad9c16fee9cc1e99375": {
+      "mime": "image/png",
+      "original_name": "c_s_kiss_n_tell_winter_b",
+      "sha256": "ecdae6ee107e514344718044e5ea820b79bc51a73de65ad9c16fee9cc1e99375",
+      "size": 22275,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ec/ecdae6ee107e514344718044e5ea820b79bc51a73de65ad9c16fee9cc1e99375.png"
     },
     "sha256:eced2ed4d0afb1d0b5ada133f78512543bb86be7bc8c677a1ab28d2a3c1f9524": {
       "mime": "image/png",
@@ -43617,6 +44973,14 @@
       "source_bundle": "cards_red_velvet_queendom",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ee/ee87d7bde9285ef68a9155979ad3193321ee55e9e8d7f949fd83fa576962e84c.png"
     },
+    "sha256:ee94975fa17cd9e9b4f42d0426c1482e7528f5454322c56d4ec3f4da05ee61b1": {
+      "mime": "image/png",
+      "original_name": "c_l_kiss_n_tell_giselle_r",
+      "sha256": "ee94975fa17cd9e9b4f42d0426c1482e7528f5454322c56d4ec3f4da05ee61b1",
+      "size": 118580,
+      "source_bundle": "cards_aespa_kiss_n_tell",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ee/ee94975fa17cd9e9b4f42d0426c1482e7528f5454322c56d4ec3f4da05ee61b1.png"
+    },
     "sha256:eea35bbb2f14c32e0c9e20ce991226e103e2f3d1f82b912b818a53e3bd30d88e": {
       "mime": "image/png",
       "original_name": "c_s_rebel_heart_rei_a",
@@ -43816,6 +45180,14 @@
       "size": 110317,
       "source_bundle": "cards_babymonster_choom_we_go_up",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ef/efd3e58808cc41c8e91a9d298eb95355a75e9cf815f4db73a34257e87b0e77f1.png"
+    },
+    "sha256:efdae549017bc16a4bbf253010d486957edbc792dbbf709ab5e52f057dc1713b": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_jiwoo_b",
+      "sha256": "efdae549017bc16a4bbf253010d486957edbc792dbbf709ab5e52f057dc1713b",
+      "size": 133400,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/ef/efdae549017bc16a4bbf253010d486957edbc792dbbf709ab5e52f057dc1713b.png"
     },
     "sha256:efdf477f8f0059cdfdec386dd0bfe59a7d71a4b6f31d8ba3b6e4d92aa6044bd8": {
       "mime": "image/png",
@@ -44057,6 +45429,14 @@
       "source_bundle": "empty_cards_artms_rosy_rollie_ruby",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f1/f15d42126d815d9d5ab50b5c8dcebfdc31dd169b2b1b55de9aafe68178acb68b.png"
     },
+    "sha256:f16afecfcf88ef7e8bb5e13d6579086210a7115da03b9f948a12833f36826e58": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_yuha_s",
+      "sha256": "f16afecfcf88ef7e8bb5e13d6579086210a7115da03b9f948a12833f36826e58",
+      "size": 143188,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f1/f16afecfcf88ef7e8bb5e13d6579086210a7115da03b9f948a12833f36826e58.png"
+    },
     "sha256:f1746b841cdbc445586ddc81f756a47ed177b517b3819a17b2136d431c5608dd": {
       "mime": "image/png",
       "original_name": "p_mono_yuqi",
@@ -44072,6 +45452,14 @@
       "size": 128605,
       "source_bundle": "cards_kiss_of_life_sticky",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f1/f18ea4f45edf966df0f8abf66733b17d75c39c53b92017f50546ec091fa2a9cb.png"
+    },
+    "sha256:f193adf86c43cc73a9663e39f3ad3fa4a798f053a635d391f1e30f78996fa9ab": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_carmen_b",
+      "sha256": "f193adf86c43cc73a9663e39f3ad3fa4a798f053a635d391f1e30f78996fa9ab",
+      "size": 25469,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f1/f193adf86c43cc73a9663e39f3ad3fa4a798f053a635d391f1e30f78996fa9ab.png"
     },
     "sha256:f194582dc7e4627b23d10254b6d7252b6a50204920c8c97ae5be5dbb96482416": {
       "mime": "image/png",
@@ -44184,6 +45572,14 @@
       "size": 21753,
       "source_bundle": "cards_hearts2hearts_rude",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f2/f27ad821a81eca43d142e7d2afda63d588329e460196bed2b53500ea55b72d0e.png"
+    },
+    "sha256:f28b927c9161a82b76c0e6e4b75b07c17a6a0057ab3847a6489db594c0108702": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_carmen_c",
+      "sha256": "f28b927c9161a82b76c0e6e4b75b07c17a6a0057ab3847a6489db594c0108702",
+      "size": 25389,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f2/f28b927c9161a82b76c0e6e4b75b07c17a6a0057ab3847a6489db594c0108702.png"
     },
     "sha256:f2acba95f759e2576af406ca0cfbf1fe5bd5b2dad1f1a0e1f0654d6de5ac6b7e": {
       "mime": "image/png",
@@ -44945,6 +46341,14 @@
       "source_bundle": "empty_cards_i-dle_rosy_rollie_ruby",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f7/f75b1ad8866f141028d89245f6ba7bd73dc4856ea8190ac180334ae5f01f77ac.png"
     },
+    "sha256:f763cb0d6a42389d975393404638e361898ed2465e0ea74a94f2eb546d5a98f4": {
+      "mime": "image/png",
+      "original_name": "c_s_lemon_tang_yuha_b",
+      "sha256": "f763cb0d6a42389d975393404638e361898ed2465e0ea74a94f2eb546d5a98f4",
+      "size": 25454,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f7/f763cb0d6a42389d975393404638e361898ed2465e0ea74a94f2eb546d5a98f4.png"
+    },
     "sha256:f77d9b991ad8e9c52f2379dbae4d5fe956dcc569a1c74e68322d8929bb0ff273": {
       "mime": "image/png",
       "original_name": "c_s_virtual_angel_choerry_b",
@@ -45024,6 +46428,14 @@
       "size": 22687,
       "source_bundle": "cards_loona_hi_high",
       "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f7/f7d87e4d4e5be6398cee1d90f62c8bb5013e48c88ee64eed97c37e4969aa0653.png"
+    },
+    "sha256:f8094d533d094799d4fd30788a6bf740066ff54a4eb6afcfaf3aa7bc7d5cf3c4": {
+      "mime": "image/png",
+      "original_name": "c_l_lemon_tang_carmen_a",
+      "sha256": "f8094d533d094799d4fd30788a6bf740066ff54a4eb6afcfaf3aa7bc7d5cf3c4",
+      "size": 138212,
+      "source_bundle": "cards_hearts2hearts_lemon_tang",
+      "url": "https://cdn.jsdelivr.net/gh/kesharrpm/shining-superstar@catalog-assets/assets/f8/f8094d533d094799d4fd30788a6bf740066ff54a4eb6afcfaf3aa7bc7d5cf3c4.png"
     },
     "sha256:f80b2d85381d24561fbf25df5f6e7cf864c27d0b335bf0555fa9dd405ea12fa1": {
       "mime": "image/png",
@@ -51490,6 +52902,55 @@
       "source_file": "images_2_assets_images_update_aespa_energy_883b3521b08b490cac34c21eef9624e1",
       "theme": "energy"
     },
+    "cards_aespa_kiss_n_tell": {
+      "assets": [
+        "sha256:e46ba3d6783b3c3585f48e36d699c0fd7c28500024486f6fb11702921a68278b",
+        "sha256:2f0502d34a83f7b716b46f23a4a7804b659d0a0717a39af5c98e6829c3946c20",
+        "sha256:2386605727e61253e04abc1c875350f00c51f31372e9d206a3a52ba0410668cb",
+        "sha256:5f93e402f4b9c914d17ef74614e5b9aacd31df63e3961b572298320cd005559d",
+        "sha256:d272074137c7b5d27d6b63fb42be06a948768aef0adf82c82ba5d78f9e376e1e",
+        "sha256:110234a068fdbad748785125f8ce6111cd0d0fee00c120fe5577a0b5a2f2fdb4",
+        "sha256:36ce8b5b957dca54cd51b1833fe7db62ab243270f77f3b37b8b8f57dae5b51b3",
+        "sha256:c1188919d3c55336c6cf02511a31e7e175263dc82a236d4da79362298e5c736f",
+        "sha256:974a60f19ef06c944526685fb10e8daf0a1c00d1ce5aa02d68e41fdc6cf6d712",
+        "sha256:dd98e07ecbc69722970e16438e73c1ae9300371d3d66d799d29e7456a4771c9d",
+        "sha256:78babff39f3ea35e25b25d4cdbbe299ab25bc9bb202bc29505d5de558c6ddf16",
+        "sha256:4595c8e8363fdcdd4acae9dada1a743ca79ed398847f8c70607e5bb207aac4dc",
+        "sha256:1fcdaafb5a1aa534e8eaf0df4febddc8c0b2201ef780d10a24ccb4705c4e8a6b",
+        "sha256:cd4566aade47a8d9da067cebbe8860372eaf197f2b6f5883f784baa2f4d6bcfe",
+        "sha256:ee94975fa17cd9e9b4f42d0426c1482e7528f5454322c56d4ec3f4da05ee61b1",
+        "sha256:857c08d13f20427a1329e59de1182f430c2fecd3c1801f995ac2a50d48022c4d",
+        "sha256:1dacdf9a47543451394479f211211b4b0ffe1ce14912f6cce59ceb456bf03156",
+        "sha256:74e4054c874ec25cd27eed12bd739265bf5ec0a5bb6916f11085514814d60fd0",
+        "sha256:9bd486c191b4a3d2753d4f561541b4472ced5d6ab5e442bbbd5fd4d6d14cbb9e",
+        "sha256:4c185c3bc8a8261e1fdc8189cf93b78c90c4a427984d4d510023c7b2bf0fe891",
+        "sha256:eb62fff099d587a49c411850e35b1527ed14536e27a640e626a956718ef63389",
+        "sha256:6150efa5e74b24e6fa62a98d18ef1f058d62ff31489eb80077a36d2dde7bee63",
+        "sha256:2e2619f0b910aa0df79ed58cdd2bfb3fcfa3860966a2b0f59dd3f579ebfb36a4",
+        "sha256:296841608062b7f5d66f8474c82f3714fe8e174af09f8a8a73634d4be30c0b0a",
+        "sha256:912986e8a8aed64e492a669926bb38a7350aa9428a6e7b8cf7a504d4ccb70db2",
+        "sha256:3b4b438ee8603474f8ee8f436dc49df9cf13031b23b6e0265ccc6a9aed27fb6d",
+        "sha256:84f99c6e77b89cd73cbb693d36cdac84ee01e1a6fd5e322e37d817a31b313e34",
+        "sha256:566e54f06cb354bcf58483a90e05874fd7cabbc59c259206f6926c9a7a6a92f1",
+        "sha256:ecdae6ee107e514344718044e5ea820b79bc51a73de65ad9c16fee9cc1e99375",
+        "sha256:973e94e8c5f67fb12d4df927de99a9961134ec7c7178930c687442dfc73cf6a6",
+        "sha256:b0976eeb39f1c0e26d1de97da2192e6350a0baa48f98cab494bfb0ed8195403c",
+        "sha256:40553abf730b76077a8afd002a84f4a28a717ffe40c0b4765c31ee83769d1f53",
+        "sha256:ebb3989b9aec6fb8dca456827b15d6d228c8072d23f7b48fb731acf9ddb4d6a4",
+        "sha256:b3ecaa21478e9ce0cfc6a8c5b0ddff971359e5c86e2ea75c2d5aef23224659b1",
+        "sha256:b0e3a860e3604dfb7750f6241ab79caff6ed8eca3317786d7754bf71a51a820b",
+        "sha256:1af800a2d7c26fab106117a59f00dc492d8b873e84e34b3a9c6cd7785f9244f9",
+        "sha256:9d002ea6a159e9375d43bf8517b2f64b22921f3eb7c8346f5c6a7eb4c22be408",
+        "sha256:4a6b7c3ae667e583d506a04dc39940134d7cca0756ba439799fc6bf8dc066e6f",
+        "sha256:bfa0f99dd4e3f3999485ab677548eccccb1c22c93c0af2b01feb2ae5262102f2",
+        "sha256:400e628d4e64aa2f22f8a423200de1102a28a1fe378842d0b4ae8e33997980a0"
+      ],
+      "checksum": "ede5dd2704c602264d3269863b0560f7",
+      "group": null,
+      "kind": "cards",
+      "source_file": "images_2_assets_images_update_aespa_kiss_n_tell_88f90e64e19ba5efa257e7fed084e7ff",
+      "theme": null
+    },
     "cards_aespa_rich_man": {
       "assets": [
         "sha256:c40b6b7cd09138e36850c080e408a3efd4bb163d17d85c1cd92dd6e0598c6c52",
@@ -52463,6 +53924,103 @@
       "kind": "cards",
       "source_file": "images_2_assets_images_update_girlset_sweet_b74a1c80e7554b0ba3802defcab61c2e",
       "theme": "sweet"
+    },
+    "cards_hearts2hearts_lemon_tang": {
+      "assets": [
+        "sha256:41af17136fef9e19df6818b4e12b7d9febe91e6efa252936ac3a2672e3988037",
+        "sha256:1bf785ae0bb5f5ec2a6a480badee61cc5de23ce2a95ec242fcff78c133b858f5",
+        "sha256:715f1b018031b83f98ec771c0eae3939a1ef8d099ce84d70ab77d8d0d29f5c74",
+        "sha256:36f4cc7ff411921b898221eb7719801f04283b75a581b53f5c1b82faf2a3837c",
+        "sha256:65319942c97ab357295c234d34b542db0cb6fa1699320c724b42192494619494",
+        "sha256:1fe9218290937699b44b5c6eec4ec6e87015e9c1c8572f99e1bf3a66f6bb7421",
+        "sha256:9e3a751d09cb1b49b25aaa79941d4564f440b47d75289977fadb0a88f266e4ca",
+        "sha256:9da1fbc91fa39ca54790ec19cab5a2af9dbca8c395c18c3bb1a595779e2ce261",
+        "sha256:0352c88b2b8378a7340a59c04304c0579aad23a8596a625764a3ac59821fc358",
+        "sha256:a678ba2531a77005c01790f7ed7442bb889f6fb4f6b3704969e6e49092fdc571",
+        "sha256:c994ac6701d484e84826431bfd3a058866606c92597f39dc58df8649a601caba",
+        "sha256:53477feeb92d7ae2f925648d00f5dba7dc684cfc2d42b33ec0c02db631301db7",
+        "sha256:efdae549017bc16a4bbf253010d486957edbc792dbbf709ab5e52f057dc1713b",
+        "sha256:a2dfc3845afb5d41ff0c99a3feb6daf6d1b05a45109d9b030e47e6f63d00366a",
+        "sha256:5c14a69a02c4a78700a46f6d6ce1e96b1aee18079b47b55d1d62669428a1d72e",
+        "sha256:36d3212aa12eaa2707e80e6781b6f787bbf0ad1d5088306559658bc5a8e87f9b",
+        "sha256:843503cec9600eba4223d55f7d6c0917a23ef2161db285e3b676b81e1b7e3e43",
+        "sha256:452a97da6279ee789047b3e95778dadfb71ab364957d0977da9774cba2204414",
+        "sha256:053033b251bc40b6ad16013d0c2c89b4fc7f22f0db9fc48ba97dce6aaf332385",
+        "sha256:e5c3ae23e6e5f33d862becb688aaa4022c5d9a09b7603b895c9bf8aba166b4ad",
+        "sha256:f8094d533d094799d4fd30788a6bf740066ff54a4eb6afcfaf3aa7bc7d5cf3c4",
+        "sha256:7cb64a43807f3172d8ad29e7fb1418e47c82972fbb3917f5234e02974e86da3c",
+        "sha256:f28b927c9161a82b76c0e6e4b75b07c17a6a0057ab3847a6489db594c0108702",
+        "sha256:376d080697090e241ce948d42a03f9498b703910b64319c59f5e15b2da13e692",
+        "sha256:2260559afd5e347d895a6d412e13e4d4553825063e58238dd08c3441b7a92c9e",
+        "sha256:a9e866524dc8dcf34a4ff714b77485af555eb83e8ce1adeeeddc4183aeccc304",
+        "sha256:f193adf86c43cc73a9663e39f3ad3fa4a798f053a635d391f1e30f78996fa9ab",
+        "sha256:7a78ff6d1b9be60c30b49d1d9c5bef3d8bf19009b0ca3c468cadc84b5ba5c173",
+        "sha256:ebcc2f555b88ca3ee191bcc5881f8b386af44fc55ed8d0d01e27704131aff53c",
+        "sha256:d0c8715e67c779a5f1435d7d74ec39d404dac1a646eec27ed7a73de0b91b4c64",
+        "sha256:f16afecfcf88ef7e8bb5e13d6579086210a7115da03b9f948a12833f36826e58",
+        "sha256:1227281cbeb6cfffc12f0ec333873793863bd9c03414682fa5b49d67f5db7c0b",
+        "sha256:f763cb0d6a42389d975393404638e361898ed2465e0ea74a94f2eb546d5a98f4",
+        "sha256:9a0a49ea6aea8d2f046d7429b44279e7dce3fa32f65f9fdd5f93ef7a767f86aa",
+        "sha256:a8ddfc4e4daaa70eed07a2dbddcbdb6c87a45b1f4c31db377807530e5b1cb7e3",
+        "sha256:bbb6127258f08bf49a68c8aaf65538d948252ec2cd5924d9a4bd8b364e413d7f",
+        "sha256:9eee767bb8c59357f0f1ca083ebb62907d4dec2e832f3d0644155a1a570f797f",
+        "sha256:e8c89934f4ec637838139e6db5d1be8dcaa428b107a277b03a4ec43de80ab807",
+        "sha256:77f4b0192ba19e6322f169282006c16fa70faff40e71d26e4a3b28aa2d641c54",
+        "sha256:5629efc2b7e53a02348133e0872314f1e26fdbe8e9d967143bfa44efe7e83d50",
+        "sha256:88967d9c509ad055b830b3959fde13f40c893145ddc1c31b5a8baaddf2883aec",
+        "sha256:2d910feb9053c11a43a66ed9d12fd9a5f07acffbd0d589663fad337dbe7503fe",
+        "sha256:35ad4c9d5dc5274bb10ed7ec3322e98cb732104d85c08893f16c7d6049be5a44",
+        "sha256:0657e5ecfc6e4f16625625692a07a5706b5f11b1a13aef2b0f3ff48ef73cf495",
+        "sha256:daea3de3dccd92fb014480d7e67e040a5adbb516593f0794c870858adbd82668",
+        "sha256:81776580ebcfd51eba88b3f8d36cc8060a44cfb84afd05fcb144a6eff69dacc7",
+        "sha256:a1d4e52f5c6c6c91e9f20552f1281267dcca3af55a6572705a3e0dc521fcc294",
+        "sha256:6fe2222576b956c2975a315442469d803905f9af61617a81c91ddf682cf20f1d",
+        "sha256:e4429323e25e02de2fb35f7171915fc26984b03f72860c82d324cd1117d167f4",
+        "sha256:79063bcbc6fb04ed4d6f478f2f8e6dee97c2011dd6fa22d8edbf93add046ecc1",
+        "sha256:139da47db062f4a6edb940e41edf5b2f8beb023816d8979ddaee2b79da459d9f",
+        "sha256:8ec78c0de063e3a5c9be32c4783d6f1e4fa94195d6dc58d1d6d379fe3db7c00d",
+        "sha256:1208a3884a3190e8144518e05dfdeec1a163d39ecb20c811e8aca6ed4ba24a6b",
+        "sha256:141c74b6964aa07257271ba6ba3b653de3321f1949e06206ca01ec55796d675e",
+        "sha256:29f3b1a0c5031620443e3675890eccfa3a82bfba22e0865d3e1e487ae555a8c7",
+        "sha256:37867a2ebef389f91973874145ca05b258632b94a73150e081d0929a2a0ab68f",
+        "sha256:9ed025169373fc7aaaaf695a84934d33f2ecbf105b5d320ee29e9d22c9528d60",
+        "sha256:178fdc8d5b165b2219caee56f6709f378809126d58906bd80bf11fe4cc4ce93d",
+        "sha256:c8c7cb2181d45170f018db6f92df7537107a6ce5144cd59e96ad71b9edc06b62",
+        "sha256:97419a81aec451b026537b5b07afcdef1941d563407f78c9e5bedfaa55f5c5d0",
+        "sha256:82f1a3f9ab14b8ab5ca1efb91367c5299d08a09c258726c1b84ec5987cc9a629",
+        "sha256:6b4b061df0d27945109b65d2e6cf9a5a7045862da06ab57e291b18a49b35a035",
+        "sha256:dfa86b340c6a92bf3c37a9116435427d3d276e80459bf28f97d73ed72314b7c9",
+        "sha256:067277c2b9d5f9f7dd97ff72a39de98ff4a319b926dd6f103acd7a0ba5051e34",
+        "sha256:18e4da38f25222bf342b115c734b079e75e4a15c11e878ac676aefa38707c36a",
+        "sha256:40fe442212f7959c337507febbd982eaa28b6300f84cc97227be1ce1e7d95e4f",
+        "sha256:310e5bfba5fc8439e489729e49a521cbbd8025cbb2208228827f80936d72ce43",
+        "sha256:a26e45512ebe7a26fdce0dcdb539a6449c898dcd95290a3b824033978e69cc79",
+        "sha256:2edf76762211eda0ca8d839ebe31c0e9bea9ecc019546eb7205540d3140d5eab",
+        "sha256:d73a1388ae10cf9a412df6559b64feee3a22fcfc67fdb331805182d5e183ca09",
+        "sha256:5ca2190b43095a2df618d1343ce016d517afd98770d0951f655262b7503f188f",
+        "sha256:aa84c84d48cccf8cda75c4d9b115757b543d82f92c9ce9bdc043fe90d79cfdf6",
+        "sha256:2e510491e8022539c504b2548e2bcc688552b73f10ddf6a93c6f7a9ead797ff4",
+        "sha256:db538a076c45aefd0dd3e34aa08fdacfde8685209d8ade805e97d9894c153c1f",
+        "sha256:2a6cf88ccf52a7af6f9a7183381df28647f6d386e3cc445191c17646b96197be",
+        "sha256:e278d39e0b48e0d46e49d9cd5b383a2ccdf933c172c17f89c80de22491bea834",
+        "sha256:c244d59f1f4e67fea4bfd702299491a6693cb3f0c9ca9331a957ba27294efaf7",
+        "sha256:3e38279a39c2132c740bc1665f73dde60132a81e89011d4bf27224d52f52cd0f",
+        "sha256:ade2ef57180bc09c47876bdbee91211c5c89063375bb7db31ba6428d289142e9",
+        "sha256:56625d9ca2d7fe64dbef90c610e90777384e871ca3b63215dbbb63186ffc6108",
+        "sha256:5316d9b4570d5d87f9e5e1675a2d24fc73e8092fe2e7b4be669a8a87dd0838df",
+        "sha256:bb7f63a99bd47631b99bcb575ed3bbd095290de47e29dfeb7fca4fbddcc2f9e4",
+        "sha256:a3a98ec589e2c540ad38b9125f6d0ed5b5afd3dcf28770d6ed4df74bdbaa153b",
+        "sha256:d58ba167a7a75d9dd17e7c6155ceb328c05348ebfd048a7d8ebb0c25109fbbe1",
+        "sha256:33e2037295664f0d63b95a78e1d7c83cd19b8e77d6a71b5498684e5c8e5e6f97",
+        "sha256:61128a1bc5f781c1500dd51d4f5eab0ed81f9e440b33b5aad4e0205ab4b67921",
+        "sha256:1683d34b3fdd8a460869276be70323404fba04607a07371201c0ea8588f7e65a",
+        "sha256:7d56f23dde49c0c70edf08027353a4a15bcdd54f54bdabb264335c226ad2d164"
+      ],
+      "checksum": "aafa48405cd67441e1da961987b7782d",
+      "group": null,
+      "kind": "cards",
+      "source_file": "images_2_assets_images_update_hearts2hearts_lemon_tang_e1695ea87a302e89e64833d919ef81d9",
+      "theme": null
     },
     "cards_hearts2hearts_rude": {
       "assets": [
@@ -55978,6 +57536,23 @@
       "source_file": "images_2_assets_images_update_em_aespa_energy_4f681c02b9ec4900a45daecaa04cd1e7",
       "theme": "energy"
     },
+    "empty_cards_aespa_kiss_n_tell": {
+      "assets": [
+        "sha256:41af17136fef9e19df6818b4e12b7d9febe91e6efa252936ac3a2672e3988037",
+        "sha256:1bf785ae0bb5f5ec2a6a480badee61cc5de23ce2a95ec242fcff78c133b858f5",
+        "sha256:715f1b018031b83f98ec771c0eae3939a1ef8d099ce84d70ab77d8d0d29f5c74",
+        "sha256:36f4cc7ff411921b898221eb7719801f04283b75a581b53f5c1b82faf2a3837c",
+        "sha256:65319942c97ab357295c234d34b542db0cb6fa1699320c724b42192494619494",
+        "sha256:1fe9218290937699b44b5c6eec4ec6e87015e9c1c8572f99e1bf3a66f6bb7421",
+        "sha256:9e3a751d09cb1b49b25aaa79941d4564f440b47d75289977fadb0a88f266e4ca",
+        "sha256:9da1fbc91fa39ca54790ec19cab5a2af9dbca8c395c18c3bb1a595779e2ce261"
+      ],
+      "checksum": "a117bfa9f557ee9fbb4cf7c14f3f8d0b",
+      "group": null,
+      "kind": "empty_cards",
+      "source_file": "images_2_assets_images_update_em_aespa_kiss_n_tell_d3bf74eb1b3059efe1e8b9caa6cbb9fe",
+      "theme": null
+    },
     "empty_cards_aespa_rich_man": {
       "assets": [
         "sha256:a36aed0d0fc653f7bff99a8624c776cd0843520916297bc8e648dea8c6c61e42",
@@ -56306,6 +57881,31 @@
       "kind": "empty_cards",
       "source_file": "images_2_assets_images_update_em_girlset_sweet_6fa281451c034164b8887cc147e367d4",
       "theme": "sweet"
+    },
+    "empty_cards_hearts2hearts_lemon_tang": {
+      "assets": [
+        "sha256:859add6562d622362c3107b5171b6e243111d3e30d5d7bf3d9aa6221562b2d64",
+        "sha256:46e121fa17ce58ed96342d0a086ed3b91204ef0be8de552137958769545814eb",
+        "sha256:3dbcbc588e6db29de6c09839d10d3d1019f1d37d8068522e1997a3f040cc5555",
+        "sha256:2ac54c8f6de7f9460fc4a647c113325cc5df12ff4a044ae56acf7981fb076c6b",
+        "sha256:6fbbaa613a639377a900dfd826d36cdf9eb7af4a610831e785725d56029a4496",
+        "sha256:3354e8798d62536a48a3e395ad5ef84b05b996a63f9d4ad213119aaa699ff083",
+        "sha256:d66605b6567e56a9ee522ad4732cb59d08c3eadca72eee13c8d66f7a1bc03d6a",
+        "sha256:a305e614d81ba37fc2bfe5671523d21a1fe08873fcc58089cac497d9d1d157c8",
+        "sha256:d39d803cda7c95b43b2eb63becfbecfda2739f20bfbc4ea9fa08ba814ec122cb",
+        "sha256:e4901f7c69b878dc6f1ae1c0e10a4e0aba906be1f7ed1ced268bfbf9a51a61a8",
+        "sha256:848ab8d605fcd7bab22a462fb6752c16bd890e309822014a72efd7aa25da83d5",
+        "sha256:c0827e3ec1f8ec41b05544bf575639bea868f9a3b6f7af61d0e7749654ad4a14",
+        "sha256:d3d11347d021af70c0a485c5e73e92420dba0e9d925a6d1ef4994cea48be1e73",
+        "sha256:cdfcf5bbcd5bb920468ac231ba2a772179f71ad1dd2cbcb236b1df9447195a5f",
+        "sha256:e5d810118b99c28e3e5c2fc2adad5ca2eb072dba6f97597c44897c8c773221b1",
+        "sha256:c84c75094419c74a17f581ad731eb8009838e0259239740ec05c491ba996faaa"
+      ],
+      "checksum": "c45c275b5523ad828f7d770692758980",
+      "group": null,
+      "kind": "empty_cards",
+      "source_file": "images_2_assets_images_update_em_hearts2hearts_lemon_tang_f9ec310159a2003c59ad04c550e92d61",
+      "theme": null
     },
     "empty_cards_hearts2hearts_rude": {
       "assets": [
@@ -57428,6 +59028,19 @@
       "source_file": "images_2_assets_images_update_profile_aespa_energy_567da77086aa45648758cd6303e960a4",
       "theme": "energy"
     },
+    "profile_aespa_kiss_n_tell": {
+      "assets": [
+        "sha256:dc753460423f9597f1ad8c0c7eab422535a5f51bbe8e08b15ae19905f7756e87",
+        "sha256:e69a74fb95764491b0c81d9a9320ddd60ec7d278b882db887437bfd5127e0aa3",
+        "sha256:6e566018bf5c10bb954cb6244ea52fd81da557eb87708bb379e440a86a671eba",
+        "sha256:4e7a76162939eb3122e992dc9e93b7448985b180380e69c73e3b041abd983b8f"
+      ],
+      "checksum": "26974a0c3cc12ae810a2defbdffe7cb1",
+      "group": null,
+      "kind": "profile",
+      "source_file": "images_2_assets_images_update_profile_aespa_kiss_n_tell_8fb2d96d22390adb51c6ef07972de0a7",
+      "theme": null
+    },
     "profile_aespa_rich_man": {
       "assets": [
         "sha256:b69561293b8202c7a2f8327ee589872b7906538ff77a61bd4186a4f070a2bb28",
@@ -57664,6 +59277,23 @@
       "kind": "profile",
       "source_file": "images_2_assets_images_update_profile_girlset_sweet_4b3955b651e042ee8caa6d6278326efa",
       "theme": "sweet"
+    },
+    "profile_hearts2hearts_lemon_tang": {
+      "assets": [
+        "sha256:cad1f1c118a43a15d165c56f935cca2c7add644a4756b9679b6357bb58d8a6e8",
+        "sha256:5b0c5d9d61ccc35dedd184cf8c7dc68b51229c60b09d43feb620266f6ee6a91a",
+        "sha256:bb6e4a7af7d8da3d44799265015a191aa09a7ad8aac6a76ff04230a7d69bf284",
+        "sha256:a5cb39338b2cddd1185ec4edd1268c589a00613d248d4d36e9f7db4c673c3e0f",
+        "sha256:206bb1bf45861f7e6cce293983967197daa39f481ecd5ae05678efffc94fae98",
+        "sha256:9b8fe8d3c2ef337a858237c47e0066812164471e6b4c7d908a0f7b7126895ebd",
+        "sha256:a0bbb7d3a76a96efa02434380b3e8292311f23cd53bb2cbd627d4effccb008d0",
+        "sha256:60d609d5e980427a817f236a6ce53a1208fc1d39c36a8cc2c2f00ce9995a5464"
+      ],
+      "checksum": "4bcbf33679be3aec9694da2ea791a5b7",
+      "group": null,
+      "kind": "profile",
+      "source_file": "images_2_assets_images_update_profile_hearts2hearts_lemon_tang_8adad438937fe4fabff129f3ddd58bc6",
+      "theme": null
     },
     "profile_hearts2hearts_rude": {
       "assets": [
@@ -58437,5 +60067,5 @@
     }
   },
   "generated_from": "dev/2.0.0/manifest_hashes",
-  "version": "483364276684fa25"
+  "version": "bcda459634571178"
 }
