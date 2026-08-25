@@ -1,4 +1,33 @@
 {
+"empty_cards_itzy_take_my_hand": {
+  "file": "images_2_assets_images_update_em_itzy_take_my_hand_60efb702f9d0f4e15a3a5fb0a14aa4e9",
+  "md5_checksum": "cf92386ff26286acf5ec35cfccc8b074"
+},
+
+"cards_itzy_take_my_hand": {
+  "file": "images_2_assets_images_update_itzy_take_my_hand_9a082dad2a3c90fa3f05987ffcdf27e5",
+  "md5_checksum": "c34b6e8adef056fd8e502f5e608c4c3d"
+},
+
+"profile_itzy_take_my_hand": {
+  "file": "images_2_assets_images_update_profile_itzy_take_my_hand_142b5237a45be6cc66e751dbb03d90f4",
+  "md5_checksum": "1d970b38f994f169d3512cea87d4522e"
+},
+
+"empty_cards_itzy_focus": {
+  "file": "images_2_assets_images_update_em_itzy_focus_11326b05fb618230bee96289a9f3ef10",
+  "md5_checksum": "11a1cb9c69ba740e6de9dc1fa499a75a"
+},
+
+"cards_itzy_focus": {
+  "file": "images_2_assets_images_update_itzy_focus_3fe2ce5725a6ebc57470706506efb730",
+  "md5_checksum": "a7a0e4391270a6519178e213bb2a5d71"
+},
+
+"profile_itzy_focus": {
+  "file": "images_2_assets_images_update_profile_itzy_focus_b7a28658aeb9c245d9a923455c335f05",
+  "md5_checksum": "13ae34fcf1f4946a3f916e7a0a149454"
+},
 "profile_f5ve_i_choose_you": {
   "file": "images_2_assets_images_update_profile_f5ve_i_choose_you_f849942044c2088b9af55cacc9aeaaf4",
   "md5_checksum": "8d2bb316e2927ca8e409205d3e32d3ad"
