@@ -88,7 +88,7 @@
     }
   },
   "LOONA": {
-    "members": ["HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Go Won", "Olivia Hye"],
+    "members": ["HeeJin", "HyunJin", "HaSeul", "YeoJin", "ViVi", "Kim Lip", "JinSoul", "Choerry", "Yves", "Chuu", "Go Won", "Olivia Hye"],
     "themes": ["Hi High", "PTT", "Flip That"],
     "le_themes": [],
     "availability": {
@@ -150,10 +150,12 @@
   },
   "ITZY": {
     "members": ["YEJI", "LIA", "RYUJIN", "CHAERYEONG", "YUNA"],
-    "themes": ["TUNNEL VISION", "Girls Will Be Girls"],
+    "themes": ["TUNNEL VISION", "Girls Will Be Girls", "Take my hand", "FOCUS"],
     "le_themes": [],
     "availability": {
       "TUNNEL VISION": { "type": "FREE", "in_pool": true },
+        "FOCUS": { "type": "BASIC", "in_pool": true },
+        "Take my hand": { "type": "BASIC", "in_pool": true },
       "Girls Will Be Girls": { "type": "BASIC", "in_pool": true }
     }
   },
@@ -289,7 +291,7 @@
         }
     },
   "BABYMONSTER": {
-        "members": [ "RUKA", "PHARITA", "ASA", "AHYEON", "RORA", "CHIQUITA" ],
+        "members": [ "RUKA", "PHARITA", "RAMI", "ASA", "AHYEON", "RORA", "CHIQUITA" ],
         "themes": [ "FOREVER" ],
         "le_themes": [  ],
         "availability": {
