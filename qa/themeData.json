@@ -1,4 +1,15 @@
 {
+    "F5VE": {
+  "members": ["Kaede", "Sayaka", "Miyuu", "Ruri", "Rui"],
+  "themes": ["I Choose You"],
+  "le_themes": [],
+  "availability": {
+    "I Choose You": {
+      "type": "FREE",
+      "in_pool": true
+    }
+  }
+},
     "ALLDAY PROJECT": {
         "members": [ "ANNIE", "TARZZAN", "BAILEY", "WOOCHAN", "YOUNGSEO" ],
         "themes": [ "FAMOUS", "ALLDAY", "WICKED" ],
