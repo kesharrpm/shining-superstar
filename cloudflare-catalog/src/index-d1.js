@@ -57,6 +57,23 @@ export default {
         requireAdmin(request, env);
         return cors(json({ ok: false, disabled: true, message: "Worker-side ZIP indexing is disabled. Run the GitHub Actions catalog publisher, then call /admin/sync-published." }, 410));
       }
+      if (request.method === "GET" && path.startsWith("/admin/debug/theme/")) {
+  requireAdmin(request, env);
+
+  const parts = path.split("/").filter(Boolean);
+  // /admin/debug/theme/<group>/<theme>
+  if (parts.length < 5) {
+    return cors(json({
+      ok: false,
+      error: "Usage: /admin/debug/theme/<group>/<theme>"
+    }, 400));
+  }
+
+  const groupSlug = decodeURIComponent(parts[3]);
+  const themeSlug = decodeURIComponent(parts.slice(4).join("/"));
+
+  return cors(await getThemeDebug(env, groupSlug, themeSlug));
+}
       if (request.method === "GET" && path === "/admin/status") {
         requireAdmin(request, env);
         return cors(await getAdminStatus(env));
@@ -68,6 +85,100 @@ export default {
     }
   }
 };
+
+async function getThemeDebug(env, groupSlug, themeSlug) {
+  const theme = await env.CATALOG_DB.prepare(`
+    SELECT
+      group_slug,
+      slug,
+      name,
+      type,
+      in_pool,
+      limited,
+      display_order
+    FROM themes
+    WHERE group_slug = ? AND slug = ?
+  `).bind(groupSlug, themeSlug).first();
+
+  if (!theme) {
+    return json({
+      ok: false,
+      error: "Theme not found",
+      group: groupSlug,
+      theme: themeSlug
+    }, 404);
+  }
+
+  const bindings = await env.CATALOG_DB.prepare(`
+    SELECT
+      b.binding_key,
+      b.kind,
+      b.group_slug,
+      b.theme_slug,
+      b.member_slug,
+      b.grade,
+      b.size_variant,
+      b.asset_id,
+
+      a.sha256,
+      a.mime,
+      a.size,
+      a.original_name,
+      a.source_bundle,
+      a.source_entry
+
+    FROM asset_bindings b
+    LEFT JOIN assets a
+      ON a.id = b.asset_id
+
+    WHERE
+      b.group_slug = ?
+      AND b.theme_slug = ?
+
+    ORDER BY
+      b.kind,
+      b.member_slug,
+      b.grade,
+      b.size_variant,
+      b.binding_key
+  `).bind(groupSlug, themeSlug).all();
+
+  const bundles = await env.CATALOG_DB.prepare(`
+    SELECT
+      manifest_key,
+      kind,
+      group_slug,
+      theme_slug,
+      source_file,
+      checksum,
+      status,
+      asset_count,
+      imported_at
+    FROM bundles
+    WHERE group_slug = ? AND theme_slug = ?
+    ORDER BY kind, manifest_key
+  `).bind(groupSlug, themeSlug).all();
+
+  return json({
+    ok: true,
+
+    theme: {
+      ...theme,
+      limited: !!theme.limited,
+      in_pool: decodePool(theme.in_pool)
+    },
+
+    counts: {
+      bindings: bindings.results?.length || 0,
+      bundles: bundles.results?.length || 0
+    },
+
+    bundles: bundles.results || [],
+    bindings: bindings.results || []
+  }, 200, {
+    "cache-control": "no-store"
+  });
+}
 
 function requireAdmin(request, env) {
   if (!env.ADMIN_TOKEN) throw Object.assign(new Error("ADMIN_TOKEN secret is not configured"), { status: 500 });
