@@ -1,12 +1,12 @@
 {
-  "name": "shining-superstar-catalog-worker",
+  "name": "shining-superstar-secure-worker",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "db:apply:local": "wrangler d1 execute shining-superstar-catalog --local --file=./schema.sql",
-    "db:apply:remote": "wrangler d1 execute shining-superstar-catalog --remote --file=./schema.sql"
+    "db:migrate:local": "wrangler d1 execute shining-superstar-catalog --local --file=./schema-secure.sql",
+    "db:migrate:remote": "wrangler d1 execute shining-superstar-catalog --remote --file=./schema-secure.sql"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"

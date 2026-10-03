@@ -1,19 +1,23 @@
-name = "shining-superstar-catalog"
+name = "shining-superstar"
 main = "src/index.js"
-compatibility_date = "2026-08-01"
+compatibility_date = "2026-10-01"
 
 [[d1_databases]]
 binding = "CATALOG_DB"
 database_name = "shining-superstar-catalog"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
-
-[[r2_buckets]]
-binding = "ASSETS"
-bucket_name = "shining-superstar-assets"
+database_id = "REPLACE_WITH_EXISTING_D1_DATABASE_ID"
 
 [vars]
 APP_ENV = "production"
+FIREBASE_PROJECT_ID = "shining-superstar"
+# Comma-separated Origins, not paths. Add your custom domain later.
+ALLOWED_ORIGINS = "https://kesharrpm.github.io,http://localhost:8000,http://127.0.0.1:8000"
+# Rollout/status marker only. Firestore rules enforce trusted writes.
+SECURE_ECONOMY_REQUIRED = "false"
 
-# Set these as secrets, never commit them:
-#   npx wrangler secret put ADMIN_TOKEN
-#   npx wrangler secret put BUNDLE_PASSWORD
+# REQUIRED SECRETS (never commit values):
+# npx wrangler secret put ADMIN_TOKEN
+# npx wrangler secret put FIREBASE_SERVICE_ACCOUNT_JSON
+#
+# FIREBASE_SERVICE_ACCOUNT_JSON is the complete service-account JSON copied as one secret.
+# Do not put the private_key into HTML, GitHub, wrangler.toml, or engine.js.
