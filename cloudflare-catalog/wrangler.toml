@@ -1,6 +1,6 @@
 name = "shining-superstar"
-main = "src/index-d1.js"
-compatibility_date = "2026-08-01"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
 
 [[d1_databases]]
 binding = "CATALOG_DB"
@@ -9,6 +9,12 @@ database_id = "a778d9dd-005e-4f97-b89a-c6b50eb18655"
 
 [vars]
 APP_ENV = "production"
+FIREBASE_PROJECT_ID = "shining-superstar"
 
-# Required secret:
+ALLOWED_ORIGINS = "https://kesharrpm.github.io,http://localhost:8000,http://127.0.0.1:8000"
+
+SECURE_ECONOMY_REQUIRED = "false"
+
+# Secrets are added using Wrangler, NOT here:
 # npx wrangler secret put ADMIN_TOKEN
+# npx wrangler secret put FIREBASE_SERVICE_ACCOUNT_JSON
