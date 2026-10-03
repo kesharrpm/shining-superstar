@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>SHINING Asset Manager</title>
+  <link rel="stylesheet" href="styles.css?v=20260825-v4.1">
+  <script src="https://cdn.jsdelivr.net/npm/@zip.js/zip.js@2.7.72/dist/zip-full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/spark-md5@3.0.2/spark-md5.min.js"></script>
+  <script defer src="app.js?v=20260825-v4.1"></script>
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div><div class="noise"></div>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark"><span>✦</span></div><div><strong>SHINING</strong><small>ASSET MANAGER</small></div></div>
+      <nav class="nav" id="nav">
+        <button class="nav-item active" data-view="forge"><span class="nav-icon">◇</span><span>Asset Upload</span></button>
+        <button class="nav-item" data-view="metadata"><span class="nav-icon">⌘</span><span>Metadata</span></button>
+        <button class="nav-item" data-view="explorer"><span class="nav-icon">⌕</span><span>Index Explorer</span></button>
+        <button class="nav-item" data-view="publish"><span class="nav-icon">↗</span><span>Publish Center</span></button>
+      </nav>
+      <div class="sidebar-foot"><div class="security-pill"><i></i> Secrets stay in session</div><p>This tool never saves your bundle password or admin token.</p></div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div><p class="eyebrow">SHINING SUPERSTAR / DEV TOOL</p><h1 id="viewTitle">Asset Upload</h1></div>
+        <div class="top-actions"><a class="game-back-link" href="../index.html?dev=1" title="Back to SHINING SUPERSTAR">← GAME</a><div class="source-status" id="sourceStatus"><span class="dot"></span><span>Connecting to project…</span></div><button class="icon-btn" id="refreshProjectBtn" title="Reload source files">↻</button></div>
+      </header>
+      <section class="stats-grid">
+        <article class="stat-card"><span>GROUPS</span><strong id="statGroups">—</strong><small>themeData</small></article>
+        <article class="stat-card"><span>THEMES</span><strong id="statThemes">—</strong><small>all editions</small></article>
+        <article class="stat-card"><span>BUNDLES</span><strong id="statBundles">—</strong><small>manifest</small></article>
+        <article class="stat-card"><span>WALLPAPERS</span><strong id="statWallpapers">—</strong><small>shop metadata</small></article>
+      </section>
+      <section class="upload-safety-strip"><strong>SAFE WORKFLOW</strong><span>Stage → preview → build bundle → export update kit → publish. Nothing is published just by dropping a file here.</span></section>
+      <section class="view active" id="view-forge">
+        <div class="workspace-grid">
+          <div class="panel form-panel">
+            <div class="panel-heading"><div><span class="kicker">01 / TARGET</span><h2>Choose where these assets belong</h2></div><span class="live-chip">LIVE PREVIEW</span></div>
+            <div class="form-grid">
+              <label><span>Group</span><select id="groupSelect"></select></label>
+              <label><span>Theme</span><select id="themeSelect"></select></label>
+              <label><span>Bundle type</span><select id="bundleKind"><option value="cards">Cards</option><option value="profile">Profile</option><option value="empty_cards">Empty / Ghost Cards</option><option value="bg">Background</option></select></label>
+              <label><span>Theme edition</span><select id="editionSelect"><option value="normal">Normal</option><option value="le">Limited Edition</option></select></label>
+            </div>
+            <div class="identity-preview"><div><span>MANIFEST KEY</span><code id="manifestKeyPreview">cards_red_velvet_chill_kill</code></div><button class="copy-btn" data-copy-target="manifestKeyPreview">COPY</button></div>
+            <div class="identity-preview secondary"><div><span>OUTPUT FILE</span><code id="bundleFilePreview">images_2_assets_images_update_…</code></div><button class="copy-btn" data-copy-target="bundleFilePreview">COPY</button></div>
+            <div class="generator-panel">
+              <div class="panel-heading compact"><div><span class="kicker">01B / AUTOPILOT</span><h2>Cloudinary Autopilot</h2></div><span class="live-chip">WHOLE GROUP</span></div>
+              <div class="generator-hero">
+                <div>
+                  <span class="generator-eyebrow" id="cloudScopeLabel">SELECTED GROUP</span>
+                  <strong id="cloudScopeTitle">—</strong>
+                  <p id="cloudGenModeHint">Select a group and theme above. Autopilot will use every member automatically.</p>
+                </div>
+                <div class="generator-count"><strong id="cloudOutputCount">0</strong><span>OUTPUT PNGs</span></div>
+              </div>
+              <div class="member-preview" id="cloudMemberPreview"><span class="member-empty">Waiting for catalog data…</span></div>
+              <div class="generator-options">
+                <div class="option-card" id="cloudGradeCard">
+                  <span class="option-title">Grades to generate</span>
+                  <div class="check-pills">
+                    <label><input type="checkbox" class="cloud-grade" value="C" checked><span>C</span></label>
+                    <label><input type="checkbox" class="cloud-grade" value="B" checked><span>B</span></label>
+                    <label><input type="checkbox" class="cloud-grade" value="A" checked><span>A</span></label>
+                    <label><input type="checkbox" class="cloud-grade" value="S" checked><span>S</span></label>
+                    <label><input type="checkbox" class="cloud-grade" value="R" checked><span>R</span></label>
+                  </div>
+                </div>
+                <div class="option-card" id="cloudSizeCard">
+                  <span class="option-title">Sizes to generate</span>
+                  <div class="check-pills">
+                    <label><input type="checkbox" id="cloudLarge" checked><span>Large</span></label>
+                    <label><input type="checkbox" id="cloudSmall" checked><span>Small</span></label>
+                  </div>
+                </div>
+              </div>
+              <details class="advanced-box" id="cloudAdvanced">
+                <summary>Advanced Cloudinary overrides</summary>
+                <div class="form-grid generator-grid">
+                  <label><span>Theme display text</span><input id="cloudThemeText" placeholder="Auto from theme"></label>
+                  <label><span>Cloud name</span><input id="cloudCloudName" value="shining-superstar"></label>
+                  <label><span>Emblem public ID</span><input id="cloudEmblemId" placeholder="Auto from group"></label>
+                  <label><span>Crop prefix</span><input id="cloudCropPrefix" value="u_c_l"></label>
+                  <label><span>Source card prefix</span><input id="cloudImagePrefix" value="c_l"></label>
+                </div>
+              </details>
+              <div class="generator-actions">
+                <button class="secondary-btn slim" id="cloudPresetBtn">RESET AUTO VALUES</button>
+                <button class="primary-btn compact-btn" id="cloudGenerateBtn"><span>GENERATE WHOLE GROUP</span><b>↗</b></button>
+              </div>
+              <pre class="cloud-mini-output" id="cloudGenOutput">Ready. Select a group/theme above.</pre>
+            </div>
+            <div class="panel-heading compact"><div><span class="kicker">02 / UPLOAD</span><h2>Drop new PNG assets</h2></div><button class="text-btn" id="clearAssetsBtn">Clear</button></div>
+            <div class="drop-zone" id="assetDrop"><input id="assetFiles" type="file" accept="image/png" multiple><div class="drop-icon">＋</div><strong>Drop PNGs here</strong><span>or click to browse · member, grade and size are auto-detected when possible</span></div>
+            <div class="asset-table-wrap"><table class="asset-table"><thead><tr><th>Preview</th><th>Source</th><th>Member / Alias</th><th class="grade-col">Grade</th><th class="size-col">Size</th><th>Internal entry</th><th></th></tr></thead><tbody id="assetRows"><tr class="empty-row"><td colspan="7">No assets staged yet.</td></tr></tbody></table></div>
+          </div>
+          <div class="panel build-panel">
+            <div class="panel-heading"><div><span class="kicker">03 / BUILD</span><h2>Encrypted bundle</h2></div><span class="aes-badge">AES</span></div>
+            <label class="password-field"><span>Bundle password</span><div class="input-action"><input id="bundlePassword" type="password" autocomplete="new-password" placeholder="Session only"><button id="togglePassword" type="button">SHOW</button></div><small>Never stored in localStorage or exported.</small></label>
+            <div class="build-summary"><div><span>Files</span><strong id="buildFiles">0</strong></div><div><span>Manifest action</span><strong id="buildAction">CREATE</strong></div><div><span>Encryption</span><strong>AES-256</strong></div></div>
+            <button class="primary-btn" id="buildBundleBtn"><span class="btn-glint"></span><span>BUILD & REGISTER BUNDLE</span><b>→</b></button>
+            <div class="build-progress hidden" id="buildProgress"><div><span id="buildProgressText">Preparing…</span><strong id="buildProgressPct">0%</strong></div><div class="progress-track"><i id="buildProgressBar"></i></div></div>
+            <div class="staging">
+  <div class="staging-head"><div><span class="kicker">STAGING</span><h3>Update kit</h3></div><span id="stagedCount">0 bundles</span></div>
+  <div class="staged-list" id="stagedList"><div class="staged-empty">Built bundles will appear here.</div></div>
+  <div class="export-note">
+    <div><span class="kicker">LOCAL EXPORT</span><strong>No GitHub token required</strong></div>
+    <p>Your staged bundles and current metadata are packaged directly into the update kit. Publishing to GitHub remains a separate step in Publish Center.</p>
+  </div>
+  <button class="secondary-btn" id="exportKitBtn" disabled>EXPORT UPDATE KIT</button>
+</div>
+          </div>
+        </div>
+      </section>
+      <section class="view" id="view-metadata">
+        <div class="metadata-grid">
+          <div class="panel">
+            <div class="panel-heading"><div><span class="kicker">THEME DATA</span><h2>Theme editor</h2></div><div class="heading-actions"><span class="live-chip">AUTOSAVE ON</span><button class="text-btn" id="clearDraftBtn" type="button">Clear local draft</button></div></div>
+            <div class="draft-note"><strong>Local draft persistence</strong><span>Groups, themes, wallpapers, manifest edits, selection, and built bundles survive reloads in this browser. Passwords and admin tokens are never saved.</span></div>
+            <div class="form-grid">
+              <label><span>Group</span><input id="metaGroup" list="groupNames" placeholder="Red Velvet"></label><label><span>Theme</span><input id="metaTheme" placeholder="Chill Kill"></label>
+              <label><span>Availability type</span><select id="metaType"><option>FREE</option><option>BASIC</option><option>EVENT</option><option>PREMIUM</option></select></label>
+              <label><span>Pool</span><select id="metaPool"><option value="true">In pool</option><option value="false">Not in pool</option><option value="le">LE pool marker</option></select></label>
+            </div>
+            <div class="toggle-row"><div><strong>Limited Edition</strong><span>Add theme to <code>le_themes</code> instead of <code>themes</code>.</span></div><label class="switch"><input id="metaLE" type="checkbox"><i></i></label></div>
+            <label class="full-field"><span>Members · one per line</span><textarea id="metaMembers" rows="8" placeholder="IRENE&#10;SEULGI&#10;WENDY&#10;JOY&#10;YERI"></textarea></label>
+            <button class="primary-btn compact-btn" id="applyThemeBtn"><span>APPLY THEME DATA</span><b>＋</b></button>
+          </div>
+          <div class="panel">
+            <div class="panel-heading"><div><span class="kicker">WALLPAPER DATA</span><h2>Wallpaper record</h2></div><span class="live-chip">qa/wallpaperData.json</span></div>
+            <div class="form-grid">
+              <label><span>ID</span><input id="wpId" placeholder="RV_05"></label><label><span>Group</span><input id="wpGroup" placeholder="Red Velvet"></label>
+              <label><span>Name</span><input id="wpName" placeholder="Red Velvet 'Chill Kill'"></label><label><span>Type</span><select id="wpType"><option>BASIC</option><option>PREMIUM</option><option>EVENT</option></select></label>
+              <label><span>Cost</span><input id="wpCost" type="number" min="0" value="0"></label><label><span>Currency</span><select id="wpCurrency"><option value="free">free</option><option value="rp">rp</option><option value="diamond">diamond</option></select></label>
+            </div>
+            <label class="full-field"><span>Legacy / alias URL</span><input id="wpUrl" placeholder="https://…/mybg_lobby_chill_kill.png"><small>The last filename becomes the alias used to connect this record to a published background asset.</small></label>
+            <button class="secondary-btn" id="applyWallpaperBtn">ADD / UPDATE WALLPAPER</button><div class="mini-log" id="metadataLog">No metadata edits in this session.</div>
+          </div>
+        </div>
+      </section>
+      <section class="view" id="view-explorer">
+        <div class="panel explorer-panel"><div class="panel-heading explorer-head"><div><span class="kicker">CATALOG-ASSETS BRANCH</span><h2>Logical asset explorer</h2></div><button class="secondary-btn slim" id="loadIndexBtn">REFRESH INDEX</button></div>
+          <div class="search-row"><input id="indexSearch" placeholder="Search: red_velvet chill_kill irene …"><select id="indexCategory"><option value="all">All categories</option><option value="card">Cards</option><option value="profile">Profiles</option><option value="ghost">Ghost cards</option><option value="wallpaper-alias">Backgrounds</option></select></div>
+          <div class="index-meta" id="indexMeta"><span>Index not loaded.</span></div><div class="binding-list" id="bindingList"><div class="staged-empty">Press “Refresh Index” to browse published logical IDs.</div></div>
+        </div>
+      </section>
+      <section class="view" id="view-publish">
+        <div class="publish-grid">
+          <div class="panel pipeline-panel"><div class="panel-heading"><div><span class="kicker">PIPELINE</span><h2>Publish Center</h2></div><span class="online-badge">CLOUDFLARE</span></div>
+            <div class="pipeline"><div class="pipe-step done"><i>1</i><div><strong>Commit source update</strong><span>Bundles + manifest + metadata → main</span></div></div><div class="pipe-line"></div><div class="pipe-step"><i>2</i><div><strong>Publish catalog assets</strong><span>Run the GitHub Action to process changed bundles.</span></div></div><div class="pipe-line"></div><div class="pipe-step"><i>3</i><div><strong>Sync Cloudflare metadata</strong><span><code>POST /admin/sync</code></span></div></div><div class="pipe-line"></div><div class="pipe-step"><i>4</i><div><strong>Sync published index</strong><span><code>POST /admin/sync-published</code></span></div></div></div>
+            <a class="primary-btn link-btn" target="_blank" rel="noopener" href="https://github.com/kesharrpm/shining-superstar/actions/workflows/publish-catalog-assets.yml"><span>OPEN PUBLISH WORKFLOW</span><b>↗</b></a>
+          </div>
+          <div class="panel cloud-panel"><div class="panel-heading"><div><span class="kicker">LIVE BACKEND</span><h2>Cloud sync</h2></div><span class="security-pill"><i></i> Session token</span></div>
+            <label class="password-field"><span>Admin token</span><div class="input-action"><input id="adminToken" type="password" autocomplete="new-password" placeholder="Not saved"><button id="toggleAdminToken" type="button">SHOW</button></div></label>
+            <div class="cloud-actions"><button class="secondary-btn" id="cloudStatusBtn">CHECK STATUS</button><button class="secondary-btn" id="cloudMetaBtn">SYNC METADATA</button><button class="primary-btn compact-btn" id="cloudPublishedBtn"><span>SYNC PUBLISHED ASSETS</span><b>→</b></button></div><pre class="cloud-output" id="cloudOutput">Ready.</pre>
+          </div>
+          <div class="panel recipe-panel"><div class="panel-heading"><div><span class="kicker">UPDATE RECIPE</span><h2>New catalog item</h2></div></div><ol class="recipe"><li><b>Forge</b><span>Build your new encrypted bundle(s).</span></li><li><b>Export</b><span>Download the ready-to-commit kit.</span></li><li><b>Commit</b><span>Copy files into the matching repo paths.</span></li><li><b>Publish</b><span>Run “Publish catalog assets”.</span></li><li><b>Sync</b><span>Run metadata + published sync here.</span></li></ol></div>
+        </div>
+      </section>
+      <datalist id="groupNames"></datalist><div class="toast" id="toast"></div>
+    </main>
+  </div>
+</body>
+</html>

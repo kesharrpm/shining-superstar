@@ -1,0 +1,58 @@
+{
+  "format": "shining-superstar-runtime-catalog",
+  "format_version": 1,
+  "asset_base": "./",
+  "groups": {
+    "Red Velvet": {
+      "slug": "red_velvet",
+      "members": ["IRENE", "SEULGI", "WENDY", "JOY", "YERI"],
+      "themes": {
+        "Chill Kill": {
+          "slug": "chill_kill",
+          "limited": false,
+          "type": "FREE",
+          "in_pool": true,
+          "bundles": {
+            "profile": "profile_red_velvet_chill_kill",
+            "cards": "cards_red_velvet_chill_kill",
+            "empty_cards": "empty_cards_red_velvet_chill_kill"
+          },
+          "profiles": {
+            "IRENE": "profile_red_velvet_chill_kill::p_chill_kill_irene"
+          },
+          "cards": {
+            "IRENE": {
+              "R": {
+                "large": "cards_red_velvet_chill_kill::c_l_chill_kill_irene_r",
+                "small": "cards_red_velvet_chill_kill::c_s_chill_kill_irene_r"
+              }
+            }
+          },
+          "empty_cards": {
+            "IRENE": "empty_cards_red_velvet_chill_kill::c_l_chill_kill_irene_em"
+          }
+        }
+      }
+    }
+  },
+  "wallpapers": {
+    "H2H_01": {
+      "group": "Hearts2Hearts",
+      "type": "BASIC",
+      "name": "Hearts2Hearts",
+      "cost": 0,
+      "currency": "free",
+      "asset": "bg_loo_loo::mybg_lobby_rude"
+    }
+  },
+  "assets": {
+    "profile_red_velvet_chill_kill::p_chill_kill_irene": {
+      "name": "p_chill_kill_irene",
+      "url": "assets/12/p_chill_kill_irene.12ab34cd56ef7890.png",
+      "sha256": "...",
+      "bytes": 123456,
+      "mime": "image/png",
+      "bundle": "profile_red_velvet_chill_kill"
+    }
+  }
+}

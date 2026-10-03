@@ -1,1521 +1,1741 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rhythm Hive</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>SHINING SUPERSTAR</title>
+<script src="https://cdn.jsdelivr.net/npm/@zip.js/zip.js/dist/zip.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&family=Montserrat:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=2026.08.26-v620">
+  </head>
+  
+  <body>
+<noscript><div class="fatal-noscript">JavaScript is required to run SHINING SUPERSTAR.</div></noscript>
+            <!-- INSTANT PRE-LOADER SHIELD -->
+<div id="instant-wait-screen" style="position: fixed; inset: 0; background: #050102; z-index: 999999999; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; font-family: 'Montserrat', sans-serif; transition: opacity 0.4s ease;">
+    
+    <!-- Simple Spinning Ring -->
+    <div style="width: 50px; height: 50px; border: 4px solid rgba(255, 0, 85, 0.2); border-top-color: #ff0055; border-radius: 50%; animation: instantSpin 0.8s linear infinite; margin-bottom: 25px;"></div>
+        <!-- Inline CSS so it doesn't have to wait for styles.css to download -->
+    <style>
+        @keyframes instantSpin { 100% { transform: rotate(360deg); } }
+        @keyframes instantPulse { 0% { opacity: 0.5; } 100% { opacity: 1; text-shadow: 0 0 15px rgba(255,0,85,0.8); } }
+    </style>
+</div>
+      <div id="evolution-lab-modal" class="custom-modal-overlay">
+    <div class="custom-modal" style="border-color: #a855f7; width: 400px;">
+        <button class="close-btn" onclick="document.getElementById('evolution-lab-modal').style.display='none'">×</button>
+        <h2 style="color: #a855f7; letter-spacing: 2px; margin-bottom: 10px;"><i class="g g-gear"></i> EVOLUTION LAB</h2>
+        <p style="font-size: 11px; color: gray; margin-bottom: 25px;">Fuse 3 cards of the SAME grade to create 1 card of the NEXT grade.</p>
+        
+        <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 30px;">
+            <div id="fuse-slot-1" class="fuse-slot" onclick="selectFuseCard(1)">+</div>
+            <div id="fuse-slot-2" class="fuse-slot" onclick="selectFuseCard(2)">+</div>
+            <div id="fuse-slot-3" class="fuse-slot" onclick="selectFuseCard(3)">+</div>
+        </div>
+
+        <button class="btn" style="background: #a855f7; color: white; width: 100%; box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);" onclick="executeFusion()">FUSE CARDS (10,000 RP)</button>
+
+        <style>
+            .fuse-slot { width: 80px; height: 110px; border: 2px dashed rgba(255,255,255,0.3); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 30px; color: rgba(255,255,255,0.3); cursor: pointer; transition: 0.2s; background: rgba(0,0,0,0.4); }
+            .fuse-slot:hover { border-color: #a855f7; color: #a855f7; }
+            .fuse-slot img { width: 100%; height: 100%; object-fit: contain; }
+        </style>
+    </div>
+</div>
+      
+      <!-- INSTANT PRE-LOADER SHIELD -->
+
+      
+      <div id="collection-choice-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.7); z-index: 999999; justify-content: center; align-items: center; backdrop-filter: blur(8px);">
+    <div style="background: rgba(30, 20, 50, 0.65); border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 10px 40px rgba(0,0,0,0.5), inset 0 0 20px rgba(255,255,255,0.05); width: 85%; max-width: 500px; border-radius: 16px; padding: 40px 30px; text-align: center; backdrop-filter: blur(20px);">
+        
+        <h2 style="color: #fff; margin-top: 0; margin-bottom: 30px; font-weight: 900; letter-spacing: 1px; font-size: 22px;">COLLECTION</h2>
+        
+        <div style="display: flex; gap: 15px; justify-content: center; align-items: stretch;">
+            
+            <div onclick="selectCollectionOption('inventory')" style="flex: 1; background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.02) 100%); border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; padding: 30px 15px; cursor: pointer; transition: 0.2s; display: flex; flex-direction: column; align-items: center;" onmouseover="this.style.borderColor='#d81159'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(216, 17, 89, 0.3)';" onmouseout="this.style.borderColor='rgba(255,255,255,0.2)'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                <div style="font-size: 45px; margin-bottom: 10px; filter: drop-shadow(0 0 10px rgba(216, 17, 89, 0.5));"><i class="g g-pack"></i></div>
+                <div style="color: white; font-weight: 900; font-size: 14px; letter-spacing: 1px;">INVENTORY</div>
+                <div style="color: #aaa; font-size: 10px; margin-top: 6px; line-height: 1.3;">Equip, Upgrade,<br>and Sell Cards</div>
+            </div>
+
+            <div onclick="selectCollectionOption('cardbook')" style="flex: 1; background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.02) 100%); border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; padding: 30px 15px; cursor: pointer; transition: 0.2s; display: flex; flex-direction: column; align-items: center;" onmouseover="this.style.borderColor='#00f5d4'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 245, 212, 0.3)';" onmouseout="this.style.borderColor='rgba(255,255,255,0.2)'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                <div style="font-size: 45px; margin-bottom: 10px; filter: drop-shadow(0 0 10px rgba(0, 245, 212, 0.5));"><i class="g g-card"></i></div>
+                <div style="color: white; font-weight: 900; font-size: 14px; letter-spacing: 1px;">CARD BOOK</div>
+                <div style="color: #aaa; font-size: 10px; margin-top: 6px; line-height: 1.3;">View Themes<br>and Progress</div>
+            </div>
+        </div>
+
+        <button onclick="document.getElementById('collection-choice-modal').style.display='none'" style="margin-top: 25px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 20px; padding: 8px 20px; cursor: pointer; font-size: 10px; font-weight: bold; transition: 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">X CLOSE</button>
+    </div>
+</div>
+<div id="loona-special-event" class="custom-modal-overlay" style="display: none; z-index: 10100;">
+<div class="custom-modal" style="max-width: 600px; border-color: #ff0055;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('loona-special-event').style.display = 'none' })">×</button>
+<h2 style="color: #ff0055; letter-spacing: 3px; margin-bottom: 20px;"><i class="g g-star"></i> LOONA EVENT</h2>
+<p style="color: var(--text-muted); font-size: 12px; margin-bottom: 20px;">Collect the limited edition PTT cards!</p>
+<!-- Put whatever event UI you want here! -->
+<div style="background: rgba(0,0,0,0.5); padding: 20px; border-radius: 12px;">
+<p style="color: white; font-weight: bold;">Mission 1: Play 5 LOONA Songs</p>
+<button class="btn btn-live" style="width: 100%; margin-top: 10px;">CLAIM REWARD</button></div>
+</div>
+</div>
+<div id="notice-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 500px;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('notice-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 3px; margin-bottom: 20px;"><i class="g g-card"></i> WHAT'S NEW</h2>
+<div id="dynamic-notice-container" style="max-height: 60vh; overflow-y: auto; padding-right: 5px;"><!-- Javascript will inject the weekly banners here --></div>
+</div>
+</div>
+<div id="global-processing-overlay" style="display: none; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.6); z-index: 9999999; align-items: center; justify-content: center; transition: opacity 0.2s;">
+<div class="sleek-spinner"></div>
+</div>
+<div id="pfp-purchase-modal" class="custom-modal-overlay" style="z-index: 10020; display: none;">
+<div class="custom-modal" style="max-width: 320px; padding: 30px; text-align: center;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('pfp-purchase-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 2px; margin-bottom: 20px; font-size: 16px;">UNLOCK AVATAR</h2>
+<img id="purchase-pfp-img" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid rgba(255, 255, 255, 0.2); margin-bottom: 15px;" />
+<h3 id="purchase-pfp-name" style="color: white; font-weight: 900; margin-bottom: 5px; letter-spacing: 2px;">MEMBER</h3>
+<p style="color: var(--rp-color); font-weight: bold; margin-bottom: 20px; font-size: 18px;"><i class="g g-rp"></i> 20,000 RP</p>
+<button class="btn btn-draw" style="width: 100%; border-color: var(--rp-color); color: var(--rp-color);" onclick="withLoadingCircle(() =&gt; { executeBuyProfilePic() })">BUY NOW</button></div>
+</div>
+<div id="pfp-confirm-modal" class="custom-modal-overlay" style="z-index: 10020; display: none;">
+<div class="custom-modal" style="max-width: 320px; padding: 30px; text-align: center;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('pfp-confirm-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 2px; margin-bottom: 20px; font-size: 16px;">EQUIP AVATAR</h2>
+<img id="confirm-pfp-img" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--secondary-glow); margin-bottom: 15px; box-shadow: 0 0 20px var(--secondary-glow);" />
+<h3 id="confirm-pfp-name" style="color: white; font-weight: 900; margin-bottom: 20px; letter-spacing: 2px;">MEMBER</h3>
+<button class="btn btn-live" style="width: 100%;" onclick="withLoadingCircle(() =&gt; { executeSetProfilePic() })">EQUIP NOW</button></div>
+</div>
+<div id="theme-selector-modal" class="custom-modal-overlay" style="z-index: 10005;">
+<div class="custom-modal" style="max-width: 600px; padding: 20px; background: #0a0514; border: 2px solid #d81159; border-radius: 15px; box-shadow: 0 0 30px rgba(216, 17, 89, 0.4);">
+<div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 10px; margin-bottom: 15px;">
+<h2 style="color: white; letter-spacing: 2px; margin: 0; font-size: 18px;">CHOOSE THEME</h2>
+<button class="close-btn" style="position: static; font-size: 24px;" onclick="withLoadingCircle(() =&gt; { document.getElementById('theme-selector-modal').style.display = 'none' })">×</button></div>
+<div id="theme-rows-container" style="max-height: 60vh; overflow-y: auto; display: flex; flex-direction: column; gap: 15px; padding-right: 5px;"></div>
+</div>
+</div>
+<div id="bg-equip-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 700px;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('bg-equip-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 5px; margin-bottom: 5px;">LOBBY SETUP</h2>
+<p style="color: var(--text-muted); font-size: 12px; margin-bottom: 15px;">Select up to 25 backgrounds to rotate in your lobby.<br />Equipped: <span id="bg-equip-count" style="color: var(--tertiary-glow); font-weight: 900;">1</span> / 25</p>
+<select id="equip-bg-group-select" class="sorting-select" style="width: 100%; max-width: 300px; margin-bottom: 15px;" onchange="renderBgEquipGrid()">
+<option value="ALL">ALL GROUPS</option>
+</select>
+<div class="bg-grid" id="inventory-wallpaper-grid"></div>
+</div>
+</div>
+<div id="minigame-modal" class="custom-modal-overlay prism-pick-overlay">
+<div class="custom-modal prism-pick-modal">
+  <button class="close-btn" onclick="document.getElementById('minigame-modal').style.display='none'">×</button>
+  <header class="prism-pick-head">
+    <span class="prism-pick-kicker">DAILY DROP // 1 PICK</span>
+    <h2>PRISM PICK</h2>
+    <p>Choose one prism. The reward inside is yours.</p>
+  </header>
+  <div class="prism-pick-grid" id="mg-grid">
+    <button class="mg-card lucky-card prism-capsule" type="button" onclick="flipMinigameCard(this, 0)"><span class="prism-shell"><i>01</i></span></button>
+    <button class="mg-card lucky-card prism-capsule" type="button" onclick="flipMinigameCard(this, 1)"><span class="prism-shell"><i>02</i></span></button>
+    <button class="mg-card lucky-card prism-capsule" type="button" onclick="flipMinigameCard(this, 2)"><span class="prism-shell"><i>03</i></span></button>
+  </div>
+  <p id="mg-result-text" class="prism-pick-result" style="display:none;"></p>
+  <footer class="prism-pick-foot"><span>Resets daily</span><i></i><span>No duplicate choice</span></footer>
+</div>
+</div>
+<div id="gacha-fullscreen-overlay" style="display: none; position: fixed; inset: 0; background: radial-gradient(circle, rgba(20,5,10,0.95), rgba(5,0,5,0.98)); z-index: 99999; flex-direction: column; justify-content: space-between; align-items: center; padding: 5vh 0; backdrop-filter: blur(15px);">
+    <div class="gacha-overlay-header"><h2 style="font-size: 32px; font-weight: 900; color: #fff; letter-spacing: 10px; text-shadow: 0 0 20px #ff0055;">CARD OPEN</h2></div>
+    <div class="gacha-center-board" style="flex: 1; display: flex; align-items: center; justify-content: center; width: 100%;"><div id="draw-stage-cards" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1200px;"></div></div>
+    <div class="gacha-overlay-footer" style="display: flex; gap: 15px;">
+        <button class="btn-finish" id="gacha-next-btn" style="display: none;" onclick="withLoadingCircle(() => { nextGachaBatch() })">NEXT</button> 
+        <button class="btn-finish" id="gacha-finish-btn" style="display: none;" onclick="withLoadingCircle(() => { closeGachaStage() })">OK</button>
+    </div>
+</div>
+
+<audio id="bgm" src="https://superstarcdn.onelocal.host/1815772345329427-1815772345367444-1815772349702301.mp3" autoplay loop></audio> 
+<audio id="sfx-click" src="https://superstarcdn.onelocal.host/mixkit-modern-technology-select-3124.wav"></audio> 
+<audio id="song-preview-audio" src="" loop></audio>
+
+<div class="ambient-light"></div>
+<div class="god-rays"></div>
+<canvas id="particle-canvas" style="position:fixed; inset:0; pointer-events:none; z-index:1;"></canvas>
+
+<div id="modern-loading-screen" role="status" aria-live="polite" aria-busy="true">
+    <video autoplay loop muted playsinline class="bg-video" aria-hidden="true">
+        <source src="https://res.cloudinary.com/shining-superstar/video/upload/v1776614394/lv_0_20260418023600.mp4" type="video/mp4" />
+    </video>
+    <div class="loading-screen-dim" aria-hidden="true"></div>
+    <div class="loading-center-stack">
+        <div class="shining-title-text">SHINING<br />SUPERSTAR</div>
+        <div class="loading-ui" id="loading-ui-element">
+            <div class="loading-subtitle" id="loading-status">PREPARING GAME DATA</div>
+            <div class="loading-percent-row">
+                <span id="loading-detail">0 / 0 bundles</span>
+                <span class="loading-percent-value"><span id="loading-percent">0</span>%</span>
+            </div>
+            <div class="loading-bar-container" aria-hidden="true">
+                <div id="loading-bar-fill"></div>
+            </div>
+        </div>
+        <div id="touch-to-start-text" class="touch-start-style" style="display: none;">TOUCH TO START</div>
+    </div>
+</div>
+<div id="auth-screen" class="custom-modal-overlay" style="display: flex;">
+<div class="custom-modal">
+<h2 style="color: white; letter-spacing: 5px; margin-bottom: 20px;">LOGIN</h2>
+<input type="text" id="user-id" autocomplete="username" placeholder="ENTER UID OR USERNAME" style="width: 100%; padding: 15px; margin-bottom: 10px; background: rgba(0, 0, 0, 0.5); color: white; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px; text-align: center; font-weight: bold;" /> <input type="password" id="user-pass" autocomplete="current-password" placeholder="PASSWORD" style="width: 100%; padding: 15px; margin-bottom: 15px; background: rgba(0, 0, 0, 0.5); color: white; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px; text-align: center; font-weight: bold;" />
+<p style="color: gray; font-size: 10px; margin-bottom: 15px; line-height: 1.5;">Password is handled by Firebase Authentication. SHINING never stores it in Firestore or localStorage.</p>
+<button class="btn btn-live" style="width: 100%;" onclick="withLoadingCircle(() =&gt; handleAuth('login'))">ENTER STAGE</button>
+<button class="btn btn-draw" style="width: 100%; margin-top: 8px;" onclick="withLoadingCircle(() =&gt; handleAuth('register'))">CREATE NEW ACCOUNT</button></div>
+</div>
+<div id="setup-password-modal" class="custom-modal-overlay" style="z-index: 99999;">
+<div class="custom-modal" style="border-color: var(--tertiary-glow);">
+<h2 style="color: var(--tertiary-glow); letter-spacing: 3px; margin-bottom: 10px; text-shadow: 0 0 10px var(--tertiary-glow);">SECURE YOUR ACCOUNT</h2>
+<p style="color: var(--text-muted); font-size: 12px; margin-bottom: 20px;">This legacy password screen is disabled. Accounts now use Firebase Authentication.</p>
+<input type="password" id="new-setup-pass" placeholder="ENTER NEW PASSWORD" style="width: 100%; padding: 15px; margin-bottom: 15px; background: rgba(0, 0, 0, 0.5); color: white; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px; text-align: center; font-weight: bold;" /> <button class="btn btn-live" style="width: 100%;" onclick="withLoadingCircle(() =&gt; { saveLegacyPassword() })">SAVE PASSWORD</button></div>
+</div>
+<div id="game-hud-wrapper">
+    <div id="lobby-sparkles" aria-hidden="true"></div>
+    
+    <div class="hud-top-bar">
+        <div class="hud-profile-card" onclick="withLoadingCircle(() => { openProfileModal() })">
+            <div class="hud-pfp-ring"><img id="header-profile-pic" src="https://jyp.com/200x200/111/fff?text=PFP" /></div>
+            <div class="hud-profile-data">
+                <span id="vip-badge" class="hud-rank-badge" style="display:none;">VIP</span>
+                <span id="display-uid" class="hud-username">GUEST</span>
+                <div class="hud-exp-track"><div id="exp-fill"></div></div>
+            </div>
+        </div>
+
+        <div class="hud-currency-rack">
+            <div class="hud-curr-pill" title="HP" data-label="HP"><span class="curr-icon" style="color: #ff0055;"><i class="g g-hp"></i></span><span id="hp-val">0</span></div>
+            <div class="hud-curr-pill" title="RP" data-label="RP" onclick="withLoadingCircle(() => { exchangeRP() })"><span class="curr-icon" style="color: #00f5d4;"><i class="g g-rp"></i></span><span id="rp-val">0</span></div>
+            <div class="hud-curr-pill" title="Diamonds" data-label="DIAMOND"><span class="curr-icon" style="color: #00f0ff;"><i class="g g-diamond"></i></span><span id="diamond-val">0</span></div>
+        </div>
+
+        <div class="hud-action-rack">
+    <button class="hud-icon-btn" onclick="withLoadingCircle(() => { openInbox() })"><span aria-hidden="true">✉</span><div class="notification-dot" id="inbox-noti">!</div></button>
+    
+    <button class="hud-icon-btn" onclick="withLoadingCircle(() => { openMenuModal() })"><span aria-hidden="true">≡</span></button>
+</div>
+    </div>
+
+    <div class="hud-side-panel left">
+        <div id="lobby-promo-banner" onclick="withLoadingCircle(() => { openLobbyBannerDirectory(); })">
+            <div class="lobby-banner-tag">EVENTS</div>
+            <img id="lobby-banner-img" src="" alt="Promo Banner">
+            <div class="lobby-banner-copy"><span>Available Banners</span><strong>Open Event Board</strong></div>
+            <div class="banner-indicator-container" id="lobby-banner-dots"></div>
+        </div>
+
+        <button class="hud-side-btn" onclick="withLoadingCircle(() => { openMinigame() })"><i class="g g-clover"></i> Prism Pick</button>
+        <button class="hud-side-btn" onclick="withLoadingCircle(() => { document.getElementById('coupon-modal').style.display = 'flex' })"><i class="g g-ticket"></i> Coupon</button>
+    </div>
+
+    <div class="hud-side-panel right">
+        <div class="hud-event-banner star-pass-banner" onclick="withLoadingCircle(() => { openStarPass() })">
+            <div class="hud-banner-glaze"></div>
+            <span class="hud-banner-tag" style="background:#fee440; color:#000;">HOT</span>
+            <div class="hud-banner-text" style="color:#fee440; text-shadow: 0 0 10px #fee440;">SHINING<br>TOUR</div>
+        </div>
+        <button class="hud-side-btn" onclick="withLoadingCircle(() => { openEventModal() })" style="border-color:#00f5d4; color:#00f5d4;"><i class="g g-star"></i> Events</button>
+    </div>
+
+    <div class="hud-bottom-dock">
+        <div class="hud-nav-container">
+            <div class="hud-nav-btn" onclick="withLoadingCircle(() => { openShopModal() })"><span class="nav-ico"><i class="g g-pack"></i></span> Shop</div>
+            <div class="hud-nav-btn" onclick="withLoadingCircle(() => { openBgEquipModal() })"><span class="nav-ico"><i class="g g-eye"></i></span> Lobby</div>
+            <div class="hud-nav-btn" onclick="withLoadingCircle(() => { openCollectionChoice() })"><span class="nav-ico"><i class="g g-card"></i></span> Collection</div>
+            <div class="hud-nav-btn" onclick="withLoadingCircle(() => { openMissionsModal() })"><span class="nav-ico nav-mark">✓</span> Spotlight</div>
+            <div class="hud-nav-btn" onclick="withLoadingCircle(() => { openLeaderboard() })"><span class="nav-ico"><i class="g g-crown"></i></span> Circuit</div>
+        </div>
+        
+        <button class="hud-ready-btn" onclick="withLoadingCircle(() => { openSongSelect() })">
+            <div class="ready-glare"></div>
+            <span class="ready-txt">READY</span>
+            <span class="ready-arr">›</span>
+        </button>
+    </div>
+</div>
+<div id="profile-pic-modal" class="custom-modal-overlay" style="z-index: 10010;">
+<div class="custom-modal" style="max-width: 650px; padding: 25px;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('profile-pic-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 2px; margin-bottom: 20px; font-size: 18px;">Profile Selector</h2>
+<select id="pfp-group-select" class="sorting-select" style="width: 100%; max-width: 300px; margin-bottom: 20px;" onchange="renderProfilePics()">
+<option value="ALL">ALL GROUPS</option>
+</select>
+<div id="pfp-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(75px, 1fr)); gap: 15px; max-height: 55vh; overflow-y: auto; padding: 10px 5px; justify-items: center;"></div>
+</div>
+</div>
+<div id="profile-modal" class="custom-modal-overlay">
+<div class="custom-modal" id="profile-modal-bg" style="max-width: 400px; background-size: cover; background-position: center; position: relative;">
+<div style="position: absolute; inset: 0; background: rgba(10, 5, 20, 0.85); border-radius: 24px; z-index: -1;"></div>
+<button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('profile-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 5px; margin-bottom: 20px; text-shadow: 0 0 10px var(--primary-glow);">MY INFO</h2>
+<div style="display: flex; justify-content: center; margin-bottom: 15px;">
+<div style="position: relative; width: 80px; height: 80px; cursor: pointer;" onclick="withLoadingCircle(() =&gt; { openProfilePicModal() })"><img id="profile-modal-pic" src="https://jyp.com/200x200/111/fff?text=PFP" style="width: 100%; height: 100%; border-radius: 50%; border: 2px solid var(--primary-glow); object-fit: cover; box-shadow: 0 0 15px var(--primary-glow);" />
+<div style="position: absolute; bottom: -5px; right: -5px; background: var(--secondary-glow); color: #000; font-size: 10px; padding: 3px 6px; border-radius: 10px; font-weight: 900; border: 2px solid #000;">EDIT</div>
+</div>
+</div>
+<div style="display: flex; gap: 15px; margin-bottom: 20px;">
+<div class="vault-item-img-container" style="width: 120px; cursor: pointer; box-shadow: 0 0 15px var(--tertiary-glow);" onclick="withLoadingCircle(() =&gt; { toggleVault() })" title="Go to collection to equip a card!"><img id="profile-fav-card" src="https://jyp.com/240x336/111/fff?text=SET+CARD" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+<div style="flex: 1; text-align: left; background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 15px; border: 1px solid var(--glass-border); backdrop-filter: blur(10px);">
+<p style="color: var(--secondary-glow); font-size: 20px; font-weight: 900; margin-bottom: 5px;" id="profile-uid">UID</p>
+<p style="color: var(--text-muted); font-size: 12px; margin-bottom: 10px;">Joined: <span id="profile-join-date">Unknown</span></p>
+<p style="font-size: 12px; font-weight: 800; margin-bottom: 5px;">Total Cards: <span id="profile-total-cards" style="color: var(--rp-color);">0</span></p>
+<p style="font-size: 12px; font-weight: 800;">VIP Status: <span id="profile-vip-status" style="color: var(--tertiary-glow);">No</span></p>
+</div>
+</div>
+<div style="display: flex; gap: 10px; margin-top: 10px;"><button class="btn btn-draw" style="flex: 1; padding: 12px 5px; font-size: 10px;" onclick="withLoadingCircle(() =&gt; { openProfilePicModal() })">SET AVATAR</button> <button class="btn btn-draw" style="flex: 1; padding: 12px 5px; font-size: 10px;" onclick="withLoadingCircle(() =&gt; { openBgEquipModal() })">SET WALLPAPER</button> <button class="btn btn-live" style="flex: 1; padding: 12px 5px; font-size: 10px;" onclick="withLoadingCircle(() =&gt; { document.getElementById('profile-modal').style.display = 'none' })">CLOSE</button></div>
+</div>
+</div>
+<div id="event-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 500px; border-color: var(--tertiary-glow);"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('event-modal').style.display = 'none' })">×</button>
+<h2 style="color: var(--tertiary-glow); letter-spacing: 3px; margin-bottom: 5px; text-shadow: 0 0 15px var(--tertiary-glow);"><i class="g g-star"></i> GRAND OPENING EVENT</h2>
+<p style="color: var(--text-muted); font-size: 12px; margin-bottom: 20px;">Collect cards to unlock exclusive milestone rewards!</p>
+<div style="margin-bottom: 15px; background: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 10px;">
+<p style="font-weight: 900; color: white;">TOTAL CARDS: <span id="event-card-count" style="color: var(--rp-color); font-size: 20px;">0</span></p>
+</div>
+<div id="event-milestones-container"></div>
+</div>
+</div>
+<div id="cardbook-modal" class="custom-modal-overlay" style="display: none;">
+    <div class="custom-modal anim-pop">
+        <div class="cb-header">
+            <h2 style="color: white; font-size: 24px; font-weight: 900; letter-spacing: 2px; margin: 0;">Card Book</h2>
+            <button class="close-btn" style="position: static;" onclick="withLoadingCircle(() => { document.getElementById('cardbook-modal').style.display = 'none' })">✖</button>
+        </div>
+
+        <div class="cb-nav-container" id="cb-top-nav">
+            <div class="cb-tab active" onclick="switchCardBookTab('main')">Main</div>
+            <div class="cb-tab" onclick="switchCardBookTab('groups')">See Group</div>
+        </div>
+
+        <div id="cb-view-main" class="cb-main-dashboard" style="display: grid;">
+            </div>
+
+        <div id="cb-view-groups" class="cb-group-grid" style="display: none;">
+            </div>
+
+        <div id="cb-view-specific" style="display: none; flex-direction: column; flex: 1; overflow: hidden;">
+            <div class="cb-specific-header">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <button class="nav-arrow" onclick="switchCardBookTab('groups')">◀</button>
+                    <h2 id="cb-specific-group-name" style="color: white; font-weight: 900; font-size: 20px; margin: 0;">GROUP</h2>
+                </div>
+                <div class="cb-points-legend">
+                    <span style="color: #ff0055;">R: 15</span> | 
+                    <span style="color: #ffcf54;">S: 10</span> | 
+                    <span style="color: #00bbf9;">A: 7</span> | 
+                    <span style="color: #a855f7;">B: 5</span> | 
+                    <span style="color: #94a3b8;">C: 3</span>
+                </div>
+            </div>
+            <div id="cb-specific-themes" class="cb-theme-list">
+                </div>
+        </div>
+    </div>
+</div>
+<div id="coupon-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 400px;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('coupon-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 3px; margin-bottom: 10px;">REDEEM COUPON</h2>
+<p style="color: var(--text-muted); font-size: 12px; margin-bottom: 20px;">Enter your special promo code below.</p>
+<input type="text" id="coupon-input" placeholder="ENTER CODE HERE" style="text-transform: uppercase;" /> <button class="btn btn-live" style="width: 100%;" onclick="withLoadingCircle(() =&gt; { claimCoupon() })">CONFIRM</button></div>
+</div>
+<div id="missions-modal" class="custom-modal-overlay" style="z-index: 100050;">
+    <div class="custom-modal" style="max-width: 850px; padding: 0; display: flex; flex-direction: column; background: #0a0204; border: 1px solid var(--diamond-color);">
+        
+        <div style="padding: 25px 30px; border-bottom: 1px solid rgba(0, 245, 212, 0.2); display: flex; justify-content: space-between; align-items: center; background: radial-gradient(circle at top left, rgba(0,245,212,0.15), transparent);">
+            <div>
+                <h2 id="mission-hub-title" style="color: white; letter-spacing: 4px; margin: 0; text-align: left;">SPOTLIGHT BOARD</h2>
+                <p id="mission-hub-subtitle" style="color: var(--text-muted); font-size: 11px; margin-top: 5px; text-align: left; font-weight: bold;">ROTATING CALLS · SETLISTS · HEADLINER GOALS</p>
+            </div>
+            <button class="close-btn" style="position: static; font-size: 30px;" onclick="withLoadingCircle(() => { document.getElementById('missions-modal').style.display = 'none' })">✖</button>
+        </div>
+
+        <div class="mission-tabs">
+            <button class="m-tab active" data-spotlight-tab="daily" onclick="switchMissionTab('daily')">DAILY CALLS</button>
+            <button class="m-tab" data-spotlight-tab="weekly" onclick="switchMissionTab('weekly')">WEEKLY SETLIST</button>
+            <button class="m-tab" data-spotlight-tab="monthly" onclick="switchMissionTab('monthly')">MONTHLY HEADLINER</button>
+            <button class="m-tab" onclick="switchMissionTab('event')" style="color: #ff0055; text-shadow: 0 0 5px rgba(255,0,85,0.5);"><i class="g g-star"></i> EVENT</button>
+            <button class="m-tab" onclick="switchMissionTab('starpass')" style="color: #fee440; text-shadow: 0 0 5px rgba(254,228,64,0.5);"><i class="g g-crown"></i> SHINING TOUR</button>
+        </div>
+
+        <div id="mission-list-container" style="flex: 1; padding: 25px; overflow-y: auto; max-height: 60vh; display: flex; flex-direction: column; gap: 15px;">
+            </div>
+
+    </div>
+</div>
+<div id="stage-result-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 450px;">
+<h2 style="color: var(--secondary-glow); font-size: 28px; font-weight: 900; letter-spacing: 2px;">STAGE CLEARED</h2>
+<p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">Theme Set Bonus: <span id="result-theme-bonus" style="color: var(--exp-color);">+0%</span></p>
+<div style="background: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 15px; border: 1px solid var(--glass-border);">
+<div class="result-stat"><span class="stat-s-perfect">SUPER PERFECT</span><span id="stat-sp">0</span></div>
+<div class="result-stat"><span class="stat-perfect">PERFECT</span><span id="stat-p">0</span></div>
+<div class="result-stat"><span class="stat-good">GOOD</span><span id="stat-g">0</span></div>
+<div class="result-stat" style="border: none;"><span class="stat-miss">MISS</span><span id="stat-m">0</span></div>
+</div>
+<div class="total-score-display" id="result-total-score">0</div>
+<div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 20px;">
+<div class="glass-pill"><span style="color: var(--rp-color);"><i class="g g-rp"></i></span> +<span id="result-rp">0</span></div>
+<div class="glass-pill"><span style="color: var(--exp-color);">★</span> +<span id="result-exp">0</span></div>
+</div>
+<button class="btn btn-live" style="width: 100%;" onclick="withLoadingCircle(() =&gt; { closeStageResult() })">CONTINUE</button></div>
+</div>
+<div id="shop-modal" class="custom-modal-overlay" style="display: none;">
+<div class="custom-modal anim-pop"><!-- FULLSCREEN SHOP HEADER -->
+<div class="shop-header" style="flex-direction: column; gap: 10px;">
+    <!-- Row 1: Pity Bar (full width) -->
+    <div style="width: 100%; background: rgba(0,0,0,0.6); border-radius: 10px; padding: 10px 14px; border: 1px solid rgba(255,0,85,0.3);">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
+            <span style="color: #ffcf54; font-size: 11px; font-weight: 900; letter-spacing: 1px;"><i class="g g-star"></i> GUARANTEED R-GRADE PITY</span>
+            <span id="pity-text" style="color: white; font-size: 11px; font-weight: bold;">0 / 50</span>
+        </div>
+        <div style="width: 100%; height: 8px; background: rgba(255,255,255,0.1); border-radius: 5px; overflow: hidden;">
+            <div id="pity-bar-fill" style="width: 0%; height: 100%; background: linear-gradient(90deg, #ff0055, #ffcf54); transition: width 0.4s ease; box-shadow: 0 0 8px #ff0055;"></div>
+        </div>
+        <button id="pity-claim-btn" class="btn btn-live" style="width: 100%; margin-top: 10px; display: none; padding: 7px; font-size: 12px; animation: instantPulse 1s infinite alternate;" onclick="claimPityReward()">CLAIM R-GRADE TICKET</button>
+    </div>
+    <!-- Row 2: Nav + Title + Currency -->
+    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 10px;">
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <button class="nav-arrow" onclick="withLoadingCircle(() => { document.getElementById('shop-modal').style.display = 'none' })" style="font-size: 26px;">◀</button>
+            <h2 style="color: white; letter-spacing: 5px; margin: 0; font-size: 20px; text-shadow: 0 0 15px var(--secondary-glow);">SPECIAL STORE</h2>
+        </div>
+        <div class="currency-cluster" style="flex: unset;">
+            <div class="glass-pill"><span style="color: var(--hp-color);"><i class="g g-hp"></i></span><span id="shop-hp-val">0</span></div>
+            <div class="glass-pill"><span style="color: var(--rp-color);"><i class="g g-rp"></i></span><span id="shop-rp-val">0</span></div>
+            <div class="glass-pill"><span style="color: var(--diamond-color);"><i class="g g-diamond"></i></span><span id="shop-diamond-val">0</span></div>
+        </div>
+    </div>
+</div>
+<!-- SHOP TABS -->
+<div class="shop-tabs-container">
+    <button class="shop-tab active" id="tab-btn-home" onclick="switchShopTab('home')" style="color: var(--tertiary-glow); text-shadow: 0 0 10px var(--tertiary-glow);">HOME</button> 
+    <button class="shop-tab" id="tab-btn-event" onclick="switchShopTab('event')"><i class="g g-star"></i> EVENT</button> 
+    <button class="shop-tab" id="tab-btn-premium" onclick="switchShopTab('premium')">PREMIUM PACKS</button> 
+    <button class="shop-tab" id="tab-btn-wallpaper" onclick="switchShopTab('wallpaper')">WALLPAPER</button> 
+    <button class="shop-tab" id="tab-btn-blackmarket" onclick="switchShopTab('grand')" style="color: var(--secondary-glow);"><i class="g g-star"></i> GRAND OPENING EVENT</button>
+</div>
+
+<!-- SCROLLABLE CONTENT AREA -->
+<div class="shop-content-area">
+    
+    <!-- 1. HOME TAB -->
+    <div id="shop-tab-home" style="display: block; height: 100%;">
+        <div class="shop-carousel-wrapper">
+            <div class="shop-carousel-track" id="shop-carousel-track">
+                <div class="shop-slide" style="background-image: url('https://ik.imagekit.io/shiningsuperstar/live/resources/live/images/card/le_sserafim/crazy/c_l_crazy_kim_chaewon.png');" onclick="switchShopTab('event')"></div>
+                <div class="shop-slide" style="background-image: url('https://jyp.com/800x340/111/fff?text=PREMIUM+PACK+SALE');" onclick="switchShopTab('premium')"></div>
+                <div class="shop-slide" style="background-image: url('https://jyp.com/800x340/111/fff?text=NEW+LOBBY+WALLPAPERS');" onclick="switchShopTab('wallpaper')"></div>
+            </div>
+            <div class="shop-carousel-indicators" id="shop-carousel-dots">
+                <div class="shop-dot active" onclick="goToShopSlide(0)"></div>
+                <div class="shop-dot" onclick="goToShopSlide(1)"></div>
+                <div class="shop-dot" onclick="goToShopSlide(2)"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. EVENT TAB -->
+<div id="shop-tab-event" style="display: none; padding: 20px 5%;">
+    <div class="bg-sub-tabs" style="justify-content: center; margin-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px;">
+       
+        <button class="bg-sub-tab active" onclick="switchEventSubTab('BANGBANG_IVE', this)">IVE [BANG BANG] PICK-UP!</button>
+        <button class="bg-sub-tab" onclick="switchEventSubTab('RRR_TWS', this)">TWS [Rosy Rollie Ruby] PACKAGE</button>
+        <button class="bg-sub-tab" onclick="switchEventSubTab('RRR_ARTMS', this)">ARTMS [Rosy Rollie Ruby] PACKAGE</button>
+        <button class="bg-sub-tab" onclick="switchEventSubTab('RRR_IDLE', this)">i-dle [Rosy Rollie Ruby] PACKAGE</button>
+        <button class="bg-sub-tab" onclick="switchEventSubTab('RRR_NMIXX', this)">NMIXX [Rosy Rollie Ruby] PACKAGE</button>
+        <button class="bg-sub-tab" onclick="switchEventSubTab('RRR_KISSOFLIFE', this)">KISS OF LIFE [Rosy Rollie Ruby] PACKAGE</button>
+        
+    </div>
+    
+    <!-- ADD THIS BLOCK AFTER THE LAST event-sub-content DIV: -->
+
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  :root {
-    --lane1: #FF4E8C;
-    --lane2: #FF9A3C;
-    --lane3: #4ECFFF;
-    --lane4: #A259FF;
-    --bg: #0A0612;
-    --surface: #130D1F;
-    --accent: #FF4E8C;
-    --gold: #FFD700;
-    --text: #F0E6FF;
-    --muted: #7A6A99;
-    --hit-zone: #1C1430;
-    --combo-glow: #FF4E8C;
-  }
-
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Rajdhani', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    overflow: hidden;
-    user-select: none;
-  }
-
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background:
-      radial-gradient(ellipse 80% 40% at 50% 0%, rgba(162, 89, 255, 0.15) 0%, transparent 60%),
-      radial-gradient(ellipse 60% 30% at 50% 100%, rgba(255, 78, 140, 0.12) 0%, transparent 60%);
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  /* Grid lines background */
-  body::after {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(162, 89, 255, 0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(162, 89, 255, 0.04) 1px, transparent 1px);
-    background-size: 40px 40px;
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  #game-wrapper {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 520px;
-    padding: 0 12px;
-  }
-
-  /* SCREENS */
-  .screen { display: none; flex-direction: column; align-items: center; width: 100%; }
-  .screen.active { display: flex; }
-
-  /* ===== MENU SCREEN ===== */
-  #menu-screen { gap: 28px; text-align: center; }
-
-  .logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    animation: float 3s ease-in-out infinite;
-  }
-
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-  }
-
-  .logo-bee {
-    font-size: 52px;
-    filter: drop-shadow(0 0 20px rgba(255, 78, 140, 0.8));
-    animation: buzz 1.5s ease-in-out infinite;
-  }
-
-  @keyframes buzz {
-    0%, 100% { transform: rotate(-3deg) scale(1); }
-    50% { transform: rotate(3deg) scale(1.05); }
-  }
-
-  .logo-text {
-    font-family: 'Orbitron', monospace;
-    font-size: 36px;
-    font-weight: 900;
-    background: linear-gradient(135deg, #FF4E8C, #A259FF, #4ECFFF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: none;
-    letter-spacing: 4px;
-    line-height: 1;
-  }
-
-  .logo-sub {
-    font-size: 13px;
-    color: var(--muted);
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    font-weight: 300;
-  }
-
-  .song-card {
-    background: var(--surface);
-    border: 1px solid rgba(162, 89, 255, 0.25);
-    border-radius: 20px;
-    padding: 20px 28px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: border-color 0.2s, transform 0.2s;
-  }
-
-  .song-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, rgba(162, 89, 255, 0.5), transparent);
-  }
-
-  .song-card:hover {
-    border-color: rgba(162, 89, 255, 0.5);
-    transform: translateY(-2px);
-  }
-
-  .song-cover {
-    width: 56px;
-    height: 56px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    flex-shrink: 0;
-  }
-
-  .song-info { text-align: left; flex: 1; }
-  .song-title { font-size: 17px; font-weight: 700; color: var(--text); }
-  .song-artist { font-size: 13px; color: var(--muted); margin-top: 2px; font-weight: 400; }
-  .song-diff {
-    font-family: 'Orbitron', monospace;
-    font-size: 10px;
-    padding: 4px 8px;
-    border-radius: 6px;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-
-  .diff-normal { background: rgba(78, 207, 255, 0.2); color: #4ECFFF; border: 1px solid rgba(78, 207, 255, 0.4); }
-  .diff-hard { background: rgba(255, 154, 60, 0.2); color: #FF9A3C; border: 1px solid rgba(255, 154, 60, 0.4); }
-  .diff-master { background: rgba(255, 78, 140, 0.2); color: #FF4E8C; border: 1px solid rgba(255, 78, 140, 0.4); }
-
-  .section-label {
-    font-size: 11px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--muted);
-    align-self: flex-start;
-    font-weight: 600;
-  }
-
-  .difficulty-row {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .diff-btn {
-    flex: 1;
-    padding: 12px;
-    border-radius: 12px;
-    border: 1px solid;
-    background: transparent;
-    cursor: pointer;
-    font-family: 'Orbitron', monospace;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    transition: all 0.2s;
-    color: inherit;
-  }
-
-  .diff-btn:hover, .diff-btn.active {
-    filter: brightness(1.3);
-  }
-
-  .diff-btn[data-diff="easy"] { color: #4ECFFF; border-color: rgba(78,207,255,0.5); }
-  .diff-btn[data-diff="easy"]:hover, .diff-btn[data-diff="easy"].active { background: rgba(78,207,255,0.15); }
-  .diff-btn[data-diff="normal"] { color: #FF9A3C; border-color: rgba(255,154,60,0.5); }
-  .diff-btn[data-diff="normal"]:hover, .diff-btn[data-diff="normal"].active { background: rgba(255,154,60,0.15); }
-  .diff-btn[data-diff="hard"] { color: #FF4E8C; border-color: rgba(255,78,140,0.5); }
-  .diff-btn[data-diff="hard"]:hover, .diff-btn[data-diff="hard"].active { background: rgba(255,78,140,0.15); }
-
-  .play-btn {
-    width: 100%;
-    padding: 18px;
-    border-radius: 16px;
-    background: linear-gradient(135deg, #FF4E8C, #A259FF);
-    border: none;
-    cursor: pointer;
-    font-family: 'Orbitron', monospace;
-    font-size: 16px;
-    font-weight: 900;
-    color: white;
-    letter-spacing: 3px;
-    transition: all 0.2s;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 8px 30px rgba(255, 78, 140, 0.35);
-  }
-
-  .play-btn::before {
-    content: '';
-    position: absolute;
-    top: 0; left: -100%;
-    width: 100%; height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
-    transition: left 0.5s;
-  }
-  .play-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(255, 78, 140, 0.5); }
-  .play-btn:hover::before { left: 100%; }
-  .play-btn:active { transform: translateY(0); }
-
-  /* ===== GAME SCREEN ===== */
-  #game-screen { gap: 0; position: relative; }
-
-  .hud {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 4px 8px;
-  }
-
-  .hud-score {
-    font-family: 'Orbitron', monospace;
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--text);
-    line-height: 1;
-  }
-
-  .hud-score-label {
-    font-size: 10px;
-    color: var(--muted);
-    letter-spacing: 3px;
-    margin-bottom: 2px;
-    font-weight: 600;
-  }
-
-  .hud-accuracy {
-    font-family: 'Orbitron', monospace;
-    font-size: 14px;
-    color: var(--muted);
-    text-align: right;
-  }
-
-  .progress-bar-container {
-    width: 100%;
-    height: 3px;
-    background: rgba(255,255,255,0.07);
-    border-radius: 2px;
-    overflow: hidden;
-    margin-bottom: 4px;
-  }
-
-  .progress-bar {
-    height: 100%;
-    background: linear-gradient(90deg, #FF4E8C, #A259FF);
-    border-radius: 2px;
-    transition: width 0.1s linear;
-    width: 0%;
-  }
-
-  /* COMBO */
-  .combo-display {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    pointer-events: none;
-    z-index: 10;
-    width: 120px;
-  }
-
-  .combo-number {
-    font-family: 'Orbitron', monospace;
-    font-size: 40px;
-    font-weight: 900;
-    color: var(--gold);
-    line-height: 1;
-    text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
-    transition: transform 0.1s;
-  }
-
-  .combo-label {
-    font-size: 11px;
-    letter-spacing: 4px;
-    color: var(--gold);
-    opacity: 0.8;
-    font-weight: 700;
-    margin-top: 2px;
-  }
-
-  .combo-display.hidden { opacity: 0; }
-  .combo-display.pop .combo-number { animation: comboPop 0.15s ease-out; }
-
-  @keyframes comboPop {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.3); }
-    100% { transform: scale(1); }
-  }
-
-  /* CANVAS */
-  #game-canvas {
-    width: 100%;
-    max-width: 480px;
-    border-radius: 0;
-    display: block;
-    touch-action: none;
-  }
-
-  /* HIT FEEDBACK */
-  .hit-feedback {
-    font-family: 'Orbitron', monospace;
-    font-size: 20px;
-    font-weight: 900;
-    position: absolute;
-    pointer-events: none;
-    animation: hitFade 0.6s ease-out forwards;
-    z-index: 20;
-    letter-spacing: 2px;
-  }
-
-  @keyframes hitFade {
-    0% { opacity: 1; transform: translateY(0) scale(1); }
-    100% { opacity: 0; transform: translateY(-40px) scale(0.8); }
-  }
-
-  /* KEYS ROW */
-  .keys-row {
-    display: flex;
-    width: 100%;
-    max-width: 480px;
-    gap: 0;
-    position: relative;
-  }
-
-  .key-btn {
-    flex: 1;
-    height: 68px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Orbitron', monospace;
-    font-size: 13px;
-    font-weight: 700;
-    transition: none;
-    -webkit-tap-highlight-color: transparent;
-    touch-action: manipulation;
-  }
-
-  .key-btn::before {
-    content: '';
-    position: absolute;
-    inset: 4px 3px;
-    border-radius: 12px;
-    border: 2px solid;
-    transition: background 0.05s;
-  }
-
-  .key-btn:nth-child(1)::before { border-color: rgba(255,78,140,0.5); }
-  .key-btn:nth-child(2)::before { border-color: rgba(255,154,60,0.5); }
-  .key-btn:nth-child(3)::before { border-color: rgba(78,207,255,0.5); }
-  .key-btn:nth-child(4)::before { border-color: rgba(162,89,255,0.5); }
-
-  .key-btn.pressed::before {
-    background: rgba(255,255,255,0.1);
-  }
-
-  .key-btn:nth-child(1).pressed::before { background: rgba(255,78,140,0.25); box-shadow: inset 0 0 10px rgba(255,78,140,0.3); }
-  .key-btn:nth-child(2).pressed::before { background: rgba(255,154,60,0.25); box-shadow: inset 0 0 10px rgba(255,154,60,0.3); }
-  .key-btn:nth-child(3).pressed::before { background: rgba(78,207,255,0.25); box-shadow: inset 0 0 10px rgba(78,207,255,0.3); }
-  .key-btn:nth-child(4).pressed::before { background: rgba(162,89,255,0.25); box-shadow: inset 0 0 10px rgba(162,89,255,0.3); }
-
-  .key-icon {
-    position: relative;
-    font-size: 18px;
-    z-index: 1;
-    opacity: 0.6;
-  }
-
-  /* SONG INFO BAR */
-  .song-info-bar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4px 4px 10px;
-  }
-
-  .song-info-bar .song-name {
-    font-size: 13px;
-    color: var(--muted);
-    font-weight: 600;
-  }
-
-  .pause-btn {
-    background: none;
-    border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 8px;
-    color: var(--muted);
-    font-size: 16px;
-    cursor: pointer;
-    padding: 4px 10px;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
-    transition: border-color 0.2s;
-  }
-  .pause-btn:hover { border-color: rgba(255,255,255,0.3); color: var(--text); }
-
-  /* PAUSED OVERLAY */
-  #pause-overlay {
-    display: none;
-    position: absolute;
-    inset: 0;
-    background: rgba(10, 6, 18, 0.92);
-    z-index: 30;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 0;
-    backdrop-filter: blur(4px);
-  }
-  #pause-overlay.visible { display: flex; }
-
-  #pause-overlay h2 {
-    font-family: 'Orbitron', monospace;
-    font-size: 28px;
-    font-weight: 900;
-    color: var(--text);
-    letter-spacing: 4px;
-  }
-
-  .overlay-btn {
-    padding: 12px 32px;
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.2);
-    background: transparent;
-    color: var(--text);
-    font-family: 'Orbitron', monospace;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .overlay-btn:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.35); }
-  .overlay-btn.primary { background: linear-gradient(135deg, #FF4E8C, #A259FF); border: none; }
-
-  /* ===== RESULT SCREEN ===== */
-  #result-screen { gap: 20px; text-align: center; }
-
-  .result-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    width: 100%;
-  }
-
-  .result-grade {
-    font-family: 'Orbitron', monospace;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 1;
-    margin: 8px 0;
-  }
-
-  .grade-S { color: #FFD700; text-shadow: 0 0 30px rgba(255,215,0,0.6); }
-  .grade-A { color: #A259FF; text-shadow: 0 0 30px rgba(162,89,255,0.6); }
-  .grade-B { color: #4ECFFF; text-shadow: 0 0 30px rgba(78,207,255,0.6); }
-  .grade-C { color: #FF9A3C; text-shadow: 0 0 30px rgba(255,154,60,0.5); }
-  .grade-D { color: #FF4E8C; text-shadow: 0 0 30px rgba(255,78,140,0.5); }
-
-  .result-title {
-    font-family: 'Orbitron', monospace;
-    font-size: 14px;
-    color: var(--muted);
-    letter-spacing: 4px;
-    text-transform: uppercase;
-  }
-
-  .result-score {
-    font-family: 'Orbitron', monospace;
-    font-size: 40px;
-    font-weight: 900;
-    color: var(--text);
-    letter-spacing: 2px;
-  }
-
-  .result-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    width: 100%;
-  }
-
-  .stat-card {
-    background: var(--surface);
-    border: 1px solid rgba(255,255,255,0.07);
-    border-radius: 14px;
-    padding: 14px 8px;
-  }
-
-  .stat-value {
-    font-family: 'Orbitron', monospace;
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--text);
-  }
-
-  .stat-label {
-    font-size: 11px;
-    color: var(--muted);
-    margin-top: 4px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-
-  .hit-breakdown {
-    display: flex;
-    gap: 8px;
-    width: 100%;
-  }
-
-  .breakdown-item {
-    flex: 1;
-    padding: 10px 6px;
-    border-radius: 10px;
-    font-family: 'Orbitron', monospace;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-  }
-
-  .breakdown-perfect { background: rgba(255,215,0,0.12); color: #FFD700; border: 1px solid rgba(255,215,0,0.25); }
-  .breakdown-great { background: rgba(78,207,255,0.12); color: #4ECFFF; border: 1px solid rgba(78,207,255,0.25); }
-  .breakdown-good { background: rgba(162,89,255,0.12); color: #A259FF; border: 1px solid rgba(162,89,255,0.25); }
-  .breakdown-miss { background: rgba(255,78,140,0.12); color: #FF4E8C; border: 1px solid rgba(255,78,140,0.25); }
-
-  .breakdown-label { font-size: 9px; color: inherit; opacity: 0.7; letter-spacing: 1px; margin-top: 3px; }
-
-  .result-buttons { display: flex; gap: 12px; width: 100%; }
-  .result-btn {
-    flex: 1;
-    padding: 15px;
-    border-radius: 14px;
-    border: 1px solid rgba(255,255,255,0.15);
-    background: transparent;
-    color: var(--text);
-    font-family: 'Orbitron', monospace;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .result-btn:hover { background: rgba(255,255,255,0.06); }
-  .result-btn.primary { background: linear-gradient(135deg, #FF4E8C, #A259FF); border: none; box-shadow: 0 6px 20px rgba(255,78,140,0.3); }
-
-  /* PARTICLES */
-  .particle-canvas {
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  /* COUNTDOWN */
-  #countdown-overlay {
-    display: none;
-    position: absolute;
-    inset: 0;
-    z-index: 25;
-    align-items: center;
-    justify-content: center;
-  }
-  #countdown-overlay.visible { display: flex; }
-
-  .countdown-number {
-    font-family: 'Orbitron', monospace;
-    font-size: 80px;
-    font-weight: 900;
-    color: white;
-    animation: countPop 0.8s ease-out;
-    text-shadow: 0 0 40px rgba(255,78,140,0.8);
-  }
-
-  @keyframes countPop {
-    0% { transform: scale(2); opacity: 0; }
-    40% { transform: scale(0.9); opacity: 1; }
-    70% { transform: scale(1); }
-    100% { transform: scale(1); opacity: 0; }
-  }
-
-  /* Shine anim on result grade */
-  @keyframes gradePulse {
-    0%, 100% { filter: brightness(1); }
-    50% { filter: brightness(1.3); }
-  }
-  .result-grade { animation: gradePulse 2s ease-in-out infinite; }
+  .profile-stage-RRR_KISSOFLIFE { position:relative; width:min(100%,210px); height:160px; overflow:hidden; border-radius:12px; }
+  .profile-stage-RRR_KISSOFLIFE .holo-single { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; border-radius:12px; opacity:0; }
+  .profile-stage-RRR_KISSOFLIFE .holo-0 { animation: holoFadeCycle 12s 0s infinite ease-in-out; }
+  .profile-stage-RRR_KISSOFLIFE .holo-1 { animation: holoFadeCycle 12s 3s infinite ease-in-out; }
+  .profile-stage-RRR_KISSOFLIFE .holo-2 { animation: holoFadeCycle 12s 6s infinite ease-in-out; }
+  .profile-stage-RRR_KISSOFLIFE .holo-3 { animation: holoFadeCycle 12s 9s infinite ease-in-out; }
 </style>
-</head>
-<body>
+<div id="event-sub-RRR_KISSOFLIFE" class="event-sub-content event-shop-shell"
+     data-event-group="KISS OF LIFE" data-event-theme="Rosy Rollie Ruby" style="display: none;">
 
-<canvas class="particle-canvas" id="particle-canvas"></canvas>
-
-<div id="game-wrapper">
-
-  <!-- MENU SCREEN -->
-  <div id="menu-screen" class="screen active">
-    <div class="logo-container">
-      <div class="logo-bee">🐝</div>
-      <div class="logo-text">RHYTHM HIVE</div>
-      <div class="logo-sub">K-POP RHYTHM GAME</div>
-    </div>
-
-    <div class="section-label">SELECT TRACK</div>
-
-    <div class="song-card" id="song-selector">
-      <div class="song-cover" id="song-cover" style="background: linear-gradient(135deg, #FF4E8C22, #A259FF22);">🎵</div>
-      <div class="song-info">
-        <div class="song-title" id="song-title-display">DYNAMITE</div>
-        <div class="song-artist" id="song-artist-display">BTS</div>
-      </div>
-      <div class="song-diff diff-normal" id="song-diff-display">HARD</div>
-    </div>
-
-    <div class="section-label">DIFFICULTY</div>
-    <div class="difficulty-row">
-      <button class="diff-btn" data-diff="easy">EASY</button>
-      <button class="diff-btn active" data-diff="normal">NORMAL</button>
-      <button class="diff-btn" data-diff="hard">HARD</button>
-    </div>
-
-    <button class="play-btn" id="start-btn">▶ START GAME</button>
+  <!-- SECTION: FEATURED OFFERS -->
+  <div class="event-section-header" style="--ev-accent: #ff0055;">
+    <span class="ev-section-eyebrow">LIMITED DEALS</span>
+    <h2 class="ev-section-title">KISS OF LIFE</h2>
   </div>
 
-  <!-- GAME SCREEN -->
-  <div id="game-screen" class="screen">
-    <div class="hud">
-      <div>
-        <div class="hud-score-label">SCORE</div>
-        <div class="hud-score" id="hud-score">0</div>
+  <div class="event-shop-feature-stack">
+
+    <!-- PROFILE BUNDLE -->
+    <div class="event-offer-card event-profile-offer">
+
+      <div class="profile-stage-RRR_KISSOFLIFE">
+        <img class="holo-single holo-0" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_julie.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=JULIE'" />
+        <img class="holo-single holo-1" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_natty.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=NATTY'" />
+        <img class="holo-single holo-2" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_belle.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=BELLE'" />
+        <img class="holo-single holo-3" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_haneul.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=HANEUL'" />
       </div>
-      <div style="flex:1; padding: 0 12px;">
-        <div class="progress-bar-container"><div class="progress-bar" id="progress-bar"></div></div>
-        <div id="hud-song-name" style="font-size:11px; color: var(--muted); text-align:center; letter-spacing:2px; font-weight:600;"></div>
+      <div class="event-offer-copy">
+        <div class="event-kicker gold">LIMITED DEAL</div>
+        <h3>KISS OF LIFE <span>Rosy Rollie Ruby</span></h3>
+        <p>Profile set, 1 R card, and 300 diamonds.</p>
+        <div class="event-offer-note">&#9733; One-time purchase only</div>
       </div>
-      <div class="hud-accuracy">
-        <div id="hud-combo" style="font-family:'Orbitron',monospace; font-size:16px; font-weight:700; color: var(--gold); text-align:right;"></div>
-        <div id="hud-acc" style="font-size:12px; color: var(--muted);">100%</div>
-      </div>
+      <button class="btn btn-live event-buy-btn"
+              onclick="buySpecialEventPack('PROFILE', 'KISS OF LIFE', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 800
+      </button>
     </div>
 
-    <div style="position:relative; width:100%;">
-      <canvas id="game-canvas"></canvas>
-
-      <div class="combo-display hidden" id="combo-display">
-        <div class="combo-number" id="combo-number">0</div>
-        <div class="combo-label">COMBO</div>
+    <!-- STEP-UP -->
+    <div class="event-offer-card event-step-offer stepup-card">
+      <div class="event-step-visual" id="stepup-track-RRR_KISSOFLIFE">
+        <div class="stepup-node free" title="Step 1: Free A-card">FREE</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node s" title="Step 2: 200 Diamonds — S card">200&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node r" title="Step 3: 400 Diamonds — R card">400&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node done" title="All steps complete">&#10003;</div>
       </div>
-
-      <div id="countdown-overlay">
-        <div class="countdown-number" id="countdown-num">3</div>
+      <div class="event-step-copy">
+        <div class="event-kicker aqua">STEP UP</div>
+        <h3>Rosy Rollie Ruby Step-Up Package</h3>
+        <p id="step-up-desc-RRR_KISSOFLIFE" class="stepup-desc">STEP 1: 1 A-Grade Card (FREE!)</p>
       </div>
-
-      <div id="pause-overlay">
-        <h2>PAUSED</h2>
-        <button class="overlay-btn primary" id="resume-btn">RESUME</button>
-        <button class="overlay-btn" id="quit-btn">QUIT</button>
-      </div>
+      <button id="step-up-btn-RRR_KISSOFLIFE" class="btn btn-draw event-buy-btn stepup-btn free"
+              onclick="buyStepUp('RRR_KISSOFLIFE', 'KISS OF LIFE', 'Rosy Rollie Ruby')">CLAIM FREE</button>
     </div>
 
-    <div class="song-info-bar">
-      <div class="song-name" id="game-song-name"></div>
-      <button class="pause-btn" id="pause-btn">⏸ PAUSE</button>
-    </div>
-
-    <div class="keys-row" id="keys-row">
-      <button class="key-btn" data-lane="0"><span class="key-icon">D</span></button>
-      <button class="key-btn" data-lane="1"><span class="key-icon">F</span></button>
-      <button class="key-btn" data-lane="2"><span class="key-icon">J</span></button>
-      <button class="key-btn" data-lane="3"><span class="key-icon">K</span></button>
-    </div>
   </div>
 
-  <!-- RESULT SCREEN -->
-  <div id="result-screen" class="screen">
-    <div class="result-header">
-      <div class="result-title">RESULT</div>
-      <div class="result-grade" id="result-grade">S</div>
-      <div class="result-score" id="result-score">0</div>
-    </div>
-
-    <div class="result-stats">
-      <div class="stat-card">
-        <div class="stat-value" id="result-acc">100%</div>
-        <div class="stat-label">Accuracy</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value" id="result-combo">0</div>
-        <div class="stat-label">Max Combo</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value" id="result-notes">0</div>
-        <div class="stat-label">Notes</div>
-      </div>
-    </div>
-
-    <div class="hit-breakdown">
-      <div class="breakdown-item breakdown-perfect">
-        <div id="res-perfect">0</div>
-        <div class="breakdown-label">PERFECT</div>
-      </div>
-      <div class="breakdown-item breakdown-great">
-        <div id="res-great">0</div>
-        <div class="breakdown-label">GREAT</div>
-      </div>
-      <div class="breakdown-item breakdown-good">
-        <div id="res-good">0</div>
-        <div class="breakdown-label">GOOD</div>
-      </div>
-      <div class="breakdown-item breakdown-miss">
-        <div id="res-miss">0</div>
-        <div class="breakdown-label">MISS</div>
-      </div>
-    </div>
-
-    <div class="result-buttons">
-      <button class="result-btn" id="menu-btn">MENU</button>
-      <button class="result-btn primary" id="retry-btn">RETRY</button>
-    </div>
+  <!-- SECTION: CARD PACKS -->
+  <div class="ev-section-divider">
+    <span>CARD PACKS</span>
   </div>
+
+  <div class="event-pack-grid">
+
+    <!-- A CARD -->
+    <div class="event-pack-card event-pack-blue">
+      <div class="event-pack-tag">DAILY</div>
+      <div class="event-pack-limit-badge">3× MAX</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_a_card_enUS.png" alt="A Grade Card" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />A Grade Card</h4>
+        <p>1 random A-grade event card.</p>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('A_CARD', 'KISS OF LIFE', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 200
+      </button>
+    </div>
+
+    <!-- R PACK -->
+    <div class="event-pack-card event-pack-red">
+      <div class="event-pack-tag">BOOST</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_r_pack_enUS.png" alt="R Package" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />R Package</h4>
+        <p>1 R card and 2 A cards.</p>
+      </div>
+      <button class="btn btn-live event-buy-btn hot"
+              onclick="buySpecialEventPack('R_PACK', 'KISS OF LIFE', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 600
+      </button>
+    </div>
+
+    <!-- PREMIUM 10 -->
+    <div class="event-pack-card event-pack-violet">
+      <div class="event-pack-tag">HOT</div>
+      <div class="event-pack-media">
+        <img src="Image_CardPack_20002.png" alt="Premium Pack 10" onerror="this.src='https://jyp.com/100/f15bb5/fff?text=P10'" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />Premium Pack 10</h4>
+        <p>10 premium cards with event odds boosted.</p>
+        <span><i class="g g-star"></i> 5x higher event chance</span>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('PREMIUM_10', 'KISS OF LIFE', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+  </div>
+</div>
+<!-- ====== END KISS OF LIFE ====== -->
+
+<style>
+  .profile-stage-RRR_TWS { position:relative; width:min(100%,210px); height:160px; overflow:hidden; border-radius:12px; }
+  .profile-stage-RRR_TWS .holo-single { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; border-radius:12px; opacity:0; }
+  .profile-stage-RRR_TWS .holo-0 { animation: holoFadeCycle 18s 0s infinite ease-in-out; }
+  .profile-stage-RRR_TWS .holo-1 { animation: holoFadeCycle 18s 3s infinite ease-in-out; }
+  .profile-stage-RRR_TWS .holo-2 { animation: holoFadeCycle 18s 6s infinite ease-in-out; }
+  .profile-stage-RRR_TWS .holo-3 { animation: holoFadeCycle 18s 9s infinite ease-in-out; }
+  .profile-stage-RRR_TWS .holo-4 { animation: holoFadeCycle 18s 12s infinite ease-in-out; }
+  .profile-stage-RRR_TWS .holo-5 { animation: holoFadeCycle 18s 15s infinite ease-in-out; }
+</style>
+<div id="event-sub-RRR_TWS" class="event-sub-content event-shop-shell"
+     data-event-group="TWS" data-event-theme="Rosy Rollie Ruby" style="display: none;">
+
+  <!-- SECTION: FEATURED OFFERS -->
+  <div class="event-section-header" style="--ev-accent: #ff0055;">
+    <span class="ev-section-eyebrow">LIMITED DEALS</span>
+    <h2 class="ev-section-title">TWS [Rosy Rollie Ruby] PACKAGE</h2>
+  </div>
+
+  <div class="event-shop-feature-stack">
+
+    <!-- PROFILE BUNDLE -->
+    <div class="event-offer-card event-profile-offer">
+
+      <div class="profile-stage-RRR_TWS">
+        <img class="holo-single holo-0" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_shinyu.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=SHINYU'" />
+        <img class="holo-single holo-1" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_dohoon.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=DOHOON'" />
+        <img class="holo-single holo-2" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_youngjae.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=YOUNGJAE'" />
+        <img class="holo-single holo-3" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_hanjin.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=HANJIN'" />
+        <img class="holo-single holo-4" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_jihoon.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=JIHOON'" />
+        <img class="holo-single holo-5" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_kyungmin.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=KYUNGMIN'" />
+      </div>
+      <div class="event-offer-copy">
+        <div class="event-kicker gold">LIMITED DEAL</div>
+        <h3>TWS <span>Rosy Rollie Ruby</span></h3>
+        <p>Profile set, 1 R card, and 300 diamonds.</p>
+        <div class="event-offer-note">&#9733; One-time purchase only</div>
+      </div>
+      <button class="btn btn-live event-buy-btn"
+              onclick="buySpecialEventPack('PROFILE', 'TWS', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 800
+      </button>
+    </div>
+
+    <!-- STEP-UP -->
+    <div class="event-offer-card event-step-offer stepup-card">
+      <div class="event-step-visual" id="stepup-track-RRR_TWS">
+        <div class="stepup-node free" title="Step 1: Free A-card">FREE</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node s" title="Step 2: 250 Diamonds — S card">250&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node r" title="Step 3: 450 Diamonds — R card">450&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node done" title="All steps complete">&#10003;</div>
+      </div>
+      <div class="event-step-copy">
+        <div class="event-kicker aqua">STEP UP</div>
+        <h3>Rosy Rollie Ruby Step-Up Package</h3>
+        <p id="step-up-desc-RRR_TWS" class="stepup-desc">STEP 1: 1 A-Grade Card (FREE!)</p>
+      </div>
+      <button id="step-up-btn-RRR_TWS" class="btn btn-draw event-buy-btn stepup-btn free"
+              onclick="buyStepUp('RRR_TWS', 'TWS', 'Rosy Rollie Ruby')">CLAIM FREE</button>
+    </div>
+
+  </div>
+
+  <!-- SECTION: CARD PACKS -->
+  <div class="ev-section-divider">
+    <span>CARD PACKS</span>
+  </div>
+
+  <div class="event-pack-grid">
+
+    <!-- A CARD -->
+    <div class="event-pack-card event-pack-blue">
+      <div class="event-pack-tag">DAILY</div>
+      <div class="event-pack-limit-badge">3× MAX</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_a_card_enUS.png" alt="A Grade Card" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />A Grade Card</h4>
+        <p>1 random A-grade event card.</p>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('A_CARD', 'TWS', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+    <!-- R PACK -->
+    <div class="event-pack-card event-pack-red">
+      <div class="event-pack-tag">BOOST</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_r_pack_enUS.png" alt="R Package" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />R Package</h4>
+        <p>1 R card and 2 A cards.</p>
+      </div>
+      <button class="btn btn-live event-buy-btn hot"
+              onclick="buySpecialEventPack('R_PACK', 'TWS', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 600
+      </button>
+    </div>
+
+    <!-- PREMIUM 10 -->
+    <div class="event-pack-card event-pack-violet">
+      <div class="event-pack-tag">HOT</div>
+      <div class="event-pack-media">
+        <img src="Image_CardPack_20002.png" alt="Premium Pack 10" onerror="this.src='https://jyp.com/100/f15bb5/fff?text=P10'" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />Premium Pack 10</h4>
+        <p>10 premium cards with event odds boosted.</p>
+        <span><i class="g g-star"></i> 5x higher event chance</span>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('PREMIUM_10', 'TWS', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+  </div>
+</div>
+<!-- ====== END TWS [ROSY ROLLIE RUBY] PACKAGE ====== -->
+    
+    <style>
+  .profile-stage-RRR_ARTMS { position:relative; width:min(100%,210px); height:160px; overflow:hidden; border-radius:12px; }
+  .profile-stage-RRR_ARTMS .holo-single { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; border-radius:12px; opacity:0; }
+  .profile-stage-RRR_ARTMS .holo-0 { animation: holoFadeCycle 15s 0s infinite ease-in-out; }
+  .profile-stage-RRR_ARTMS .holo-1 { animation: holoFadeCycle 15s 3s infinite ease-in-out; }
+  .profile-stage-RRR_ARTMS .holo-2 { animation: holoFadeCycle 15s 6s infinite ease-in-out; }
+  .profile-stage-RRR_ARTMS .holo-3 { animation: holoFadeCycle 15s 9s infinite ease-in-out; }
+  .profile-stage-RRR_ARTMS .holo-4 { animation: holoFadeCycle 15s 12s infinite ease-in-out; }
+</style>
+<div id="event-sub-RRR_ARTMS" class="event-sub-content event-shop-shell"
+     data-event-group="ARTMS" data-event-theme="Rosy Rollie Ruby" style="display: none;">
+
+  <!-- SECTION: FEATURED OFFERS -->
+  <div class="event-section-header" style="--ev-accent: #ff0055;">
+    <span class="ev-section-eyebrow">LIMITED DEALS</span>
+    <h2 class="ev-section-title">ARTMS [Rosy Rollie Ruby] PACKAGE</h2>
+  </div>
+
+  <div class="event-shop-feature-stack">
+
+    <!-- PROFILE BUNDLE -->
+    <div class="event-offer-card event-profile-offer">
+
+      <div class="profile-stage-RRR_ARTMS">
+        <img class="holo-single holo-0" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_heejin.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=HEEJIN'" />
+        <img class="holo-single holo-1" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_haseul.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=HASEUL'" />
+        <img class="holo-single holo-2" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_kim_lip.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=KIM_LIP'" />
+        <img class="holo-single holo-3" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_jinsoul.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=JINSOUL'" />
+        <img class="holo-single holo-4" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_choerry.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=CHOERRY'" />
+      </div>
+      <div class="event-offer-copy">
+        <div class="event-kicker gold">LIMITED DEAL</div>
+        <h3>ARTMS <span>Rosy Rollie Ruby</span></h3>
+        <p>Profile set, 1 R card, and 300 diamonds.</p>
+        <div class="event-offer-note">&#9733; One-time purchase only</div>
+      </div>
+      <button class="btn btn-live event-buy-btn"
+              onclick="buySpecialEventPack('PROFILE', 'ARTMS', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 800
+      </button>
+    </div>
+
+    <!-- STEP-UP -->
+    <div class="event-offer-card event-step-offer stepup-card">
+      <div class="event-step-visual" id="stepup-track-RRR_ARTMS">
+        <div class="stepup-node free" title="Step 1: Free A-card">FREE</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node s" title="Step 2: 250 Diamonds — S card">250&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node r" title="Step 3: 450 Diamonds — R card">450&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node done" title="All steps complete">&#10003;</div>
+      </div>
+      <div class="event-step-copy">
+        <div class="event-kicker aqua">STEP UP</div>
+        <h3>Rosy Rollie Ruby Step-Up Package</h3>
+        <p id="step-up-desc-RRR_ARTMS" class="stepup-desc">STEP 1: 1 A-Grade Card (FREE!)</p>
+      </div>
+      <button id="step-up-btn-RRR_ARTMS" class="btn btn-draw event-buy-btn stepup-btn free"
+              onclick="buyStepUp('RRR_ARTMS', 'ARTMS', 'Rosy Rollie Ruby')">CLAIM FREE</button>
+    </div>
+
+  </div>
+
+  <!-- SECTION: CARD PACKS -->
+  <div class="ev-section-divider">
+    <span>CARD PACKS</span>
+  </div>
+
+  <div class="event-pack-grid">
+
+    <!-- A CARD -->
+    <div class="event-pack-card event-pack-blue">
+      <div class="event-pack-tag">DAILY</div>
+      <div class="event-pack-limit-badge">3× MAX</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_a_card_enUS.png" alt="A Grade Card" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />A Grade Card</h4>
+        <p>1 random A-grade event card.</p>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('A_CARD', 'ARTMS', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+    <!-- R PACK -->
+    <div class="event-pack-card event-pack-red">
+      <div class="event-pack-tag">BOOST</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_r_pack_enUS.png" alt="R Package" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />R Package</h4>
+        <p>1 R card and 2 A cards.</p>
+      </div>
+      <button class="btn btn-live event-buy-btn hot"
+              onclick="buySpecialEventPack('R_PACK', 'ARTMS', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 600
+      </button>
+    </div>
+
+    <!-- PREMIUM 10 -->
+    <div class="event-pack-card event-pack-violet">
+      <div class="event-pack-tag">HOT</div>
+      <div class="event-pack-media">
+        <img src="Image_CardPack_20002.png" alt="Premium Pack 10" onerror="this.src='https://jyp.com/100/f15bb5/fff?text=P10'" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />Premium Pack 10</h4>
+        <p>10 premium cards with event odds boosted.</p>
+        <span><i class="g g-star"></i> 5x higher event chance</span>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('PREMIUM_10', 'ARTMS', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+  </div>
+</div>
+    
+    <style>
+  .profile-stage-RRR_NMIXX { position:relative; width:min(100%,210px); height:160px; overflow:hidden; border-radius:12px; }
+  .profile-stage-RRR_NMIXX .holo-single { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; border-radius:12px; opacity:0; }
+  .profile-stage-RRR_NMIXX .holo-0 { animation: holoFadeCycle 18s 0s infinite ease-in-out; }
+  .profile-stage-RRR_NMIXX .holo-1 { animation: holoFadeCycle 18s 3s infinite ease-in-out; }
+  .profile-stage-RRR_NMIXX .holo-2 { animation: holoFadeCycle 18s 6s infinite ease-in-out; }
+  .profile-stage-RRR_NMIXX .holo-3 { animation: holoFadeCycle 18s 9s infinite ease-in-out; }
+  .profile-stage-RRR_NMIXX .holo-4 { animation: holoFadeCycle 18s 12s infinite ease-in-out; }
+  .profile-stage-RRR_NMIXX .holo-5 { animation: holoFadeCycle 18s 15s infinite ease-in-out; }
+</style>
+<div id="event-sub-RRR_NMIXX" class="event-sub-content event-shop-shell"
+     data-event-group="NMIXX" data-event-theme="Rosy Rollie Ruby" style="display: none;">
+
+  <!-- SECTION: FEATURED OFFERS -->
+  <div class="event-section-header" style="--ev-accent: #ff0055;">
+    <span class="ev-section-eyebrow">LIMITED DEALS</span>
+    <h2 class="ev-section-title">NMIXX [Rosy Rollie Ruby] PACKAGE</h2>
+  </div>
+
+  <div class="event-shop-feature-stack">
+
+    <!-- PROFILE BUNDLE -->
+    <div class="event-offer-card event-profile-offer">
+
+      <div class="profile-stage-RRR_NMIXX">
+        <img class="holo-single holo-0" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_lily.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=LILY'" />
+        <img class="holo-single holo-1" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_haewon.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=HAEWON'" />
+        <img class="holo-single holo-2" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_sullyoon.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=SULLYOON'" />
+        <img class="holo-single holo-3" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_bae.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=BAE'" />
+        <img class="holo-single holo-4" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_jiwoo.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=JIWOO'" />
+        <img class="holo-single holo-5" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_kyujin.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=KYUJIN'" />
+      </div>
+      <div class="event-offer-copy">
+        <div class="event-kicker gold">LIMITED DEAL</div>
+        <h3>NMIXX <span>Rosy Rollie Ruby</span></h3>
+        <p>Profile set, 1 R card, and 300 diamonds.</p>
+        <div class="event-offer-note">&#9733; One-time purchase only</div>
+      </div>
+      <button class="btn btn-live event-buy-btn"
+              onclick="buySpecialEventPack('PROFILE', 'NMIXX', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 800
+      </button>
+    </div>
+
+    <!-- STEP-UP -->
+    <div class="event-offer-card event-step-offer stepup-card">
+      <div class="event-step-visual" id="stepup-track-RRR_NMIXX">
+        <div class="stepup-node free" title="Step 1: Free A-card">FREE</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node s" title="Step 2: 250 Diamonds — S card">250&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node r" title="Step 3: 450 Diamonds — R card">450&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node done" title="All steps complete">&#10003;</div>
+      </div>
+      <div class="event-step-copy">
+        <div class="event-kicker aqua">STEP UP</div>
+        <h3>Rosy Rollie Ruby Step-Up Package</h3>
+        <p id="step-up-desc-RRR_NMIXX" class="stepup-desc">STEP 1: 1 A-Grade Card (FREE!)</p>
+      </div>
+      <button id="step-up-btn-RRR_NMIXX" class="btn btn-draw event-buy-btn stepup-btn free"
+              onclick="buyStepUp('RRR_NMIXX', 'NMIXX', 'Rosy Rollie Ruby')">CLAIM FREE</button>
+    </div>
+
+  </div>
+
+  <!-- SECTION: CARD PACKS -->
+  <div class="ev-section-divider">
+    <span>CARD PACKS</span>
+  </div>
+
+  <div class="event-pack-grid">
+
+    <!-- A CARD -->
+    <div class="event-pack-card event-pack-blue">
+      <div class="event-pack-tag">DAILY</div>
+      <div class="event-pack-limit-badge">3× MAX</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_a_card_enUS.png" alt="A Grade Card" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />A Grade Card</h4>
+        <p>1 random A-grade event card.</p>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('A_CARD', 'NMIXX', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+    <!-- R PACK -->
+    <div class="event-pack-card event-pack-red">
+      <div class="event-pack-tag">BOOST</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_r_pack_enUS.png" alt="R Package" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />R Package</h4>
+        <p>1 R card and 2 A cards.</p>
+      </div>
+      <button class="btn btn-live event-buy-btn hot"
+              onclick="buySpecialEventPack('R_PACK', 'NMIXX', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 600
+      </button>
+    </div>
+
+    <!-- PREMIUM 10 -->
+    <div class="event-pack-card event-pack-violet">
+      <div class="event-pack-tag">HOT</div>
+      <div class="event-pack-media">
+        <img src="Image_CardPack_20002.png" alt="Premium Pack 10" onerror="this.src='https://jyp.com/100/f15bb5/fff?text=P10'" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />Premium Pack 10</h4>
+        <p>10 premium cards with event odds boosted.</p>
+        <span><i class="g g-star"></i> 5x higher event chance</span>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('PREMIUM_10', 'NMIXX', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+  </div>
+</div>
+<!-- ====== END NMIXX [ROSY ROLLIE RUBY] PACKAGE ====== -->
+    
+    <style>
+  .profile-stage-RRR_IDLE { position:relative; width:min(100%,210px); height:160px; overflow:hidden; border-radius:12px; }
+  .profile-stage-RRR_IDLE .holo-single { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; border-radius:12px; opacity:0; }
+  .profile-stage-RRR_IDLE .holo-0 { animation: holoFadeCycle 15s 0s infinite ease-in-out; }
+  .profile-stage-RRR_IDLE .holo-1 { animation: holoFadeCycle 15s 3s infinite ease-in-out; }
+  .profile-stage-RRR_IDLE .holo-2 { animation: holoFadeCycle 15s 6s infinite ease-in-out; }
+  .profile-stage-RRR_IDLE .holo-3 { animation: holoFadeCycle 15s 9s infinite ease-in-out; }
+  .profile-stage-RRR_IDLE .holo-4 { animation: holoFadeCycle 15s 12s infinite ease-in-out; }
+</style>
+<div id="event-sub-RRR_IDLE" class="event-sub-content event-shop-shell"
+     data-event-group="i-dle" data-event-theme="Rosy Rollie Ruby" style="display: none;">
+
+  <!-- SECTION: FEATURED OFFERS -->
+  <div class="event-section-header" style="--ev-accent: #ff0055;">
+    <span class="ev-section-eyebrow">LIMITED DEALS</span>
+    <h2 class="ev-section-title">i-dle [Rosy Rollie Ruby] PACKAGE</h2>
+  </div>
+
+  <div class="event-shop-feature-stack">
+
+    <!-- PROFILE BUNDLE -->
+    <div class="event-offer-card event-profile-offer">
+
+      <div class="profile-stage-RRR_IDLE">
+        <img class="holo-single holo-0" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_miyeon.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=MIYEON'" />
+        <img class="holo-single holo-1" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_minnie.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=MINNIE'" />
+        <img class="holo-single holo-2" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_soyeon.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=SOYEON'" />
+        <img class="holo-single holo-3" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_yuqi.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=YUQI'" />
+        <img class="holo-single holo-4" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_rosy_rollie_ruby_shuhua.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=SHUHUA'" />
+      </div>
+      <div class="event-offer-copy">
+        <div class="event-kicker gold">LIMITED DEAL</div>
+        <h3>I-DLE <span>Rosy Rollie Ruby</span></h3>
+        <p>Profile set, 1 R card, and 300 diamonds.</p>
+        <div class="event-offer-note">&#9733; One-time purchase only</div>
+      </div>
+      <button class="btn btn-live event-buy-btn"
+              onclick="buySpecialEventPack('PROFILE', 'i-dle', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 800
+      </button>
+    </div>
+
+    <!-- STEP-UP -->
+    <div class="event-offer-card event-step-offer stepup-card">
+      <div class="event-step-visual" id="stepup-track-RRR_IDLE">
+        <div class="stepup-node free" title="Step 1: Free A-card">FREE</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node s" title="Step 2: 250 Diamonds — S card">250&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node r" title="Step 3: 450 Diamonds — R card">450&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node done" title="All steps complete">&#10003;</div>
+      </div>
+      <div class="event-step-copy">
+        <div class="event-kicker aqua">STEP UP</div>
+        <h3>Rosy Rollie Ruby Step-Up Package</h3>
+        <p id="step-up-desc-RRR_IDLE" class="stepup-desc">STEP 1: 1 A-Grade Card (FREE!)</p>
+      </div>
+      <button id="step-up-btn-RRR_IDLE" class="btn btn-draw event-buy-btn stepup-btn free"
+              onclick="buyStepUp('RRR_IDLE', 'i-dle', 'Rosy Rollie Ruby')">CLAIM FREE</button>
+    </div>
+
+  </div>
+
+  <!-- SECTION: CARD PACKS -->
+  <div class="ev-section-divider">
+    <span>CARD PACKS</span>
+  </div>
+
+  <div class="event-pack-grid">
+
+    <!-- A CARD -->
+    <div class="event-pack-card event-pack-blue">
+      <div class="event-pack-tag">DAILY</div>
+      <div class="event-pack-limit-badge">3× MAX</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_a_card_enUS.png" alt="A Grade Card" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />A Grade Card</h4>
+        <p>1 random A-grade event card.</p>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('A_CARD', 'i-dle', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+    <!-- R PACK -->
+    <div class="event-pack-card event-pack-red">
+      <div class="event-pack-tag">BOOST</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_r_pack_enUS.png" alt="R Package" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />R Package</h4>
+        <p>1 R card and 2 A cards.</p>
+      </div>
+      <button class="btn btn-live event-buy-btn hot"
+              onclick="buySpecialEventPack('R_PACK', 'i-dle', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 600
+      </button>
+    </div>
+
+    <!-- PREMIUM 10 -->
+    <div class="event-pack-card event-pack-violet">
+      <div class="event-pack-tag">HOT</div>
+      <div class="event-pack-media">
+        <img src="Image_CardPack_20002.png" alt="Premium Pack 10" onerror="this.src='https://jyp.com/100/f15bb5/fff?text=P10'" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>Rosy Rollie Ruby<br />Premium Pack 10</h4>
+        <p>10 premium cards with event odds boosted.</p>
+        <span><i class="g g-star"></i> 5x higher event chance</span>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('PREMIUM_10', 'i-dle', 'Rosy Rollie Ruby', 'Rosy Rollie Ruby')">
+        <i class="g g-diamond"></i> 250
+      </button>
+    </div>
+
+  </div>
+</div>
+
+
+    <style>
+  .profile-stage-BANGBANG_IVE { position:relative; width:min(100%,210px); height:160px; overflow:hidden; border-radius:12px; }
+  .profile-stage-BANGBANG_IVE .holo-single { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; border-radius:12px; opacity:0; }
+  .profile-stage-BANGBANG_IVE .holo-0 { animation: holoFadeCycle 18s 0s infinite ease-in-out; }
+  .profile-stage-BANGBANG_IVE .holo-1 { animation: holoFadeCycle 18s 3s infinite ease-in-out; }
+  .profile-stage-BANGBANG_IVE .holo-2 { animation: holoFadeCycle 18s 6s infinite ease-in-out; }
+  .profile-stage-BANGBANG_IVE .holo-3 { animation: holoFadeCycle 18s 9s infinite ease-in-out; }
+  .profile-stage-BANGBANG_IVE .holo-4 { animation: holoFadeCycle 18s 12s infinite ease-in-out; }
+  .profile-stage-BANGBANG_IVE .holo-5 { animation: holoFadeCycle 18s 15s infinite ease-in-out; }
+</style>
+<div id="event-sub-BANGBANG_IVE" class="event-sub-content event-shop-shell"
+     data-event-group="IVE" data-event-theme="BANG BANG" style="display: block;">
+  <!-- SECTION: FEATURED OFFERS -->
+  <div class="event-section-header" style="--ev-accent: #ff0055;">
+    <span class="ev-section-eyebrow">LIMITED DEALS</span>
+    <h2 class="ev-section-title">IVE [BANG BANG] PACKAGE</h2>
+  </div>
+
+  <div class="event-shop-feature-stack">
+
+    <!-- PROFILE BUNDLE -->
+    <div class="event-offer-card event-profile-offer">
+
+      <div class="profile-stage-BANGBANG_IVE">
+        <img class="holo-single holo-0" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_bang_bang_anyujin.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=ANYUJIN'" />
+        <img class="holo-single holo-1" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_bang_bang_gaeul.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=GAEUL'" />
+        <img class="holo-single holo-2" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_bang_bang_rei.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=REI'" />
+        <img class="holo-single holo-3" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_bang_bang_jangwonyoung.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=JANGWONYOUNG'" />
+        <img class="holo-single holo-4" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_bang_bang_liz.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=LIZ'" />
+        <img class="holo-single holo-5" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_bang_bang_leeseo.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=LEESEO'" />
+      </div>
+      <div class="event-offer-copy">
+        <div class="event-kicker gold">LIMITED DEAL</div>
+        <h3>IVE <span>BANG BANG</span></h3>
+        <p>Profile set, 1 R card, and 300 diamonds.</p>
+        <div class="event-offer-note">&#9733; One-time purchase only</div>
+      </div>
+      <button class="btn btn-live event-buy-btn"
+              onclick="buySpecialEventPack('PROFILE', 'IVE', 'BANG BANG', 'BANG BANG')">
+        <i class="g g-diamond"></i> 800
+      </button>
+    </div>
+
+    <!-- STEP-UP -->
+    <div class="event-offer-card event-step-offer stepup-card">
+      <div class="event-step-visual" id="stepup-track-BANGBANG_IVE">
+        <div class="stepup-node free" title="Step 1: Free A-card">FREE</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node s" title="Step 2: 200 Diamonds — S card">200&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node r" title="Step 3: 400 Diamonds — R card">400&#x1F48E;</div>
+        <div class="stepup-connector"></div>
+        <div class="stepup-node done" title="All steps complete">&#10003;</div>
+      </div>
+      <div class="event-step-copy">
+        <div class="event-kicker aqua">STEP UP</div>
+        <h3>BANG BANG Step-Up Package</h3>
+        <p id="step-up-desc-BANGBANG_IVE" class="stepup-desc">STEP 1: 1 A-Grade Card (FREE!)</p>
+      </div>
+      <button id="step-up-btn-BANGBANG_IVE" class="btn btn-draw event-buy-btn stepup-btn free"
+              onclick="buyStepUp('BANGBANG_IVE', 'IVE', 'BANG BANG')">CLAIM FREE</button>
+    </div>
+
+  </div>
+
+  <!-- SECTION: CARD PACKS -->
+  <div class="ev-section-divider">
+    <span>CARD PACKS</span>
+  </div>
+
+  <div class="event-pack-grid">
+
+    <!-- A CARD -->
+    <div class="event-pack-card event-pack-blue">
+      <div class="event-pack-tag">DAILY</div>
+      <div class="event-pack-limit-badge">3× MAX</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_a_card_enUS.png" alt="A Grade Card" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>BANG BANG<br />A Grade Card</h4>
+        <p>1 random A-grade event card.</p>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('A_CARD', 'IVE', 'BANG BANG', 'BANG BANG')">
+        <i class="g g-diamond"></i> 150
+      </button>
+    </div>
+
+    <!-- R PACK -->
+    <div class="event-pack-card event-pack-red">
+      <div class="event-pack-tag">BOOST</div>
+      <div class="event-pack-media">
+        <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_r_pack_enUS.png" alt="R Package" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>BANG BANG<br />R Package</h4>
+        <p>1 R card and 2 A cards.</p>
+      </div>
+      <button class="btn btn-live event-buy-btn hot"
+              onclick="buySpecialEventPack('R_PACK', 'IVE', 'BANG BANG', 'BANG BANG')">
+        <i class="g g-diamond"></i> 500
+      </button>
+    </div>
+
+    <!-- PREMIUM 10 -->
+    <div class="event-pack-card event-pack-violet">
+      <div class="event-pack-tag">HOT</div>
+      <div class="event-pack-media">
+        <img src="Image_CardPack_20002.png" alt="Premium Pack 10" onerror="this.src='https://jyp.com/100/f15bb5/fff?text=P10'" />
+      </div>
+      <div class="event-pack-copy">
+        <h4>BANG BANG<br />Premium Pack 10</h4>
+        <p>10 premium cards with event odds boosted.</p>
+        <span><i class="g g-star"></i> 5x higher event chance</span>
+      </div>
+      <button class="btn btn-draw event-buy-btn"
+              onclick="buySpecialEventPack('PREMIUM_10', 'IVE', 'BANG BANG', 'BANG BANG')">
+        <i class="g g-diamond"></i> 200
+      </button>
+    </div>
+
+  </div>
+</div>
+    <!-- ===== SUB TAB 2: AESPA ===== -->
+    <style>
+        .profile-stage-WDA_AESPA { position:relative; width:min(100%,210px); height:160px; overflow:hidden; border-radius:12px; }
+        .profile-stage-WDA_AESPA .holo-single { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:top center; border-radius:12px; opacity:0; }
+        .profile-stage-WDA_AESPA .holo-0 { animation: holoFadeCycle 12s 0s infinite ease-in-out; }
+        .profile-stage-WDA_AESPA .holo-1 { animation: holoFadeCycle 12s 3s infinite ease-in-out; }
+        .profile-stage-WDA_AESPA .holo-2 { animation: holoFadeCycle 12s 6s infinite ease-in-out; }
+        .profile-stage-WDA_AESPA .holo-3 { animation: holoFadeCycle 12s 9s infinite ease-in-out; }
+    </style>
+    <div id="event-sub-WDA_AESPA" class="event-sub-content event-shop-shell" data-event-group="AESPA" data-event-theme="Whole Different Animal" style="display: none;">
+        <div class="event-shop-feature-stack">
+            <div class="event-offer-card event-profile-offer">
+                <div class="profile-stage-WDA_AESPA">
+                    <img class="holo-single holo-0" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_whole_different_animal_karina.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=KARINA'" />
+                    <img class="holo-single holo-1" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_whole_different_animal_giselle.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=GISELLE'" />
+                    <img class="holo-single holo-2" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_whole_different_animal_winter.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=WINTER'" />
+                    <img class="holo-single holo-3" src="https://res.cloudinary.com/shining-superstar/c_thumb,g_face,w_200,h_200,r_max/c_l_whole_different_animal_ningning.png" onerror="this.src='https://placehold.co/120x160/111/fff?text=NINGNING'" />
+                </div>
+                <div class="event-offer-copy">
+                    <div class="event-kicker gold">LIMITED DEAL</div>
+                    <h3>AESPA <span>Whole Different Animal</span></h3>
+                    <p>Profile set, 1 R card, and 300 diamonds.</p>
+                    <div class="event-offer-note">&#9733; One-time purchase only</div>
+                </div>
+                <button class="btn btn-live event-buy-btn" onclick="buySpecialEventPack('PROFILE', 'AESPA', 'Whole Different Animal', '260520wda_aespa')"><i class="g g-diamond"></i> 800</button>
+            </div>
+            <div class="event-offer-card event-step-offer stepup-card">
+                <div class="event-step-visual" id="stepup-track-WDA_AESPA">
+                    <div class="stepup-node free" title="Step 1: Free A-card">FREE</div>
+                    <div class="stepup-connector"></div>
+                    <div class="stepup-node s" title="Step 2: 200 Diamonds — S card">200&#x1F48E;</div>
+                    <div class="stepup-connector"></div>
+                    <div class="stepup-node r" title="Step 3: 400 Diamonds — R card">400&#x1F48E;</div>
+                    <div class="stepup-connector"></div>
+                    <div class="stepup-node done" title="All steps complete">&#10003;</div>
+                </div>
+                <div class="event-step-copy">
+                    <div class="event-kicker aqua">STEP UP</div>
+                    <h3>Whole Different Animal Step-Up Package</h3>
+                    <p id="step-up-desc-WDA_AESPA" class="stepup-desc">STEP 1: 1 A-Grade Card (FREE!)</p>
+                </div>
+                <button id="step-up-btn-WDA_AESPA" class="btn btn-draw event-buy-btn stepup-btn free" onclick="buyStepUp('WDA_AESPA', 'AESPA', 'Whole Different Animal')">CLAIM FREE</button>
+            </div>
+        </div>
+        <div class="event-pack-grid">
+            <div class="event-pack-card event-pack-blue">
+                <div class="event-pack-tag">DAILY</div>
+                <div class="event-pack-limit-badge">3× MAX</div>
+                <div class="event-pack-media">
+                    <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_a_card_enUS.png" alt="A Grade Card" />
+                </div>
+                <div class="event-pack-copy">
+                    <h4>Whole Different Animal<br />A Grade Card</h4>
+                    <p>1 random A-grade event card.</p>
+                </div>
+                <button class="btn btn-draw event-buy-btn" onclick="buySpecialEventPack('A_CARD', 'AESPA', 'Whole Different Animal', '260520wda_aespa')"><i class="g g-diamond"></i> 150</button>
+            </div>
+            <div class="event-pack-card event-pack-red">
+                <div class="event-pack-tag">BOOST</div>
+                <div class="event-pack-media">
+                    <img src="https://d13i7sjdvvio90.cloudfront.net/DalcomData/images/store/recommend/2023/230823/rrdct/shop_with_you_r_pack_enUS.png" alt="R Package" />
+                </div>
+                <div class="event-pack-copy">
+                    <h4>Whole Different Animal<br />R Package</h4>
+                    <p>1 R card and 2 A cards.</p>
+                </div>
+                <button class="btn btn-live event-buy-btn hot" onclick="buySpecialEventPack('R_PACK', 'AESPA', 'Whole Different Animal', '260520wda_aespa')"><i class="g g-diamond"></i> 500</button>
+            </div>
+            <div class="event-pack-card event-pack-violet">
+                <div class="event-pack-tag">HOT</div>
+                <div class="event-pack-media">
+                    <img src="Image_CardPack_20002.png" alt="Premium Pack 10" onerror="this.src='https://jyp.com/100/f15bb5/fff?text=P10'" />
+                </div>
+                <div class="event-pack-copy">
+                    <h4>Whole Different Animal<br />Premium Pack 10</h4>
+                    <p>10 premium cards with event odds boosted.</p>
+                    <span><i class="g g-star"></i> 5x higher event chance</span>
+                </div>
+                <button class="btn btn-draw event-buy-btn" onclick="buySpecialEventPack('PREMIUM_10', 'AESPA', 'Whole Different Animal', '260520wda_aespa')"><i class="g g-diamond"></i> 200</button>
+            </div>
+        </div>
+    </div>
 
 </div>
 
+    <!-- 3. PREMIUM TAB (NOW INCLUDES MATERIALS!) -->
+    <div id="shop-tab-premium" style="display: none; padding: 20px 0;">
+        
+        <h3 style="color: white; text-align: center; margin-bottom: 15px; letter-spacing: 2px; text-shadow: 0 0 10px var(--secondary-glow);">POWER UP MATERIALS</h3>
+        <div class="market-item-grid" style="grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); margin-bottom: 40px;">
+            
+            <!-- Materials -->
+<div class="shop-pack-item" style="border: 1px solid #ff0055;">
+    <div style="font-size: 30px; margin-bottom: 10px;"><i class="g g-gear"></i></div>
+    <p style="font-weight: 900; color: #ff0055; margin-bottom: 5px;">10% MAT</p>
+    <button class="btn btn-draw" style="padding: 10px; font-size: 11px;" onclick="openBulkBuy('10% Power Up Material', 5000, 'rp', function(qty){ buyMaterialCard(10, 5000, qty) })"><i class="g g-rp"></i> 5,000</button>
+</div>
+
+<div class="shop-pack-item" style="border: 1px solid #ffaa00;">
+    <div style="font-size: 30px; margin-bottom: 10px;"><i class="g g-gear"></i></div>
+    <p style="font-weight: 900; color: #ffaa00; margin-bottom: 5px;">30% MAT</p>
+    <button class="btn btn-draw" style="padding: 10px; font-size: 11px;" onclick="openBulkBuy('30% Power Up Material', 15000, 'rp', function(qty){ buyMaterialCard(30, 15000, qty) })"><i class="g g-rp"></i> 15,000</button>
+</div>
+
+<div class="shop-pack-item" style="border: 1px solid #fee440;">
+    <div style="font-size: 30px; margin-bottom: 10px;"><i class="g g-gear"></i></div>
+    <p style="font-weight: 900; color: #fee440; margin-bottom: 5px;">50% MAT</p>
+    <button class="btn btn-draw" style="padding: 10px; font-size: 11px;" onclick="openBulkBuy('50% Power Up Material', 25000, 'rp', function(qty){ buyMaterialCard(50, 25000, qty) })"><i class="g g-rp"></i> 25,000</button>
+</div>
+
+<div class="shop-pack-item" style="border: 1px solid #00f5d4; box-shadow: 0 0 15px rgba(0,245,212,0.2);">
+    <div style="font-size: 30px; margin-bottom: 10px;"><i class="g g-gear"></i></div>
+    <p style="font-weight: 900; color: #00f5d4; margin-bottom: 5px;">100% MAT</p>
+    <button class="btn btn-live" style="padding: 10px; font-size: 11px; background: linear-gradient(45deg, #00bbf9, #00f5d4); border: none;" onclick="openBulkBuy('100% Power Up Material', 100, 'diamond', function(qty){ buyMaterialCard(100, 100, qty) })"><i class="g g-diamond"></i> 100</button>
+</div>
+
+<!-- Card Packs -->
+<div class="shop-pack-item">
+    <img src="Image_CardPack_20001.png" class="shop-pack-img" onerror="this.src = 'https://jyp.com/100/f15bb5/fff?text=P1'" />
+    <p style="font-weight: 900; color: var(--hp-color); margin-bottom: 10px;">PREMIUM PACK 5</p>
+    <button class="btn btn-live" onclick="openBulkBuy('Premium Pack 5', 50, 'diamond', function(qty){ buyPack('premium', 5, 50, 'diamond', qty) })"><i class="g g-diamond"></i> 50</button>
+</div>
+<div class="shop-pack-item">
+    <img src="Image_CardPack_20002.png" class="shop-pack-img" onerror="this.src = 'https://jyp.com/100/f15bb5/fff?text=P10'" />
+    <p style="font-weight: 900; color: var(--diamond-color); margin-bottom: 10px;">PREMIUM PACK 10</p>
+    <button class="btn btn-draw" style="border-color: var(--diamond-color);" onclick="openBulkBuy('Premium Pack 10', 90, 'diamond', function(qty){ buyPack('premium', 10, 90, 'diamond', qty) })"><i class="g g-diamond"></i> 90</button>
+</div>
+<div class="shop-pack-item">
+    <img src="Image_CardPack_20003.png" class="shop-pack-img" onerror="this.src = 'https://jyp.com/100/f15bb5/fff?text=P30'" />
+    <p style="font-weight: 900; color: var(--hp-color); margin-bottom: 10px;">PREMIUM PACK 30</p>
+    <button class="btn btn-live" onclick="openBulkBuy('Premium Pack 30', 200, 'diamond', function(qty){ buyPack('premium', 30, 200, 'diamond', qty) })"><i class="g g-diamond"></i> 200</button>
+</div>
+<div class="shop-pack-item">
+    <img src="Image_CardPack_20004.png" class="shop-pack-img" style="filter: hue-rotate(90deg);" onerror="this.src = 'https://jyp.com/100/00f5d4/000?text=C1'" />
+    <p style="font-weight: 900; color: var(--tertiary-glow); margin-bottom: 10px;">CARD PACK 5</p>
+    <button class="btn btn-draw" onclick="openBulkBuy('Card Pack 5', 50000, 'rp', function(qty){ buyPack('regular', 5, 50000, 'rp', qty) })"><i class="g g-rp"></i> 50,000</button>
+</div>
+<div class="shop-pack-item">
+    <img src="Image_CardPack_20005.png" class="shop-pack-img" style="filter: hue-rotate(90deg);" onerror="this.src = 'https://jyp.com/100/00f5d4/000?text=C10'" />
+    <p style="font-weight: 900; color: var(--tertiary-glow); margin-bottom: 10px;">CARD PACK 10</p>
+    <button class="btn btn-draw" onclick="openBulkBuy('Card Pack 10', 100000, 'rp', function(qty){ buyPack('regular', 10, 100000, 'rp', qty) })"><i class="g g-rp"></i> 100,000</button>
+</div>
+<div class="shop-pack-item">
+    <img src="Image_CardPack_20006.png" class="shop-pack-img" style="filter: hue-rotate(90deg);" onerror="this.src = 'https://jyp.com/100/00f5d4/000?text=C30'" />
+    <p style="font-weight: 900; color: var(--tertiary-glow); margin-bottom: 10px;">CARD PACK 30</p>
+    <button class="btn btn-draw" onclick="openBulkBuy('Card Pack 30', 300000, 'rp', function(qty){ buyPack('regular', 30, 300000, 'rp', qty) })"><i class="g g-rp"></i> 300,000</button>
+</div>
+        </div>
+    </div>
+
+    <!-- 4. WALLPAPER TAB -->
+    <div id="shop-tab-wallpaper" style="display: none; padding: 20px 5%;">
+        <select id="shop-bg-group-select" class="sorting-select" style="width: 100%; max-width: 300px; margin-bottom: 15px;" onchange="refreshBgShop()">
+            <option value="ALL">ALL GROUPS</option>
+        </select>
+        <div class="bg-sub-tabs">
+            <button class="bg-sub-tab active" onclick="filterBgShop('BASIC', this)">BASIC (FREE)</button> 
+            <button class="bg-sub-tab" onclick="filterBgShop('PREMIUM', this)">PREMIUM</button> 
+            <button class="bg-sub-tab" onclick="filterBgShop('LIMITED', this)">LIMITED</button> 
+            <button class="bg-sub-tab" onclick="filterBgShop('EVENT', this)">EVENT</button>
+        </div>
+        <div class="bg-grid" id="shop-wallpaper-grid"></div>
+    </div>
+
+    <!-- 5. XTREME DEALS TAB -->
+    <div id="shop-tab-blackmarket" style="display: none; padding: 20px 5%;">
+        <p style="color: var(--text-muted); font-size: 12px; margin-bottom: 20px; text-align: center;">Xtreme launch bundles. Limited opening deals rotate here.</p>
+        <div class="market-item-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
+            <div class="shop-pack-item" style="border: 1px solid #fee440;">
+                <p style="font-weight: 800; color: white; margin-bottom: 10px; font-size: 40px;">S</p>
+                <p style="font-weight: 800; color: white; margin-bottom: 10px; font-size: 13px;">Random S Ticket</p>
+                <button class="btn btn-live" onclick="withLoadingCircle(() => { buyShopItem('S_TICKET') })" style="padding: 10px; font-size: 12px;"><i class="g g-rp"></i> 50,000</button>
+            </div>
+            <div class="shop-pack-item" style="border: 1px solid #fee440;">
+                <p style="font-weight: 800; color: white; margin-bottom: 10px; font-size: 40px;"><i class="g g-diamond"></i></p>
+                <p style="font-weight: 800; color: white; margin-bottom: 10px; font-size: 13px;"><i class="g g-crown"></i> VIP PASS</p>
+                <button class="btn btn-draw" onclick="withLoadingCircle(() => { buyShopItem('VIP_PASS') })" style="padding: 10px; font-size: 12px;"><i class="g g-ticket"></i> 100</button>
+</div>
+        </div>
+    </div>
+</div>
+<!-- CRITICAL FIX: THESE TWO CLOSING TAGS FREE THE REST OF YOUR GAME -->
+</div>
+</div>
+<div id="card-detail-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 350px; padding: 40px 25px 25px 25px; display: flex; flex-direction: column; align-items: center;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('card-detail-modal').style.display = 'none' })">×</button>
+<div class="view-card-image-wrap" id="detail-card-3d" style="margin: 0 auto 15px auto; width: 100%; max-width: 240px;"><img id="detail-card-img" alt="Card" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);" />
+<div class="vault-lock-btn" id="detail-card-lock" style="top: -10px; right: -10px; width: 35px; height: 35px; font-size: 16px; border: 2px solid #000;" onclick=""></div>
+<button class="fav-crown-btn" id="detail-btn-fav" type="button" title="Set as favorite" onclick="withLoadingCircle(() =&gt; { setFavoriteCard() })"><i class="g g-crown"></i></button>
+</div>
+<div style="text-align: center; margin-bottom: 25px; width: 100%;">
+<h2 id="detail-card-name" style="font-weight: 900; font-size: 22px; color: #fff; margin-bottom: 5px; text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);">[R] MEMBER</h2>
+<p id="detail-card-theme" style="color: var(--secondary-glow); font-size: 13px; font-weight: 800; letter-spacing: 1px;">GROUP - THEME</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; width: 100%;"><button class="btn btn-live" id="detail-btn-equip" style="width: 100%; padding: 15px;">EQUIP</button>
+<div style="display: flex; gap: 10px; width: 100%;"><button class="btn btn-danger" id="detail-btn-sell" style="flex: 1; padding: 12px;">SELL</button> <button class="btn btn-draw" id="detail-btn-upgrade" style="flex: 1; padding: 12px;">UPGRADE</button></div>
+</div>
+</div>
+</div>
+<div id="upgrade-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 600px;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { closeUpgradeModal() })">×</button>
+<h2 style="color: white; letter-spacing: 2px; margin-bottom: 10px;">POWER UP</h2>
+<div id="upg-stats-preparation" class="upgrade-stats-modal">
+<div class="upg-display">
+<div class="upg-card-wrapper upg-base"><img id="upg-base-img" class="upg-card-img" alt="Base" /></div>
+<div class="upg-arrow">➔</div>
+<div class="upg-card-wrapper upg-fodder" id="upg-fodder-slot">
+<div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #111; color: #fff; font-size: 12px; font-weight: bold; aspect-ratio: 2.5/3.5; border: 1px dashed rgba(255, 255, 255, 0.3);">Select Dupe<br />in Collection</div>
+</div>
+</div>
+<button id="upg-action-btn" class="btn btn-live" style="width: 100%; margin-top: 15px;" onclick="withLoadingCircle(() =&gt; { executeUpgrade() })">UPGRADE (Cost 5000 RP)</button></div>
+<div id="upg-stats-success" class="upgrade-stats-modal" style="display: none;">
+<h1 style="color: var(--tertiary-glow); margin-bottom: 15px; font-weight: 900; letter-spacing: 1px;">SUCCESS!</h1>
+<div class="upg-card-wrapper upg-base" style="width: clamp(120px, 15vw, 200px);"><img id="upg-success-img" class="upg-card-img" alt="Base" /></div>
+<button class="btn btn-live" style="width: 100%; margin-top: 15px;" onclick="withLoadingCircle(() =&gt; { closeUpgradeModal() })">AWESOME!</button></div>
+</div>
+</div>
+<div id="ss-3d-overlay" class="anim-fade" style="display: none; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.6); z-index: 10000; justify-content: center; align-items: center; backdrop-filter: blur(8px);" onclick="withLoadingCircle(() =&gt; { close3DView() })" onmousemove="handle3DTilt(event)" onmouseleave="reset3DTilt()">
+<div style="position: relative; width: 100%; max-width: 400px; padding: 20px; pointer-events: none;"><button class="close-btn" style="position: absolute; top: -30px; right: 0; z-index: 10; font-size: 30px; color: white; pointer-events: auto;" onclick="withLoadingCircle(() =&gt; { close3DView() })">×</button> <img id="ss-3d-image" style="width: 100%; border-radius: 15px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9); transition: transform 0.1s ease-out;" />
+<p style="text-align: center; color: rgba(255, 255, 255, 0.7); font-size: 12px; margin-top: 30px; font-weight: bold; letter-spacing: 2px;">HOVER ANYWHERE TO TILT</p>
+</div>
+</div>
+<div id="superstar-collection-modal" class="modal-overlay" style="display: none; padding: clamp(10px, 2vh, 20px); box-sizing: border-box; backdrop-filter: blur(20px);">
+<div style="display: flex; gap: 20px; width: 100%; max-width: 1400px; height: 95vh; margin: auto; background: rgba(15, 10, 30, 0.9); border-radius: 20px; border: 1px solid var(--primary-glow); padding: 20px; position: relative; box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);"><button class="close-btn" style="position: absolute; top: 15px; right: 20px; z-index: 10; font-size: 30px;" onclick="withLoadingCircle(() =&gt; { document.getElementById('superstar-collection-modal').style.display = 'none' })">×</button>
+<div style="flex: 1; display: flex; flex-direction: column; background: rgba(0, 0, 0, 0.5); border-radius: 15px; border: 1px solid var(--glass-border); overflow: hidden; position: relative;">
+<div id="ss-left-deck-view" style="display: flex; flex-direction: column; height: 100%;">
+<div style="padding: 15px 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); display: flex; align-items: center; background: rgba(255, 255, 255, 0.05); position: relative;">
+<div style="flex: 1; display: flex; justify-content: center; align-items: center; gap: 20px;"><button class="nav-arrow" style="background: transparent; border: none; color: white; font-size: 20px; cursor: pointer;" onclick="navSuperstarGroup(-1)">◀</button>
+<div id="ss-current-group-name" style="color: white; font-weight: 900; font-size: 16px; text-transform: uppercase; letter-spacing: 2px; text-align: center; min-width: 120px;">GROUP</div>
+<button class="nav-arrow" style="background: transparent; border: none; color: white; font-size: 20px; cursor: pointer;" onclick="navSuperstarGroup(1)">▶</button></div>
+<span id="ss-deck-count" style="position: absolute; right: 20px; color: var(--text-muted); font-size: 12px; font-weight: bold;">0 / 0</span></div>
+<div id="ss-deck-grid" style="flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; align-items: center; gap: 15px; min-height: 0;"></div>
+<div style="background: rgba(255, 255, 255, 0.05); padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+<div><span style="color: var(--tertiary-glow); font-weight: 900; font-size: 24px; text-shadow: 0 0 10px var(--tertiary-glow);" id="ss-group-grade">-</span> <span style="color: white; font-size: 11px; margin-left: 5px; font-weight: bold;">Group Grade</span></div>
+<div style="text-align: right;">
+<div style="color: var(--secondary-glow); font-size: 10px; font-weight: 900; letter-spacing: 1px;" id="ss-theme-level">NO THEME</div>
+<div style="color: white; font-weight: 900; font-size: 16px;" id="ss-active-theme">Select Cards</div>
+</div>
+</div>
+</div>
+</div>
+<div style="flex: 1.2; display: flex; flex-direction: column; padding-top: 10px;">
+<div style="display: flex; gap: 10px; margin-bottom: 15px; padding-right: 20px; align-items: center; flex-wrap: wrap;" id="ss-right-header-bar">
+    <div style="color: var(--hp-color); font-weight: 900; font-size: 16px; flex: 1;"><span id="ss-inv-count">0</span> <span style="color: gray; font-weight: normal; font-size: 12px;">/ INVENTORY</span></div>
+    
+    <button class="btn btn-draw" id="btn-clear-member" style="display: none; padding: 5px 10px; font-size: 10px; border-radius: 5px;" onclick="ssSelectedMember = null; renderSuperstarUI();">SHOW ALL MEMBERS</button> 
+    <button class="btn btn-draw" id="btn-toggle-group-filter" style="padding: 5px 10px; font-size: 10px; border-radius: 5px; border-color: var(--secondary-glow); color: var(--secondary-glow);" onclick="toggleGroupFilter()">FILTER: ALL GROUPS</button>
+    
+    <select id="ss-filter-select" class="sorting-select" aria-label="Filter inventory by grade" onchange="renderSuperstarUI()">
+        <option value="all">All Grades</option>
+        <option value="R">Grade R</option>
+        <option value="S">Grade S</option>
+        <option value="A">Grade A</option>
+        <option value="B">Grade B</option>
+        <option value="C">Grade C</option>
+    </select>
+    <select id="ss-sort-select" class="sorting-select" aria-label="Sort inventory" onchange="renderSuperstarUI()">
+        <option value="gradeDown">Highest Grade</option>
+        <option value="gradeUp">Lowest Grade</option>
+        <option value="newest">Newest</option>
+    </select>
+
+    <button class="btn btn-draw" onclick="withLoadingCircle(() => { openThemeSelectorModal() })" style="padding: 5px 10px; font-size: 10px; border-radius: 5px; border-color: #d81159; color: white; box-shadow: 0 0 10px rgba(216, 17, 89, 0.3);">CHOOSE THEME</button>
+    
+    <button class="btn btn-live" onclick="withLoadingCircle(() => { openCardBook() })" style="padding: 5px 10px; font-size: 10px; border-radius: 5px; box-shadow: 0 0 10px var(--diamond-color);">CARD BOOK</button>
+</div>
+<div id="ss-inv-grid" style="flex: 1; overflow-y: auto; padding-right: 10px; padding-bottom: 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(85px, 1fr)); gap: 10px; grid-auto-rows: max-content; align-items: start;"></div>
+<div id="ss-right-inspector-view" style="display: none; flex-direction: column; height: 100%; padding: 20px; align-items: center; justify-content: center; overflow-y: auto;"></div>
+</div>
+</div>
+</div>
+<div id="inbox-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 500px;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('inbox-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 3px; margin-bottom: 20px;">MESSAGE INBOX</h2>
+<div class="inbox-list" id="inbox-content">
+<p style="color: gray; font-size: 12px;">Loading messages...</p>
+</div>
+</div>
+</div>
+    <div id="menu-drawer-overlay" onclick="closeMenuDrawer()">
+    <div class="menu-drawer" id="menu-drawer" onclick="event.stopPropagation()">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 15px;">
+            <h2 style="color: white; letter-spacing: 4px; margin: 0; font-size: 18px;">SYSTEM MENU</h2>
+            <button class="close-btn" style="position: static;" onclick="closeMenuDrawer()">✖</button>
+        </div>
+        
+        <div class="menu-drawer-grid">
+            <div class="menu-app-btn" onclick="withLoadingCircle(() => { closeMenuDrawer(); openAttendanceLayout(); })">
+                <span><i class="g g-calendar"></i></span>
+                <p>ATTENDANCE</p>
+            </div>
+            <div class="menu-app-btn" onclick="withLoadingCircle(() => { closeMenuDrawer(); openSettings(); })">
+                <span><i class="g g-gear"></i></span>
+                <p>SETTINGS</p>
+            </div>
+            <div class="menu-app-btn" onclick="withLoadingCircle(() => { closeMenuDrawer(); document.getElementById('coupon-modal').style.display='flex'; })">
+                <span><i class="g g-ticket"></i></span>
+                <p>COUPON</p>
+            </div>
+            <div class="menu-app-btn" onclick="showToast('Customer Support coming soon!')">
+                <span><i class="g g-headset"></i></span>
+                <p>SUPPORT</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="daily-reward-modal" class="custom-modal-overlay" style="display: none; z-index: 100050;">
+    <div class="custom-modal anim-pop" style="max-width: 800px; padding: 40px;">
+        <button class="close-btn" onclick="withLoadingCircle(() => { document.getElementById('daily-reward-modal').style.display = 'none' })">×</button>
+        <h2 style="color: var(--exp-color); text-shadow: 0 0 15px var(--exp-color); letter-spacing: 3px; font-size: 28px; margin-bottom: 5px;">WEEKLY ATTENDANCE</h2>
+        <p style="color: var(--text-muted); margin-bottom: 25px; font-size: 13px;">Log in every day to claim your repeating weekly rewards!</p>
+        
+        <div class="attendance-layout" id="attendance-track-container">
+            </div>
+        
+        <div id="attendance-btn-container" style="margin-top: 25px;">
+            </div>
+    </div>
+</div>
+<div id="settings-modal" class="custom-modal-overlay">
+<div class="custom-modal" style="max-width: 400px;"><button class="close-btn" onclick="withLoadingCircle(() =&gt; { document.getElementById('settings-modal').style.display = 'none' })">×</button>
+<h2 style="color: white; letter-spacing: 3px; margin-bottom: 20px;">SETTINGS</h2>
+<div class="setting-row">
+<div class="setting-label">BGM VOLUME</div>
+<input type="range" id="vol-bgm" min="0" max="1" step="0.05" value="0.5" oninput="updateVolume('bgm', this.value)" /></div>
+<div class="setting-row">
+<div class="setting-label">SFX VOLUME</div>
+<input type="range" id="vol-sfx" min="0" max="1" step="0.05" value="0.6" oninput="updateVolume('sfx', this.value)" /></div>
+<div class="setting-row" style="margin-top: 20px;">
+<div class="setting-label">REDUCE TRANSPARENCY<br /><span style="font-size: 10px; font-weight: normal; color: var(--text-muted);">Improves performance &amp; readability</span></div>
+<label class="toggle-switch"> <input type="checkbox" id="toggle-transparency" onchange="toggleTransparency(this.checked)" /> <span class="toggle-slider"></span> </label></div>
+<div class="setting-row">
+<div class="setting-label">VISUAL EFFECTS<br /><span style="font-size: 10px; font-weight: normal; color: var(--text-muted);">Particles, lobby sparkle, shine &amp; motion</span></div>
+<label class="toggle-switch"> <input type="checkbox" id="toggle-effects" checked onchange="toggleVisualEffects(this.checked)" /> <span class="toggle-slider"></span> </label></div>
+<div class="setting-row settings-cache-row">
+<div class="setting-label">ASSET CACHE<br /><span id="catalog-cache-status" style="font-size: 10px; font-weight: normal; color: var(--text-muted);">Cloudflare edge assets · encrypted bundles only if fallback is needed</span></div>
+<button class="settings-mini-btn" onclick="withLoadingCircle(() => clearPersistentCatalogCache())">CLEAR</button></div>
+<div class="setting-row settings-cache-row" id="asset-manager-setting" style="display:none; margin-top:10px; border-top:1px solid rgba(255,255,255,.08); padding-top:14px;">
+<div class="setting-label">DEVELOPER · ASSET MANAGER<br /><span style="font-size: 10px; font-weight: normal; color: var(--text-muted);">Upload cards, profiles, ghost cards and backgrounds without touching the game engine.</span></div>
+<button class="settings-mini-btn" onclick="window.open('asset-manager/index.html','_blank','noopener')">OPEN</button></div>
+
+    <button class="btn btn-danger" style="width: 100%; margin-top: 25px; padding: 15px; font-size: 16px; border-radius: 12px;" onclick="withLoadingCircle(() => { logout() })">LOGOUT</button>
+    </div>
+    
+</div>
+<div id="arcade-song-select" class="custom-modal-overlay" style="z-index: 100000; background: #050102;">
+    <div class="arcade-wrapper">
+        <button class="close-btn" style="z-index: 100;" onclick="withLoadingCircle(() => { document.getElementById('arcade-song-select').style.display = 'none'; })">✖</button>
+        
+        <div class="arcade-left">
+            <div class="vinyl-container">
+                <div class="vinyl-record" id="vinyl-disc"></div>
+                <img id="arcade-cover" class="arcade-cover-img" src="https://jyp.com/500x500/111/fff?text=TRACK" />
+            </div>
+            <div class="arcade-track-info">
+                <div class="arcade-bpm">BPM <span id="arcade-bpm-val">120</span></div>
+                <h1 id="arcade-title">SONG TITLE</h1>
+                <h3 id="arcade-artist">ARTIST NAME</h3>
+            </div>
+        </div>
+
+        <div class="arcade-right">
+            <div class="arcade-header">
+                <span style="color: var(--primary-glow); font-weight: 900; letter-spacing: 4px;">MUSIC STAGE</span>
+                <div style="color: gray; font-size: 12px; margin-top: 5px;">SELECT TRACK & DIFFICULTY</div>
+            </div>
+
+            <div class="arcade-tracklist" id="arcade-tracklist-container">
+                </div>
+
+            <div class="arcade-diff-panel">
+                <div style="color: var(--tertiary-glow); font-size: 11px; font-weight: 900; letter-spacing: 2px; margin-bottom: 10px;">HIGH SCORE: <span id="arcade-high-score">0</span></div>
+                <div class="diff-btn-group" style="width: 100%;">
+                    <button class="btn-diff diff-easy" onclick="withLoadingCircle(() => { launch3DStage('EASY') })">EASY</button>
+                    <button class="btn-diff diff-normal" onclick="withLoadingCircle(() => { launch3DStage('NORMAL') })">NORMAL</button>
+                    <button class="btn-diff diff-hard" onclick="withLoadingCircle(() => { launch3DStage('HARD') })">HARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="live-3d-stage" style="display: none;">
+    <div class="stage-ambient-light"></div>
+    
+    <div class="stage-hud">
+        <div class="stage-score-box">
+            <div style="font-size: 10px; color: gray; letter-spacing: 2px;">SCORE</div>
+            <div id="live-score-val">0000000</div>
+        </div>
+        <div class="progress-bar-game" style="width: 50%; max-width: 600px; margin: 0;">
+            <div class="progress-bar-game-fill" id="playing-progress"></div>
+        </div>
+        <div class="stage-hp-box">
+            <div style="font-size: 10px; color: var(--hp-color); letter-spacing: 2px;">STAMINA</div>
+            <div style="display: flex; gap: 5px; margin-top: 5px;">
+                <div class="hp-bar-segment"></div><div class="hp-bar-segment"></div><div class="hp-bar-segment"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="combo-wrapper">
+        <div style="font-size: 14px; letter-spacing: 4px; color: var(--secondary-glow); text-shadow: 0 0 10px var(--secondary-glow);">COMBO</div>
+        <div id="live-combo-counter" class="combo-text">0</div>
+    </div>
+
+    <div class="highway-container">
+        <div class="highway-perspective">
+            <div class="highway-grid"></div>
+            <div class="highway-lane" id="lane-1"></div>
+            <div class="highway-lane" id="lane-2"></div>
+            <div class="highway-lane" id="lane-3"></div>
+            <div class="highway-lane" id="lane-4"></div>
+            <div class="hit-zone-line"></div>
+        </div>
+    </div>
+
+    <div class="stage-tap-overlay" onmousedown="hit3DNote()" ontouchstart="hit3DNote()"></div>
+</div>
+<!-- SHINING TOUR MODAL -->
+<div id="star-pass-modal" class="custom-modal-overlay shining-tour-overlay">
+  <div class="custom-modal shining-tour-shell">
+    <button class="close-btn shining-tour-close" onclick="document.getElementById('star-pass-modal').style.display='none'">×</button>
+    <section class="shining-tour-hero">
+      <div class="tour-season-stamp"><span>SEASON</span><strong>01</strong></div>
+      <div class="tour-title-block"><span>LIVE PROGRESSION ROUTE</span><h2>SHINING TOUR</h2><p>Move from backstage to headliner rewards as you complete missions.</p></div>
+      <button id="buy-premium-btn" class="tour-headliner-btn" onclick="buyPremiumPass()">HEADLINER ACCESS · 300 <i class="g g-diamond"></i></button>
+    </section>
+    <section class="tour-progress-deck">
+      <div class="tour-level"><span>TOUR LEVEL</span><strong id="pass-current-lvl">1</strong></div>
+      <div class="tour-progress-main"><div><span>ROUTE XP</span><strong id="pass-exp-text">0 / 100 EXP</strong></div><div class="tour-progress-track"><i id="pass-exp-fill"></i></div></div>
+      <div class="tour-route-mark"><span>BACKSTAGE</span><i></i><span>HEADLINER</span></div>
+    </section>
+    <section class="tour-track-area">
+      <div class="tour-track-labels"><span>BACKSTAGE DROP</span><b>STOP</b><span>HEADLINER DROP</span></div>
+      <div id="pass-tiers-container" class="tour-tier-list"></div>
+    </section>
+  </div>
+</div>
+<div id="cyber-league-modal" class="custom-modal-overlay" style="z-index: 100000; background: #050102;">
+    <div class="league-arena-wrapper">
+        <button class="close-btn" style="z-index: 100; font-size: 30px;" onclick="withLoadingCircle(() => { document.getElementById('cyber-league-modal').style.display = 'none'; })">✖</button>
+        
+        <div class="league-left-panel">
+            <div class="tier-hologram-container">
+                <div class="tier-ring ring-outer"></div>
+                <div class="tier-ring ring-inner"></div>
+                <div class="tier-icon-wrapper">
+                    <img id="arena-tier-icon" src="https://jyp.com/200x200/111/fff?text=SLV" alt="Tier">
+                </div>
+            </div>
+            
+            <div class="tier-info">
+                <h2 class="tier-name">SILVER III</h2>
+                <div class="season-timer">BRACKET CLOSES: <span id="circuit-season-timer">--:--:--</span></div>
+            </div>
+            
+            <div class="player-score-card">
+                <div class="score-label">YOUR CIRCUIT POINTS</div>
+                <div class="score-value" id="arena-my-score">0</div>
+                <div class="score-status status-promote">▲ PROMOTION ZONE</div>
+            </div>
+        </div>
+
+        <div class="league-right-panel">
+            <div class="league-header-bar">
+                <div class="circuit-title-lockup"><span>SHINING CIRCUIT</span><h1>WEEKLY BRACKET</h1></div>
+                <div class="league-tabs">
+                    <div class="l-tab active">CIRCUIT</div>
+                    <div class="l-tab">GLOBAL</div>
+                </div>
+            </div>
+
+            <div class="podium-container" id="arena-podium">
+                </div>
+
+            <div class="arena-list-container" id="arena-list">
+                </div>
+        </div>
+    </div>
+</div>
+<!-- Legacy card selector removed in 4.3.0 -->
+<!-- ✨ UNIVERSAL BULK BUY MODAL (NOW SAFELY OUTSIDE!) ✨ -->
+<div id="bulk-buy-modal" class="custom-modal-overlay" style="z-index: 100050;">
+    <div class="custom-modal" style="max-width: 380px; padding: 30px;">
+        <button class="close-btn" onclick="document.getElementById('bulk-buy-modal').style.display='none'">×</button>
+        <h2 style="color: white; letter-spacing: 2px; margin-bottom: 5px; font-size: 18px;">BULK PURCHASE</h2>
+        <p id="bulk-item-name" style="color: var(--secondary-glow); font-weight: 900; margin-bottom: 25px; font-size: 22px;">ITEM NAME</p>
+        
+        <div style="display: flex; align-items: stretch; justify-content: center; gap: 10px; margin-bottom: 25px;">
+            <button class="btn btn-draw" style="padding: 10px 20px; font-size: 24px; flex: 0;" onclick="adjustBulkQty(-1)">-</button>
+            
+            <input type="number" id="bulk-qty-input" value="1" min="1" max="99" onchange="manualBulkQty()" 
+                   style="width: 80px; text-align: center; font-size: 28px; margin: 0; background: rgba(0,0,0,0.8); color: white; border: 2px solid var(--primary-glow); border-radius: 12px; font-weight: 900;">
+            
+            <button class="btn btn-draw" style="padding: 10px 20px; font-size: 24px; flex: 0;" onclick="adjustBulkQty(1)">+</button>
+            <button class="btn btn-live" style="padding: 10px 15px; font-size: 12px; font-weight: 900; flex: 0;" onclick="adjustBulkQty('max')">MAX</button>
+        </div>
+        
+        <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; margin-bottom: 25px; border: 1px solid rgba(255,255,255,0.1);">
+            <span style="color: gray; font-size: 11px; font-weight: 900; letter-spacing: 1px;">TOTAL COST</span>
+            <div id="bulk-total-cost" style="font-size: 28px; font-weight: 900; color: white; margin-top: 5px;">0</div>
+        </div>
+        
+        <button class="btn btn-live" style="width: 100%; padding: 18px; font-size: 16px;" onclick="confirmBulkBuy()">CONFIRM PURCHASE</button>
+    </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
 <script>
-// ============================================================
-// SONG DATA & NOTE CHART GENERATION
-// ============================================================
-
-const SONGS = [
-  {
-    id: 0,
-    title: 'DYNAMITE',
-    artist: 'BTS',
-    emoji: '💎',
-    color: ['#FF4E8C', '#FFD700'],
-    bpm: 114,
-    duration: 45,
-  },
-  {
-    id: 1,
-    title: 'LOVE DIVE',
-    artist: 'IVE',
-    emoji: '🌊',
-    color: ['#4ECFFF', '#A259FF'],
-    bpm: 120,
-    duration: 42,
-  },
-  {
-    id: 2,
-    title: 'ANTIFRAGILE',
-    artist: 'LE SSERAFIM',
-    emoji: '🔥',
-    color: ['#FF9A3C', '#FF4E8C'],
-    bpm: 130,
-    duration: 40,
-  },
-];
-
-// Difficulty modifiers
-const DIFF_CONFIG = {
-  easy:   { noteSpeed: 320, spawnRate: 1.8, patterns: 'simple', label: 'EASY', diffClass: 'diff-normal' },
-  normal: { noteSpeed: 420, spawnRate: 1.2, patterns: 'medium', label: 'HARD', diffClass: 'diff-hard' },
-  hard:   { noteSpeed: 540, spawnRate: 0.8, patterns: 'complex', label: 'MASTER', diffClass: 'diff-master' },
-};
-
-// Generate a beatmap procedurally based on BPM and difficulty
-function generateBeatmap(song, difficulty) {
-  const config = DIFF_CONFIG[difficulty];
-  const bpm = song.bpm;
-  const beatInterval = 60 / bpm;
-  const duration = song.duration;
-  const notes = [];
-
-  const patterns = {
-    simple: [
-      [0], [2], [1], [3], [0], [2], [0,3], [1,2],
-      [0], [1], [2], [3], [1], [2], [0], [3],
-    ],
-    medium: [
-      [0], [2], [0,3], [1,2], [0], [1], [2,3], [0],
-      [1,3], [0,2], [1], [3], [0,1], [2,3], [0], [1,2,3],
-      [0], [2], [1], [3], [0,2], [1,3], [0], [1,2],
-    ],
-    complex: [
-      [0,2], [1,3], [0], [1,2,3], [0,3], [1,2], [0,1], [2,3],
-      [0], [1], [2], [3], [0,2], [1,3], [0,1,2], [3],
-      [0,3], [1,2], [0], [2,3], [0,1], [2], [1,3], [0,2,3],
-      [0], [1,2,3], [0,2], [1,3], [0,1,2,3], [0], [2], [1,3],
-    ],
-  };
-
-  const patternSet = patterns[config.patterns];
-  let t = 1.5;
-  let pi = 0;
-  const minInterval = config.spawnRate * beatInterval * 0.5;
-
-  while (t < duration - 2) {
-    const pattern = patternSet[pi % patternSet.length];
-    for (const lane of pattern) {
-      notes.push({ time: t, lane, hit: false, missed: false });
-    }
-    const step = (pi % 3 === 2) ? beatInterval * 2 : beatInterval;
-    t += Math.max(minInterval, step * (0.85 + Math.random() * 0.3));
-    pi++;
-  }
-
-  notes.sort((a, b) => a.time - b.time);
-  return notes;
-}
-
-// ============================================================
-// PARTICLE SYSTEM (background)
-// ============================================================
-
-const pCanvas = document.getElementById('particle-canvas');
-const pCtx = pCanvas.getContext('2d');
-
-let particles = [];
-
-function resizeParticleCanvas() {
-  pCanvas.width = window.innerWidth;
-  pCanvas.height = window.innerHeight;
-}
-resizeParticleCanvas();
-window.addEventListener('resize', resizeParticleCanvas);
-
-function createParticle() {
-  return {
-    x: Math.random() * pCanvas.width,
-    y: Math.random() * pCanvas.height,
-    vx: (Math.random() - 0.5) * 0.3,
-    vy: -Math.random() * 0.5 - 0.2,
-    size: Math.random() * 2 + 0.5,
-    alpha: Math.random() * 0.4 + 0.1,
-    color: ['#FF4E8C', '#A259FF', '#4ECFFF', '#FFD700'][Math.floor(Math.random()*4)],
-    life: Math.random() * 200 + 100,
-    age: 0,
-  };
-}
-
-for (let i = 0; i < 60; i++) particles.push(createParticle());
-
-function animateParticles() {
-  pCtx.clearRect(0, 0, pCanvas.width, pCanvas.height);
-  for (let i = particles.length - 1; i >= 0; i--) {
-    const p = particles[i];
-    p.x += p.vx; p.y += p.vy; p.age++;
-    const fade = 1 - p.age / p.life;
-    pCtx.beginPath();
-    pCtx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-    pCtx.fillStyle = p.color;
-    pCtx.globalAlpha = p.alpha * fade;
-    pCtx.fill();
-    pCtx.globalAlpha = 1;
-    if (p.age >= p.life || p.y < 0) {
-      particles[i] = createParticle();
-      particles[i].y = pCanvas.height + 5;
-    }
-  }
-  requestAnimationFrame(animateParticles);
-}
-animateParticles();
-
-// ============================================================
-// MAIN GAME ENGINE
-// ============================================================
-
-const canvas = document.getElementById('game-canvas');
-const ctx = canvas.getContext('2d');
-
-const LANE_COLORS = ['#FF4E8C', '#FF9A3C', '#4ECFFF', '#A259FF'];
-const LANE_KEYS = ['d','f','j','k'];
-
-let gameState = {
-  screen: 'menu',
-  song: SONGS[0],
-  difficulty: 'normal',
-  notes: [],
-  score: 0,
-  combo: 0,
-  maxCombo: 0,
-  totalNotes: 0,
-  hits: { perfect: 0, great: 0, good: 0, miss: 0 },
-  elapsed: 0,
-  running: false,
-  paused: false,
-  lastTime: 0,
-  lanePressed: [false, false, false, false],
-  laneFlash: [0, 0, 0, 0],
-  hitEffects: [],
-  noteSpeed: 420,
-  noteY: [],
-  canvasH: 0,
-  canvasW: 0,
-  hitZoneY: 0,
-  hitWindow: { perfect: 0.06, great: 0.12, good: 0.18 },
-};
-
-// Canvas sizing
-function resizeCanvas() {
-  const wrapper = document.getElementById('game-wrapper');
-  const w = Math.min(wrapper.offsetWidth, 480);
-  canvas.width = w;
-  canvas.height = Math.round(w * 1.2);
-  gameState.canvasW = canvas.width;
-  gameState.canvasH = canvas.height;
-  gameState.hitZoneY = canvas.height - 90;
-}
-
-// Show a screen
-function showScreen(name) {
-  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-  document.getElementById(name + '-screen').classList.add('active');
-  gameState.screen = name;
-}
-
-// ============================================================
-// MENU
-// ============================================================
-
-let currentSongIdx = 0;
-let currentDiff = 'normal';
-
-function updateSongDisplay() {
-  const song = SONGS[currentSongIdx];
-  document.getElementById('song-title-display').textContent = song.title;
-  document.getElementById('song-artist-display').textContent = song.artist;
-  document.getElementById('song-cover').textContent = song.emoji;
-  document.getElementById('song-cover').style.background =
-    `linear-gradient(135deg, ${song.color[0]}22, ${song.color[1]}22)`;
-
-  const cfg = DIFF_CONFIG[currentDiff];
-  const el = document.getElementById('song-diff-display');
-  el.textContent = cfg.label;
-  el.className = 'song-diff ' + cfg.diffClass;
-}
-
-// Cycle song on click
-document.getElementById('song-selector').addEventListener('click', () => {
-  currentSongIdx = (currentSongIdx + 1) % SONGS.length;
-  updateSongDisplay();
-});
-
-document.querySelectorAll('.diff-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.diff-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentDiff = btn.dataset.diff;
-    updateSongDisplay();
-  });
-});
-
-updateSongDisplay();
-
-// ============================================================
-// GAME INIT
-// ============================================================
-
-function startGame() {
-  resizeCanvas();
-
-  const song = SONGS[currentSongIdx];
-  const cfg = DIFF_CONFIG[currentDiff];
-
-  gameState.song = song;
-  gameState.difficulty = currentDiff;
-  gameState.notes = generateBeatmap(song, currentDiff);
-  gameState.score = 0;
-  gameState.combo = 0;
-  gameState.maxCombo = 0;
-  gameState.totalNotes = gameState.notes.length;
-  gameState.hits = { perfect: 0, great: 0, good: 0, miss: 0 };
-  gameState.elapsed = -3; // countdown time
-  gameState.running = false;
-  gameState.paused = false;
-  gameState.lanePressed = [false,false,false,false];
-  gameState.laneFlash = [0,0,0,0];
-  gameState.hitEffects = [];
-  gameState.noteSpeed = cfg.noteSpeed;
-  gameState.noteY = gameState.notes.map(() => -30);
-
-  document.getElementById('game-song-name').textContent = song.title + ' — ' + song.artist;
-  document.getElementById('hud-song-name').textContent = song.title.toUpperCase();
-  document.getElementById('hud-score').textContent = '0';
-  document.getElementById('hud-acc').textContent = '100%';
-  document.getElementById('hud-combo').textContent = '';
-  document.getElementById('progress-bar').style.width = '0%';
-  document.getElementById('combo-display').classList.add('hidden');
-  document.getElementById('pause-overlay').classList.remove('visible');
-
-  showScreen('game');
-  runCountdown();
-}
-
-function runCountdown() {
-  const overlay = document.getElementById('countdown-overlay');
-  const numEl = document.getElementById('countdown-num');
-  overlay.classList.add('visible');
-  let count = 3;
-  numEl.textContent = count;
-
-  const interval = setInterval(() => {
-    count--;
-    if (count <= 0) {
-      clearInterval(interval);
-      overlay.classList.remove('visible');
-      gameState.running = true;
-      gameState.lastTime = performance.now();
-      requestAnimationFrame(gameLoop);
-    } else {
-      numEl.textContent = count;
-      // Re-trigger animation
-      numEl.style.animation = 'none';
-      numEl.offsetHeight; // reflow
-      numEl.style.animation = '';
-    }
-  }, 800);
-}
-
-// ============================================================
-// GAME LOOP
-// ============================================================
-
-function gameLoop(timestamp) {
-  if (!gameState.running) return;
-  if (gameState.paused) return;
-
-  const dt = Math.min((timestamp - gameState.lastTime) / 1000, 0.05);
-  gameState.lastTime = timestamp;
-  gameState.elapsed += dt;
-
-  updateGame(dt);
-  renderGame();
-  updateHUD();
-
-  if (gameState.elapsed < gameState.song.duration) {
-    requestAnimationFrame(gameLoop);
-  } else {
-    endGame();
-  }
-}
-
-function updateGame(dt) {
-  const { notes, hitZoneY, noteSpeed, canvasH, song, elapsed } = gameState;
-
-  // Update note positions
-  for (let i = 0; i < notes.length; i++) {
-    const note = notes[i];
-    if (note.hit || note.missed) continue;
-
-    // Time until note reaches hit zone
-    const timeToHit = note.time - elapsed;
-    // y position: starts at -30, reaches hitZoneY when timeToHit == 0
-    gameState.noteY[i] = hitZoneY - timeToHit * noteSpeed;
-
-    // Miss detection
-    if (gameState.noteY[i] > canvasH + 30 && !note.hit && !note.missed) {
-      note.missed = true;
-      registerMiss(i);
-    }
-  }
-
-  // Decay lane flashes
-  for (let l = 0; l < 4; l++) {
-    if (gameState.laneFlash[l] > 0) gameState.laneFlash[l] -= dt * 4;
-  }
-
-  // Update hit effects
-  gameState.hitEffects = gameState.hitEffects.filter(e => {
-    e.age += dt;
-    return e.age < e.life;
-  });
-}
-
-function registerMiss(noteIdx) {
-  gameState.combo = 0;
-  gameState.hits.miss++;
-  updateComboDisplay();
-  addHitFeedback(noteIdx, 'MISS', '#FF4E8C');
-}
-
-function addHitFeedback(noteIdx, type, color) {
-  const lane = gameState.notes[noteIdx].lane;
-  const laneW = gameState.canvasW / 4;
-  const x = lane * laneW + laneW / 2;
-  const y = gameState.hitZoneY - 20;
-  gameState.hitEffects.push({ x, y, text: type, color, age: 0, life: 0.6 });
-
-  // Spawn ripple
-  gameState.hitEffects.push({
-    x, y: gameState.hitZoneY, lane,
-    type: 'ripple', age: 0, life: 0.4,
-    color: LANE_COLORS[lane],
-  });
-}
-
-function updateComboDisplay() {
-  const el = document.getElementById('combo-display');
-  const numEl = document.getElementById('combo-number');
-  if (gameState.combo >= 5) {
-    el.classList.remove('hidden');
-    numEl.textContent = gameState.combo;
-    // Pop animation
-    el.classList.remove('pop');
-    el.offsetHeight;
-    el.classList.add('pop');
-  } else {
-    el.classList.add('hidden');
-  }
-  document.getElementById('hud-combo').textContent = gameState.combo >= 3 ? gameState.combo + 'x' : '';
-}
-
-function updateHUD() {
-  document.getElementById('hud-score').textContent = gameState.score.toLocaleString();
-
-  const { perfect, great, good, miss } = gameState.hits;
-  const total = perfect + great + good + miss;
-  let acc = 100;
-  if (total > 0) {
-    acc = (((perfect * 1.0) + (great * 0.85) + (good * 0.6)) / total * 100);
-  }
-  document.getElementById('hud-acc').textContent = acc.toFixed(1) + '%';
-
-  const progress = Math.min(gameState.elapsed / gameState.song.duration * 100, 100);
-  document.getElementById('progress-bar').style.width = progress + '%';
-}
-
-// ============================================================
-// RENDER
-// ============================================================
-
-function renderGame() {
-  const { canvasW, canvasH, hitZoneY, notes, laneFlash, hitEffects } = gameState;
-  ctx.clearRect(0, 0, canvasW, canvasH);
-
-  const laneW = canvasW / 4;
-
-  // Background gradient
-  const bgGrad = ctx.createLinearGradient(0, 0, 0, canvasH);
-  bgGrad.addColorStop(0, '#0D0918');
-  bgGrad.addColorStop(1, '#130D1F');
-  ctx.fillStyle = bgGrad;
-  ctx.fillRect(0, 0, canvasW, canvasH);
-
-  // Lane separators
-  for (let i = 1; i < 4; i++) {
-    ctx.strokeStyle = 'rgba(255,255,255,0.05)';
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(i * laneW, 0);
-    ctx.lineTo(i * laneW, canvasH);
-    ctx.stroke();
-  }
-
-  // Lane glow when pressed
-  for (let l = 0; l < 4; l++) {
-    if (gameState.laneFlash[l] > 0) {
-      const alpha = gameState.laneFlash[l] * 0.15;
-      const grad = ctx.createLinearGradient(0, hitZoneY - 60, 0, hitZoneY + 20);
-      grad.addColorStop(0, 'transparent');
-      grad.addColorStop(1, LANE_COLORS[l] + Math.round(alpha * 255).toString(16).padStart(2,'0'));
-      ctx.fillStyle = grad;
-      ctx.fillRect(l * laneW, hitZoneY - 60, laneW, 80);
-    }
-  }
-
-  // Center speed lines (moving)
-  const lineSpeed = (gameState.elapsed * 60) % canvasH;
-  for (let i = 0; i < 8; i++) {
-    const y = (lineSpeed + i * (canvasH / 8)) % canvasH;
-    ctx.strokeStyle = 'rgba(162,89,255,0.04)';
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(0, y);
-    ctx.lineTo(canvasW, y);
-    ctx.stroke();
-  }
-
-  // HIT ZONE
-  drawHitZone(canvasW, hitZoneY, laneW);
-
-  // NOTES
-  for (let i = 0; i < notes.length; i++) {
-    const note = notes[i];
-    if (note.hit || note.missed) continue;
-    const ny = gameState.noteY[i];
-    if (ny < -40 || ny > canvasH + 40) continue;
-    drawNote(note.lane, ny, laneW);
-  }
-
-  // HIT EFFECTS
-  for (const e of hitEffects) {
-    if (e.type === 'ripple') {
-      const prog = e.age / e.life;
-      const r = 10 + prog * 35;
-      const alpha = 1 - prog;
-      ctx.beginPath();
-      ctx.arc(e.x, e.y, r, 0, Math.PI * 2);
-      ctx.strokeStyle = e.color;
-      ctx.globalAlpha = alpha * 0.7;
-      ctx.lineWidth = 2;
-      ctx.stroke();
-      ctx.globalAlpha = 1;
-    } else {
-      const prog = e.age / e.life;
-      const alpha = 1 - prog;
-      const ey = e.y - prog * 30;
-      ctx.font = 'bold 16px Orbitron, monospace';
-      ctx.textAlign = 'center';
-      ctx.fillStyle = e.color;
-      ctx.globalAlpha = alpha;
-      ctx.fillText(e.text, e.x, ey);
-      ctx.globalAlpha = 1;
-    }
-  }
-}
-
-function drawHitZone(canvasW, hitZoneY, laneW) {
-  // Hit zone line
-  const lineGrad = ctx.createLinearGradient(0, 0, canvasW, 0);
-  lineGrad.addColorStop(0, 'transparent');
-  lineGrad.addColorStop(0.1, 'rgba(255,255,255,0.25)');
-  lineGrad.addColorStop(0.5, 'rgba(255,255,255,0.5)');
-  lineGrad.addColorStop(0.9, 'rgba(255,255,255,0.25)');
-  lineGrad.addColorStop(1, 'transparent');
-  ctx.fillStyle = lineGrad;
-  ctx.fillRect(0, hitZoneY - 1, canvasW, 2);
-
-  // Hit zone indicators per lane
-  for (let l = 0; l < 4; l++) {
-    const cx = l * laneW + laneW / 2;
-    const flash = Math.max(0, gameState.laneFlash[l]);
-
-    const w = laneW - 16;
-    const h = 14;
-    const x = l * laneW + 8;
-    const y = hitZoneY + 6;
-
-    ctx.beginPath();
-    ctx.roundRect(x, y, w, h, 7);
-    ctx.fillStyle = LANE_COLORS[l] + (Math.round((0.15 + flash * 0.25) * 255)).toString(16).padStart(2,'0');
-    ctx.fill();
-    ctx.strokeStyle = LANE_COLORS[l] + (Math.round((0.5 + flash * 0.4) * 255)).toString(16).padStart(2,'0');
-    ctx.lineWidth = 1.5;
-    ctx.stroke();
-  }
-}
-
-function drawNote(lane, y, laneW) {
-  const cx = lane * laneW + laneW / 2;
-  const w = laneW - 14;
-  const h = 20;
-  const x = lane * laneW + 7;
-  const color = LANE_COLORS[lane];
-
-  // Shadow/glow
-  ctx.shadowColor = color;
-  ctx.shadowBlur = 12;
-
-  // Note body
-  ctx.beginPath();
-  ctx.roundRect(x, y - h / 2, w, h, 6);
-
-  const noteGrad = ctx.createLinearGradient(x, y - h/2, x, y + h/2);
-  noteGrad.addColorStop(0, color + 'FF');
-  noteGrad.addColorStop(1, color + 'AA');
-  ctx.fillStyle = noteGrad;
-  ctx.fill();
-
-  // Shine
-  ctx.beginPath();
-  ctx.roundRect(x + 3, y - h/2 + 3, w - 6, 4, 2);
-  ctx.fillStyle = 'rgba(255,255,255,0.35)';
-  ctx.fill();
-
-  ctx.shadowBlur = 0;
-  ctx.shadowColor = 'transparent';
-}
-
-// ============================================================
-// INPUT HANDLING
-// ============================================================
-
-function handleLanePress(lane) {
-  if (!gameState.running || gameState.paused || gameState.elapsed < 0) return;
-
-  gameState.lanePressed[lane] = true;
-  gameState.laneFlash[lane] = 1;
-
-  // Update key button visuals
-  const keyBtns = document.querySelectorAll('.key-btn');
-  keyBtns[lane].classList.add('pressed');
-
-  // Find the closest note in this lane
-  let closestIdx = -1;
-  let closestDiff = Infinity;
-
-  for (let i = 0; i < gameState.notes.length; i++) {
-    const note = gameState.notes[i];
-    if (note.hit || note.missed || note.lane !== lane) continue;
-    const diff = Math.abs(note.time - gameState.elapsed);
-    if (diff < closestDiff && diff < gameState.hitWindow.good) {
-      closestDiff = diff;
-      closestIdx = i;
-    }
-  }
-
-  if (closestIdx === -1) return; // No note to hit
-
-  const note = gameState.notes[closestIdx];
-  note.hit = true;
-
-  let type, scoreAdd, color;
-  if (closestDiff <= gameState.hitWindow.perfect) {
-    type = 'PERFECT'; scoreAdd = 1000; color = '#FFD700'; gameState.hits.perfect++;
-  } else if (closestDiff <= gameState.hitWindow.great) {
-    type = 'GREAT'; scoreAdd = 700; color = '#4ECFFF'; gameState.hits.great++;
-  } else {
-    type = 'GOOD'; scoreAdd = 400; color = '#A259FF'; gameState.hits.good++;
-  }
-
-  gameState.combo++;
-  if (gameState.combo > gameState.maxCombo) gameState.maxCombo = gameState.combo;
-
-  // Combo multiplier
-  const mult = Math.min(1 + Math.floor(gameState.combo / 10) * 0.1, 2);
-  gameState.score += Math.round(scoreAdd * mult);
-
-  updateComboDisplay();
-  addHitFeedback(closestIdx, type, color);
-}
-
-function handleLaneRelease(lane) {
-  gameState.lanePressed[lane] = false;
-  const keyBtns = document.querySelectorAll('.key-btn');
-  if (keyBtns[lane]) keyBtns[lane].classList.remove('pressed');
-}
-
-// Keyboard
-document.addEventListener('keydown', (e) => {
-  const key = e.key.toLowerCase();
-  const lane = LANE_KEYS.indexOf(key);
-  if (lane !== -1 && !e.repeat) handleLanePress(lane);
-  if (e.key === 'Escape') togglePause();
-});
-
-document.addEventListener('keyup', (e) => {
-  const key = e.key.toLowerCase();
-  const lane = LANE_KEYS.indexOf(key);
-  if (lane !== -1) handleLaneRelease(lane);
-});
-
-// Touch / click on keys
-document.querySelectorAll('.key-btn').forEach(btn => {
-  const lane = parseInt(btn.dataset.lane);
-
-  btn.addEventListener('mousedown', (e) => { e.preventDefault(); handleLanePress(lane); });
-  btn.addEventListener('mouseup', () => handleLaneRelease(lane));
-  btn.addEventListener('mouseleave', () => handleLaneRelease(lane));
-
-  btn.addEventListener('touchstart', (e) => { e.preventDefault(); handleLanePress(lane); }, { passive: false });
-  btn.addEventListener('touchend', (e) => { e.preventDefault(); handleLaneRelease(lane); }, { passive: false });
-});
-
-// Touch on canvas
-canvas.addEventListener('touchstart', (e) => {
-  e.preventDefault();
-  for (const touch of e.changedTouches) {
-    const rect = canvas.getBoundingClientRect();
-    const x = touch.clientX - rect.left;
-    const lane = Math.floor(x / (canvas.width / 4));
-    if (lane >= 0 && lane < 4) handleLanePress(lane);
-  }
-}, { passive: false });
-
-canvas.addEventListener('touchend', (e) => {
-  e.preventDefault();
-  for (const touch of e.changedTouches) {
-    const rect = canvas.getBoundingClientRect();
-    const x = touch.clientX - rect.left;
-    const lane = Math.floor(x / (canvas.width / 4));
-    if (lane >= 0 && lane < 4) handleLaneRelease(lane);
-  }
-}, { passive: false });
-
-// ============================================================
-// PAUSE
-// ============================================================
-
-function togglePause() {
-  if (!gameState.running) return;
-  gameState.paused = !gameState.paused;
-  if (!gameState.paused) {
-    document.getElementById('pause-overlay').classList.remove('visible');
-    gameState.lastTime = performance.now();
-    requestAnimationFrame(gameLoop);
-  } else {
-    document.getElementById('pause-overlay').classList.add('visible');
-  }
-}
-
-document.getElementById('pause-btn').addEventListener('click', togglePause);
-document.getElementById('resume-btn').addEventListener('click', togglePause);
-document.getElementById('quit-btn').addEventListener('click', () => {
-  gameState.running = false;
-  gameState.paused = false;
-  document.getElementById('pause-overlay').classList.remove('visible');
-  showScreen('menu');
-});
-
-// ============================================================
-// END GAME / RESULTS
-// ============================================================
-
-function endGame() {
-  gameState.running = false;
-
-  const { hits, score, maxCombo, totalNotes } = gameState;
-  const total = hits.perfect + hits.great + hits.good + hits.miss;
-  const acc = total > 0
-    ? ((hits.perfect + hits.great * 0.85 + hits.good * 0.6) / total * 100)
-    : 0;
-
-  // Grade
-  let grade = 'D';
-  if (acc >= 98) grade = 'S';
-  else if (acc >= 90) grade = 'A';
-  else if (acc >= 80) grade = 'B';
-  else if (acc >= 65) grade = 'C';
-
-  document.getElementById('result-grade').textContent = grade;
-  document.getElementById('result-grade').className = 'result-grade grade-' + grade;
-  document.getElementById('result-score').textContent = score.toLocaleString();
-  document.getElementById('result-acc').textContent = acc.toFixed(1) + '%';
-  document.getElementById('result-combo').textContent = maxCombo;
-  document.getElementById('result-notes').textContent = totalNotes;
-  document.getElementById('res-perfect').textContent = hits.perfect;
-  document.getElementById('res-great').textContent = hits.great;
-  document.getElementById('res-good').textContent = hits.good;
-  document.getElementById('res-miss').textContent = hits.miss;
-
-  showScreen('result');
-}
-
-document.getElementById('start-btn').addEventListener('click', startGame);
-document.getElementById('retry-btn').addEventListener('click', startGame);
-document.getElementById('menu-btn').addEventListener('click', () => showScreen('menu'));
-
-// ============================================================
-// RESIZE HANDLER
-// ============================================================
-window.addEventListener('resize', () => {
-  if (gameState.screen === 'game') resizeCanvas();
-});
-
+(function(){
+  try{
+    const q=new URLSearchParams(location.search);
+    if(q.get('dev')==='1') localStorage.setItem('shining.devtools','1');
+    const enabled=q.get('dev')==='1'||localStorage.getItem('shining.devtools')==='1';
+    if(enabled) document.addEventListener('DOMContentLoaded',()=>{const row=document.getElementById('asset-manager-setting');if(row)row.style.display='flex'});
+  }catch{}
+})();
 </script>
+<!-- SHINING 6.3 modular engine: keep this order -->
+<script src="modules/01-catalog-runtime.js?v=6.3.0"></script>
+<script src="modules/02-core-ui.js?v=6.3.0"></script>
+<script src="modules/03-auth-inbox-missions.js?v=6.3.0"></script>
+<script src="modules/04-game-systems.js?v=6.3.0"></script>
+<script src="modules/05-ui-patches-v2-v3.js?v=6.3.0"></script>
+<script src="modules/06-ui-patches-v4-v6.js?v=6.3.0"></script>
+<script src="modules/07-foundation-v42-v43.js?v=6.3.0"></script>
+<script src="modules/08-hotfix-v51.js?v=6.3.0"></script>
+<script src="modules/09-presentation-v60.js?v=6.3.0"></script>
+<script src="modules/10-identity-v61.js?v=6.3.0"></script>
+<script src="modules/11-arcade-v62.js?v=6.3.0"></script>
+<script src="modules/secure-api.js?v=6.3.0"></script>
 </body>
 </html>
